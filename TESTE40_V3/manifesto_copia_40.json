@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-11-25T12:49:12",
+  "source_dir": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS",
+  "destination_dir": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3",
+  "requested_count": 40,
+  "copied_count": 40,
+  "files": [
+    {
+      "order": 1,
+      "file_name": "G-H-DN-5013-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-H-DN-5013-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\G-H-DN-5013-en.pdf",
+      "size_bytes": 6291909,
+      "sha256": "7d50411ca7a2a4a9678f4fa874c3d7eef0f7028563d2abb40e7a67eedb4e639b"
+    },
+    {
+      "order": 2,
+      "file_name": "S-G-PT-1107-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-PT-1107-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-PT-1107-de.pdf",
+      "size_bytes": 567948,
+      "sha256": "d22b91e8779624ada3cbf16d9902fbb02380965b027366a74b355b30c54d2038"
+    },
+    {
+      "order": 3,
+      "file_name": "S-A-PT-5033-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-A-PT-5033-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-A-PT-5033-en.pdf",
+      "size_bytes": 369479,
+      "sha256": "8d6761eeda3a0b37e85765e5503150b0068dcae2ad02e898a4d1ebf2e4d15204"
+    },
+    {
+      "order": 4,
+      "file_name": "S-L-PT-0511-en.docx",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-0511-en.docx",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-L-PT-0511-en.docx",
+      "size_bytes": 224129,
+      "sha256": "9787c5331fd3b3f0002ca222d9b9c3465fd46ba31576ef142fbcdffbb0f56385"
+    },
+    {
+      "order": 5,
+      "file_name": "S-L-PT-0625-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-0625-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-L-PT-0625-de.pdf",
+      "size_bytes": 262071,
+      "sha256": "a07aced176e02bd606725a98952977f35aeec4580252c4abab14d3647653f6aa"
+    },
+    {
+      "order": 6,
+      "file_name": "S-I-PT-5022-en_V08.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-I-PT-5022-en_V08.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-I-PT-5022-en_V08.pdf",
+      "size_bytes": 1770227,
+      "sha256": "e6fb80b3a0d7d6b8df9a13a4dff79cdd91fbca166c743c967c642491ea9c8f4f"
+    },
+    {
+      "order": 7,
+      "file_name": "S-G-PT-1109-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-PT-1109-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-PT-1109-de.pdf",
+      "size_bytes": 490486,
+      "sha256": "076f436d9e1b28a330229fa3821b046ccf4bf1a89f8a45888c7d648a56ca13ae"
+    },
+    {
+      "order": 8,
+      "file_name": "G-A-DN-5018-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-A-DN-5018-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\G-A-DN-5018-en.pdf",
+      "size_bytes": 1627169,
+      "sha256": "045cecfcb138c2e3c31a970335c3eb47ee2133345b7be85938d5f0382c019b49"
+    },
+    {
+      "order": 9,
+      "file_name": "S-F-PT-0664-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0664-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-PT-0664-de.pdf",
+      "size_bytes": 143956,
+      "sha256": "fad8133a0eaa2f0f4f7b4d028eaae9a472ce23d361006f346a01f8206c159809"
+    },
+    {
+      "order": 10,
+      "file_name": "DSGN-511.docx",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\DSGN-511.docx",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\DSGN-511.docx",
+      "size_bytes": 2903731,
+      "sha256": "f6e2343d3dffa21992d6a64ec402e44e5297763874458ee9c88f149cc1d2dbd2"
+    },
+    {
+      "order": 11,
+      "file_name": "S-C-ML-2100-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-2100-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-C-ML-2100-en.pdf",
+      "size_bytes": 423460,
+      "sha256": "2ada19164e53db48b971a0033a3f483ed90bc09c93a98b9a9849cc19a1910d30"
+    },
+    {
+      "order": 12,
+      "file_name": "S-C-ML-1700-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-1700-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-C-ML-1700-en.pdf",
+      "size_bytes": 420925,
+      "sha256": "88b361ec60235d89d373b10c3dce0fd01ad5ae86960902885214c6d375b0b270"
+    },
+    {
+      "order": 13,
+      "file_name": "S-C-ML-1000-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-1000-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-C-ML-1000-en.pdf",
+      "size_bytes": 422907,
+      "sha256": "2ed7cee2cefd098e43dc275f77e0bb795ef4bdcb8be1e9617378bd4a2ed47f87"
+    },
+    {
+      "order": 14,
+      "file_name": "251105 Specification - SF-M-L-2026 - Resinex AF-CP 16x40.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\251105 Specification - SF-M-L-2026 - Resinex AF-CP 16x40.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\251105 Specification - SF-M-L-2026 - Resinex AF-CP 16x40.pdf",
+      "size_bytes": 324151,
+      "sha256": "f758cf585fce6ee5b1ba58d7f042ce4cb589d2f355653445f831a2e2b4aca914"
+    },
+    {
+      "order": 15,
+      "file_name": "S-H-ML-1021-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-H-ML-1021-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-H-ML-1021-en.pdf",
+      "size_bytes": 621202,
+      "sha256": "be33e581e0659d011345da28c36ed83a48a2e8da93a022ada0299fa489ebf878"
+    },
+    {
+      "order": 16,
+      "file_name": "S-G-ML-4100-2-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-ML-4100-2-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-ML-4100-2-de.pdf",
+      "size_bytes": 299643,
+      "sha256": "25f2f3b93c6348496f902b79913bd75cb0c872bd223423fa74d67397dbde7023"
+    },
+    {
+      "order": 17,
+      "file_name": "S-L-ML-1018-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-ML-1018-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-L-ML-1018-en.pdf",
+      "size_bytes": 480330,
+      "sha256": "66a3f168fd1352591f7382635875ca56b9620344ebd21cb3f1843c27f929868c"
+    },
+    {
+      "order": 18,
+      "file_name": "MATL-634.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MATL-634.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\MATL-634.pdf",
+      "size_bytes": 307635,
+      "sha256": "f1cbf5f8170be0788c5c4c44b357127d99e4c596ffeb1776e59f23f19c7a6ea1"
+    },
+    {
+      "order": 19,
+      "file_name": "MATL-643.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MATL-643.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\MATL-643.pdf",
+      "size_bytes": 310293,
+      "sha256": "993cf647a5bf27efa17db5e997d50cca1a68b0d41d4e760d04d42a1ef84eafed"
+    },
+    {
+      "order": 20,
+      "file_name": "MATL-647.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MATL-647.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\MATL-647.pdf",
+      "size_bytes": 200601,
+      "sha256": "dd7abbcb1cbaef1a55fb2e125cf5a8b32bb3fd437b2d856d33be64505ce816d3"
+    },
+    {
+      "order": 21,
+      "file_name": "MATL-648.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MATL-648.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\MATL-648.pdf",
+      "size_bytes": 198842,
+      "sha256": "273cd3347c666df4765e288a8cc97321c63f28d164f62e896802da588a1e0e93"
+    },
+    {
+      "order": 22,
+      "file_name": "S-F-ML-2034-en.docx",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2034-en.docx",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-ML-2034-en.docx",
+      "size_bytes": 179946,
+      "sha256": "fad2bbabd1c89335dc051432ccdd27da20615e73c8b8d32d309ac2a2c162f3a8"
+    },
+    {
+      "order": 23,
+      "file_name": "S-F-ML-2715-en _V07.docx",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2715-en _V07.docx",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-ML-2715-en _V07.docx",
+      "size_bytes": 181640,
+      "sha256": "862160229e79228a0fa58fff92b27646cf4a6015a3e59132b1f327c82b070239"
+    },
+    {
+      "order": 24,
+      "file_name": "G-G-ME-5060-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-G-ME-5060-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\G-G-ME-5060-en.pdf",
+      "size_bytes": 463829,
+      "sha256": "a5ad0ea8279781e33c5a50b13780a24c6d263f1593005f6e2a074a16d2f4cc9c"
+    },
+    {
+      "order": 25,
+      "file_name": "S-F-ME-2115-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ME-2115-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-ME-2115-en.pdf",
+      "size_bytes": 203975,
+      "sha256": "6b519995803633bee5614261ca55ed2f3200f5860576c57f28ea48949bbe8102"
+    },
+    {
+      "order": 26,
+      "file_name": "S-H-ME-5031-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-H-ME-5031-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-H-ME-5031-en.pdf",
+      "size_bytes": 784951,
+      "sha256": "44dc83046e94aa758cdee1df67669634b870b82c6c9df0d4e40cc312155e78ee"
+    },
+    {
+      "order": 27,
+      "file_name": "S-A-TG-2110-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-A-TG-2110-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-A-TG-2110-de.pdf",
+      "size_bytes": 231612,
+      "sha256": "12ace85dea168a3b881fa3cdf0a843ffc0fb2ee032c4655d6da8a314831964da"
+    },
+    {
+      "order": 28,
+      "file_name": "S-F-ME-6561-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ME-6561-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-ME-6561-en.pdf",
+      "size_bytes": 951514,
+      "sha256": "38475395ecdd49a87f0e381f2c196b4d628c3b524f3a8308f180cfed43d9a45a"
+    },
+    {
+      "order": 29,
+      "file_name": "S-C-TG-8101-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8101-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-C-TG-8101-en.pdf",
+      "size_bytes": 325804,
+      "sha256": "7e1e8058ca077e67ea65466e1b5ab4d6a757d8ac17b5b4b6b493755c43397b62"
+    },
+    {
+      "order": 30,
+      "file_name": "S-F-MA-0684-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-MA-0684-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-MA-0684-en.pdf",
+      "size_bytes": 261511,
+      "sha256": "ffc554907b454f8fc887012dddb99e7618cfa6b740f3c995c452ee57c3a71828"
+    },
+    {
+      "order": 31,
+      "file_name": "S-F-MA-0611-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-MA-0611-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-MA-0611-de.pdf",
+      "size_bytes": 145681,
+      "sha256": "8643d78b7786b1349c55527b1cff835fd1c9da893be0285a196fbea520d2ed2d"
+    },
+    {
+      "order": 32,
+      "file_name": "S-G-MA-3813-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3813-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-MA-3813-en.pdf",
+      "size_bytes": 158197,
+      "sha256": "0cd7ed0ca9af4d74ace1fa47466e4e88ada2e920d447e2da2d56cfe83ad7f59c"
+    },
+    {
+      "order": 33,
+      "file_name": "S-G-MA-6020-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-6020-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-MA-6020-de.pdf",
+      "size_bytes": 473238,
+      "sha256": "f451f6a6975dac16634bd9682f144fb7ec81ba32c9526799b33e31eb665e3497"
+    },
+    {
+      "order": 34,
+      "file_name": "S-F-MA-0614-de.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-MA-0614-de.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-MA-0614-de.pdf",
+      "size_bytes": 132502,
+      "sha256": "102aef956cc95e3e48ec750431cda52fd2e143c186e069e114df9d9a08de1703"
+    },
+    {
+      "order": 35,
+      "file_name": "S-G-PT-3815-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-PT-3815-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-PT-3815-en.pdf",
+      "size_bytes": 141114,
+      "sha256": "cce065ea094a80290d0ec178710bce5c8aebc01c7ce8a4908fb4aed906d55765"
+    },
+    {
+      "order": 36,
+      "file_name": "S-L-PT-5105-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-5105-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-L-PT-5105-en.pdf",
+      "size_bytes": 377784,
+      "sha256": "ca71971b0463670ebce8d7c4cbb5bb226aa2d46caf321133c39d66f4b3bab7c7"
+    },
+    {
+      "order": 37,
+      "file_name": "S-G-PT-0070_WNA 70 BU2_Verkaufsbezeichnungen_20240312.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-PT-0070_WNA 70 BU2_Verkaufsbezeichnungen_20240312.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-G-PT-0070_WNA 70 BU2_Verkaufsbezeichnungen_20240312.pdf",
+      "size_bytes": 761918,
+      "sha256": "17f76e2b5b909dd16f755d811432f36048ab378c834a74b5702a32be50931b44"
+    },
+    {
+      "order": 38,
+      "file_name": "S-F-PT-0690-en.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0690-en.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-PT-0690-en.pdf",
+      "size_bytes": 482726,
+      "sha256": "c7b0cf553ee07cc6cf7afcfb0e8bb3c61fc0f9c798e3d25763e26b87a3260f16"
+    },
+    {
+      "order": 39,
+      "file_name": "S-F-PT-0685-en_WNA685v03.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0685-en_WNA685v03.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\S-F-PT-0685-en_WNA685v03.pdf",
+      "size_bytes": 1258218,
+      "sha256": "1ff7e160902047459e15792470f552f571484ccc8a5862011b70dfa83d741afa"
+    },
+    {
+      "order": 40,
+      "file_name": "TEST-319.pdf",
+      "source_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\TEST-319.pdf",
+      "destination_path": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\TESTE40_V3\\TEST-319.pdf",
+      "size_bytes": 317466,
+      "sha256": "bcdb8d254f6c5208cfcf06b3944c011c2c3b0ad5cee9c66c577270ab62a3a5e5"
+    }
+  ]
+}
