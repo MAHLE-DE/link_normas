@@ -6,6 +6,7 @@ independentes elegíveis; citações automáticas nunca confirmam identidade.
 """
 
 import csv
+import difflib
 import json
 import re
 import subprocess
@@ -40,7 +41,7 @@ STATUSES = (
 REGRAS = [
     "Chaves sem idioma/revisão, caixa alta; WNx sem zeros iniciais; S/G com ao menos quatro dígitos.",
     "Document No em F1 e original_current_codes em F2 são vigentes.",
-    "F1 e identidade declarada pelo próprio documento prevalecem; F4/F5/F9 aprovadas prevalecem sobre inferência.",
+    "Hierarquia: F1 > F2 originais > F9/F4/F5 aprovadas > identidade própria F8 > títulos A/B > corroboração dupla.",
     "F2 approved_file_mappings associa arquivos físicos: nunca cria equivalência entre códigos.",
     "F3/F6/F7 não automática/F8 explícita exigem pelo menos duas fontes distintas por elo.",
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
@@ -52,6 +53,7 @@ REGRAS = [
     "Ciclos e múltiplos destinos são sinalizados; somente cadeia inteiramente confirmada resolve.",
     "Draft/number reserved sem cadeia válida até vigente ficam NAO_CONFIRMADO, com status original e aviso.",
     "Corpus: texto e tabelas são citações; evidência de identidade exige relação explícita e direção segura.",
+    "A/B: número exato e título com SequenceMatcher >= 0,80, comparando metades alemão/inglês; múltiplos destinos não confirmam.",
 ]
 CODE_RE = re.compile(
     r"\b(?:WN[A-Z][\s_-]*\d+(?:[-/]\d+)*"
@@ -102,6 +104,59 @@ def ler_json(source):
     return json.loads((ROOT / FONTES[source]).read_text(encoding="utf-8"))
 
 
+def normalizar_titulo(title):
+    return " ".join(re.sub(r"[^\w\s]", " ", str(title).lower()).split())
+
+
+def similaridade_titulos(first, second):
+    return max((difflib.SequenceMatcher(None, normalizar_titulo(a), normalizar_titulo(b)).ratio()
+                for a in str(first).split("/") for b in str(second).split("/")
+                if normalizar_titulo(a) and normalizar_titulo(b)), default=0.0)
+
+
+def numero_identidade(code):
+    key = normalizar(code)
+    sg = re.fullmatch(r"[SG]-([A-Z])-[A-Z]{2}-(\d+)", key)
+    if sg:
+        return str(int(sg[2])), sg[1], "SG"
+    wn = re.fullmatch(r"WN[A-Z] (\d+)", key)
+    if wn:
+        return str(int(wn[1])), "", "WN"
+    current = re.fullmatch(r"(?:DSGN|MATL|MEAS|MNFG|TEST|PROD)-(\d+)", key)
+    return (str(int(current[1])), "", "atual") if current else None
+
+
+def titulos_adjacentes(lines, index):
+    """Título dentro da mesma entrada, admitindo quebra física de linha."""
+    text = lines[index]
+    found = []
+    for match in CODE_RE.finditer(text):
+        key = normalizar(match[0])
+        before, after = text[:match.start()], text[match.end():]
+        if not before.strip(" \t•➔-:"):
+            title = after.strip(" :\t")
+            if len(re.findall(r"[A-Za-zÀ-ÿ]+", title)) >= 3:
+                found.append((key, title.strip()))
+            for following in lines[index + 1:index + 4]:
+                if CODE_RE.search(following) or re.match(r"^\s*(?:Document|Page|Version|=====|---)", following, re.I):
+                    break
+                if not following.strip():
+                    if title:
+                        break
+                    continue
+                title += " " + following.strip()
+                if len(re.findall(r"[A-Za-zÀ-ÿ]+", title)) >= 3:
+                    found.append((key, title.strip()))
+            if len(re.findall(r"[A-Za-zÀ-ÿ]+", title)) >= 3:
+                found.append((key, title.strip()))
+        elif before.rstrip().endswith("(") and after.lstrip().startswith(")"):
+            title = before.rstrip().removesuffix("(").strip()
+            title = re.sub(r"^.*?(?:company standard\s*[-–:]\s*|see\s+)", "", title, flags=re.I)
+            if len(re.findall(r"[A-Za-zÀ-ÿ]+", title)) >= 3:
+                found.append((key, title))
+    return found
+
+
 class Consolidacao:
     def __init__(self):
         self.nodes = {}
@@ -115,6 +170,8 @@ class Consolidacao:
         self.own_legacy = defaultdict(dict)
         self.bu2_old_numbers = []
         self.wnx_prefixes = defaultdict(set)
+        self.title_observations = []
+        self.title_comparisons = defaultdict(list)
         self.warnings = []
         self.corpus = defaultdict(set)
 
@@ -167,9 +224,9 @@ class Consolidacao:
                 if record.get(field):
                     self.owner_codes[key].add(normalizar(record[field]))
             if record.get("previous_document_no"):
-                self.edge(record["previous_document_no"], key, "F1", "previous_document_no", authority=3)
+                self.edge(record["previous_document_no"], key, "F1", "previous_document_no", authority=6)
         for variant in register.get("language_variants", []):
-            self.edge(variant["file_name"], variant["variant_of"], "F1", "language_variants.file_name", authority=3)
+            self.edge(variant["file_name"], variant["variant_of"], "F1", "language_variants.file_name", authority=6)
         exceptions = ler_json("F2")
         for raw in exceptions["original_current_codes"]:
             key = self.node(raw, "F2", "original_current_codes")
@@ -182,7 +239,7 @@ class Consolidacao:
             key = self.node(decision["codigo"], "F9", f"decisoes[{i}]")
             evidence = f"{decision.get('origem', 'usuario')}: {decision['evidencia']}"
             if action == "ligar":
-                self.edge(key, decision["para"], "F9", evidence, f"decisoes[{i}]", authority=2)
+                self.edge(key, decision["para"], "F9", evidence, f"decisoes[{i}]", authority=4)
             elif action in {"sem_sucessor", "nao_considerar", "retirado"}:
                 group = {"sem_sucessor": self.finals, "nao_considerar": self.excluded, "retirado": self.retired}[action]
                 group.add(key)
@@ -196,7 +253,7 @@ class Consolidacao:
         for line in decisions.splitlines():
             if "->" in line:
                 before, after = line.removeprefix("- ").split("->", 1)
-                self.edge(before.strip(), after.strip(), "F4", line.strip(), authority=2)
+                self.edge(before.strip(), after.strip(), "F4", line.strip(), authority=4)
         final = self.node("WNA 687", "F4", "legado final válido")
         self.finals.add(final)
         self.decisions[final].append("F4: WNA 687 permanece legado final válido")
@@ -302,11 +359,11 @@ class Consolidacao:
             if approved and len(intermediates) > 1:
                 self.aviso("F5", f"linha {line}", "Decisão com múltiplos intermediários: revisão necessária")
             for target in intermediates or targets:
-                self.edge(key, target, "F5", detail, f"linha {line}", authority=2 if approved else 0, eligible=False)
+                self.edge(key, target, "F5", detail, f"linha {line}", authority=4 if approved else 0, eligible=False)
             if intermediates and targets:
                 for intermediate in intermediates:
                     for target in targets:
-                        self.edge(intermediate, target, "F5", detail, f"linha {line}", authority=2 if approved else 0, eligible=False)
+                        self.edge(intermediate, target, "F5", detail, f"linha {line}", authority=4 if approved else 0, eligible=False)
             if approved and not intermediates and not targets:
                 self.aviso("F5", f"linha {line}", "APROVAR_CADEIA sem código de destino válido")
         book.close()
@@ -353,6 +410,11 @@ class Consolidacao:
                             self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", text))
                     text_lines.append((page, text))
             for i, (page, line) in enumerate(text_lines):
+                same_page = [t for p, t in text_lines[i:i + 4] if p == page]
+                if len(same_page) > 1 and re.search(r"\bWN[A-Z]\s*$", same_page[0], re.I) and re.match(r"\s*\d", same_page[1]):
+                    same_page = [same_page[0] + " " + same_page[1]] + same_page[2:]
+                for key, title in titulos_adjacentes(same_page, 0):
+                    self.title_observations.append((key, title, f"{filename}: página {page}"))
                 following = [t for p, t in text_lines[i + 1:i + 3] if p == page]
                 # Um código pode ser quebrado pelo PDF entre prefixo e número.
                 if following and re.search(r"\bWN[A-Z]\s*$", line, re.I) and re.match(r"\s*\d", following[0]):
@@ -430,6 +492,55 @@ class Consolidacao:
                 if ambiguous:
                     self.aviso("F3", f"linha {line}", f"Prefixo ambíguo para Old number {number}: visto {match[1]}, WNX={sorted(prefixes)}")
 
+    def confirmar_titulos(self):
+        observations = defaultdict(list)
+        for key, node in list(self.nodes.items()):
+            if re.fullmatch(r"WN[A-Z] \d+", key) and "F3" in node["fontes"]:
+                for title in sorted(node["titulos"] - {""}):
+                    observations[("A", key)].append((title, "BU2: linha WNX"))
+        for key, title, location in self.title_observations:
+            observations[("B", key)].append((title, location))
+        for (rule, key), titles in sorted(observations.items()):
+            identity = numero_identidade(key)
+            if not identity:
+                continue
+            number, product_group, kind = identity
+            best = {}
+            for target, record in sorted(self.official.items()):
+                identities = [numero_identidade(record.get(field, "")) for field in ("document_no", "previous_document_no")]
+                compatible = [candidate for candidate in identities if candidate and candidate[0] == number]
+                if rule == "A":
+                    compatible = [candidate for candidate in compatible if candidate[2] == "SG"]
+                if kind == "SG":
+                    compatible = [candidate for candidate in compatible if candidate[1] == product_group]
+                if not compatible or target == key:
+                    continue
+                for title, location in titles:
+                    score = similaridade_titulos(title, record.get("title", ""))
+                    if target not in best or score > best[target]["similaridade"]:
+                        best[target] = {"regra": rule, "candidato": target,
+                                        "similaridade": score, "titulo_observado": title,
+                                        "titulo_cadastro": record.get("title", ""), "local": location}
+            passed = {target for target, comparison in best.items() if comparison["similaridade"] >= 0.80}
+            ambiguous = len(passed) > 1
+            for target, comparison in sorted(best.items()):
+                comparison["ambiguo"] = ambiguous and target in passed
+                comparison["confirmado"] = target in passed and not ambiguous
+                self.title_comparisons[key].append(comparison)
+                if target not in passed:
+                    continue
+                source = "F3" if rule == "A" else "F8"
+                text = (f"Regra {rule}; similaridade={comparison['similaridade']:.6f}; "
+                        f"título observado={comparison['titulo_observado']!r}; "
+                        f"título F1={comparison['titulo_cadastro']!r}")
+                self.edge(key, target, source, text, comparison["local"],
+                          authority=0 if ambiguous else 2, eligible=False)
+                edge = self.edges.get((key, target))
+                if edge:
+                    edge["similaridade_titulo"] = max(edge.get("similaridade_titulo", 0), comparison["similaridade"])
+                if ambiguous:
+                    self.aviso(source, key, "Título ambíguo, sem confirmação: " + text)
+
     def avaliar_elos(self):
         outgoing = defaultdict(list)
         for (a, _), edge in sorted(self.edges.items()):
@@ -440,7 +551,7 @@ class Consolidacao:
             confirmed = authority > 0 or len(sources) >= 2
             edge.update(fontes=sorted({e["fonte"] for e in detail}),
                         evidencias=sorted({f"{e['fonte']} {e['local']}: {e['texto']}" for e in detail}),
-                        confianca=1.0 if authority else 0.95 if confirmed else 0.0,
+                        confianca=(edge.get("similaridade_titulo", 0.95) if authority == 2 else 1.0) if authority else 0.95 if confirmed else 0.0,
                         confirmado=confirmed, autoridade=authority)
             outgoing[a].append(edge)
         selected = {}
@@ -460,7 +571,7 @@ class Consolidacao:
         outgoing, selected = self.avaliar_elos()
 
         def paths(start, confirmed):
-            destinations, cycles, dead = {}, set(), set()
+            destinations, cycles, dead, terminals = {}, set(), set(), {}
             stack = [(start, [start], [])]
             while stack:
                 code, chain, edges = stack.pop()
@@ -469,7 +580,13 @@ class Consolidacao:
                     if old is None or (len(chain), chain) < (len(old[0]), old[0]):
                         destinations[code] = (chain, edges)
                     continue
-                if code in self.excluded or code in self.finals or code in self.retired:
+                f1_override = any(e["autoridade"] == 6 for e in selected[code])
+                final_status = ("EXCLUIDO_DECISAO" if code in self.excluded else
+                                "RETIRADO" if code in self.retired else
+                                "LEGADO_SEM_SUCESSOR" if code in self.finals or
+                                ("released" in self.nodes[code]["status_bu2"] and not outgoing[code]) else "")
+                if final_status and not f1_override:
+                    terminals[code] = (final_status, chain, edges)
                     dead.add(code)
                     continue
                 choices = selected[code] if confirmed else outgoing[code]
@@ -484,12 +601,13 @@ class Consolidacao:
                         cycles.add(tuple(chain[chain.index(target):] + [target]))
                     else:
                         stack.append((target, chain + [target], edges + [edge]))
-            return destinations, cycles, dead
+            return destinations, cycles, dead, terminals
 
         result = {}
         for code, node in sorted(self.nodes.items()):
-            valid, cycles, dead = paths(code, True)
-            proposed, hint_cycles, _ = paths(code, False)
+            valid, cycles, dead, terminals = paths(code, True)
+            proposed, hint_cycles, _, _ = paths(code, False)
+            f1_override = any(e["autoridade"] == 6 for e in selected[code])
             notes = []
             if {"released", "withdrawn"} <= node["status_bu2"]:
                 self.aviso("CONFLITO", code, "F3 apresenta released e withdrawn para a mesma chave; BU ignorado por orientação do usuário")
@@ -500,20 +618,20 @@ class Consolidacao:
                 if outgoing[code]:
                     notes.append("Identidade oficial vigente prevalece sobre elos de saída")
                     self.aviso("CONFLITO", code, notes[-1] + ": " + ", ".join(e["para"] for e in outgoing[code]))
-            elif code in self.excluded:
+            elif code in self.excluded and not f1_override:
                 status = "EXCLUIDO_DECISAO"
                 notes.extend(self.decisions[code])
-            elif code in self.retired:
+            elif code in self.retired and not f1_override:
                 status = "RETIRADO"
                 notes.extend(self.decisions[code])
-            elif code in self.finals:
+            elif code in self.finals and not f1_override:
                 status = "LEGADO_SEM_SUCESSOR"
                 notes.extend(self.decisions[code])
                 if "withdrawn" in node["status_bu2"]:
                     notes.append("Decisão aprovada de legado final prevalece sobre status F3 withdrawn")
                 if outgoing[code]:
                     notes.append("Decisão de legado final prevalece sobre indícios de sucessor")
-            elif len(valid) > 1 or cycles:
+            elif len(valid) > 1 or cycles or len(terminals) > 1 or (valid and terminals):
                 status = "CONFLITO"
             elif len(valid) == 1:
                 if len(proposed) > 1:
@@ -522,6 +640,9 @@ class Consolidacao:
                     status = "RESOLVIDO"
                     destination, (chain, edges) = next(iter(valid.items()))
                     current = self.official[destination]["document_no"]
+            elif len(terminals) == 1 and next(iter(terminals.values()))[1] != [code]:
+                current, (status, chain, edges) = next(iter(terminals.items()))
+                notes.append("Estado final herdado da cadeia confirmada até " + current)
             elif node["status_bu2"] & {"number reserved", "draft"}:
                 status = "NAO_CONFIRMADO"
                 notes.append("numero reservado/rascunho sem vigencia confirmada")
@@ -542,6 +663,8 @@ class Consolidacao:
             if cycles or hint_cycles:
                 for cycle in sorted(cycles | hint_cycles):
                     self.aviso("CICLO", code, " -> ".join(cycle))
+            if f1_override and (code in self.finals or code in self.excluded or code in self.retired):
+                self.aviso("CONFLITO", code, "F1 prevalece sobre decisão de estado terminal contraditória")
             if len(valid) > 1 or len(proposed) > 1:
                 self.aviso("MULTIPLOS_DESTINOS", code, ", ".join(sorted(set(valid) | set(proposed))))
             if status in {"VIGENTE", "RESOLVIDO"}:
@@ -556,6 +679,7 @@ class Consolidacao:
                 "titulo": title, "status_bu2": " | ".join(sorted(node["status_bu2"])),
                 "observacao": "; ".join(notes), "fontes": sorted(node["fontes"]),
                 "decisoes": self.decisions.get(code, []),
+                "comparacoes_titulo": sorted(self.title_comparisons.get(code, []), key=lambda c: (c["regra"], -c["similaridade"], c["candidato"])),
                 "onde_aparece": sorted(node["locais"]), "normas_pai": sorted(node["pais"] - {""}),
                 "base_legado": base_legado(code),
                 "qualificadores_bu": [{"bu": bu, "status": s, "linha_f3": line} for bu, s, line in sorted(node["variantes_bu"])],
@@ -577,6 +701,7 @@ def gerar():
     builder.historico()
     builder.corpus_fonte()
     builder.corroborar_old_number()
+    builder.confirmar_titulos()
     entries = builder.classificar()
     counts = Counter(entry["status"] for entry in entries.values())
     return {

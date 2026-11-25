@@ -6,6 +6,25 @@
       "para": "MEAS-579",
       "evidencia": "README_PILOTO_V3 + MATL-633/635 'TEST-278 (former S-F-ML-2810)' + F1 S-F-ML-2810->MEAS-579",
       "origem": "usuario (README piloto v3)"
-    }
+    },
+    {"codigo": "S-F-ML-2784", "acao": "ligar", "para": "MATL-604", "evidencia": "Decisao do usuario 2026-11-25: Valid Documents (F1) prevalece; frase 'S-F-ML-2784-en wird ersetzt durch MATL-633-en' (MATL-633 p5) fica como aviso", "origem": "usuario"},
+    {"codigo": "WNA 4050", "acao": "ligar", "para": "S-G-TG-4050", "evidencia": "DSGN-468 p19 WNA 4050 contains a detailed list of the tests = DSGN-411 p69 S-G-TG-4050-en contains a detailed list of the tests", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 688", "acao": "ligar", "para": "S-G-TG-0688", "evidencia": "MATL-667 Hydrophobicity acc. to WNA 688; titulo Determination of Hydrophobic Properties with Water-Ethanol-Mixtures", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 8125", "acao": "ligar", "para": "S-L-TG-8125", "evidencia": "DSGN-409 p57 Burst test (WNA 8125) Pulsation test (WNA 8125); Pulsation test of fluid filters", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5000", "acao": "ligar", "para": "S-G-DN-5000", "evidencia": "DSGN-468 p2 The WNA 5000 is used for the general drawing standard; General Specifications for production drawings", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5025", "acao": "ligar", "para": "G-G-PT-5025", "evidencia": "DSGN-431 WNA 5025: Vibration welding achievements; Design of vibration weld joint for BU2 plastic products", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5028", "acao": "ligar", "para": "G-G-PT-5028", "evidencia": "DSGN-468 p9 us welding see MAHLE standards Product Design WNA 5028; Ultrasonic weld geometries for plastic components", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5029", "acao": "ligar", "para": "G-G-PT-5029", "evidencia": "DSGN-431 WNA 5029: Rotation welding achievements; Rotational welding seam design for plastic components", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 4006", "acao": "ligar", "para": "S-G-TG-4006", "evidencia": "MNFG-506 p52 avaliacao de qualidade de solda please see WNA 4006; Work instruction for tensile testing on a plastic weld", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 680", "acao": "ligar", "para": "S-F-MA-0680", "evidencia": "DSGN-409 p57 End cap adhesion (WNA 680); Pleated star and pleated block end connection", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5090", "acao": "ligar", "para": "S-F-DN-5090", "evidencia": "DSGN-410 p14 BU2 work norms WNA 5090; DSGN-468 Filter elements are considered separately in 5090; Drawing standard for filter elements", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5080", "acao": "ligar", "para": "S-L-DN-5080", "evidencia": "DSGN-468 p4 The previous drawing standard for liquid filtration are sufficiently described the WNA 5080; S-L-DN-5080 Drawing standard for liquid filter", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5091", "acao": "ligar", "para": "S-A-DN-5091", "evidencia": "DSGN-411 p38 bellow section for blow molding parts is described in WNA 5091; S-A-DN-5091 Design Guideline for blow molded", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 5039", "acao": "ligar", "para": "G-A-PT-5039", "evidencia": "DSGN-411 p35 WNA 5039 clipping connection; G-A-PT-5039 Design guideline for two shell dirt air duct", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 6004", "acao": "ligar", "para": "S-G-MA-6004", "evidencia": "DSGN-468 p9 Process WNA 6004 us-welding: set-up parameters; S-G-MA-6004 Main influences on the ultrasonic welding", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 6007", "acao": "ligar", "para": "S-G-MA-6007", "evidencia": "MNFG-506 p10 Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling (WNA 6007)", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 6008", "acao": "ligar", "para": "S-G-MA-6008", "evidencia": "MNFG-506 p11 Linear Vibration Weld Tooling Specification (WNA 6008); G-G-MA-6008-en com o mesmo titulo (MNFG-506 p55)", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "G-G-MA-6008", "acao": "ligar", "para": "S-G-MA-6008", "evidencia": "variante de prefixo G/S com o mesmo titulo Linear Vibration Weld Tooling Specification", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "S-F-DN-0616", "acao": "ligar", "para": "DSGN-387", "evidencia": "variante de tipo DN/PT do previous S-F-PT-0616-de (DSGN-387); MNFG-470 e DSGN-427 citam a mesma geometria", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"}
   ]
 }

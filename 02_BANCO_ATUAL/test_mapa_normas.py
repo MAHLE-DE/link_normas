@@ -131,10 +131,64 @@ def test_duas_fontes_independentes_confirmam():
 
 def test_oficial_prevalece_e_preserva_aviso():
     b = mini()
-    b.edge("WNA 1", "MATL-1", "F1", "oficial", authority=3)
+    b.edge("WNA 1", "MATL-1", "F1", "oficial", authority=6)
     b.edge("WNA 1", "MATL-2", "F7", "automática", eligible=False)
     assert b.classificar()["WNA 1"]["atual"] == "MATL-1"
     assert any(a["fonte"] == "CONFLITO" for a in b.warnings)
+
+
+@pytest.mark.parametrize("source,authority", [("F8", 3), ("F9", 4)])
+def test_f1_absoluto_contra_identidade_propria_e_decisao(source, authority):
+    b = mini()
+    b.edge("S-F-ML-2784", "MATL-1", "F1", "Valid Documents", authority=6)
+    b.edge("S-F-ML-2784", "MATL-2", source, "contraditório", authority=authority)
+    assert b.classificar()["S-F-ML-2784"]["atual"] == "MATL-1"
+    assert any(a["fonte"] == "CONFLITO" for a in b.warnings)
+
+
+def test_f1_prevalece_sem_f9_no_conflito_real():
+    from gerar_mapa_normas import ler_json
+    b = Consolidacao()
+    b.oficiais()
+    b.edge("S-F-ML-2784", "MATL-633", "F8", "wird ersetzt durch", authority=3)
+    assert b.classificar()["S-F-ML-2784"]["atual"] == "MATL-604"
+
+
+@pytest.mark.parametrize("raw,current", [
+    ("WNA 2130", "MATL-587"), ("WNA 620", "DSGN-368"), ("WNA 503", "DSGN-490"),
+    ("G-G-MA-6007", "MNFG-508"), ("G-G-MA-6010", "MNFG-484"),
+    ("S-G-PT-0221", "DSGN-456"), ("WNA 4000", "MEAS-572"),
+])
+def test_confirmacao_por_titulo(raw, current):
+    assert resolver(raw)["status"] == "RESOLVIDO"
+    assert resolver(raw)["atual"] == current
+
+
+def test_titulo_fraco_ambiguo_e_sem_adjacencia():
+    from gerar_mapa_normas import similaridade_titulos, titulos_adjacentes
+    assert similaridade_titulos("Completely unrelated words", "Material specification rubber parts") < 0.80
+    assert titulos_adjacentes(["see WNA 1234 in section 5", "Unrelated title"], 0) == []
+    b = mini()
+    for key in b.official:
+        b.official[key].update(previous_document_no="S-G-PT-1234", title="Identical standard title")
+    key = b.node("WNA 1234", "F3")
+    b.nodes[key]["titulos"].add("Identical standard title")
+    b.confirmar_titulos()
+    assert not any(edge["confirmado"] for edge in b.classificar()[key]["indicios"])
+    assert all(c["ambiguo"] for c in b.title_comparisons[key])
+
+
+@pytest.mark.parametrize("raw,current", [
+    ("WNA 4050", "MEAS-587"), ("WNA 688", "MEAS-546"), ("WNA 8125", "MEAS-564"),
+    ("WNA 5000", "DSGN-347"), ("WNA 5025", "DSGN-391"), ("WNA 5028", "DSGN-499"),
+    ("WNA 5029", "DSGN-484"), ("WNA 4006", "MEAS-545"), ("WNA 680", "MNFG-476"),
+    ("WNA 5090", "DSGN-400"), ("WNA 5080", "DSGN-381"), ("WNA 5091", "DSGN-437"),
+    ("WNA 5039", "DSGN-416"), ("WNA 6004", "MNFG-496"), ("WNA 6007", "MNFG-508"),
+    ("WNA 6008", "S-G-MA-6008"), ("G-G-MA-6008", "S-G-MA-6008"), ("S-F-DN-0616", "DSGN-387"),
+])
+def test_decisoes_contexto_t2d(raw, current):
+    assert resolver(raw)["atual"] == current
+    assert resolver(raw)["status"] == ("LEGADO_SEM_SUCESSOR" if current == "S-G-MA-6008" else "RESOLVIDO")
 
 
 def test_corroboracao_nao_suprime_indicio_divergente():
