@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T18:34:54.596260+00:00",
+  "gerado_em": "2026-11-25T20:21:40.914658+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -35,7 +35,7 @@
     "RESOLVIDO": 688,
     "RETIRADO": 171,
     "EXCLUIDO_DECISAO": 7,
-    "LEGADO_SEM_SUCESSOR": 142,
+    "LEGADO_SEM_SUCESSOR": 143,
     "CONFLITO": 5,
     "NAO_CONFIRMADO": 359,
     "DESCONHECIDO": 116
@@ -143491,6 +143491,35 @@
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 1644"
+      ],
+      "normas_pai": [],
+      "base_legado": "",
+      "qualificadores_bu": [],
+      "candidatos_propostos": [],
+      "indicios": [],
+      "citado_no_corpus": false,
+      "ocorrencias_corpus": []
+    },
+    "W-B-0718": {
+      "status": "LEGADO_SEM_SUCESSOR",
+      "atual": "",
+      "cadeia": [],
+      "formas_vistas": [
+        "W-B-0718"
+      ],
+      "elos": [],
+      "titulo": "",
+      "status_bu2": "",
+      "observacao": "F9 sem_sucessor: usuario: Usuario: W-B-0718 e o ultimo nivel da norma, valida e sem codigo no formato novo",
+      "fontes": [
+        "F9"
+      ],
+      "decisoes": [
+        "F9 sem_sucessor: usuario: Usuario: W-B-0718 e o ultimo nivel da norma, valida e sem codigo no formato novo"
+      ],
+      "comparacoes_titulo": [],
+      "onde_aparece": [
+        "F9: decisoes[34]"
       ],
       "normas_pai": [],
       "base_legado": "",

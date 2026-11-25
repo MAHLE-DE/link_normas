@@ -146,6 +146,7 @@ def test_substituicao_exige_unico_declarante(multiple):
     ("S-F-DN-0664", "RESOLVIDO", "DSGN-480"),
     ("S-F-DN-0658", "LEGADO_SEM_SUCESSOR", "S-F-PT-0658"),
     ("S-F-PT-0658", "LEGADO_SEM_SUCESSOR", "S-F-PT-0658"),
+    ("W-B-0718", "LEGADO_SEM_SUCESSOR", "W-B-0718"),
 ])
 def test_decisoes_t15(raw, status, current):
     entry = resolver(raw)

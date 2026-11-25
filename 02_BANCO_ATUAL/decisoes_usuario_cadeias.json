@@ -38,6 +38,7 @@
     {"codigo": "S-F-DN-0660", "acao": "ligar", "evidencia": "Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387", "data": "2026-11-25", "origem": "usuario", "para": "S-F-PT-0660"},
     {"codigo": "S-F-DN-0664", "acao": "ligar", "evidencia": "Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)", "data": "2026-11-25", "origem": "usuario", "para": "S-F-PT-0664"},
     {"codigo": "S-F-DN-0658", "acao": "ligar", "evidencia": "Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents", "data": "2026-11-25", "origem": "usuario", "para": "S-F-PT-0658"},
-    {"codigo": "S-F-PT-0658", "acao": "sem_sucessor", "evidencia": "Sem documento vigente no Valid-Documents; usuario: sai como legado", "data": "2026-11-25", "origem": "usuario"}
+    {"codigo": "S-F-PT-0658", "acao": "sem_sucessor", "evidencia": "Sem documento vigente no Valid-Documents; usuario: sai como legado", "data": "2026-11-25", "origem": "usuario"},
+    {"codigo": "W-B-0718", "acao": "sem_sucessor", "evidencia": "Usuario: W-B-0718 e o ultimo nivel da norma, valida e sem codigo no formato novo", "data": "2026-11-25", "origem": "usuario"}
   ]
 }
