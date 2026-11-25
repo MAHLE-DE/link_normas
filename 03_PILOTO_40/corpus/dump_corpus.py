@@ -11,6 +11,9 @@ import re
 import sys
 from collections import Counter
 from pathlib import Path
+from docx import Document
+from docx.table import Table
+from docx.text.paragraph import Paragraph
 
 try:
     import pymupdf
@@ -60,6 +63,41 @@ def candidates(lines):
 
 def prefix_of(match):
     return re.match(r"[A-Z]+(?:-Q)?", match.upper()).group()
+
+
+class DocxPage:
+    def __init__(self, path):
+        document = Document(path)
+        self.lines, self.tables = [], []
+        def collect(container):
+            element = getattr(container, "element", None)
+            element = element.body if element is not None and hasattr(element, "body") else container._element
+            for child in element.iterchildren():
+                if child.tag.endswith("}p"):
+                    self.lines.extend(Paragraph(child, container).text.splitlines())
+                elif child.tag.endswith("}tbl"):
+                    rows = [[cell.text for cell in row.cells] for row in Table(child, container).rows]
+                    self.tables.append(rows)
+                    self.lines.extend(" | ".join(row) for row in rows)
+        for section in document.sections:
+            for header in (section.header, section.first_page_header, section.even_page_header):
+                collect(header)
+        collect(document)
+        for section in document.sections:
+            for footer in (section.footer, section.first_page_footer, section.even_page_footer):
+                collect(footer)
+
+    def get_text(self, mode):
+        return "\n".join(self.lines)
+
+    def find_tables(self):
+        from types import SimpleNamespace
+        return SimpleNamespace(tables=[SimpleNamespace(extract=lambda rows=rows: rows) for rows in self.tables])
+
+
+def open_document(path):
+    from contextlib import nullcontext
+    return nullcontext([DocxPage(path)]) if path.suffix.lower() == ".docx" else pymupdf.open(path)
 
 
 def normalize_identity(value):
@@ -115,6 +153,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifesto", type=Path, default=BASE / "corpus_40.json")
     parser.add_argument("--saida", type=Path, help="Pasta dos dumps; padrão: dump/ ao lado do manifesto")
+    parser.add_argument("--sem-tabelas-pdf", action="store_true", help="Usa texto dos PDFs sem chamar a detecção nativa de tabelas; tabelas DOCX são preservadas")
     args = parser.parse_args()
     root = BASE.parent.parent
     manifest = args.manifesto
@@ -143,7 +182,7 @@ def main():
         for entry in corpus:
             code = entry["document_no"]
             count = 0
-            with pymupdf.open(manifest.parent / entry["arquivo"]) as pdf, (output / f"{code}.txt").open(
+            with open_document(manifest.parent / entry["arquivo"]) as pdf, (output / f"{code}.txt").open(
                 "w", encoding="utf-8"
             ) as dump:
                 dump.write(
@@ -166,7 +205,12 @@ def main():
                         dump.write(f"L{line_number:03d}: {line}\n")
                     sources = [("texto", lines)]
                     try:
-                        tables = page.find_tables()
+                        if args.sem_tabelas_pdf and Path(entry["arquivo"]).suffix.lower() == ".pdf":
+                            dump.write("\n--- Tabelas PDF: detecção desativada nesta execução; conteúdo preservado no texto ---\n")
+                            from types import SimpleNamespace
+                            tables = SimpleNamespace(tables=[])
+                        else:
+                            tables = page.find_tables()
                         for table_number, table in enumerate(tables.tables, 1):
                             rows = [
                                 " | ".join(
