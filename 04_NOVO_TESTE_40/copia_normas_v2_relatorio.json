@@ -1,0 +1,372 @@
+{
+  "selection_file": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\amostra_validacao_40.json",
+  "source_directory": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS",
+  "destination_directory": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2",
+  "requested": 40,
+  "copied": 40,
+  "failed": 0,
+  "success": true,
+  "files": [
+    {
+      "ordem": 1,
+      "document_no": "DSGN-390",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-DN-5074-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-DN-5074-en.pdf",
+      "file_name": "S-L-DN-5074-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 192828
+    },
+    {
+      "ordem": 2,
+      "document_no": "DSGN-490",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-0503-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-PT-0503-de.pdf",
+      "file_name": "S-L-PT-0503-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 241045
+    },
+    {
+      "ordem": 3,
+      "document_no": "DSGN-439",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-G-DN-9001-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\G-G-DN-9001-en.pdf",
+      "file_name": "G-G-DN-9001-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 648844
+    },
+    {
+      "ordem": 4,
+      "document_no": "DSGN-344",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0642-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-PT-0642-en.pdf",
+      "file_name": "S-F-PT-0642-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 211475
+    },
+    {
+      "ordem": 5,
+      "document_no": "DSGN-485",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-F-DN-5058-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\G-F-DN-5058-en.pdf",
+      "file_name": "G-F-DN-5058-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 2485825
+    },
+    {
+      "ordem": 6,
+      "document_no": "DSGN-457",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-DN-5073-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-DN-5073-en.pdf",
+      "file_name": "S-L-DN-5073-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 233882
+    },
+    {
+      "ordem": 7,
+      "document_no": "DSGN-435-de",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-0501-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-PT-0501-de.pdf",
+      "file_name": "S-L-PT-0501-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 362220
+    },
+    {
+      "ordem": 8,
+      "document_no": "DSGN-430",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-DN-4016-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-DN-4016-de.pdf",
+      "file_name": "S-G-DN-4016-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 320302
+    },
+    {
+      "ordem": 9,
+      "document_no": "DSGN-433",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0640-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-PT-0640-en.pdf",
+      "file_name": "S-F-PT-0640-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 148750
+    },
+    {
+      "ordem": 10,
+      "document_no": "DSGN-459",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-6450-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-PT-6450-de.pdf",
+      "file_name": "S-F-PT-6450-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 417906
+    },
+    {
+      "ordem": 11,
+      "document_no": "MATL-562",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-2500-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-ML-2500-en.pdf",
+      "file_name": "S-C-ML-2500-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 413899
+    },
+    {
+      "ordem": 12,
+      "document_no": "MATL-628",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MATL-628.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\MATL-628.pdf",
+      "file_name": "MATL-628.pdf",
+      "method": "nome exato",
+      "size_bytes": 327457
+    },
+    {
+      "ordem": 13,
+      "document_no": "MATL-689",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2736-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-ML-2736-en.pdf",
+      "file_name": "S-F-ML-2736-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 316598
+    },
+    {
+      "ordem": 14,
+      "document_no": "MATL-607",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-8154-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-ML-8154-de.pdf",
+      "file_name": "S-C-ML-8154-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 252011
+    },
+    {
+      "ordem": 15,
+      "document_no": "MATL-841",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2032-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-ML-2032-en.pdf",
+      "file_name": "S-F-ML-2032-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 321109
+    },
+    {
+      "ordem": 16,
+      "document_no": "MATL-563",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-3100-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-ML-3100-en.pdf",
+      "file_name": "S-C-ML-3100-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 408380
+    },
+    {
+      "ordem": 17,
+      "document_no": "MATL-670",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2704-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-ML-2704-en.pdf",
+      "file_name": "S-F-ML-2704-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 158047
+    },
+    {
+      "ordem": 18,
+      "document_no": "MATL-612",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-3000-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-ML-3000-en.pdf",
+      "file_name": "S-C-ML-3000-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 404265
+    },
+    {
+      "ordem": 19,
+      "document_no": "MATL-581",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-ML-1019-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-ML-1019-en.pdf",
+      "file_name": "S-L-ML-1019-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 378623
+    },
+    {
+      "ordem": 20,
+      "document_no": "MATL-694",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2727-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-TG-2727-de.pdf",
+      "file_name": "S-F-TG-2727-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 303060
+    },
+    {
+      "ordem": 21,
+      "document_no": "MEAS-573",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2193-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-TG-2193-en.pdf",
+      "file_name": "S-F-TG-2193-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 352928
+    },
+    {
+      "ordem": 22,
+      "document_no": "MEAS-570",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8152-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-TG-8152-en.pdf",
+      "file_name": "S-C-TG-8152-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 285001
+    },
+    {
+      "ordem": 23,
+      "document_no": "MEAS-576",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-4014-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-MA-4014-de.pdf",
+      "file_name": "S-G-MA-4014-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 538831
+    },
+    {
+      "ordem": 24,
+      "document_no": "MEAS-577",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8157-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-TG-8157-en.pdf",
+      "file_name": "S-C-TG-8157-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 114279
+    },
+    {
+      "ordem": 25,
+      "document_no": "MEAS-525",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MEAS-525.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\MEAS-525.pdf",
+      "file_name": "MEAS-525.pdf",
+      "method": "nome exato",
+      "size_bytes": 555824
+    },
+    {
+      "ordem": 26,
+      "document_no": "MEAS-565",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2146-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-TG-2146-de.pdf",
+      "file_name": "S-F-TG-2146-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 3630599
+    },
+    {
+      "ordem": 27,
+      "document_no": "MEAS-588",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-TG-4013-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-TG-4013-de.pdf",
+      "file_name": "S-G-TG-4013-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 1048304
+    },
+    {
+      "ordem": 28,
+      "document_no": "MEAS-561",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8155-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-C-TG-8155-en.pdf",
+      "file_name": "S-C-TG-8155-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 211761
+    },
+    {
+      "ordem": 29,
+      "document_no": "MEAS-574",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2120-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-TG-2120-en.pdf",
+      "file_name": "S-F-TG-2120-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 848381
+    },
+    {
+      "ordem": 30,
+      "document_no": "MEAS-550",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-TG-2185-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-TG-2185-de.pdf",
+      "file_name": "S-L-TG-2185-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 261470
+    },
+    {
+      "ordem": 31,
+      "document_no": "MNFG-487",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3807-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-MA-3807-en.pdf",
+      "file_name": "S-G-MA-3807-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 179174
+    },
+    {
+      "ordem": 32,
+      "document_no": "MNFG-458-de",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3811-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-MA-3811-de.pdf",
+      "file_name": "S-G-MA-3811-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 332650
+    },
+    {
+      "ordem": 33,
+      "document_no": "MNFG-508",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-6007-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-MA-6007-en.pdf",
+      "file_name": "S-G-MA-6007-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 1112045
+    },
+    {
+      "ordem": 34,
+      "document_no": "MNFG-474",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3809-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-MA-3809-en.pdf",
+      "file_name": "S-G-MA-3809-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 225066
+    },
+    {
+      "ordem": 35,
+      "document_no": "MNFG-502",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3808-en_2024.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-G-MA-3808-en_2024.pdf",
+      "file_name": "S-G-MA-3808-en_2024.pdf",
+      "method": "nome exato",
+      "size_bytes": 318466
+    },
+    {
+      "ordem": 36,
+      "document_no": "PROD-333",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0693-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-F-PT-0693-en.pdf",
+      "file_name": "S-F-PT-0693-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 1078075
+    },
+    {
+      "ordem": 37,
+      "document_no": "PROD-329",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-5115-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-PT-5115-en.pdf",
+      "file_name": "S-L-PT-5115-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 304091
+    },
+    {
+      "ordem": 38,
+      "document_no": "TEST-257",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-8120-P04-de_V01.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-PT-8120-P04-de_V01.pdf",
+      "file_name": "S-L-PT-8120-P04-de_V01.pdf",
+      "method": "nome exato",
+      "size_bytes": 141280
+    },
+    {
+      "ordem": 39,
+      "document_no": "TEST-202",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-2141-de.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\S-L-PT-2141-de.pdf",
+      "file_name": "S-L-PT-2141-de.pdf",
+      "method": "nome exato",
+      "size_bytes": 376665
+    },
+    {
+      "ordem": 40,
+      "document_no": "TEST-299",
+      "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\20250522_V02_S-F-ML-2010-en.pdf",
+      "destination": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\04_NOVO_TESTE_40\\normas_v2\\20250522_V02_S-F-ML-2010-en.pdf",
+      "file_name": "20250522_V02_S-F-ML-2010-en.pdf",
+      "method": "nome exato",
+      "size_bytes": 278834
+    }
+  ],
+  "failures": []
+}
