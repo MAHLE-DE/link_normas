@@ -57,10 +57,66 @@ def prefix_of(match):
     return re.match(r"[A-Z]+(?:-Q)?", match.upper()).group()
 
 
+def normalize_identity(value):
+    """Compara aliases sem caixa, extensão, idioma e revisão finais."""
+    value = re.sub(r"\.pdf$", "", value.strip(), flags=re.I).casefold()
+    suffix = r"(?:[\s_-]*\(?v\d+(?:[._]\d+)*\)?|[-_][a-z]{2})$"
+    while True:
+        normalized = re.sub(suffix, "", value).strip()
+        if normalized == value:
+            return value
+        value = normalized
+
+
+def resolve_corpus(corpus, records):
+    """Usa exclusivamente identidades vigentes do cadastro canônico v3."""
+    current = {}
+    aliases = {}
+    # Quando houver variantes de idioma, prefere o título inglês.
+    for record in sorted(records, key=lambda record: record.get("language") != "en"):
+        code = record["document_no"]
+        current.setdefault(code.casefold(), record)
+        previous = record.get("previous_document_no") or ""
+        if previous:
+            aliases.setdefault(normalize_identity(previous), {}).setdefault(code, record)
+    resolved = []
+    for entry in corpus:
+        entry = dict(entry)
+        original = entry.setdefault("codigo_piloto_antigo", entry["document_no"])
+        record = current.get(entry["document_no"].casefold())
+        if record is None:
+            matches = {}
+            for previous in entry["nomes_anteriores"]:
+                matches.update(aliases.get(normalize_identity(previous), {}))
+            if len(matches) != 1:
+                raise ValueError(
+                    f"Identidade do piloto {original!r}: esperava um código do cadastro "
+                    f"pelos nomes anteriores {entry['nomes_anteriores']!r}; "
+                    f"encontrados {sorted(matches)!r}"
+                )
+            record = next(iter(matches.values()))
+        entry["document_no"] = record["document_no"]
+        entry["titulo_cadastro"] = record["title"]
+        resolved.append(entry)
+    codes = [entry["document_no"] for entry in resolved]
+    if len(codes) != len(set(codes)):
+        raise ValueError("Corpus contém identidades duplicadas após resolução no cadastro v3")
+    return resolved
+
+
 def main():
-    corpus = json.loads((BASE / "corpus_40.json").read_text(encoding="utf-8"))
+    manifest = BASE / "corpus_40.json"
+    corpus = json.loads(manifest.read_text(encoding="utf-8"))
+    register = BASE.parent.parent / "02_BANCO_ATUAL" / "cadastro_canonico_v3_SEM_URL_SHAREPOINT.json"
+    records = json.loads(register.read_text(encoding="utf-8"))["records"]
+    corpus = resolve_corpus(corpus, records)
+    manifest.write_text(json.dumps(corpus, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     output = BASE / "dump"
     output.mkdir(exist_ok=True)
+    expected = {f"{entry['document_no']}.txt" for entry in corpus}
+    for old_dump in output.glob("*.txt"):
+        if old_dump.name not in expected:
+            old_dump.unlink()
     prefixes = Counter()
     failures = []
     low_text = []
@@ -76,8 +132,10 @@ def main():
             ) as dump:
                 dump.write(
                     f"document_no: {code}\n"
+                    f"codigo_piloto_antigo: {entry['codigo_piloto_antigo']}\n"
                     f"nomes_anteriores: {', '.join(entry['nomes_anteriores'])}\n"
                     f"titulo: {entry['titulo']}\n"
+                    f"titulo_cadastro: {entry['titulo_cadastro']}\n"
                     f"arquivo: {entry['arquivo']}\n"
                 )
                 for page_number, page in enumerate(pdf, 1):
