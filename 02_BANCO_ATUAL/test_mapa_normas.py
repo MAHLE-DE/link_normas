@@ -137,7 +137,7 @@ def test_oficial_prevalece_e_preserva_aviso():
     assert any(a["fonte"] == "CONFLITO" for a in b.warnings)
 
 
-@pytest.mark.parametrize("source,authority", [("F8", 3), ("F9", 4)])
+@pytest.mark.parametrize("source,authority", [("F8", 3), ("F9", 5)])
 def test_f1_absoluto_contra_identidade_propria_e_decisao(source, authority):
     b = mini()
     b.edge("S-F-ML-2784", "MATL-1", "F1", "Valid Documents", authority=6)
@@ -185,7 +185,7 @@ def test_titulo_fraco_ambiguo_e_sem_adjacencia():
     ("WNA 5090", "DSGN-400"), ("WNA 5080", "DSGN-381"), ("WNA 5091", "DSGN-437"),
     ("WNA 5039", "DSGN-416"), ("WNA 6004", "MNFG-496"), ("WNA 6007", "MNFG-508"),
     ("WNA 6008", "S-G-MA-6008"), ("G-G-MA-6008", "S-G-MA-6008"), ("S-F-DN-0616", "DSGN-387"),
-    ("WNA 4016", "DSGN-430"),
+    ("WNA 4016", "DSGN-430"), ("WNA 5031", "MEAS-518"),
 ])
 def test_decisoes_contexto_t2d(raw, current):
     assert resolver(raw)["atual"] == current
@@ -200,6 +200,13 @@ def test_decisoes_contexto_t2d(raw, current):
 def test_decisoes_finais_t6(raw, current, status):
     assert resolver(raw)["status"] == status
     assert resolver(raw)["atual"] == current
+
+
+def test_f9_prevalece_sobre_f5_legado_final():
+    entry = resolver("WNA 5031")
+    assert entry["status"] == "RESOLVIDO"
+    assert entry["atual"] == "MEAS-518"
+    assert entry["cadeia"] == ["WNA 5031", "S-H-ME-5031", "MEAS-518"]
 
 
 def test_corroboracao_nao_suprime_indicio_divergente():

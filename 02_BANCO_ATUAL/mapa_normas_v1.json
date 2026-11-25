@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T14:48:19.016001+00:00",
+  "gerado_em": "2026-11-25T16:37:20.941022+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -15,7 +15,7 @@
   "regras": [
     "Chaves sem idioma/revisão, caixa alta; WNx sem zeros iniciais; S/G com ao menos quatro dígitos.",
     "Document No em F1 e original_current_codes em F2 são vigentes.",
-    "Hierarquia: F1 > F2 originais > F9/F4/F5 aprovadas > identidade própria F8 > títulos A/B > corroboração dupla.",
+    "Hierarquia: F1 > F2 originais > F9 > F4/F5 aprovadas > identidade própria F8 > títulos A/B > corroboração dupla.",
     "F2 approved_file_mappings associa arquivos físicos: nunca cria equivalência entre códigos.",
     "F3/F6/F7 não automática/F8 explícita exigem pelo menos duas fontes distintas por elo.",
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
@@ -31,10 +31,10 @@
   ],
   "resumo": {
     "VIGENTE": 595,
-    "RESOLVIDO": 684,
+    "RESOLVIDO": 685,
     "RETIRADO": 171,
     "EXCLUIDO_DECISAO": 7,
-    "LEGADO_SEM_SUCESSOR": 141,
+    "LEGADO_SEM_SUCESSOR": 140,
     "CONFLITO": 5,
     "NAO_CONFIRMADO": 360,
     "DESCONHECIDO": 120
@@ -12754,7 +12754,7 @@
               "fonte": "F9",
               "texto": "usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'",
               "local": "decisoes[23]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -12766,7 +12766,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "G-G-ME-5060",
@@ -12894,7 +12894,7 @@
               "fonte": "F9",
               "texto": "usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'",
               "local": "decisoes[23]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -12906,7 +12906,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -13265,7 +13265,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): variante de prefixo G/S com o mesmo titulo Linear Vibration Weld Tooling Specification",
               "local": "decisoes[19]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -13277,7 +13277,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "titulo": "",
@@ -13319,7 +13319,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): variante de prefixo G/S com o mesmo titulo Linear Vibration Weld Tooling Specification",
               "local": "decisoes[19]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -13331,7 +13331,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -47334,7 +47334,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): variante de tipo DN/PT do previous S-F-PT-0616-de (DSGN-387); MNFG-470 e DSGN-427 citam a mesma geometria",
               "local": "decisoes[20]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -47348,7 +47348,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "titulo": "Faltenteilung von Ring-Platteneinsätzen kantenverklebt für Luftfilter (Nicht gültig für Neukonstruktionen!)",
@@ -47401,7 +47401,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): variante de tipo DN/PT do previous S-F-PT-0616-de (DSGN-387); MNFG-470 e DSGN-427 citam a mesma geometria",
               "local": "decisoes[20]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -47415,7 +47415,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -75824,7 +75824,7 @@
               "fonte": "F9",
               "texto": "usuario: Decisao do usuario 2026-11-25: Valid Documents (F1) prevalece; frase 'S-F-ML-2784-en wird ersetzt durch MATL-633-en' (MATL-633 p5) fica como aviso",
               "local": "decisoes[2]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -76058,7 +76058,7 @@
               "fonte": "F9",
               "texto": "usuario: Decisao do usuario 2026-11-25: Valid Documents (F1) prevalece; frase 'S-F-ML-2784-en wird ersetzt durch MATL-633-en' (MATL-633 p5) fica como aviso",
               "local": "decisoes[2]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -125898,7 +125898,8 @@
         "F1",
         "F5",
         "F6",
-        "F7"
+        "F7",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -125916,7 +125917,8 @@
         "F6: Sheet1!linha 579, Child Standard",
         "F7: edges[1154]",
         "F7: edges[1155]",
-        "F7: edges[1156]"
+        "F7: edges[1156]",
+        "F9: decisoes[28]"
       ],
       "normas_pai": [
         "DSGN-428"
@@ -136726,7 +136728,7 @@
               "fonte": "F9",
               "texto": "usuario (README piloto v3): 90_HISTORICO_CONGELADO/piloto_leitor_v3/README_PILOTO_V3.txt + MATL-633/635 'TEST-278 (former S-F-ML-2810)' + F1 S-F-ML-2810->MEAS-579",
               "local": "decisoes[1]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -136738,7 +136740,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "titulo": "Test specification for filter materials",
@@ -136964,7 +136966,7 @@
               "fonte": "F9",
               "texto": "usuario (README piloto v3): 90_HISTORICO_CONGELADO/piloto_leitor_v3/README_PILOTO_V3.txt + MATL-633/635 'TEST-278 (former S-F-ML-2810)' + F1 S-F-ML-2810->MEAS-579",
               "local": "decisoes[1]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -136976,7 +136978,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -149204,7 +149206,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MNFG-506 p52 avaliacao de qualidade de solda please see WNA 4006; Work instruction for tensile testing on a plastic weld",
               "local": "decisoes[10]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -149218,7 +149220,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-TG-4006",
@@ -149322,7 +149324,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MNFG-506 p52 avaliacao de qualidade de solda please see WNA 4006; Work instruction for tensile testing on a plastic weld",
               "local": "decisoes[10]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -149336,7 +149338,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -149767,7 +149769,7 @@
               "fonte": "F9",
               "texto": "usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'",
               "local": "decisoes[21]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -149779,7 +149781,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-DN-4016",
@@ -149966,7 +149968,7 @@
               "fonte": "F9",
               "texto": "usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'",
               "local": "decisoes[21]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -149978,7 +149980,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -150136,7 +150138,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p19 WNA 4050 contains a detailed list of the tests = DSGN-411 p69 S-G-TG-4050-en contains a detailed list of the tests",
               "local": "decisoes[3]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -150150,7 +150152,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-TG-4050",
@@ -150681,7 +150683,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p19 WNA 4050 contains a detailed list of the tests = DSGN-411 p69 S-G-TG-4050-en contains a detailed list of the tests",
               "local": "decisoes[3]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -150695,7 +150697,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -151181,7 +151183,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p2 The WNA 5000 is used for the general drawing standard; General Specifications for production drawings",
               "local": "decisoes[6]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -151195,7 +151197,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-DN-5000",
@@ -151576,7 +151578,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p2 The WNA 5000 is used for the general drawing standard; General Specifications for production drawings",
               "local": "decisoes[6]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -151590,7 +151592,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -152227,7 +152229,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-431 WNA 5025: Vibration welding achievements; Design of vibration weld joint for BU2 plastic products",
               "local": "decisoes[7]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -152241,7 +152243,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "G-G-PT-5025",
@@ -152498,7 +152500,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-431 WNA 5025: Vibration welding achievements; Design of vibration weld joint for BU2 plastic products",
               "local": "decisoes[7]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -152512,7 +152514,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -152969,7 +152971,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p9 us welding see MAHLE standards Product Design WNA 5028; Ultrasonic weld geometries for plastic components",
               "local": "decisoes[8]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -152983,7 +152985,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "G-G-PT-5028",
@@ -153275,7 +153277,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p9 us welding see MAHLE standards Product Design WNA 5028; Ultrasonic weld geometries for plastic components",
               "local": "decisoes[8]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -153289,7 +153291,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -153325,7 +153327,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-431 WNA 5029: Rotation welding achievements; Rotational welding seam design for plastic components",
               "local": "decisoes[9]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -153339,7 +153341,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "G-G-PT-5029",
@@ -153585,7 +153587,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-431 WNA 5029: Rotation welding achievements; Rotational welding seam design for plastic components",
               "local": "decisoes[9]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -153599,7 +153601,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -153808,22 +153810,170 @@
       "ocorrencias_corpus": []
     },
     "WNA 5031": {
-      "status": "LEGADO_SEM_SUCESSOR",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "MEAS-518",
+      "cadeia": [
+        "WNA 5031",
+        "S-H-ME-5031",
+        "MEAS-518"
+      ],
       "formas_vistas": [
         "WNA 5031"
       ],
-      "elos": [],
-      "titulo": "Mess- und Auswertstrategie für Zylinderkopfhauben und Ölnebelabscheider / \nMeasure- and evaluation strategy for Cylinder head covers and oil mist separators",
+      "elos": [
+        {
+          "de": "WNA 5031",
+          "para": "S-H-ME-5031",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-428 WNA 5031: Measurement and evaluation strategy for cylinder = titulo de MEAS-518 Measure- and evaluation strategy for Cylinder head covers; MEAS-518 traz WNA 5031 em Keywords e no texto. Prevalece sobre F5 linha 50 (LEGADO_FINAL_VALIDO).",
+              "local": "decisoes[28]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[28]: usuario: DSGN-428 WNA 5031: Measurement and evaluation strategy for cylinder = titulo de MEAS-518 Measure- and evaluation strategy for Cylinder head covers; MEAS-518 traz WNA 5031 em Keywords e no texto. Prevalece sobre F5 linha 50 (LEGADO_FINAL_VALIDO)."
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-H-ME-5031",
+          "para": "MEAS-518",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "language_variants.file_name",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1372",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1373",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1374",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1375",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1376",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1377",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1378",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+              "local": "Sheet1!linha 1379",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[1154]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[1155]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-H-ME-5031-en",
+              "local": "edges[1156]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : language_variants.file_name",
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 1372: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1373: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1374: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1375: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1376: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1377: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1378: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F6 Sheet1!linha 1379: Parent Old name=S-H-ME-5031-en; Parent Standard=MEAS-518",
+            "F7 edges[1154]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[1155]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[1156]: Cadastro Canônico V3: Previous Document No.: S-H-ME-5031-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Measure- and evaluation strategy for Cylinder head covers and oil mist separators",
       "status_bu2": "released",
-      "observacao": "F5 linha 50: LEGADO_FINAL_VALIDO; ; Decisão de legado final prevalece sobre indícios de sucessor",
+      "observacao": "",
       "fontes": [
         "F3",
-        "F5"
+        "F5",
+        "F9"
       ],
       "decisoes": [
-        "F5 linha 50: LEGADO_FINAL_VALIDO; "
+        "F9 ligar: usuario: DSGN-428 WNA 5031: Measurement and evaluation strategy for cylinder = titulo de MEAS-518 Measure- and evaluation strategy for Cylinder head covers; MEAS-518 traz WNA 5031 em Keywords e no texto. Prevalece sobre F5 linha 50 (LEGADO_FINAL_VALIDO)."
       ],
       "comparacoes_titulo": [
         {
@@ -153840,7 +153990,8 @@
       "onde_aparece": [
         "F3: BU2: linha WNX",
         "F3: Werknormen!linha 295",
-        "F5: Lista_unica_legados!linha 50"
+        "F5: Lista_unica_legados!linha 50",
+        "F9: decisoes[28]"
       ],
       "normas_pai": [
         "DSGN-347",
@@ -153850,7 +154001,8 @@
       "base_legado": "WNA 5031",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MEAS-518"
+        "MEAS-518",
+        "S-H-ME-5031"
       ],
       "indicios": [
         {
@@ -153875,6 +154027,28 @@
           "confianca": 1.0,
           "confirmado": true,
           "autoridade": 2
+        },
+        {
+          "de": "WNA 5031",
+          "para": "S-H-ME-5031",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-428 WNA 5031: Measurement and evaluation strategy for cylinder = titulo de MEAS-518 Measure- and evaluation strategy for Cylinder head covers; MEAS-518 traz WNA 5031 em Keywords e no texto. Prevalece sobre F5 linha 50 (LEGADO_FINAL_VALIDO).",
+              "local": "decisoes[28]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[28]: usuario: DSGN-428 WNA 5031: Measurement and evaluation strategy for cylinder = titulo de MEAS-518 Measure- and evaluation strategy for Cylinder head covers; MEAS-518 traz WNA 5031 em Keywords e no texto. Prevalece sobre F5 linha 50 (LEGADO_FINAL_VALIDO)."
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": false,
@@ -154050,7 +154224,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-411 p35 WNA 5039 clipping connection; G-A-PT-5039 Design guideline for two shell dirt air duct",
               "local": "decisoes[15]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -154062,7 +154236,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "G-A-PT-5039",
@@ -154198,7 +154372,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-411 p35 WNA 5039 clipping connection; G-A-PT-5039 Design guideline for two shell dirt air duct",
               "local": "decisoes[15]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -154210,7 +154384,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -154565,7 +154739,7 @@
               "fonte": "F9",
               "texto": "usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'",
               "local": "decisoes[22]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -154577,7 +154751,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-PT-0505",
@@ -154697,7 +154871,7 @@
               "fonte": "F9",
               "texto": "usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'",
               "local": "decisoes[22]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -154709,7 +154883,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -155655,7 +155829,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p4 The previous drawing standard for liquid filtration are sufficiently described the WNA 5080; S-L-DN-5080 Drawing standard for liquid filter",
               "local": "decisoes[13]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -155667,7 +155841,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-L-DN-5080",
@@ -156005,7 +156179,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p4 The previous drawing standard for liquid filtration are sufficiently described the WNA 5080; S-L-DN-5080 Drawing standard for liquid filter",
               "local": "decisoes[13]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -156017,7 +156191,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -156082,7 +156256,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-410 p14 BU2 work norms WNA 5090; DSGN-468 Filter elements are considered separately in 5090; Drawing standard for filter elements",
               "local": "decisoes[12]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -156096,7 +156270,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-F-DN-5090",
@@ -156545,7 +156719,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-410 p14 BU2 work norms WNA 5090; DSGN-468 Filter elements are considered separately in 5090; Drawing standard for filter elements",
               "local": "decisoes[12]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -156559,7 +156733,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -156588,7 +156762,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-411 p38 bellow section for blow molding parts is described in WNA 5091; S-A-DN-5091 Design Guideline for blow molded",
               "local": "decisoes[14]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -156600,7 +156774,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-A-DN-5091",
@@ -156720,7 +156894,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-411 p38 bellow section for blow molding parts is described in WNA 5091; S-A-DN-5091 Design Guideline for blow molded",
               "local": "decisoes[14]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -156732,7 +156906,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -158208,7 +158382,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p9 Process WNA 6004 us-welding: set-up parameters; S-G-MA-6004 Main influences on the ultrasonic welding",
               "local": "decisoes[16]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -158220,7 +158394,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-MA-6004",
@@ -158356,7 +158530,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-468 p9 Process WNA 6004 us-welding: set-up parameters; S-G-MA-6004 Main influences on the ultrasonic welding",
               "local": "decisoes[16]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -158368,7 +158542,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -158432,7 +158606,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MNFG-506 p10 Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling (WNA 6007)",
               "local": "decisoes[17]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -158446,7 +158620,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-MA-6007",
@@ -158598,7 +158772,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MNFG-506 p10 Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling (WNA 6007)",
               "local": "decisoes[17]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -158612,7 +158786,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -158645,7 +158819,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MNFG-506 p11 Linear Vibration Weld Tooling Specification (WNA 6008); G-G-MA-6008-en com o mesmo titulo (MNFG-506 p55)",
               "local": "decisoes[18]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -158657,7 +158831,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "titulo": "",
@@ -158699,7 +158873,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MNFG-506 p11 Linear Vibration Weld Tooling Specification (WNA 6008); G-G-MA-6008-en com o mesmo titulo (MNFG-506 p55)",
               "local": "decisoes[18]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -158711,7 +158885,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -163441,7 +163615,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-409 p57 End cap adhesion (WNA 680); Pleated star and pleated block end connection",
               "local": "decisoes[11]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -163455,7 +163629,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-F-MA-0680",
@@ -163579,7 +163753,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-409 p57 End cap adhesion (WNA 680); Pleated star and pleated block end connection",
               "local": "decisoes[11]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -163593,7 +163767,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -163928,7 +164102,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MATL-667 Hydrophobicity acc. to WNA 688; titulo Determination of Hydrophobic Properties with Water-Ethanol-Mixtures",
               "local": "decisoes[4]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -163942,7 +164116,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-G-TG-0688",
@@ -164055,7 +164229,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): MATL-667 Hydrophobicity acc. to WNA 688; titulo Determination of Hydrophobic Properties with Water-Ethanol-Mixtures",
               "local": "decisoes[4]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -164069,7 +164243,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -166028,7 +166202,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-409 p57 Burst test (WNA 8125) Pulsation test (WNA 8125); Pulsation test of fluid filters",
               "local": "decisoes[5]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -166042,7 +166216,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         },
         {
           "de": "S-L-TG-8125",
@@ -166132,7 +166306,7 @@
               "fonte": "F9",
               "texto": "usuario (aprovacao em lote 2026-11-25): DSGN-409 p57 Burst test (WNA 8125) Pulsation test (WNA 8125); Pulsation test of fluid filters",
               "local": "decisoes[5]",
-              "autoridade": 4,
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
@@ -166146,7 +166320,7 @@
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 4
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -186034,6 +186208,11 @@
       "fonte": "CONFLITO",
       "local": "WNA 503",
       "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-L-PT-0503 (F7)"
+    },
+    {
+      "fonte": "CONFLITO",
+      "local": "WNA 5031",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: MEAS-518 (F3)"
     },
     {
       "fonte": "CONFLITO",

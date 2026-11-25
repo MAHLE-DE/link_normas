@@ -32,6 +32,7 @@
     {"codigo": "G-G-TG-4008", "acao": "nao_considerar", "evidencia": "'Guideline for design and build of fixtures' (MEAS-592), distinto de S-G-TG-4008 'Shaker Test' (MEAS-587 p157); sem documento correspondente no Valid-Documents; usuario: desconsiderar", "data": "2026-11-25", "origem": "usuario"},
     {"codigo": "WNA 2125", "acao": "nao_considerar", "evidencia": "BU2 'Testing tensile strength (Z-Strength) of laminates'; sem correspondente no Valid-Documents; usuario: desconsiderar", "data": "2026-11-25", "origem": "usuario"},
     {"codigo": "WNA 5034", "acao": "nao_considerar", "evidencia": "BU2 'number reserved' ('weld bead design standard' em MNFG-506); nunca publicada; usuario: desconsiderar", "data": "2026-11-25", "origem": "usuario"},
-    {"codigo": "S-F-ML-2820", "acao": "nao_considerar", "evidencia": "Norma geral de ensaio de espuma (former WNF 102820, withdrawn no BU2); Valid-Documents so tem as especificacoes por material; usuario: desconsiderar", "data": "2026-11-25", "origem": "usuario"}
+    {"codigo": "S-F-ML-2820", "acao": "nao_considerar", "evidencia": "Norma geral de ensaio de espuma (former WNF 102820, withdrawn no BU2); Valid-Documents so tem as especificacoes por material; usuario: desconsiderar", "data": "2026-11-25", "origem": "usuario"},
+    {"codigo": "WNA 5031", "acao": "ligar", "para": "S-H-ME-5031", "evidencia": "DSGN-428 WNA 5031: Measurement and evaluation strategy for cylinder = titulo de MEAS-518 Measure- and evaluation strategy for Cylinder head covers; MEAS-518 traz WNA 5031 em Keywords e no texto. Prevalece sobre F5 linha 50 (LEGADO_FINAL_VALIDO).", "data": "2026-11-25", "origem": "usuario"}
   ]
 }

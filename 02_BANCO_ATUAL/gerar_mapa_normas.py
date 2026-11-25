@@ -41,7 +41,7 @@ STATUSES = (
 REGRAS = [
     "Chaves sem idioma/revisão, caixa alta; WNx sem zeros iniciais; S/G com ao menos quatro dígitos.",
     "Document No em F1 e original_current_codes em F2 são vigentes.",
-    "Hierarquia: F1 > F2 originais > F9/F4/F5 aprovadas > identidade própria F8 > títulos A/B > corroboração dupla.",
+    "Hierarquia: F1 > F2 originais > F9 > F4/F5 aprovadas > identidade própria F8 > títulos A/B > corroboração dupla.",
     "F2 approved_file_mappings associa arquivos físicos: nunca cria equivalência entre códigos.",
     "F3/F6/F7 não automática/F8 explícita exigem pelo menos duas fontes distintas por elo.",
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
@@ -164,6 +164,7 @@ class Consolidacao:
         self.official = {}
         self.excluded = set()
         self.finals = set()
+        self.f9_overrides = set()
         self.retired = set()
         self.decisions = defaultdict(list)
         self.owner_codes = defaultdict(set)
@@ -237,9 +238,13 @@ class Consolidacao:
         for i, decision in enumerate(ler_json("F9")["decisoes"], 1):
             action = decision["acao"]
             key = self.node(decision["codigo"], "F9", f"decisoes[{i}]")
+            self.f9_overrides.add(key)
+            self.finals.discard(key)
+            self.excluded.discard(key)
+            self.retired.discard(key)
             evidence = f"{decision.get('origem', 'usuario')}: {decision['evidencia']}"
             if action == "ligar":
-                self.edge(key, decision["para"], "F9", evidence, f"decisoes[{i}]", authority=4)
+                self.edge(key, decision["para"], "F9", evidence, f"decisoes[{i}]", authority=5)
             elif action in {"sem_sucessor", "nao_considerar", "retirado"}:
                 group = {"sem_sucessor": self.finals, "nao_considerar": self.excluded, "retirado": self.retired}[action]
                 group.add(key)
@@ -347,7 +352,7 @@ class Consolidacao:
                 self.scan(row.get(column), "F5", f"linha {line}, {column}")
             self.nodes[key]["pais"].update(str(row.get("Normas-pai onde aparece") or "").split(" | "))
             decision = str(row.get("Decisão") or "").strip().upper()
-            if decision == "LEGADO_FINAL_VALIDO":
+            if decision == "LEGADO_FINAL_VALIDO" and key not in self.f9_overrides:
                 self.finals.add(key)
                 self.decisions[key].append(f"F5 linha {line}: LEGADO_FINAL_VALIDO; {row.get('Comentários do usuário') or ''}")
             approved = decision == "APROVAR_CADEIA"
