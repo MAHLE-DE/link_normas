@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T17:26:06.736297+00:00",
+  "gerado_em": "2026-11-25T18:34:54.596260+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -21,6 +21,7 @@
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
     "F3 exige Old number e linha WNX correspondente; número com múltiplos prefixos é ambíguo.",
     "Sem linha WNX, Old number exato pode ser corroborado pelo prefixo no próprio documento ou frase explícita F8.",
+    "F8: declaração de substituição exige um único documento declarante; múltiplos declarantes geram aviso sem elo de identidade.",
     "Por orientação do usuário, BU é apenas rastreabilidade: código e cadeia independem do qualificador BU.",
     "Exclusões e legados finais aprovados impedem promoção por inferência; conflitos ficam em avisos.",
     "Sem similaridade numérica, sem herdar automaticamente sucessor da base para subpartes WNx.",
@@ -31,13 +32,13 @@
   ],
   "resumo": {
     "VIGENTE": 595,
-    "RESOLVIDO": 685,
+    "RESOLVIDO": 688,
     "RETIRADO": 171,
     "EXCLUIDO_DECISAO": 7,
-    "LEGADO_SEM_SUCESSOR": 140,
+    "LEGADO_SEM_SUCESSOR": 142,
     "CONFLITO": 5,
-    "NAO_CONFIRMADO": 360,
-    "DESCONHECIDO": 120
+    "NAO_CONFIRMADO": 359,
+    "DESCONHECIDO": 116
   },
   "codigos": {
     "------4005": {
@@ -47912,27 +47913,58 @@
       ]
     },
     "S-F-DN-0658": {
-      "status": "DESCONHECIDO",
-      "atual": "",
-      "cadeia": [],
+      "status": "LEGADO_SEM_SUCESSOR",
+      "atual": "S-F-PT-0658",
+      "cadeia": [
+        "S-F-DN-0658",
+        "S-F-PT-0658"
+      ],
       "formas_vistas": [
+        "S-F-DN-0658",
         "S-F-DN-0658-de",
         "S-F-DN-0658-en"
       ],
-      "elos": [],
+      "elos": [
+        {
+          "de": "S-F-DN-0658",
+          "para": "S-F-PT-0658",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents",
+              "local": "decisoes[32]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[32]: usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        }
+      ],
       "titulo": "",
       "status_bu2": "",
-      "observacao": "",
+      "observacao": "Estado final herdado da cadeia confirmada até S-F-PT-0658",
       "fontes": [
-        "F6"
+        "F6",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 223, Child Standard",
         "F6: Sheet1!linha 246, Child Standard",
         "F6: Sheet1!linha 786, Child Standard",
-        "F6: Sheet1!linha 860, Child Standard"
+        "F6: Sheet1!linha 860, Child Standard",
+        "F9: decisoes[32]"
       ],
       "normas_pai": [
         "DSGN-382",
@@ -47942,31 +47974,184 @@
       ],
       "base_legado": "",
       "qualificadores_bu": [],
-      "candidatos_propostos": [],
-      "indicios": [],
+      "candidatos_propostos": [
+        "S-F-PT-0658"
+      ],
+      "indicios": [
+        {
+          "de": "S-F-DN-0658",
+          "para": "S-F-PT-0658",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents",
+              "local": "decisoes[32]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[32]: usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        }
+      ],
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
     "S-F-DN-0660": {
-      "status": "DESCONHECIDO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-470",
+      "cadeia": [
+        "S-F-DN-0660",
+        "S-F-PT-0660",
+        "DSGN-470"
+      ],
       "formas_vistas": [
+        "S-F-DN-0660",
         "S-F-DN-0660-en"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "S-F-DN-0660",
+          "para": "S-F-PT-0660",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387",
+              "local": "decisoes[30]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[30]: usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-F-PT-0660",
+          "para": "DSGN-470",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 753",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 754",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 755",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 756",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 757",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 758",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 759",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[753]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-F-PT-0660-en",
+              "local": "edges[754]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 753: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 754: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 755: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 756: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 757: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 758: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 759: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F7 edges[753]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[754]: Cadastro Canônico V3: Previous Document No.: S-F-PT-0660-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Pleat pitch for cylindrical air filter elements",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
-        "F6"
+        "F6",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 247, Child Standard",
         "F6: Sheet1!linha 787, Child Standard",
-        "F6: Sheet1!linha 861, Child Standard"
+        "F6: Sheet1!linha 861, Child Standard",
+        "F9: decisoes[30]"
       ],
       "normas_pai": [
         "DSGN-388",
@@ -47975,32 +48160,129 @@
       ],
       "base_legado": "",
       "qualificadores_bu": [],
-      "candidatos_propostos": [],
-      "indicios": [],
+      "candidatos_propostos": [
+        "DSGN-470",
+        "S-F-PT-0660"
+      ],
+      "indicios": [
+        {
+          "de": "S-F-DN-0660",
+          "para": "S-F-PT-0660",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387",
+              "local": "decisoes[30]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[30]: usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        }
+      ],
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
     "S-F-DN-0664": {
-      "status": "DESCONHECIDO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-480",
+      "cadeia": [
+        "S-F-DN-0664",
+        "S-F-PT-0664",
+        "DSGN-480"
+      ],
       "formas_vistas": [
+        "S-F-DN-0664",
         "S-F-DN-0664-de",
         "S-F-DN-0664-en"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "S-F-DN-0664",
+          "para": "S-F-PT-0664",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)",
+              "local": "decisoes[31]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[31]: usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-F-PT-0664",
+          "para": "DSGN-480",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[755]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-F-PT-0664-de",
+              "local": "edges[756]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F7 edges[755]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[756]: Cadastro Canônico V3: Previous Document No.: S-F-PT-0664-de"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Faltenteilungen für Luftfilter (Nicht gültig für Neukonstruktionen!)",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
-        "F6"
+        "F6",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 248, Child Standard",
         "F6: Sheet1!linha 788, Child Standard",
-        "F6: Sheet1!linha 862, Child Standard"
+        "F6: Sheet1!linha 862, Child Standard",
+        "F9: decisoes[31]"
       ],
       "normas_pai": [
         "DSGN-388",
@@ -48009,8 +48291,34 @@
       ],
       "base_legado": "",
       "qualificadores_bu": [],
-      "candidatos_propostos": [],
-      "indicios": [],
+      "candidatos_propostos": [
+        "DSGN-480",
+        "S-F-PT-0664"
+      ],
+      "indicios": [
+        {
+          "de": "S-F-DN-0664",
+          "para": "S-F-PT-0664",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)",
+              "local": "decisoes[31]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[31]: usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        }
+      ],
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
@@ -89225,27 +89533,33 @@
       "ocorrencias_corpus": []
     },
     "S-F-PT-0658": {
-      "status": "DESCONHECIDO",
+      "status": "LEGADO_SEM_SUCESSOR",
       "atual": "",
       "cadeia": [],
       "formas_vistas": [
+        "S-F-PT-0658",
         "S-F-PT-0658-de",
         "S-F-PT-0658-en"
       ],
       "elos": [],
       "titulo": "",
       "status_bu2": "",
-      "observacao": "",
+      "observacao": "F9 sem_sucessor: usuario: Sem documento vigente no Valid-Documents; usuario: sai como legado",
       "fontes": [
-        "F6"
+        "F6",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 sem_sucessor: usuario: Sem documento vigente no Valid-Documents; usuario: sai como legado"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 229, Child Standard",
         "F6: Sheet1!linha 241, Child Standard",
         "F6: Sheet1!linha 542, Child Standard",
-        "F6: Sheet1!linha 756, Child Standard"
+        "F6: Sheet1!linha 756, Child Standard",
+        "F9: decisoes[32]",
+        "F9: decisoes[33]"
       ],
       "normas_pai": [
         "DSGN-382",
@@ -89376,7 +89690,8 @@
       "fontes": [
         "F1",
         "F6",
-        "F7"
+        "F7",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -89393,7 +89708,8 @@
         "F6: Sheet1!linha 759",
         "F7: edges[1369]",
         "F7: edges[753]",
-        "F7: edges[754]"
+        "F7: edges[754]",
+        "F9: decisoes[30]"
       ],
       "normas_pai": [
         "DSGN-388",
@@ -89565,7 +89881,8 @@
       "fontes": [
         "F1",
         "F6",
-        "F7"
+        "F7",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -89575,7 +89892,8 @@
         "F6: Sheet1!linha 529, Child Standard",
         "F7: edges[1370]",
         "F7: edges[755]",
-        "F7: edges[756]"
+        "F7: edges[756]",
+        "F9: decisoes[31]"
       ],
       "normas_pai": [
         "DSGN-388",
@@ -90227,7 +90545,8 @@
         "F5",
         "F6",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -90267,7 +90586,8 @@
         "F8: candidatos.tsv: página 3, linha 7, texto",
         "F8: candidatos.tsv: página 4, linha 7, texto",
         "F8: candidatos.tsv: página 5, linha 7, texto",
-        "F8: candidatos.tsv: página 6, linha 7, texto"
+        "F8: candidatos.tsv: página 6, linha 7, texto",
+        "F9: decisoes[29]"
       ],
       "normas_pai": [
         "DSGN-400",
@@ -163777,27 +164097,243 @@
       ]
     },
     "WNA 684": {
-      "status": "NAO_CONFIRMADO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-427",
+      "cadeia": [
+        "WNA 684",
+        "S-F-PT-0684",
+        "DSGN-427"
+      ],
       "formas_vistas": [
         "WNA 684"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "WNA 684",
+          "para": "S-F-PT-0684",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F5",
+              "texto": "POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: ",
+              "local": "linha 21",
+              "autoridade": 0,
+              "elegivel_corroboração": false
+            },
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario",
+              "local": "decisoes[29]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F5",
+            "F9"
+          ],
+          "evidencias": [
+            "F5 linha 21: POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: ",
+            "F9 decisoes[29]: usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-F-PT-0684",
+          "para": "DSGN-427",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 558",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 559",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 560",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 561",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 562",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 563",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 564",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 565",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 566",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 567",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 568",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 569",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 570",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 571",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 572",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 573",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 574",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[761]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-F-PT-0684-en",
+              "local": "edges[762]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 558: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 559: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 560: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 561: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 562: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 563: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 564: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 565: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 566: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 567: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 568: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 569: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 570: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 571: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 572: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 573: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 574: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F7 edges[761]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[762]: Cadastro Canônico V3: Previous Document No.: S-F-PT-0684-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Pleat depth and -tolerances for filter elements – overview",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
         "F5",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F5: Lista_unica_legados!linha 21",
         "F5: linha 21",
         "F8: DSGN-427.txt: página 6, L043",
-        "F8: candidatos.tsv: página 6, linha 43, texto"
+        "F8: candidatos.tsv: página 6, linha 43, texto",
+        "F9: decisoes[29]"
       ],
       "normas_pai": [
         "DSGN-354",
@@ -163822,17 +164358,26 @@
               "local": "linha 21",
               "autoridade": 0,
               "elegivel_corroboração": false
+            },
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario",
+              "local": "decisoes[29]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
             }
           ],
           "fontes": [
-            "F5"
+            "F5",
+            "F9"
           ],
           "evidencias": [
-            "F5 linha 21: POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: "
+            "F5 linha 21: POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: ",
+            "F9 decisoes[29]: usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario"
           ],
-          "confianca": 0.0,
-          "confirmado": false,
-          "autoridade": 0
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,

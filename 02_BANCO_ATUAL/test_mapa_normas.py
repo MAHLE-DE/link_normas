@@ -122,6 +122,37 @@ def test_uma_fonte_e_automatica_nao_confirmam():
     assert b.classificar()["WNA 1"]["status"] == "NAO_CONFIRMADO"
 
 
+@pytest.mark.parametrize("multiple", [False, True])
+def test_substituicao_exige_unico_declarante(multiple):
+    b = mini()
+    b.owner_codes["MATL-1"].add("MATL-1")
+    b.owner_codes["MATL-2"].add("MATL-2")
+    b.analisar_texto("MATL-1", "one.pdf", [(1, "This standard replaces WNA 999991.")])
+    b.analisar_texto("MATL-1", "same-owner.docx", [(1, "This standard replaces WNA 999991.")])
+    if multiple:
+        b.analisar_texto("MATL-2", "two.pdf", [(1, "Replaces WNA 999991.")])
+    b.confirmar_substituicoes()
+    if multiple:
+        assert not any(a == "WNA 999991" for a, _ in b.edges)
+        assert b.classificar()["WNA 999991"]["status"] != "CONFLITO"
+        assert any("Substituição múltipla" in w["aviso"] and "MATL-1, MATL-2" in w["aviso"] for w in b.warnings)
+    else:
+        assert b.classificar()["WNA 999991"]["atual"] == "MATL-1"
+
+
+@pytest.mark.parametrize("raw,status,current", [
+    ("WNA 684", "RESOLVIDO", "DSGN-427"),
+    ("S-F-DN-0660", "RESOLVIDO", "DSGN-470"),
+    ("S-F-DN-0664", "RESOLVIDO", "DSGN-480"),
+    ("S-F-DN-0658", "LEGADO_SEM_SUCESSOR", "S-F-PT-0658"),
+    ("S-F-PT-0658", "LEGADO_SEM_SUCESSOR", "S-F-PT-0658"),
+])
+def test_decisoes_t15(raw, status, current):
+    entry = resolver(raw)
+    assert entry["status"] == status
+    assert (entry["atual"] or raw) == current
+
+
 def test_duas_fontes_independentes_confirmam():
     b = mini()
     b.edge("WNA 1", "MATL-1", "F3", "Old number e linha WNX")

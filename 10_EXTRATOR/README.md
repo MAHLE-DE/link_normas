@@ -7,6 +7,13 @@ O arquivo XLSX tem `Correlacoes`, `Descartes`, `Ignorados`, `Avisos` e, com gaba
 `Avaliacao`.
 Um JSON irmão contém os mesmos registros e métricas.
 
+Listas imediatamente regidas por verbos ativos de substituição (`replaces`,
+`supersedes`, `ersetzt`, `Ersatz für` etc.) são históricas até o fim da frase
+ou da entrada. Formas passivas preservam o código sucessor. No mapa, uma
+substituição só cria identidade quando há um único documento declarante;
+múltiplos declarantes ficam em Avisos. Legados sem sucessor com cadeia usam
+o destino final, tanto na extração quanto na avaliação, para deduplicar aliases.
+
 Sem manifesto, a identidade prioriza o arquivo do cadastro Valid-Documents,
 depois identifica variantes não operacionais, consulta associações aprovadas
 de arquivo e, por fim, a capa. `Avisos` informa associações aprovadas que

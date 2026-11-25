@@ -110,6 +110,46 @@ def test_sufixo_sem_idioma_nao_inventa_parte():
     assert extractor.lookup("S-G-ML-4100-02", {})[2] == "S-G-ML-4100-02"
 
 
+@pytest.mark.parametrize("verb", ["replaces", "replace", "replaced", "supersedes", "supersede", "superseded", "ersetzt", "Ersatz für", "substitutes", "in place of"])
+def test_substituicao_ativa_lista_limitada(verb, extract):
+    text = f"This standard {verb} S-F-DN-0658-de, S- F-PT-6542-en. Testing acc. to ISO 9001."
+    accepted, discarded, _ = extract(text)
+    assert {r["citada"] for r in accepted} == {"ISO 9001"}
+    assert len([r for r in discarded if r["motivo"] == "historica"]) == 2
+
+
+@pytest.mark.parametrize("text", [
+    "Replaces ISO 9001. ISO 14001 is required.",
+    "Replaces ISO 9001\n• ISO 14001 is required.",
+    "Replaces ISO 9001\nISO 14001 is required.",
+    "Replaces ISO 9001 and requires ISO 14001.",
+    "ISO 9001 is replaced by ISO 14001.",
+    "ISO 9001 wird ersetzt durch ISO 14001.",
+])
+def test_substituicao_nao_contamina_codigo_nao_regido(text, extract):
+    accepted, discarded, _ = extract(text)
+    assert {r["citada"] for r in accepted} == {"ISO 14001"}
+    assert any(r["citada"] == "ISO 9001" and r["motivo"] == "historica" for r in discarded)
+
+
+def test_substituicao_lista_quebrada_multiplas_linhas(extract):
+    accepted, discarded, _ = extract("Replaces S-F-DN-0658-de,\nS-\nF-PT-6542-en,\nISO 9001. ISO 14001 required.")
+    assert {r["citada"] for r in accepted} == {"ISO 14001"}
+    assert len([r for r in discarded if r["motivo"] == "historica"]) == 3
+
+
+def test_legado_final_com_cadeia_colapsa_e_avaliador_usa_mesma_regra():
+    mapa = {"WNA 6008": {"status": "LEGADO_SEM_SUCESSOR", "atual": "S-G-MA-6008"}}
+    assert extractor.lookup("WNA 6008", mapa)[0] == "S-G-MA-6008"
+    assert extractor.canonicalizar_esperado("WNA 6008", mapa, {}) == ["S-G-MA-6008"]
+
+
+@pytest.mark.parametrize("text", ["This standard does not replace ISO 9001.", "This is not a substitute for Engineering standard ISO 9001."])
+def test_substituicao_negada_nao_e_historica(text, extract):
+    accepted, discarded, _ = extract(text)
+    assert {r["citada"] for r in accepted} == {"ISO 9001"}
+
+
 def test_clausula_decimal_nao_trunca_outros_prefixos():
     assert [c.raw for c in extractor.candidatos("VDI 1234-2.3")] == ["VDI 1234-2"]
 
@@ -241,7 +281,7 @@ def test_excecoes_processo_e_status_desconhecido(extract):
     assert next(r for r in accepted if r["citada"] == "WNA 123456")["status_mapa"] == "DESCONHECIDO"
 
 
-@pytest.mark.parametrize("status", ["LEGADO_SEM_SUCESSOR", "NAO_CONFIRMADO", "CONFLITO", "DESCONHECIDO"])
+@pytest.mark.parametrize("status", ["NAO_CONFIRMADO", "CONFLITO", "DESCONHECIDO"])
 def test_status_pendente_preserva_codigo_citado(status):
     assert extractor.lookup("WNA0503", {"WNA 503": {"status": status, "atual": "MATL-2"}}) == ("WNA 503", status, "WNA 503")
 

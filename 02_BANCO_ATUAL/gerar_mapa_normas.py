@@ -51,6 +51,7 @@ REGRAS = [
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
     "F3 exige Old number e linha WNX correspondente; número com múltiplos prefixos é ambíguo.",
     "Sem linha WNX, Old number exato pode ser corroborado pelo prefixo no próprio documento ou frase explícita F8.",
+    "F8: declaração de substituição exige um único documento declarante; múltiplos declarantes geram aviso sem elo de identidade.",
     "Por orientação do usuário, BU é apenas rastreabilidade: código e cadeia independem do qualificador BU.",
     "Exclusões e legados finais aprovados impedem promoção por inferência; conflitos ficam em avisos.",
     "Sem similaridade numérica, sem herdar automaticamente sucessor da base para subpartes WNx.",
@@ -106,6 +107,15 @@ def codigos(text):
 
 def ler_json(source):
     return json.loads((ROOT / FONTES[source]).read_text(encoding="utf-8"))
+
+
+@lru_cache(maxsize=1)
+def leitor_extrator():
+    spec = importlib.util.spec_from_file_location("extrator_f8_base", ROOT / "10_EXTRATOR/extrator_normas.py")
+    extractor = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = extractor
+    spec.loader.exec_module(extractor)
+    return extractor
 
 
 def normalizar_titulo(title):
@@ -179,6 +189,7 @@ class Consolidacao:
         self.title_comparisons = defaultdict(list)
         self.warnings = []
         self.corpus = defaultdict(set)
+        self.replacement_claims = defaultdict(list)
 
     def aviso(self, source, location, text):
         self.warnings.append({"fonte": source, "local": str(location), "aviso": text})
@@ -422,6 +433,18 @@ class Consolidacao:
 
     def analisar_texto(self, parent, filename, text_lines, corpus=False):
         owned = self.owner_codes[normalizar(parent)]
+        extractor = leitor_extrator()
+        for page in sorted({p for p, _ in text_lines}):
+            page_text = "\n".join(t for p, t in text_lines if p == page)
+            for start, end, verb_start in extractor.substituicoes_ativas(page_text):
+                # Só a declaração do próprio documento tem autoridade.
+                sentence = re.split(r"[.!?\n]", page_text[:verb_start])[-1]
+                subjects = codigos(sentence)
+                if subjects and subjects[-1][1] not in owned:
+                    continue
+                self.replacement_claims[normalizar(page_text[start:end])].append({
+                    "parent": normalizar(parent), "texto": page_text[max(0, verb_start - 60):end],
+                    "local": f"{filename}: página {page}"})
         for page, text in text_lines:
             if not corpus:
                 self.scan(text, "F8", f"{filename}: página {page}", parent)
@@ -463,7 +486,7 @@ class Consolidacao:
                     self.edge(raw, parent, "F8", "Capa do próprio documento: " + context, location, authority=3)
                 continue
             # X (former Y), ou X formerly Y: destino é X, jamais a norma-pai.
-            former = re.search(r"(?:\b(?:formerly|former|previously|ehemals|statt|vormals)\b|\balt:)", context, re.I)
+            former = re.search(r"(?:\b(?:formerly|former|previously|ehemals|statt|vormals|instead of)\b|\balt:)", context, re.I)
             replaced = re.search(r"\b(?:replaces|ersetzt|Ersatz für|instead of)\b", context, re.I)
             pairs = []
             if re.search(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, re.I):
@@ -476,23 +499,22 @@ class Consolidacao:
                 if before and after:
                     pairs.append((after[0][0], before[-1][0]))
             elif replaced:
-                before, after = codigos(context[:replaced.start()]), codigos(context[replaced.end():])
-                target = before[-1][0] if before else parent if re.search(r"(?:this|diese[rs]?)\s+(?:company\s+)?(?:standard|norm)", context[:replaced.start()], re.I) else None
-                if target:
-                    pairs.extend((raw, target) for raw, _ in after)
+                # Listas ativas são analisadas por página e confirmadas somente
+                # depois de conhecer todos os documentos declarantes.
+                continue
             for before, after in pairs:
-                self.edge(before, after, "F8", context, location,
-                          authority=3 if normalizar(after) in owned else 0)
+                if re.search(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, re.I) and normalizar(after) in owned:
+                    self.replacement_claims[normalizar(before)].append({"parent": normalizar(parent), "texto": context, "local": location})
+                else:
+                    self.edge(before, after, "F8", context, location,
+                              authority=3 if normalizar(after) in owned else 0)
             if not pairs and codigos(context):
                 self.aviso("F8", location, "Frase de identidade sem direção segura; sem elo: " + context)
 
     def base_fonte(self, folder, cache=None):
         # Importação tardia: o extrator importa apenas a normalização deste
         # módulo; nenhuma geração é executada durante a importação.
-        spec = importlib.util.spec_from_file_location("extrator_f8_base", ROOT / "10_EXTRATOR/extrator_normas.py")
-        extractor = importlib.util.module_from_spec(spec)
-        sys.modules[spec.name] = extractor
-        spec.loader.exec_module(extractor)
+        extractor = leitor_extrator()
         cadastro, excecoes = ler_json("F1"), ler_json("F2")
         previous_warnings = list(self.warnings)
         identity_map = self.classificar()
@@ -532,6 +554,15 @@ class Consolidacao:
                 # Sem caminhos absolutos do ambiente nas saídas versionáveis.
                 self.aviso("F8", location, f"Arquivo não utilizado: {type(error).__name__}")
         return result
+
+    def confirmar_substituicoes(self):
+        for code, claims in sorted(self.replacement_claims.items()):
+            owners = sorted({c["parent"] for c in claims})
+            if len(owners) > 1:
+                self.aviso("F8", code, "Substituição múltipla; sem elo de identidade: " + ", ".join(owners))
+                continue
+            for claim in claims:
+                self.edge(code, owners[0], "F8", claim["texto"], claim["local"], authority=3)
 
     def corroborar_old_number(self):
         for target, number, qualifier, line in self.bu2_old_numbers:
@@ -768,6 +799,7 @@ def gerar(base_documentos=None, cache=None):
     builder.corpus_fonte()
     base_summary = builder.base_fonte(Path(base_documentos), Path(cache) if cache else None) if base_documentos else {
         "usada": False, "arquivos_encontrados": 0, "documentos_lidos": 0, "arquivos_com_erro": 0}
+    builder.confirmar_substituicoes()
     builder.corroborar_old_number()
     builder.confirmar_titulos()
     entries = builder.classificar()

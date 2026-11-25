@@ -7,6 +7,7 @@ import json
 import re
 import sys
 import time
+from functools import lru_cache
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -73,7 +74,8 @@ TERMS_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:Begriffe|terms?(?:\s*[/&]\s*defin
 KEYWORDS_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:Schlüsselwörter|keywords?)\s*[:.]?$", re.I)
 REQ = re.compile(r"\b(?:must|shall|comply|compliance|conform|requirement|prohibited|banned|declar(?:ation|e|ed)\b|according|acc\.|material restrictions?|restricted substances?)", re.I)
 HIST_BEFORE = re.compile(r"\b(?:old standard|previous standard|former standard|alte Norm|frühere Norm|Vorgängernorm|former|formerly|old|statt|instead of|vormals|ehemals)\s*[:( -]*$", re.I)
-HIST_AFTER = re.compile(r"^\s*(?:is\s+substituted\s+by|was\s+replaced\s+by|wird\s+ersetzt\s+durch|abgelöst\s+durch|changed\s+to)\b", re.I)
+HIST_AFTER = re.compile(r"^\s*(?:is\s+substituted\s+by|(?:is|was)\s+replaced\s+by|wird\s+ersetzt\s+durch|abgelöst\s+durch|changed\s+to)\b", re.I)
+ACTIVE_REPLACEMENT = re.compile(r"\b(?:replaces?|replaced|supersedes?|superseded|ersetzt|Ersatz\s+für|substitutes?|in\s+place\s+of)\b(?!\s+(?:by|durch)\b)", re.I)
 ABBREVIATION = re.compile(r"international material data system|registration.{0,20}evaluation|global automotive declarable substance|restriction of hazardous substances|end.of.life vehicles", re.I)
 EXPLICIT_PROCESS_EXCEPTIONS = {"W-B-0718"}
 TYPO_CORRECTIONS = {"DIN 228": "EN 228", "ISO 1115": "ISO 11155"}
@@ -263,6 +265,33 @@ def secoes(lines, previous="Corpo"):
     return labels, current
 
 
+@lru_cache(maxsize=64)
+def substituicoes_ativas(text):
+    """Intervalos de códigos da lista imediatamente regida pelo verbo ativo."""
+    matches = candidatos(text)
+    governed = []
+    for verb in ACTIVE_REPLACEMENT.finditer(text):
+        if re.search(r"\b(?:not|never|nicht)\s*$", text[max(0, verb.start() - 35):verb.start()], re.I):
+            continue
+        end = verb.end()
+        first = True
+        for candidate in matches:
+            if candidate.start < end:
+                continue
+            gap = text[end:candidate.start]
+            allowed = (r"\s*(?:(?:the\s+)?(?:following\s+)?(?:standards?|documents?|norms?|Normen)\s*)?[:\s]*"
+                       if first else r"[\s,;/]*(?:(?:and|und|or|oder)\s*)?")
+            if not re.fullmatch(allowed, gap, re.I):
+                break
+            # Sem pontuação de continuação, outra linha é nova entrada.
+            if not first and "\n" in gap and not re.search(r"[,;/]|\b(?:and|und|or|oder)\b", gap, re.I):
+                break
+            governed.append((candidate.start, candidate.end, verb.start()))
+            end = candidate.end
+            first = False
+    return tuple(governed)
+
+
 def lookup(raw, mapa):
     raw = re.sub(r"([SG]-[A-Z]-[A-Z]{2})\.(?=\d{4})", r"\1-", clean(raw), flags=re.I)
     # Legado escrito em grupos: "WNF 10 20 08" -> WNF 102008.
@@ -271,7 +300,7 @@ def lookup(raw, mapa):
     raw = re.sub(r"^([SG]-[A-Z]-[A-Z]{2}-\d{4})-(\d{2})(?=-(?:EN|DE|FR|ES|PT|IT|ZH)$)", r"\1-P\2", raw, flags=re.I)
     key = normalizar_interna(re.sub(r"\s*-\s*", "-", raw))
     entry = mapa.get(key, {"status": "DESCONHECIDO", "atual": ""})
-    output = entry["atual"] if entry["status"] in {"VIGENTE", "RESOLVIDO"} else key
+    output = entry["atual"] if entry["status"] in {"VIGENTE", "RESOLVIDO", "LEGADO_SEM_SUCESSOR"} and entry.get("atual") else key
     return output, entry["status"], key
 
 
@@ -358,7 +387,9 @@ def motivo(candidate, canonical, status, key, parent, own, joined, lines, starts
         return "autorreferencia", section, context
     if section == "Keywords":
         return "autorreferencia" if candidate.kind == "interna" and key.startswith("WN") else "falso_positivo", section, context
-    if section == "Historico" or HIST_BEFORE.search(before) or HIST_AFTER.search(after):
+    active_history = any(start == candidate.start and end == candidate.end
+                         for start, end, _ in substituicoes_ativas("\n".join(lines)))
+    if section == "Historico" or HIST_BEFORE.search(before) or HIST_AFTER.search(after) or active_history:
         return "historica", section, context
     if re.search(r"\[\s*WITHDRAWN\s*\]|\bNOT IN USE\b", entry_text, re.I):
         return "marcada_retirada", section, entry_text
