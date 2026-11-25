@@ -27,7 +27,7 @@ de executar `03` sobre o banco completo.
 | --- | --- |
 | `00_instalar_dependencias.bat` | Instala PyMuPDF, python-docx, openpyxl e pytest no Python de `py -3`. |
 | `01_gerar_mapa.bat` | Gera `02_BANCO_ATUAL/mapa_normas_v1.json` e `mapa_normas_v1_revisao.xlsx`. Na primeira execução, cria o dump do corpus se ele faltar; essa etapa pode demorar. |
-| `02_validar_40_normas.bat` | Imprime precisão/recall/F1 e gera `saida/resultado_40.xlsx` e `.json`. A referência atual é 100%/100%, com 558 pares. |
+| `02_validar_40_normas.bat` | Imprime precisão/recall/F1 e gera `saida/resultado_40.xlsx` e `.json`. A referência atual é 100%/100%, com 551 pares após as decisões F9. |
 | `03_extrair_05_DOCUMENTS.bat` | Percorre `05_DOCUMENTS/` e todas as subpastas; gera `saida/resultado_05_DOCUMENTS.xlsx` e `.json`. Se a pasta faltar, mostra uma orientação e encerra. |
 | `04_rodar_testes.bat` | Executa pytest em `02_BANCO_ATUAL/` e `10_EXTRATOR/`. |
 
@@ -106,8 +106,9 @@ aceita, descartada ou a entrada do gabarito quando não houve candidato.
 
 A regressão executa os 40 PDFs e exige precisão e recall de 100% contra o
 gabarito **1.1**, recebido do orquestrador e copiado sem edição. Ele contém
-576 inclusões brutas; após mapa, filtros de estado e deduplicação, são 558
-pares. O teste não usa o gabarito para orientar a extração.
+576 inclusões brutas; após mapa, filtros de estado e deduplicação, são 551
+pares com as decisões F9 atuais. Esse total depende do mapa vigente.
+O teste não usa o gabarito para orientar a extração.
 
 Não executa OCR nem `find_tables`. PDF sem texto extraível precisa de OCR
 prévio. DOCX usa a página lógica 1, sem reproduzir a paginação do Word.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T13:48:29.733020+00:00",
+  "gerado_em": "2026-11-25T14:48:19.016001+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -31,13 +31,13 @@
   ],
   "resumo": {
     "VIGENTE": 595,
-    "RESOLVIDO": 682,
+    "RESOLVIDO": 684,
     "RETIRADO": 171,
-    "EXCLUIDO_DECISAO": 3,
+    "EXCLUIDO_DECISAO": 7,
     "LEGADO_SEM_SUCESSOR": 141,
     "CONFLITO": 5,
-    "NAO_CONFIRMADO": 363,
-    "DESCONHECIDO": 123
+    "NAO_CONFIRMADO": 360,
+    "DESCONHECIDO": 120
   },
   "codigos": {
     "------4005": {
@@ -12735,20 +12735,130 @@
       "ocorrencias_corpus": []
     },
     "G-G-DN-5060": {
-      "status": "DESCONHECIDO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "MEAS-509",
+      "cadeia": [
+        "G-G-DN-5060",
+        "G-G-ME-5060",
+        "MEAS-509"
+      ],
       "formas_vistas": [
         "G-G-DN-5060"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "G-G-DN-5060",
+          "para": "G-G-ME-5060",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'",
+              "local": "decisoes[23]",
+              "autoridade": 4,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[23]: usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 4
+        },
+        {
+          "de": "G-G-ME-5060",
+          "para": "MEAS-509",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "language_variants.file_name",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=G-G-ME-5060-en; Parent Standard=MEAS-509",
+              "local": "Sheet1!linha 1366",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=G-G-ME-5060-en; Parent Standard=MEAS-509",
+              "local": "Sheet1!linha 1367",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=G-G-ME-5060-en; Parent Standard=MEAS-509",
+              "local": "Sheet1!linha 1368",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[56]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[57]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: G-G-ME-5060-en",
+              "local": "edges[58]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : language_variants.file_name",
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 1366: Parent Old name=G-G-ME-5060-en; Parent Standard=MEAS-509",
+            "F6 Sheet1!linha 1367: Parent Old name=G-G-ME-5060-en; Parent Standard=MEAS-509",
+            "F6 Sheet1!linha 1368: Parent Old name=G-G-ME-5060-en; Parent Standard=MEAS-509",
+            "F7 edges[56]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[57]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[58]: Cadastro Canônico V3: Previous Document No.: G-G-ME-5060-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Measuring instructions for plastic bearings with envelope condition instructions for bearing",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'"
+      ],
       "comparacoes_titulo": [
         {
           "regra": "B",
@@ -12763,15 +12873,42 @@
       ],
       "onde_aparece": [
         "F8: DSGN-348.txt: página 11, L026",
-        "F8: candidatos.tsv: página 11, linha 26, texto"
+        "F8: candidatos.tsv: página 11, linha 26, texto",
+        "F9: decisoes[23]"
       ],
       "normas_pai": [
         "DSGN-348"
       ],
       "base_legado": "",
       "qualificadores_bu": [],
-      "candidatos_propostos": [],
-      "indicios": [],
+      "candidatos_propostos": [
+        "G-G-ME-5060",
+        "MEAS-509"
+      ],
+      "indicios": [
+        {
+          "de": "G-G-DN-5060",
+          "para": "G-G-ME-5060",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'",
+              "local": "decisoes[23]",
+              "autoridade": 4,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[23]: usuario: Erro de digitacao: DSGN-348 repete o bloco 'Cylinder with envelope requirement: G-G-ME-5060' 6x e 1x 'G-G-DN-5060' (p11); G-G-ME-5060 = previous de MEAS-509 'Measuring instructions for plastic bearings with envelope condition'"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 4
+        }
+      ],
       "citado_no_corpus": true,
       "ocorrencias_corpus": [
         "DSGN-348 | DSGN-348.txt: página 11, L026",
@@ -13479,7 +13616,8 @@
         "F5",
         "F6",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [
@@ -13521,7 +13659,8 @@
         "F8: candidatos.tsv: página 20, linha 49, texto",
         "F8: candidatos.tsv: página 39, linha 41, texto",
         "F8: candidatos.tsv: página 6, linha 60, texto",
-        "F8: candidatos.tsv: página 8, linha 84, texto"
+        "F8: candidatos.tsv: página 8, linha 84, texto",
+        "F9: decisoes[23]"
       ],
       "normas_pai": [
         "DSGN-348",
@@ -16624,7 +16763,7 @@
       ]
     },
     "G-G-TG-4008": {
-      "status": "DESCONHECIDO",
+      "status": "EXCLUIDO_DECISAO",
       "atual": "",
       "cadeia": [],
       "formas_vistas": [
@@ -16634,12 +16773,15 @@
       "elos": [],
       "titulo": "",
       "status_bu2": "",
-      "observacao": "",
+      "observacao": "F9 nao_considerar: usuario: 'Guideline for design and build of fixtures' (MEAS-592), distinto de S-G-TG-4008 'Shaker Test' (MEAS-587 p157); sem documento correspondente no Valid-Documents; usuario: desconsiderar",
       "fontes": [
         "F6",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 nao_considerar: usuario: 'Guideline for design and build of fixtures' (MEAS-592), distinto de S-G-TG-4008 'Shaker Test' (MEAS-587 p157); sem documento correspondente no Valid-Documents; usuario: desconsiderar"
+      ],
       "comparacoes_titulo": [
         {
           "regra": "B",
@@ -16658,7 +16800,8 @@
         "F8: MEAS-592.txt: página 3, L031",
         "F8: MEAS-592.txt: página 3, L062",
         "F8: candidatos.tsv: página 3, linha 31, texto",
-        "F8: candidatos.tsv: página 3, linha 62, texto"
+        "F8: candidatos.tsv: página 3, linha 62, texto",
+        "F9: decisoes[24]"
       ],
       "normas_pai": [
         "MEAS-592",
@@ -78027,7 +78170,7 @@
       "ocorrencias_corpus": []
     },
     "S-F-ML-2820": {
-      "status": "DESCONHECIDO",
+      "status": "EXCLUIDO_DECISAO",
       "atual": "",
       "cadeia": [],
       "formas_vistas": [
@@ -78036,12 +78179,15 @@
       "elos": [],
       "titulo": "",
       "status_bu2": "",
-      "observacao": "",
+      "observacao": "F9 nao_considerar: usuario: Norma geral de ensaio de espuma (former WNF 102820, withdrawn no BU2); Valid-Documents so tem as especificacoes por material; usuario: desconsiderar",
       "fontes": [
         "F6",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 nao_considerar: usuario: Norma geral de ensaio de espuma (former WNF 102820, withdrawn no BU2); Valid-Documents so tem as especificacoes por material; usuario: desconsiderar"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 1640, Child Standard",
@@ -78069,7 +78215,8 @@
         "F8: candidatos.tsv: página 2, linha 3, texto",
         "F8: candidatos.tsv: página 3, linha 3, texto",
         "F8: candidatos.tsv: página 4, linha 26, texto",
-        "F8: candidatos.tsv: página 4, linha 3, texto"
+        "F8: candidatos.tsv: página 4, linha 3, texto",
+        "F9: decisoes[27]"
       ],
       "normas_pai": [
         "MATL-661",
@@ -118331,7 +118478,8 @@
         "F1",
         "F3",
         "F6",
-        "F7"
+        "F7",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -118344,7 +118492,8 @@
         "F6: Sheet1!linha 669",
         "F7: edges[1074]",
         "F7: edges[1075]",
-        "F7: edges[1076]"
+        "F7: edges[1076]",
+        "F9: decisoes[22]"
       ],
       "normas_pai": [
         "DSGN-369",
@@ -144570,7 +144719,7 @@
       "ocorrencias_corpus": []
     },
     "WNA 2125": {
-      "status": "NAO_CONFIRMADO",
+      "status": "EXCLUIDO_DECISAO",
       "atual": "",
       "cadeia": [],
       "formas_vistas": [
@@ -144579,13 +144728,16 @@
       "elos": [],
       "titulo": "Bestimmung der Z-Festigkeit bei Laminaten /\nTesting tensile strength (“Z-Strength”) of laminates",
       "status_bu2": "released",
-      "observacao": "",
+      "observacao": "F9 nao_considerar: usuario: BU2 'Testing tensile strength (Z-Strength) of laminates'; sem correspondente no Valid-Documents; usuario: desconsiderar",
       "fontes": [
         "F3",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 nao_considerar: usuario: BU2 'Testing tensile strength (Z-Strength) of laminates'; sem correspondente no Valid-Documents; usuario: desconsiderar"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F3: Werknormen!linha 152",
@@ -144599,7 +144751,8 @@
         "F8: candidatos.tsv: página 3, linha 181, texto",
         "F8: candidatos.tsv: página 3, linha 184, texto",
         "F8: candidatos.tsv: página 3, linha 186, texto",
-        "F8: candidatos.tsv: página 3, linha 32, tabela"
+        "F8: candidatos.tsv: página 3, linha 32, tabela",
+        "F9: decisoes[25]"
       ],
       "normas_pai": [
         "MATL-855"
@@ -144607,7 +144760,6 @@
       "base_legado": "WNA 2125",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MATL-855",
         "S-F-ML-2323"
       ],
       "indicios": [
@@ -153782,7 +153934,7 @@
       "ocorrencias_corpus": []
     },
     "WNA 5034": {
-      "status": "NAO_CONFIRMADO",
+      "status": "EXCLUIDO_DECISAO",
       "atual": "",
       "cadeia": [],
       "formas_vistas": [
@@ -153791,13 +153943,16 @@
       "elos": [],
       "titulo": "",
       "status_bu2": "number reserved",
-      "observacao": "numero reservado/rascunho sem vigencia confirmada",
+      "observacao": "F9 nao_considerar: usuario: BU2 'number reserved' ('weld bead design standard' em MNFG-506); nunca publicada; usuario: desconsiderar",
       "fontes": [
         "F3",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 nao_considerar: usuario: BU2 'number reserved' ('weld bead design standard' em MNFG-506); nunca publicada; usuario: desconsiderar"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F3: Werknormen!linha 298",
@@ -153805,7 +153960,8 @@
         "F8: MNFG-506.txt: página 11, L049",
         "F8: MNFG-506.txt: página 11, L057",
         "F8: candidatos.tsv: página 11, linha 49, texto",
-        "F8: candidatos.tsv: página 11, linha 57, texto"
+        "F8: candidatos.tsv: página 11, linha 57, texto",
+        "F9: decisoes[26]"
       ],
       "normas_pai": [
         "MNFG-506"
@@ -153813,7 +153969,6 @@
       "base_legado": "WNA 5034",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MNFG-506",
         "S-G-MA-6009"
       ],
       "indicios": [
@@ -154391,28 +154546,115 @@
       ]
     },
     "WNA 505": {
-      "status": "NAO_CONFIRMADO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-442",
+      "cadeia": [
+        "WNA 505",
+        "S-G-PT-0505",
+        "DSGN-442"
+      ],
       "formas_vistas": [
         "WNA 505"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "WNA 505",
+          "para": "S-G-PT-0505",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'",
+              "local": "decisoes[22]",
+              "autoridade": 4,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[22]: usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 4
+        },
+        {
+          "de": "S-G-PT-0505",
+          "para": "DSGN-442",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-PT-0505-en; Parent Standard=DSGN-442",
+              "local": "Sheet1!linha 669",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[1074]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[1075]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-G-PT-0505-en",
+              "local": "edges[1076]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 669: Parent Old name=S-G-PT-0505-en; Parent Standard=DSGN-442",
+            "F7 edges[1074]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[1075]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[1076]: Cadastro Canônico V3: Previous Document No.: S-G-PT-0505-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Overhang for warm embedded threaded bushings– Mounting instruction -- Quality requirement",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F7: edges[1315]",
         "F8: MNFG-472.txt: página 16, L036",
         "F8: MNFG-472.txt: página 16, L052",
         "F8: candidatos.tsv: página 16, linha 36, texto",
-        "F8: candidatos.tsv: página 16, linha 52, texto"
+        "F8: candidatos.tsv: página 16, linha 52, texto",
+        "F9: decisoes[22]"
       ],
       "normas_pai": [
         "MNFG-472"
@@ -154420,8 +154662,9 @@
       "base_legado": "WNA 505",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MNFG-472",
-        "S-G-MA-6011"
+        "DSGN-442",
+        "S-G-MA-6011",
+        "S-G-PT-0505"
       ],
       "indicios": [
         {
@@ -154445,6 +154688,28 @@
           "confianca": 0.0,
           "confirmado": false,
           "autoridade": 0
+        },
+        {
+          "de": "WNA 505",
+          "para": "S-G-PT-0505",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'",
+              "local": "decisoes[22]",
+              "autoridade": 4,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[22]: usuario: Usuario: WNA505 -> S-G-PT-0505-en -> DSGN-442 ('Overhang for warm embedded threaded bushings'); MNFG-472 'Nut height ... (according WNA 505 - m)'"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 4
         }
       ],
       "citado_no_corpus": true,
@@ -185777,6 +186042,11 @@
     },
     {
       "fonte": "CONFLITO",
+      "local": "WNA 505",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-G-MA-6011 (F7)"
+    },
+    {
+      "fonte": "CONFLITO",
       "local": "WNA 506",
       "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-G-PT-0506 (F7)"
     },
@@ -186003,11 +186273,6 @@
     {
       "fonte": "F3",
       "local": "WNA 5019",
-      "aviso": "numero reservado/rascunho sem vigencia confirmada"
-    },
-    {
-      "fonte": "F3",
-      "local": "WNA 5034",
       "aviso": "numero reservado/rascunho sem vigencia confirmada"
     },
     {

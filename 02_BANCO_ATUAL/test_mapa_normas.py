@@ -192,6 +192,16 @@ def test_decisoes_contexto_t2d(raw, current):
     assert resolver(raw)["status"] == ("LEGADO_SEM_SUCESSOR" if current == "S-G-MA-6008" else "RESOLVIDO")
 
 
+@pytest.mark.parametrize("raw,current,status", [
+    ("WNA 505", "DSGN-442", "RESOLVIDO"), ("G-G-DN-5060", "MEAS-509", "RESOLVIDO"),
+    ("G-G-TG-4008", "", "EXCLUIDO_DECISAO"), ("WNA 2125", "", "EXCLUIDO_DECISAO"),
+    ("WNA 5034", "", "EXCLUIDO_DECISAO"), ("S-F-ML-2820", "", "EXCLUIDO_DECISAO"),
+])
+def test_decisoes_finais_t6(raw, current, status):
+    assert resolver(raw)["status"] == status
+    assert resolver(raw)["atual"] == current
+
+
 def test_corroboracao_nao_suprime_indicio_divergente():
     b = mini()
     b.edge("WNA 1", "MATL-1", "F3", "corporativo")
