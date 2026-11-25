@@ -225,6 +225,15 @@ def test_docx_pipeline_e_identidade_por_capa(tmp_path):
     assert any(r["motivo"] == "historica" for r in result["descartes"])
 
 
+def test_citacao_na_capa_sem_document_no_nao_define_o_pai(tmp_path):
+    path = tmp_path / "unknown.docx"
+    doc = Document()
+    doc.add_paragraph("Testing according to MEAS-579")
+    doc.save(path)
+    with pytest.raises(ValueError, match="Identidade da norma-pai"):
+        extractor.executar(path)
+
+
 def test_cli_dentro_do_diretorio_e_exportacao(tmp_path):
     path = tmp_path / "generic.pdf"
     with pymupdf.open() as pdf:

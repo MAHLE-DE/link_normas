@@ -261,7 +261,7 @@ def identidade(path, manifesto, cadastro, mapa, excecoes):
     first_page = ler_paginas(path)[0][1]
     joined, _, _ = unir_linhas(first_page)
     heading = re.search(r"Document\s*-?\s*No\.?\s*:?(.*)", joined, re.I)
-    for candidate in candidatos(heading[1][:160] if heading else joined[:1600]):
+    for candidate in candidatos(heading[1][:160] if heading else ""):
         if candidate.kind == "interna":
             current, status, key = lookup(candidate.raw, mapa)
             if status in {"VIGENTE", "RESOLVIDO"}:
