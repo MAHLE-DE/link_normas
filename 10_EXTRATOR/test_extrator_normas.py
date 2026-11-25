@@ -69,6 +69,28 @@ def test_ponto_interno_e_typo_generico():
     assert not extractor.candidatos("K38 AS 4209 Technomelt")
 
 
+@pytest.mark.parametrize("raw,expected", [
+    ("GB/T 8331-87", ["GB/T 8331"]), ("GB 8144-87", ["GB 8144"]), ("GB19517-2009", ["GB 19517"]),
+    ("DIN ISO 10 579", ["ISO 10579"]), ("VDI / VDE 2617", ["VDI/VDE 2617"]), ("VDI/VDE 2617", ["VDI/VDE 2617"]),
+])
+def test_normalizacao_terceira_amostra(raw, expected):
+    assert extractor.normalizar_publica(raw) == expected
+
+
+def test_clausula_nao_e_parte_e_nf_exige_maiusculas():
+    raws = [c.raw for c in extractor.candidatos("Differential pressure ISO 4020-6.3 x x")]
+    assert raws == ["ISO 4020"]
+    assert not [c for c in extractor.candidatos("Drehzahl Findestufe nF 4.2.1.0.1") if c.kind == "publica"]
+    assert [c.raw for c in extractor.candidatos("Zugfestigkeit (NFR 99-211)")] == ["NFR 99-211"]
+
+
+def test_legado_em_grupos_e_parte_sem_p():
+    assert extractor.lookup("WNF 10 20 08", {})[2] == "WNF 102008"
+    assert [c.raw for c in extractor.candidatos("taken from current WNF 10 20 08 (from 2016)")] == ["WNF 10 20 08"]
+    assert extractor.lookup("S-G-ML-4100-02-de", {})[2] == extractor.normalizar_interna("S-G-ML-4100-P02-de")
+    assert [c.raw for c in extractor.candidatos("Document-No. S-G-ML-4100-02-de Version")] == ["S-G-ML-4100-02-de"]
+
+
 def test_regressao_segunda_amostra():
     result = extractor.executar("04_NOVO_TESTE_40/normas_v2", "04_NOVO_TESTE_40/corpus/corpus_40_v2.json", gabarito="04_NOVO_TESTE_40/corpus/gabarito_40_v2.json")
     assert result["documentos_processados"] == 40

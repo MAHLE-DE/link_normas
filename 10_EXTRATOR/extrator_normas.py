@@ -31,8 +31,10 @@ spec.loader.exec_module(module)
 normalizar_interna = module.normalizar
 
 INTERNAL = re.compile(
-    r"\b(?:[SG]\s*[-_]\s*[A-Z]\s*[-_]\s*[A-Z]{2}\s*(?:[-_]\s*\d{2,6}|\.\s*\d{4})(?:\s*-\s*P\d+)?"
+    r"\b(?:[SG]\s*[-_]\s*[A-Z]\s*[-_]\s*[A-Z]{2}\s*(?:[-_]\s*\d{2,6}|\.\s*\d{4})"
+    r"(?:\s*-\s*P\d+|-\d{2}(?=-(?:EN|DE|FR|ES|PT|IT|ZH)\b))?"
     r"|(?:DSGN|MATL|MEAS|MNFG|TEST|PROD|SOP)[ -]?\d+"
+    r"|WN[A-Z][ _-]*\d{2}\s\d{2}\s\d{2}\b"
     r"|WN[A-Z][ _-]*\d+(?:[-/]\d+)*)"
     r"(?:\s*[-_]\s*(?:EN|DE|FR|ES|PT|IT|ZH))?\b", re.I
 )
@@ -44,8 +46,8 @@ PUBLIC_PATTERNS = [
     r"\bSAE\s*(?:J\s*)?\d+(?:W(?:\s*-\s*\d+)?)?",
     r"\bVDA\s*(?:(?:BAND|VOLUME)\s*)?\d+(?:\s+\d{3})?(?:\s*-\s*\d+)?",
     r"\b(?:JIS|KS)\s*[A-Z]\s*\d+(?:\s*-\s*\d+)?",
-    r"\bNF\s*R?\s*\d+(?:\s*-\s*\d+)?",
-    r"\bNFR\s*\d+(?:\s*-\s*\d+)?",
+    r"\b(?-i:NF\s*R?)\s*\d+(?:\s*-\s*\d+)?",
+    r"\b(?-i:NFR)\s*\d+(?:\s*-\s*\d+)?",
     r"\bIPC\s*[- ]?\s*(?:[A-Z]{1,3}[- ]?)?\d+(?:[.-]\d+)*(?:[- ]?[A-Z]\b)?",
     r"\bJESD\s*\d+(?:\s*-\s*[A-Z]\d+[A-Z]?)?",
     r"\bAEC\s*[- ]?\s*Q\s*[- ]?\s*\d+",
@@ -53,7 +55,7 @@ PUBLIC_PATTERNS = [
     r"\bANSI\s*[A-Z]\d+(?:\.\d+)*(?:-\d{4})?",
     r"\bCSA\s*[A-Z]\s*\d+(?:[.-]\d+)*",
     r"\bFEFCO\s*(?:(?:Norm|design|code|style|Bauart)\s*)?\d{4}(?:/\d+)?",
-    r"\b(?:FMVSS|MVSS|GB(?:/T)?|UL|CISPR|VDI(?:/VDE)?|BS|NEN)\s*\d+(?:\s*[-/]\s*\d+)*",
+    r"\b(?:FMVSS|MVSS|GB(?:/T)?|UL|CISPR|VDI(?:\s*/\s*VDE)?|BS|NEN)\s*\d+(?:\s*[-/]\s*\d+)*",
 ]
 PUBLIC_RX = [re.compile(pattern, re.I) for pattern in PUBLIC_PATTERNS]
 REGULATORY = re.compile(r"\b(?:REACH|GADSL|ROHS|ELV|IMDS)\b", re.I)
@@ -117,7 +119,7 @@ def normalizar_publica(raw):
         return ["AEC-Q" + re.search(r"\d+", text)[0]]
     if text.startswith("MIL"):
         return [re.sub(r"(?<=\d)[A-Z]$", "", re.sub(r"\s+", "", text))]
-    match = re.match(r"^(ISO/(?:IEC|TR|TS)|ISO|IEC|EN|DIN|ASTM|SAE|VDA|JIS|KS|NFR|NF\s*R?|ANSI|CSA|FMVSS|MVSS|GB/T|GB|UL|CISPR|VDI/VDE|VDI|FEFCO|BS|AS|NEN)\s*(.*)$", text)
+    match = re.match(r"^(ISO/(?:IEC|TR|TS)|ISO|IEC|EN|DIN|ASTM|SAE|VDA|JIS|KS|NFR|NF\s*R?|ANSI|CSA|FMVSS|MVSS|GB/T|GB|UL|CISPR|VDI\s*/\s*VDE|VDI|FEFCO|BS|AS|NEN)\s*(.*)$", text)
     if not match:
         return [text]
     prefix, body = match.groups()
@@ -127,9 +129,15 @@ def normalizar_publica(raw):
     body = re.sub(r"^(?:BAND|VOLUME)\s*", "", body)
     if prefix in {"DIN", "VDA"}:
         body = re.sub(r"^(\d{2,3})\s+(\d{3})", r"\1\2", body)
+    elif prefix in {"ISO", "EN", "IEC"}:
+        # Separador de milhar com espaço: "DIN ISO 10 579" -> ISO 10579.
+        body = re.sub(r"^(\d{1,2})\s+(\d{3})\b", r"\1\2", body)
     body = re.sub(r"\s*[-/]\s*", "-", body)
-    if prefix in {"ANSI", "GB", "GB/T"}:
+    if prefix == "ANSI":
         body = re.sub(r"-\d{4}$", "", body)
+    if prefix in {"GB", "GB/T"}:
+        # Ano da norma chinesa com 2 ou 4 dígitos: GB/T 8331-87, GB 19517-2009.
+        body = re.sub(r"-(?:\d{2}|\d{4})$", "", body)
     if prefix == "CSA":
         body = re.sub(r"-\d{2,4}$", "", body)
     if prefix == "ASTM":
@@ -179,6 +187,10 @@ def candidatos(text):
             tolerance = re.search(r"\s+-\d+$", match[0])
             if tolerance and re.match(r"\s*/\s*\+\d+", text[end:]):
                 end = match.start() + tolerance.start()
+            clause = re.search(r"-\d+$", text[match.start():end])
+            if clause and re.match(r"\.\d", text[end:]):
+                # "ISO 4020-6.3": 6.3 é cláusula da norma, não parte.
+                end = match.start() + clause.start()
             found.append(Candidate(match.start(), end, text[match.start():end], "publica"))
     selected = []
     for item in sorted(found, key=lambda c: (c.start, -(c.end - c.start))):
@@ -246,6 +258,10 @@ def secoes(lines, previous="Corpo"):
 
 def lookup(raw, mapa):
     raw = re.sub(r"([SG]-[A-Z]-[A-Z]{2})\.(?=\d{4})", r"\1-", clean(raw), flags=re.I)
+    # Legado escrito em grupos: "WNF 10 20 08" -> WNF 102008.
+    raw = re.sub(r"^(WN[A-Z])[ _-]*(\d{2})\s(\d{2})\s(\d{2})$", r"\1 \2\3\4", raw, flags=re.I)
+    # Parte sem "P": "S-G-ML-4100-02-de" -> S-G-ML-4100-P02.
+    raw = re.sub(r"^([SG]-[A-Z]-[A-Z]{2}-\d{4})-(\d{2})(?=-[A-Z]{2}$|$)", r"\1-P\2", raw, flags=re.I)
     key = normalizar_interna(re.sub(r"\s*-\s*", "-", raw))
     entry = mapa.get(key, {"status": "DESCONHECIDO", "atual": ""})
     output = entry["atual"] if entry["status"] in {"VIGENTE", "RESOLVIDO"} else key
