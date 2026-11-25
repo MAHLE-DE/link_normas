@@ -331,7 +331,7 @@ def test_cli_dentro_do_diretorio_e_exportacao(tmp_path):
     result = json.loads(output.with_suffix(".json").read_text(encoding="utf-8"))
     assert result["correlacoes"][0]["citada"] == "ISO 9001"
     book = load_workbook(output, read_only=True)
-    assert book.sheetnames == ["Correlacoes", "Descartes", "Ignorados"]
+    assert book.sheetnames == ["Correlacoes", "Descartes", "Ignorados", "Avisos"]
     book.close()
 
 
@@ -345,6 +345,47 @@ def test_regressao_corpus_40():
     assert metrics["recall"] >= 1.0
     assert metrics["FP"] == metrics["FN"] == 0
     assert result["documentos_processados"] == 40
+
+
+def test_identidade_f1_prevalece_sobre_excecao_e_variante():
+    cadastro = {"records": [{"document_no": "MEAS-1", "local_file_name": "a.pdf"}],
+                "language_variants": [{"file_name": "a.pdf", "variant_of": "MATL-2"}]}
+    mapa = {"MATL-2": {"status": "VIGENTE", "atual": "MATL-2"}}
+    exceptions = {"approved_file_mappings": {"MATL-2": "a.pdf"}}
+    warnings = []
+    assert extractor.identidade(Path("a.pdf"), [], cadastro, mapa, exceptions, warnings) == ("MEAS-1", [])
+    assert warnings[0]["motivo"] == "colisao_mapeamento_aprovado"
+    assert warnings[0]["destino_excecao"] == "MATL-2"
+
+
+def test_identidade_real_meas588_sem_ler_pdf():
+    def read(name):
+        return json.loads((extractor.ROOT / "02_BANCO_ATUAL" / name).read_text(encoding="utf-8"))
+    warnings = []
+    parent, _ = extractor.identidade(Path("S-G-TG-4013-en.pdf"), [],
+        read("cadastro_canonico_v3_SEM_URL_SHAREPOINT.json"), read("mapa_normas_v1.json")["codigos"],
+        read("excecoes_aprovadas.json"), warnings)
+    assert parent == "MEAS-588"
+    assert any(w["destino_excecao"] == "MATL-546" for w in warnings)
+
+
+def test_multiplos_arquivos_mesmo_pai_avisados_e_agregados(tmp_path):
+    for name in ["first.docx", "second.docx"]:
+        doc = Document()
+        doc.add_paragraph("Document-No. MATL-553")
+        doc.add_paragraph("ISO 9001")
+        doc.save(tmp_path / name)
+    result = extractor.executar(tmp_path)
+    warning = next(w for w in result["avisos"] if w["motivo"] == "multiplos_arquivos_mesma_norma")
+    assert warning["document_no"] == "MATL-553"
+    assert warning["arquivo"] == ["first.docx", "second.docx"]
+    assert result["documentos_processados"] == 2
+    assert len(result["correlacoes"]) == 1
+    output = tmp_path / "output.xlsx"
+    extractor.salvar(result, output)
+    book = load_workbook(output, read_only=True)
+    assert book["Avisos"].max_row >= 2
+    book.close()
 
 
 def test_recursivo_ignora_variantes_desconhecidos_e_corrompidos(tmp_path):

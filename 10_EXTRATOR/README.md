@@ -3,9 +3,15 @@
 `extrator_normas.py` lê PDF (PyMuPDF, texto unido por página) e DOCX
 (parágrafos e tabelas na ordem original). Produz pares únicos de norma-pai e
 norma citada, preservando código bruto, páginas, seção, arquivo e evidência.
-O arquivo XLSX tem `Correlacoes`, `Descartes`, `Ignorados` e, com gabarito,
+O arquivo XLSX tem `Correlacoes`, `Descartes`, `Ignorados`, `Avisos` e, com gabarito,
 `Avaliacao`.
 Um JSON irmão contém os mesmos registros e métricas.
+
+Sem manifesto, a identidade prioriza o arquivo do cadastro Valid-Documents,
+depois identifica variantes não operacionais, consulta associações aprovadas
+de arquivo e, por fim, a capa. `Avisos` informa associações aprovadas que
+colidem com outro documento do cadastro e normas processadas a partir de
+mais de um arquivo; estes arquivos continuam sendo agregados.
 
 Requer Python **3.10 ou mais recente**, PyMuPDF **1.23.0 ou mais recente**,
 python-docx e openpyxl. Os testes usam pytest. O import aceita tanto

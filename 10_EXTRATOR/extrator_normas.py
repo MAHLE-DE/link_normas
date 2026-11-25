@@ -272,10 +272,41 @@ class IdentidadeNaoEncontrada(ValueError):
     """Documento sem identidade segura no manifesto, cadastro ou capa."""
 
 
-def identidade(path, manifesto, cadastro, mapa, excecoes):
+def registros_do_arquivo(path, cadastro):
+    return [r for r in cadastro["records"] if any(
+        str(r.get(field) or "").casefold() == path.name.casefold()
+        for field in ("local_file_name", "sharepoint_file_name"))]
+
+
+def colisoes_mapeamentos(cadastro, mapa, excecoes):
+    warnings = []
+    for alias, filename in sorted(excecoes.get("approved_file_mappings", {}).items()):
+        current, status, _ = lookup(alias, mapa)
+        for record in registros_do_arquivo(Path(filename), cadastro):
+            if status in {"VIGENTE", "RESOLVIDO"} and current != record["document_no"]:
+                warnings.append({"motivo": "colisao_mapeamento_aprovado", "arquivo": filename,
+                                 "document_no": record["document_no"], "codigo_excecao": alias,
+                                 "destino_excecao": current,
+                                 "detalhe": "Arquivo pertence a F1; associação da exceção não aplicada."})
+    return warnings
+
+
+def identidade(path, manifesto, cadastro, mapa, excecoes, avisos=None):
     entry = next((e for e in manifesto if Path(e["arquivo"]).name.casefold() == path.name.casefold()), None)
     if entry:
         return entry["document_no"], entry["nomes_anteriores"]
+    matches = registros_do_arquivo(path, cadastro)
+    if avisos is not None:
+        avisos.extend(w for w in colisoes_mapeamentos(cadastro, mapa, excecoes)
+                      if Path(w["arquivo"]).name.casefold() == path.name.casefold())
+    if matches:
+        if len({r["document_no"] for r in matches}) != 1:
+            raise IdentidadeNaoEncontrada(f"Arquivo ambíguo no cadastro F1: {path.name}")
+        record = matches[0]
+        return record["document_no"], [record["previous_document_no"]] if record.get("previous_document_no") else []
+    if any(Path(v["file_name"]).stem.casefold() == path.stem.casefold()
+           for v in cadastro.get("language_variants", [])):
+        raise IdentidadeNaoEncontrada(f"Variante de idioma não operacional: {path.name}")
     # Mapeamentos aprovados são associações físicas, jamais equivalências de código.
     approved = [alias for alias, filename in excecoes.get("approved_file_mappings", {}).items()
                 if Path(filename).name.casefold() == path.name.casefold()]
@@ -283,12 +314,6 @@ def identidade(path, manifesto, cadastro, mapa, excecoes):
         current, status, _ = lookup(alias, mapa)
         if status in {"VIGENTE", "RESOLVIDO"}:
             return current, [alias]
-    matches = [r for r in cadastro["records"] if any(
-        str(r.get(field) or "").casefold() == path.name.casefold()
-        for field in ("local_file_name", "sharepoint_file_name"))]
-    if len({r["document_no"] for r in matches}) == 1:
-        record = matches[0]
-        return record["document_no"], [record["previous_document_no"]] if record.get("previous_document_no") else []
     first_page = ler_paginas(path)[0][1]
     joined, _, _ = unir_linhas(first_page)
     heading = re.search(r"Document\s*-?\s*No\.?\s*:?(.*)", joined, re.I)
@@ -484,11 +509,13 @@ def executar(entrada, manifesto=None, mapa_path=None, gabarito=None, recursivo=F
         raise ValueError(f"Nenhum PDF/DOCX encontrado: {entrada}")
     variants = {Path(v["file_name"]).stem.casefold(): v for v in cadastro.get("language_variants", [])}
     accepted, discarded, corrections, ignored = [], [], {}, []
+    warnings = colisoes_mapeamentos(cadastro, mapa, excecoes)
+    parent_files = {}
     processed = 0
     for path in files:
         relative = path.relative_to(source).as_posix() if source.is_dir() else path.name
         variant = variants.get(path.stem.casefold())
-        if variant and manifesto is None:
+        if variant and manifesto is None and not registros_do_arquivo(path, cadastro):
             ignored.append({"arquivo": path.name, "caminho": relative, "motivo": "variante_idioma_nao_operacional",
                             "detalhe": variant.get("reason", "Variante não operacional do cadastro"),
                             "variante_de": variant["variant_of"]})
@@ -509,7 +536,13 @@ def executar(entrada, manifesto=None, mapa_path=None, gabarito=None, recursivo=F
         discarded.extend(rejected)
         corrections[parent] = fixes
         processed += 1
+        parent_files.setdefault(parent, []).append(relative)
+    for parent, paths in sorted(parent_files.items()):
+        if len(paths) > 1:
+            warnings.append({"motivo": "multiplos_arquivos_mesma_norma", "document_no": parent,
+                             "arquivo": paths, "detalhe": "Arquivos processados e agregados para a mesma norma."})
     result = {"correlacoes": agregar(accepted), "descartes": discarded, "ignorados": ignored,
+              "avisos": warnings,
               "documentos_processados": processed, "arquivos_encontrados": len(files)}
     if gabarito:
         result["avaliacao"] = avaliar(result, json.loads(caminho(gabarito).read_text(encoding="utf-8")), mapa, corrections)
@@ -557,6 +590,9 @@ def salvar(result, output):
     sheet("Ignorados", ["Arquivo", "Caminho", "Motivo", "Detalhe", "Variante de"],
           [[r.get(f, "") for f in ("arquivo", "caminho", "motivo", "detalhe", "variante_de")]
            for r in result.get("ignorados", [])])
+    sheet("Avisos", ["Motivo", "Norma", "Arquivo(s)", "Código exceção", "Destino exceção", "Detalhe"],
+          [[r.get(f, "") for f in ("motivo", "document_no", "arquivo", "codigo_excecao", "destino_excecao", "detalhe")]
+           for r in result.get("avisos", [])])
     if "avaliacao" in result:
         evaluation = result["avaliacao"]
         rows = [["Metrica", r["pai"], "", r["TP"], r["FP"], r["FN"], r["precisao"], r["recall"], r["F1"], ""] for r in [evaluation["geral"]] + evaluation["documentos"]]
