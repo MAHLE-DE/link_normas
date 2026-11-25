@@ -4,7 +4,7 @@
       "codigo": "TEST-278",
       "acao": "ligar",
       "para": "MEAS-579",
-      "evidencia": "README_PILOTO_V3 + MATL-633/635 'TEST-278 (former S-F-ML-2810)' + F1 S-F-ML-2810->MEAS-579",
+      "evidencia": "90_HISTORICO_CONGELADO/piloto_leitor_v3/README_PILOTO_V3.txt + MATL-633/635 'TEST-278 (former S-F-ML-2810)' + F1 S-F-ML-2810->MEAS-579",
       "origem": "usuario (README piloto v3)"
     },
     {"codigo": "S-F-ML-2784", "acao": "ligar", "para": "MATL-604", "evidencia": "Decisao do usuario 2026-11-25: Valid Documents (F1) prevalece; frase 'S-F-ML-2784-en wird ersetzt durch MATL-633-en' (MATL-633 p5) fica como aviso", "origem": "usuario"},
