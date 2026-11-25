@@ -1,0 +1,37 @@
+{
+  "identification": {
+    "document_no": "W-B-720-en",
+    "revision_no": "1.0",
+    "title": "Concept/Design Review Meeting Approval by Centre of Competence R&D BU2",
+    "previous_document_numbers": []
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "process",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "process",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "W-B-720-en_ConceptDesignReviewMeeting_Approval_by_CoC_(V2)_.pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\W-B-720-en_ConceptDesignReviewMeeting_Approval_by_CoC_(V2)_.pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "85a1f9e7-f327-4d8b-a3c0-267b39689005",
+  "schema_version": "2.0"
+}

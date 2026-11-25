@@ -1,0 +1,36 @@
+{
+  "client_patterns": [
+    "^VW\\s",
+    "^DBL\\s",
+    "^BMW\\s",
+    "^GMW\\s",
+    "^GM\\s",
+    "^FORD\\s",
+    "^FCA\\s",
+    "^CHRYSLER\\s",
+    "^RENAULT\\s",
+    "^TOYOTA\\s",
+    "^HONDA\\s",
+    "^NISSAN\\s",
+    "^ISUZU\\s",
+    "^PSA\\s",
+    "^STELLANTIS\\s",
+    "^S\\-F\\-DN\\-0658\\-de$",
+    "^S\\-F\\-DN\\-0658\\-en$",
+    "^S\\-F\\-PT\\-0658\\-de$",
+    "^S\\-F\\-PT\\-0658\\-en$",
+    "^S\\-F\\-PT\\-6521\\-en$",
+    "^WNA\\ 280$",
+    "^WNA\\ 5046$"
+  ],
+  "supplier_patterns": [
+    "MWV SOP",
+    "JACOBI TIX",
+    "H&V STANDARD",
+    "AQF INTERNAL",
+    "CH072",
+    "SO 808/A",
+    "SUPPLIER METHOD",
+    "SUPPLIER STANDARD"
+  ]
+}

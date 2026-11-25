@@ -1,0 +1,37 @@
+{
+  "identification": {
+    "document_no": "P-B-132-en",
+    "revision_no": "1.0",
+    "title": "BU2 Fluid Product Development Process",
+    "previous_document_numbers": []
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "process",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "process",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "P-B-132-en_BU2_Fluid_Product_Development_Process(V_8.0).pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\P-B-132-en_BU2_Fluid_Product_Development_Process(V_8.0).pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "3894a9e1-aa2e-4994-8dc9-32bda19fa198",
+  "schema_version": "2.0"
+}

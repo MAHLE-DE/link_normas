@@ -1,0 +1,41 @@
+{
+  "identification": {
+    "document_no": "S-H-PT-5072-de",
+    "revision_no": "1.0",
+    "title": "Besondere Merkmale der Produktgruppe Ventildeckel mit integrierter Ölabscheidung",
+    "previous_document_numbers": [
+      "WNA 5072"
+    ]
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "design",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [
+      "FLUID-SYSTEMS-AIR"
+    ],
+    "product_subgroup_ids": [],
+    "is_general": false
+  },
+  "tree_entry": {
+    "family": "design",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "S-H-PT-5072-de.pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-H-PT-5072-de.pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "62109ff5-16b2-423c-98e9-5e3c49d9e349",
+  "schema_version": "2.0"
+}

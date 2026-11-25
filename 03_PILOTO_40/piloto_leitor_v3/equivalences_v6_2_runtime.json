@@ -1,0 +1,4738 @@
+{
+  "S-F-ML-2191-EN": {
+    "current": "TEST-248",
+    "chain": [
+      "S-F-ML-2191-EN",
+      "TEST-248"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2611-EN": {
+    "current": "TEST-198",
+    "chain": [
+      "S-F-ML-2611-EN",
+      "TEST-198"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0609-DE": {
+    "current": "MNFG-467",
+    "chain": [
+      "S-F-MA-0609-DE",
+      "MNFG-467"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2711-EN": {
+    "current": "TEST-242",
+    "chain": [
+      "S-F-ML-2711-EN",
+      "TEST-242"
+    ],
+    "proven": true
+  },
+  "G-I-PT-2137-EN": {
+    "current": "DSGN-483",
+    "chain": [
+      "G-I-PT-2137-EN",
+      "DSGN-483"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2914-EN": {
+    "current": "TEST-182",
+    "chain": [
+      "S-F-ML-2914-EN",
+      "TEST-182"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2420-EN": {
+    "current": "TEST-65",
+    "chain": [
+      "S-F-ML-2420-EN",
+      "TEST-65"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2120-EN": {
+    "current": "MATL-599",
+    "chain": [
+      "S-F-ML-2120-EN",
+      "MATL-599"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0555-EN": {
+    "current": "DSGN-461",
+    "chain": [
+      "S-F-PT-0555-EN",
+      "DSGN-461"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2606-EN": {
+    "current": "TEST-158",
+    "chain": [
+      "S-F-ML-2606-EN",
+      "TEST-158"
+    ],
+    "proven": true
+  },
+  "G-A-DN-5051": {
+    "current": "DSGN-527",
+    "chain": [
+      "G-A-DN-5051",
+      "DSGN-527"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0300-EN": {
+    "current": "MATL-558",
+    "chain": [
+      "S-C-ML-0300-EN",
+      "MATL-558"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2921-EN": {
+    "current": "TEST-95",
+    "chain": [
+      "S-F-ML-2921-EN",
+      "TEST-95"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2500-EN": {
+    "current": "MATL-562",
+    "chain": [
+      "S-C-ML-2500-EN",
+      "MATL-562"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4009-EN": {
+    "current": "TEST-132",
+    "chain": [
+      "S-G-TG-4009-EN",
+      "TEST-132"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2022-EN": {
+    "current": "MATL-568",
+    "chain": [
+      "S-F-ML-2022-EN",
+      "MATL-568"
+    ],
+    "proven": true
+  },
+  "S-G-MA-4110-EN": {
+    "current": "MNFG-509",
+    "chain": [
+      "S-G-MA-4110-EN",
+      "MNFG-509"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3200-EN": {
+    "current": "MATL-548",
+    "chain": [
+      "S-C-ML-3200-EN",
+      "MATL-548"
+    ],
+    "proven": true
+  },
+  "G-I-PT-5011-EN": {
+    "current": "DSGN-422",
+    "chain": [
+      "G-I-PT-5011-EN",
+      "DSGN-422"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2182-EN": {
+    "current": "TEST-267",
+    "chain": [
+      "S-F-ML-2182-EN",
+      "TEST-267"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2719-EN": {
+    "current": "TEST-105",
+    "chain": [
+      "S-F-ML-2719-EN",
+      "TEST-105"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2922-EN": {
+    "current": "TEST-109",
+    "chain": [
+      "S-F-ML-2922-EN",
+      "TEST-109"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2801-EN V10": {
+    "current": "MATL-644",
+    "chain": [
+      "S-F-ML-2801-EN V10",
+      "MATL-644"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1700-EN": {
+    "current": "MATL-576",
+    "chain": [
+      "S-C-ML-1700-EN",
+      "MATL-576"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2811-EN": {
+    "current": "TEST-266",
+    "chain": [
+      "S-F-ML-2811-EN",
+      "TEST-266"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0260-EN": {
+    "current": "DSGN-359",
+    "chain": [
+      "S-F-PT-0260-EN",
+      "DSGN-359"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2016-EN V02": {
+    "current": "MATL-624",
+    "chain": [
+      "S-F-ML-2016-EN V02",
+      "MATL-624"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0654-EN": {
+    "current": "DSGN-481",
+    "chain": [
+      "S-F-PT-0654-EN",
+      "DSGN-481"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6007-EN": {
+    "current": "MNFG-508",
+    "chain": [
+      "S-G-MA-6007-EN",
+      "MNFG-508"
+    ],
+    "proven": true
+  },
+  "S-F-DN-0616-EN": {
+    "current": "DSGN-387",
+    "chain": [
+      "S-F-DN-0616-EN",
+      "DSGN-387"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2430-EN": {
+    "current": "TEST-300",
+    "chain": [
+      "S-F-ML-2430-EN",
+      "TEST-300"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3380-P01-EN": {
+    "current": "MATL-552",
+    "chain": [
+      "S-G-ML-3380-P01-EN",
+      "MATL-552"
+    ],
+    "proven": true
+  },
+  "S-F-ME-2115-EN": {
+    "current": "MEAS-512",
+    "chain": [
+      "S-F-ME-2115-EN",
+      "MEAS-512"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9190-EN": {
+    "current": "TEST-94",
+    "chain": [
+      "S-G-ML-9190-EN",
+      "TEST-94"
+    ],
+    "proven": true
+  },
+  "G-I-PT-5036-EN": {
+    "current": "DSGN-371",
+    "chain": [
+      "G-I-PT-5036-EN",
+      "DSGN-371"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3808-EN": {
+    "current": "MNFG-502",
+    "chain": [
+      "S-G-MA-3808-EN",
+      "MNFG-502"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2830-EN": {
+    "current": "TEST-207",
+    "chain": [
+      "S-F-ML-2830-EN",
+      "TEST-207"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2431-EN": {
+    "current": "TEST-307",
+    "chain": [
+      "S-F-ML-2431-EN",
+      "TEST-307"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3036-EN": {
+    "current": "TEST-217",
+    "chain": [
+      "S-F-ML-3036-EN",
+      "TEST-217"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2707-EN": {
+    "current": "TEST-126",
+    "chain": [
+      "S-F-ML-2707-EN",
+      "TEST-126"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3033-EN": {
+    "current": "TEST-78",
+    "chain": [
+      "S-F-ML-3033-EN",
+      "TEST-78"
+    ],
+    "proven": true
+  },
+  "G-H-DN-5013-EN": {
+    "current": "DSGN-369",
+    "chain": [
+      "G-H-DN-5013-EN",
+      "DSGN-369"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6588-EN": {
+    "current": "DSGN-353",
+    "chain": [
+      "S-F-PT-6588-EN",
+      "DSGN-353"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4160-EN": {
+    "current": "TEST-115",
+    "chain": [
+      "S-G-ML-4160-EN",
+      "TEST-115"
+    ],
+    "proven": true
+  },
+  "S-F-TG-2120-EN": {
+    "current": "TEST-245",
+    "chain": [
+      "S-F-TG-2120-EN",
+      "TEST-245"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4010-EN": {
+    "current": "TEST-258",
+    "chain": [
+      "S-F-ML-4010-EN",
+      "TEST-258"
+    ],
+    "proven": true
+  },
+  "S-C-TG-2122-EN": {
+    "current": "TEST-88",
+    "chain": [
+      "S-C-TG-2122-EN",
+      "TEST-88"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8157-EN": {
+    "current": "TEST-256",
+    "chain": [
+      "S-C-TG-8157-EN",
+      "TEST-256"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2920-EN": {
+    "current": "TEST-39",
+    "chain": [
+      "S-F-ML-2920-EN",
+      "TEST-39"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2197-EN": {
+    "current": "TEST-277",
+    "chain": [
+      "S-F-ML-2197-EN",
+      "TEST-277"
+    ],
+    "proven": true
+  },
+  "WNA 5105": {
+    "current": "S-L-PT-5105-en",
+    "chain": [
+      "WNA 5105",
+      "S-L-PT-5105-en"
+    ],
+    "proven": true
+  },
+  "S-L-TG-8125-EN": {
+    "current": "TEST-193",
+    "chain": [
+      "S-L-TG-8125-EN",
+      "TEST-193"
+    ],
+    "proven": true
+  },
+  "G-C-DN-5017-EN": {
+    "current": "DSGN-366",
+    "chain": [
+      "G-C-DN-5017-EN",
+      "DSGN-366"
+    ],
+    "proven": true
+  },
+  "G-A-DN-0620-EN": {
+    "current": "DSGN-368",
+    "chain": [
+      "G-A-DN-0620-EN",
+      "DSGN-368"
+    ],
+    "proven": true
+  },
+  "WNA 616": {
+    "current": "DSGN-387",
+    "chain": [
+      "WNA 616",
+      "S-F-DN-0616-de",
+      "S-F-PT-0616-de",
+      "DSGN-387"
+    ],
+    "proven": true
+  },
+  "S-L-PT-8120-P02-EN": {
+    "current": "DSGN-424",
+    "chain": [
+      "S-L-PT-8120-P02-EN",
+      "DSGN-424"
+    ],
+    "proven": true
+  },
+  "S-G-TG-0688-EN": {
+    "current": "TEST-107",
+    "chain": [
+      "S-G-TG-0688-EN",
+      "TEST-107"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2176-EN": {
+    "current": "TEST-73",
+    "chain": [
+      "S-F-ML-2176-EN",
+      "TEST-73"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0505-EN": {
+    "current": "DSGN-442",
+    "chain": [
+      "S-G-PT-0505-EN",
+      "DSGN-442"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0206-EN": {
+    "current": "DSGN-479",
+    "chain": [
+      "S-G-PT-0206-EN",
+      "DSGN-479"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4120-EN": {
+    "current": "TEST-98",
+    "chain": [
+      "S-G-ML-4120-EN",
+      "TEST-98"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3805-EN": {
+    "current": "MNFG-491",
+    "chain": [
+      "S-G-MA-3805-EN",
+      "MNFG-491"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2040-EN": {
+    "current": "TEST-254",
+    "chain": [
+      "S-F-ML-2040-EN",
+      "TEST-254"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2790-EN": {
+    "current": "TEST-54",
+    "chain": [
+      "S-F-ML-2790-EN",
+      "TEST-54"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4010-EN": {
+    "current": "TEST-250",
+    "chain": [
+      "S-G-TG-4010-EN",
+      "TEST-250"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2159-EN": {
+    "current": "TEST-120",
+    "chain": [
+      "S-F-ML-2159-EN",
+      "TEST-120"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2738-EN": {
+    "current": "TEST-150",
+    "chain": [
+      "S-F-ML-2738-EN",
+      "TEST-150"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0640-EN": {
+    "current": "DSGN-433",
+    "chain": [
+      "S-F-PT-0640-EN",
+      "DSGN-433"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4700-EN": {
+    "current": "TEST-249",
+    "chain": [
+      "S-G-ML-4700-EN",
+      "TEST-249"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0646-DE": {
+    "current": "DSGN-453",
+    "chain": [
+      "S-F-PT-0646-DE",
+      "DSGN-453"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2021-EN": {
+    "current": "MATL-598",
+    "chain": [
+      "S-F-ML-2021-EN",
+      "MATL-598"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2604-EN": {
+    "current": "TEST-252",
+    "chain": [
+      "S-F-ML-2604-EN",
+      "TEST-252"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0700-EN": {
+    "current": "MATL-622",
+    "chain": [
+      "S-C-ML-0700-EN",
+      "MATL-622"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3500-EN": {
+    "current": "TEST-209",
+    "chain": [
+      "S-G-ML-3500-EN",
+      "TEST-209"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0638-EN": {
+    "current": "DSGN-403",
+    "chain": [
+      "S-F-PT-0638-EN",
+      "DSGN-403"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0601-DE": {
+    "current": "MNFG-459",
+    "chain": [
+      "S-F-MA-0601-DE",
+      "MNFG-459"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3510-EN": {
+    "current": "TEST-71",
+    "chain": [
+      "S-G-ML-3510-EN",
+      "TEST-71"
+    ],
+    "proven": true
+  },
+  "G-A-DN-5045-EN": {
+    "current": "DSGN-411",
+    "chain": [
+      "G-A-DN-5045-EN",
+      "DSGN-411"
+    ],
+    "proven": true
+  },
+  "S-G-DN-4023-EN": {
+    "current": "DSGN-441",
+    "chain": [
+      "S-G-DN-4023-EN",
+      "DSGN-441"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2185-EN": {
+    "current": "TEST-211",
+    "chain": [
+      "S-F-ML-2185-EN",
+      "TEST-211"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3000-EN": {
+    "current": "MATL-612",
+    "chain": [
+      "S-C-ML-3000-EN",
+      "MATL-612"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9080-EN": {
+    "current": "TEST-43",
+    "chain": [
+      "S-G-ML-9080-EN",
+      "TEST-43"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3034-EN": {
+    "current": "TEST-296",
+    "chain": [
+      "S-F-ML-3034-EN",
+      "TEST-296"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2737-EN": {
+    "current": "TEST-68",
+    "chain": [
+      "S-F-ML-2737-EN",
+      "TEST-68"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2799-EN": {
+    "current": "TEST-154",
+    "chain": [
+      "S-F-ML-2799-EN",
+      "TEST-154"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2400-EN": {
+    "current": "MATL-611",
+    "chain": [
+      "S-C-ML-2400-EN",
+      "MATL-611"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2042-EN": {
+    "current": "TEST-45",
+    "chain": [
+      "S-F-ML-2042-EN",
+      "TEST-45"
+    ],
+    "proven": true
+  },
+  "S-H-ML-1021-EN": {
+    "current": "MATL-595",
+    "chain": [
+      "S-H-ML-1021-EN",
+      "MATL-595"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0653-EN": {
+    "current": "DSGN-372",
+    "chain": [
+      "S-F-PT-0653-EN",
+      "DSGN-372"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4001-EN": {
+    "current": "TEST-294",
+    "chain": [
+      "S-F-ML-4001-EN",
+      "TEST-294"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2704-EN": {
+    "current": "TEST-121",
+    "chain": [
+      "S-F-ML-2704-EN",
+      "TEST-121"
+    ],
+    "proven": true
+  },
+  "G-A-PT-5037-EN": {
+    "current": "DSGN-460",
+    "chain": [
+      "G-A-PT-5037-EN",
+      "DSGN-460"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6567-EN": {
+    "current": "DSGN-413",
+    "chain": [
+      "S-F-PT-6567-EN",
+      "DSGN-413"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2784-EN": {
+    "current": "MATL-604",
+    "chain": [
+      "S-F-ML-2784-EN",
+      "MATL-604"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2703-EN": {
+    "current": "TEST-44",
+    "chain": [
+      "S-F-ML-2703-EN",
+      "TEST-44"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0212-EN": {
+    "current": "DSGN-467",
+    "chain": [
+      "S-G-PT-0212-EN",
+      "DSGN-467"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6001-EN": {
+    "current": "MNFG-479",
+    "chain": [
+      "S-G-MA-6001-EN",
+      "MNFG-479"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2718-EN": {
+    "current": "TEST-188",
+    "chain": [
+      "S-F-ML-2718-EN",
+      "TEST-188"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3813-EN": {
+    "current": "MNFG-497",
+    "chain": [
+      "S-G-MA-3813-EN",
+      "MNFG-497"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4014-EN": {
+    "current": "MATL-553",
+    "chain": [
+      "S-F-ML-4014-EN",
+      "MATL-553"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3029-EN": {
+    "current": "TEST-305",
+    "chain": [
+      "S-F-ML-3029-EN",
+      "TEST-305"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0508-EN": {
+    "current": "DSGN-438",
+    "chain": [
+      "S-L-PT-0508-EN",
+      "DSGN-438"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2038-EN": {
+    "current": "MATL-575",
+    "chain": [
+      "S-F-ML-2038-EN",
+      "MATL-575"
+    ],
+    "proven": true
+  },
+  "G-L-DN-5047-EN": {
+    "current": "DSGN-468",
+    "chain": [
+      "G-L-DN-5047-EN",
+      "DSGN-468"
+    ],
+    "proven": true
+  },
+  "WNF 102731": {
+    "current": "MATL-648",
+    "chain": [
+      "WNF 102731",
+      "MATL-648"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2911-EN": {
+    "current": "TEST-144",
+    "chain": [
+      "S-F-ML-2911-EN",
+      "TEST-144"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2723-EN": {
+    "current": "TEST-246",
+    "chain": [
+      "S-F-ML-2723-EN",
+      "TEST-246"
+    ],
+    "proven": true
+  },
+  "WNA 5025": {
+    "current": "DSGN-391",
+    "chain": [
+      "WNA 5025",
+      "S-I-PT-5025",
+      "G-G-PT-5025-en",
+      "DSGN-391"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4011-EN": {
+    "current": "TEST-185",
+    "chain": [
+      "S-F-ML-4011-EN",
+      "TEST-185"
+    ],
+    "proven": true
+  },
+  "S-C-TG-0002-EN": {
+    "current": "TEST-114",
+    "chain": [
+      "S-C-TG-0002-EN",
+      "TEST-114"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2793-EN": {
+    "current": "TEST-118",
+    "chain": [
+      "S-F-ML-2793-EN",
+      "TEST-118"
+    ],
+    "proven": true
+  },
+  "G-G-TG-4005-EN": {
+    "current": "TEST-168",
+    "chain": [
+      "G-G-TG-4005-EN",
+      "TEST-168"
+    ],
+    "proven": true
+  },
+  "S-F-TG-2191-EN": {
+    "current": "TEST-55",
+    "chain": [
+      "S-F-TG-2191-EN",
+      "TEST-55"
+    ],
+    "proven": true
+  },
+  "S-L-DN-5073-EN": {
+    "current": "DSGN-457",
+    "chain": [
+      "S-L-DN-5073-EN",
+      "DSGN-457"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2734-EN": {
+    "current": "TEST-236",
+    "chain": [
+      "S-F-ML-2734-EN",
+      "TEST-236"
+    ],
+    "proven": true
+  },
+  "S-G-MA-5706-EN": {
+    "current": "MNFG-513",
+    "chain": [
+      "S-G-MA-5706-EN",
+      "MNFG-513"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0501-EN": {
+    "current": "DSGN-435",
+    "chain": [
+      "S-L-PT-0501-EN",
+      "DSGN-435"
+    ],
+    "proven": true
+  },
+  "G-C-DN-5015-EN": {
+    "current": "DSGN-432",
+    "chain": [
+      "G-C-DN-5015-EN",
+      "DSGN-432"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2777-EN": {
+    "current": "TEST-225",
+    "chain": [
+      "S-F-ML-2777-EN",
+      "TEST-225"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6009-EN": {
+    "current": "MNFG-506",
+    "chain": [
+      "S-G-MA-6009-EN",
+      "MNFG-506"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2151-EN": {
+    "current": "TEST-111",
+    "chain": [
+      "S-F-ML-2151-EN",
+      "TEST-111"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0684-EN": {
+    "current": "DSGN-427",
+    "chain": [
+      "S-F-PT-0684-EN",
+      "DSGN-427"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2111-EN": {
+    "current": "TEST-196",
+    "chain": [
+      "S-F-ML-2111-EN",
+      "TEST-196"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6501-EN": {
+    "current": "DSGN-412",
+    "chain": [
+      "S-F-PT-6501-EN",
+      "DSGN-412"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0255-EN": {
+    "current": "DSGN-355",
+    "chain": [
+      "S-F-PT-0255-EN",
+      "DSGN-355"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4200-EN": {
+    "current": "TEST-302",
+    "chain": [
+      "S-G-ML-4200-EN",
+      "TEST-302"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4500-EN": {
+    "current": "TEST-208",
+    "chain": [
+      "S-G-ML-4500-EN",
+      "TEST-208"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2161-EN": {
+    "current": "TEST-308",
+    "chain": [
+      "S-F-ML-2161-EN",
+      "TEST-308"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2189-EN": {
+    "current": "TEST-237",
+    "chain": [
+      "S-F-ML-2189-EN",
+      "TEST-237"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2900-EN": {
+    "current": "MATL-621",
+    "chain": [
+      "S-C-ML-2900-EN",
+      "MATL-621"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2745-EN": {
+    "current": "TEST-189",
+    "chain": [
+      "S-F-ML-2745-EN",
+      "TEST-189"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4006-EN": {
+    "current": "TEST-103",
+    "chain": [
+      "S-G-TG-4006-EN",
+      "TEST-103"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2033-EN": {
+    "current": "TEST-224",
+    "chain": [
+      "S-F-ML-2033-EN",
+      "TEST-224"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8102-EN": {
+    "current": "DSGN-489",
+    "chain": [
+      "S-C-TG-8102-EN",
+      "DSGN-489"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2196-EN": {
+    "current": "TEST-180",
+    "chain": [
+      "S-F-ML-2196-EN",
+      "TEST-180"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3806-EN": {
+    "current": "MNFG-478",
+    "chain": [
+      "S-G-MA-3806-EN",
+      "MNFG-478"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0220-EN": {
+    "current": "DSGN-357",
+    "chain": [
+      "S-G-PT-0220-EN",
+      "DSGN-357"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8107-EN": {
+    "current": "TEST-179",
+    "chain": [
+      "S-C-TG-8107-EN",
+      "TEST-179"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0214-EN": {
+    "current": "DSGN-493",
+    "chain": [
+      "S-G-PT-0214-EN",
+      "DSGN-493"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1900-EN": {
+    "current": "MATL-600",
+    "chain": [
+      "S-C-ML-1900-EN",
+      "MATL-600"
+    ],
+    "proven": true
+  },
+  "G-G-PT-5027-EN": {
+    "current": "DSGN-452",
+    "chain": [
+      "G-G-PT-5027-EN",
+      "DSGN-452"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0620-EN": {
+    "current": "DSGN-368",
+    "chain": [
+      "S-F-PT-0620-EN",
+      "G-A-DN-0620-en",
+      "DSGN-368"
+    ],
+    "proven": true
+  },
+  "S-L-PT-5026": {
+    "current": "DSGN-393",
+    "chain": [
+      "S-L-PT-5026",
+      "S-I-PT-5026",
+      "G-G-PT-5026-en",
+      "DSGN-393"
+    ],
+    "proven": true
+  },
+  "S-I-PT-5026": {
+    "current": "DSGN-393",
+    "chain": [
+      "S-I-PT-5026",
+      "G-G-PT-5026-en",
+      "DSGN-393"
+    ],
+    "proven": true
+  },
+  "G-G-PT-4012-EN": {
+    "current": "DSGN-431",
+    "chain": [
+      "G-G-PT-4012-EN",
+      "DSGN-431"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6005-EN": {
+    "current": "MNFG-492",
+    "chain": [
+      "S-G-MA-6005-EN",
+      "MNFG-492"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0550-EN": {
+    "current": "DSGN-386",
+    "chain": [
+      "S-G-PT-0550-EN",
+      "S-G-DN-0550-en",
+      "DSGN-386"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2733-EN": {
+    "current": "MATL-545",
+    "chain": [
+      "S-F-ML-2733-EN",
+      "MATL-545"
+    ],
+    "proven": true
+  },
+  "S-F-MA-6040-EN": {
+    "current": "MNFG-494",
+    "chain": [
+      "S-F-MA-6040-EN",
+      "MNFG-494"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4050-EN": {
+    "current": "TEST-37",
+    "chain": [
+      "S-G-TG-4050-EN",
+      "TEST-37"
+    ],
+    "proven": true
+  },
+  "G-G-PT-5029-EN": {
+    "current": "DSGN-484",
+    "chain": [
+      "G-G-PT-5029-EN",
+      "DSGN-484"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0800-EN": {
+    "current": "MATL-613",
+    "chain": [
+      "S-C-ML-0800-EN",
+      "MATL-613"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2777": {
+    "current": "MATL-638",
+    "chain": [
+      "S-F-ML-2777",
+      "MATL-638"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2767-EN": {
+    "current": "TEST-287",
+    "chain": [
+      "S-F-ML-2767-EN",
+      "TEST-287"
+    ],
+    "proven": true
+  },
+  "S-L-PT-8120-P01-EN": {
+    "current": "DSGN-349",
+    "chain": [
+      "S-L-PT-8120-P01-EN",
+      "DSGN-349"
+    ],
+    "proven": true
+  },
+  "G-A-PT-5043-EN": {
+    "current": "DSGN-434",
+    "chain": [
+      "G-A-PT-5043-EN",
+      "DSGN-434"
+    ],
+    "proven": true
+  },
+  "WNF 102713": {
+    "current": "MATL-647",
+    "chain": [
+      "WNF 102713",
+      "MATL-647"
+    ],
+    "proven": true
+  },
+  "WNA 690": {
+    "current": "S-F-PT-0690-en",
+    "chain": [
+      "WNA 690",
+      "S-F-PT-0690-en"
+    ],
+    "proven": true
+  },
+  "S-I-DN-5010-EN": {
+    "current": "DSGN-478",
+    "chain": [
+      "S-I-DN-5010-EN",
+      "DSGN-478"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0209-EN": {
+    "current": "DSGN-350",
+    "chain": [
+      "S-G-PT-0209-EN",
+      "DSGN-350"
+    ],
+    "proven": true
+  },
+  "WNA 70": {
+    "current": "S-G-PT-0070",
+    "chain": [
+      "WNA 70",
+      "S-G-PT-0070"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2810-EN": {
+    "current": "MEAS-579",
+    "chain": [
+      "S-F-ML-2810-en",
+      "TEST-278",
+      "MEAS-579"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2916-EN": {
+    "current": "TEST-72",
+    "chain": [
+      "S-F-ML-2916-EN",
+      "TEST-72"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0210-EN": {
+    "current": "DSGN-471",
+    "chain": [
+      "S-G-PT-0210-EN",
+      "DSGN-471"
+    ],
+    "proven": true
+  },
+  "G-A-PT-5042-EN": {
+    "current": "DSGN-358",
+    "chain": [
+      "G-A-PT-5042-EN",
+      "DSGN-358"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0205-EN": {
+    "current": "DSGN-401",
+    "chain": [
+      "S-G-PT-0205-EN",
+      "DSGN-401"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2702-EN": {
+    "current": "TEST-177",
+    "chain": [
+      "S-F-ML-2702-EN",
+      "TEST-177"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2716-EN": {
+    "current": "TEST-223",
+    "chain": [
+      "S-F-ML-2716-EN",
+      "TEST-223"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2785-EN": {
+    "current": "TEST-214",
+    "chain": [
+      "S-F-ML-2785-EN",
+      "TEST-214"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2926-EN": {
+    "current": "TEST-50",
+    "chain": [
+      "S-F-ML-2926-EN",
+      "TEST-50"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2137-EN": {
+    "current": "TEST-311",
+    "chain": [
+      "S-F-ML-2137-EN",
+      "TEST-311"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2220-EN": {
+    "current": "TEST-204",
+    "chain": [
+      "S-F-ML-2220-EN",
+      "TEST-204"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5000-EN": {
+    "current": "DSGN-347",
+    "chain": [
+      "S-G-DN-5000-EN",
+      "DSGN-347"
+    ],
+    "proven": true
+  },
+  "WNA 609": {
+    "current": "MNFG-467",
+    "chain": [
+      "WNA 609",
+      "S-F-MA-0609-de",
+      "MNFG-467"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2765-EN": {
+    "current": "TEST-85",
+    "chain": [
+      "S-F-ML-2765-EN",
+      "TEST-85"
+    ],
+    "proven": true
+  },
+  "S-G-ML-2130-EN": {
+    "current": "MATL-587",
+    "chain": [
+      "S-G-ML-2130-EN",
+      "MATL-587"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0613-EN": {
+    "current": "MNFG-498",
+    "chain": [
+      "S-F-MA-0613-EN",
+      "MNFG-498"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2200-EN": {
+    "current": "MATL-590",
+    "chain": [
+      "S-C-ML-2200-EN",
+      "MATL-590"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4002-EN": {
+    "current": "TEST-133",
+    "chain": [
+      "S-G-TG-4002-EN",
+      "TEST-133"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4009-EN": {
+    "current": "TEST-297",
+    "chain": [
+      "S-F-ML-4009-EN",
+      "TEST-297"
+    ],
+    "proven": true
+  },
+  "G-C-DN-5063-EN": {
+    "current": "DSGN-506",
+    "chain": [
+      "G-C-DN-5063-EN",
+      "DSGN-506"
+    ],
+    "proven": true
+  },
+  "S-G-DN-0221": {
+    "current": "DSGN-456",
+    "chain": [
+      "S-G-DN-0221",
+      "DSGN-456"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2923-EN": {
+    "current": "TEST-268",
+    "chain": [
+      "S-F-ML-2923-EN",
+      "TEST-268"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8106-EN": {
+    "current": "TEST-310",
+    "chain": [
+      "S-C-TG-8106-EN",
+      "TEST-310"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3814-EN": {
+    "current": "MNFG-465",
+    "chain": [
+      "S-G-MA-3814-EN",
+      "MNFG-465"
+    ],
+    "proven": true
+  },
+  "0W-B-1512-EN": {
+    "current": "SOP-0000603",
+    "chain": [
+      "0W-B-1512-EN",
+      "SOP-0000603"
+    ],
+    "proven": true
+  },
+  "G-G-DN-0081-EN": {
+    "current": "DSGN-405",
+    "chain": [
+      "G-G-DN-0081-EN",
+      "DSGN-405"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8155-EN": {
+    "current": "TEST-178",
+    "chain": [
+      "S-C-TG-8155-EN",
+      "TEST-178"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5055-EN": {
+    "current": "DSGN-345",
+    "chain": [
+      "S-G-DN-5055-EN",
+      "G-G-DN-5055",
+      "DSGN-345"
+    ],
+    "proven": true
+  },
+  "S-G-DN-0550-EN": {
+    "current": "DSGN-386",
+    "chain": [
+      "S-G-DN-0550-EN",
+      "DSGN-386"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8152-EN": {
+    "current": "TEST-228",
+    "chain": [
+      "S-C-TG-8152-EN",
+      "TEST-228"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2779-EN": {
+    "current": "TEST-286",
+    "chain": [
+      "S-F-ML-2779-EN",
+      "TEST-286"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0642-EN": {
+    "current": "DSGN-344",
+    "chain": [
+      "S-F-PT-0642-EN",
+      "DSGN-344"
+    ],
+    "proven": true
+  },
+  "S-G-ML-1010-EN": {
+    "current": "MATL-602",
+    "chain": [
+      "S-G-ML-1010-EN",
+      "MATL-602"
+    ],
+    "proven": true
+  },
+  "S-H-DN-5031-EN": {
+    "current": "MEAS-518",
+    "chain": [
+      "S-H-DN-5031-EN",
+      "S-H-ME-5031-en",
+      "MEAS-518"
+    ],
+    "proven": true
+  },
+  "G-F-DN-5058-EN": {
+    "current": "DSGN-485",
+    "chain": [
+      "G-F-DN-5058-EN",
+      "DSGN-485"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4710-EN": {
+    "current": "TEST-38",
+    "chain": [
+      "S-G-ML-4710-EN",
+      "TEST-38"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2700-EN": {
+    "current": "MATL-554",
+    "chain": [
+      "S-C-ML-2700-EN",
+      "MATL-554"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3100-EN": {
+    "current": "MATL-563",
+    "chain": [
+      "S-C-ML-3100-EN",
+      "MATL-563"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2776-EN": {
+    "current": "TEST-66",
+    "chain": [
+      "S-F-ML-2776-EN",
+      "TEST-66"
+    ],
+    "proven": true
+  },
+  "WNA 605": {
+    "current": "MNFG-475",
+    "chain": [
+      "WNA 605",
+      "S-F-MA-0605-de",
+      "MNFG-475"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6586-EN": {
+    "current": "DSGN-447",
+    "chain": [
+      "S-F-PT-6586-EN",
+      "DSGN-447"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0655-EN": {
+    "current": "DSGN-361",
+    "chain": [
+      "S-F-PT-0655-EN",
+      "DSGN-361"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2162-EN": {
+    "current": "TEST-235",
+    "chain": [
+      "S-F-ML-2162-EN",
+      "TEST-235"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4006-EN": {
+    "current": "TEST-87",
+    "chain": [
+      "S-F-ML-4006-EN",
+      "TEST-87"
+    ],
+    "proven": true
+  },
+  "G-A-PT-5049-EN": {
+    "current": "DSGN-451",
+    "chain": [
+      "G-A-PT-5049-EN",
+      "DSGN-451"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0216-EN": {
+    "current": "DSGN-466",
+    "chain": [
+      "S-G-PT-0216-EN",
+      "DSGN-466"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2602-EN": {
+    "current": "TEST-76",
+    "chain": [
+      "S-F-ML-2602-EN",
+      "TEST-76"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3390-EN": {
+    "current": "TEST-219",
+    "chain": [
+      "S-G-ML-3390-EN",
+      "TEST-219"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2736-EN": {
+    "current": "TEST-145",
+    "chain": [
+      "S-F-ML-2736-EN",
+      "TEST-145"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6560-EN": {
+    "current": "DSGN-392",
+    "chain": [
+      "S-F-PT-6560-EN",
+      "DSGN-392"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4190-EN": {
+    "current": "TEST-124",
+    "chain": [
+      "S-G-ML-4190-EN",
+      "TEST-124"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2924-EN": {
+    "current": "TEST-138",
+    "chain": [
+      "S-F-ML-2924-EN",
+      "TEST-138"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2917-EN": {
+    "current": "TEST-171",
+    "chain": [
+      "S-F-ML-2917-EN",
+      "TEST-171"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2721-EN": {
+    "current": "MATL-592",
+    "chain": [
+      "S-F-ML-2721-EN",
+      "MATL-592"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2144-EN": {
+    "current": "TEST-261",
+    "chain": [
+      "S-F-ML-2144-EN",
+      "TEST-261"
+    ],
+    "proven": true
+  },
+  "S-F-ML-102731-EN": {
+    "current": "MATL-631",
+    "chain": [
+      "S-F-ML-102731-EN",
+      "MATL-631"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2766-EN": {
+    "current": "TEST-200",
+    "chain": [
+      "S-F-ML-2766-EN",
+      "TEST-200"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2782-EN": {
+    "current": "TEST-80",
+    "chain": [
+      "S-F-ML-2782-EN",
+      "TEST-80"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2146-EN": {
+    "current": "TEST-122",
+    "chain": [
+      "S-F-ML-2146-EN",
+      "TEST-122"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2778-EN": {
+    "current": "MATL-645",
+    "chain": [
+      "S-F-ML-2778-EN",
+      "MATL-645"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2601-EN": {
+    "current": "TEST-269",
+    "chain": [
+      "S-F-ML-2601-EN",
+      "TEST-269"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2749-EN": {
+    "current": "TEST-282",
+    "chain": [
+      "S-F-ML-2749-EN",
+      "TEST-282"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3400-EN": {
+    "current": "MATL-542",
+    "chain": [
+      "S-C-ML-3400-EN",
+      "MATL-542"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2070-EN": {
+    "current": "MATL-577",
+    "chain": [
+      "S-F-ML-2070-EN",
+      "MATL-577"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2603-EN": {
+    "current": "TEST-226",
+    "chain": [
+      "S-F-ML-2603-EN",
+      "TEST-226"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2100-EN": {
+    "current": "MATL-549",
+    "chain": [
+      "S-C-ML-2100-EN",
+      "MATL-549"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9065-EN": {
+    "current": "TEST-275",
+    "chain": [
+      "S-G-ML-9065-EN",
+      "TEST-275"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2010-EN": {
+    "current": "TEST-299",
+    "chain": [
+      "S-F-ML-2010-EN",
+      "TEST-299"
+    ],
+    "proven": true
+  },
+  "G-C-DN-5061-EN": {
+    "current": "DSGN-448",
+    "chain": [
+      "G-C-DN-5061-EN",
+      "DSGN-448"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2015-EN": {
+    "current": "MATL-625",
+    "chain": [
+      "S-F-ML-2015-EN",
+      "MATL-625"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3410-EN": {
+    "current": "TEST-240",
+    "chain": [
+      "S-G-ML-3410-EN",
+      "TEST-240"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2764-EN": {
+    "current": "TEST-108",
+    "chain": [
+      "S-F-ML-2764-EN",
+      "TEST-108"
+    ],
+    "proven": true
+  },
+  "S-I-PT-5022-EN": {
+    "current": "DSGN-428",
+    "chain": [
+      "S-I-PT-5022-EN",
+      "DSGN-428"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3420-EN": {
+    "current": "TEST-100",
+    "chain": [
+      "S-G-ML-3420-EN",
+      "TEST-100"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2031-EN": {
+    "current": "TEST-34",
+    "chain": [
+      "S-F-ML-2031-EN",
+      "TEST-34"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1600-EN": {
+    "current": "MATL-569",
+    "chain": [
+      "S-C-ML-1600-EN",
+      "MATL-569"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0221": {
+    "current": "DSGN-456",
+    "chain": [
+      "S-G-PT-0221",
+      "S-G-DN-0221",
+      "DSGN-456"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0652-EN": {
+    "current": "DSGN-501",
+    "chain": [
+      "S-F-PT-0652-EN",
+      "DSGN-501"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4005-EN": {
+    "current": "MATL-594",
+    "chain": [
+      "S-G-ML-4005-EN",
+      "MATL-594"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4015-EN": {
+    "current": "TEST-91",
+    "chain": [
+      "S-G-TG-4015-EN",
+      "TEST-91"
+    ],
+    "proven": true
+  },
+  "WNA 685": {
+    "current": "S-F-PT-0685-en",
+    "chain": [
+      "WNA 685",
+      "S-F-PT-0685-en"
+    ],
+    "proven": true
+  },
+  "G-G-DN-9001-EN": {
+    "current": "DSGN-439",
+    "chain": [
+      "G-G-DN-9001-EN",
+      "DSGN-439"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0511-EN": {
+    "current": "DSGN-398",
+    "chain": [
+      "S-L-PT-0511-EN",
+      "DSGN-398"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3115-EN": {
+    "current": "MATL-628",
+    "chain": [
+      "S-F-ML-3115-EN",
+      "MATL-628"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4021-EN": {
+    "current": "MATL-561",
+    "chain": [
+      "S-F-ML-4021-EN",
+      "MATL-561"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0509-EN": {
+    "current": "DSGN-383",
+    "chain": [
+      "S-L-PT-0509-EN",
+      "DSGN-383"
+    ],
+    "proven": true
+  },
+  "G-G-TG-4008-EN": {
+    "current": "S-G-TG-4008-en",
+    "chain": [
+      "G-G-TG-4008-EN",
+      "S-G-TG-4008-en"
+    ],
+    "proven": true
+  },
+  "S-I-PT-5027": {
+    "current": "DSGN-452",
+    "chain": [
+      "S-I-PT-5027",
+      "G-G-PT-5027-en",
+      "DSGN-452"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1300-EN": {
+    "current": "MATL-555",
+    "chain": [
+      "S-C-ML-1300-EN",
+      "MATL-555"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3850-EN": {
+    "current": "MNFG-499",
+    "chain": [
+      "S-G-MA-3850-EN",
+      "MNFG-499"
+    ],
+    "proven": true
+  },
+  "G-C-DN-5034": {
+    "current": "MATL-585",
+    "chain": [
+      "G-C-DN-5034",
+      "S-C-DN-5034-en",
+      "MATL-585"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2035-EN": {
+    "current": "MATL-603",
+    "chain": [
+      "S-F-ML-2035-EN",
+      "MATL-603"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2741-EN": {
+    "current": "TEST-48",
+    "chain": [
+      "S-F-ML-2741-EN",
+      "TEST-48"
+    ],
+    "proven": true
+  },
+  "S-L-PT-8120-P04-EN": {
+    "current": "TEST-257",
+    "chain": [
+      "S-L-PT-8120-P04-EN",
+      "TEST-257"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1100-EN": {
+    "current": "MATL-615",
+    "chain": [
+      "S-C-ML-1100-EN",
+      "MATL-615"
+    ],
+    "proven": true
+  },
+  "S-I-TG-2139-EN": {
+    "current": "TEST-101",
+    "chain": [
+      "S-I-TG-2139-EN",
+      "TEST-101"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9020-EN": {
+    "current": "MATL-559",
+    "chain": [
+      "S-G-ML-9020-EN",
+      "MATL-559"
+    ],
+    "proven": true
+  },
+  "S-G-PT-9000-EN": {
+    "current": "DSGN-482",
+    "chain": [
+      "S-G-PT-9000-EN",
+      "DSGN-482"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3005-EN": {
+    "current": "MATL-610",
+    "chain": [
+      "S-G-ML-3005-EN",
+      "MATL-610"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6541-EN": {
+    "current": "DSGN-388",
+    "chain": [
+      "S-F-PT-6541-EN",
+      "DSGN-388"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2735-EN": {
+    "current": "TEST-263",
+    "chain": [
+      "S-F-ML-2735-EN",
+      "TEST-263"
+    ],
+    "proven": true
+  },
+  "S-G-ML-1004-EN": {
+    "current": "TEST-131",
+    "chain": [
+      "S-G-ML-1004-EN",
+      "TEST-131"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3110 D": {
+    "current": "MATL-627",
+    "chain": [
+      "S-C-ML-3110 D",
+      "MATL-627"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0656-EN": {
+    "current": "DSGN-419",
+    "chain": [
+      "S-F-PT-0656-EN",
+      "DSGN-419"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2160-EN": {
+    "current": "TEST-255",
+    "chain": [
+      "S-F-ML-2160-EN",
+      "TEST-255"
+    ],
+    "proven": true
+  },
+  "S-G-TG-0225-EN": {
+    "current": "TEST-319",
+    "chain": [
+      "S-G-TG-0225-EN",
+      "TEST-319"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0900-EN": {
+    "current": "MATL-564",
+    "chain": [
+      "S-C-ML-0900-EN",
+      "MATL-564"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2927-EN": {
+    "current": "TEST-70",
+    "chain": [
+      "S-F-ML-2927-EN",
+      "TEST-70"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2153-EN": {
+    "current": "TEST-264",
+    "chain": [
+      "S-F-ML-2153-EN",
+      "TEST-264"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3440-EN": {
+    "current": "TEST-304",
+    "chain": [
+      "S-G-ML-3440-EN",
+      "TEST-304"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2913-EN": {
+    "current": "TEST-220",
+    "chain": [
+      "S-F-ML-2913-EN",
+      "TEST-220"
+    ],
+    "proven": true
+  },
+  "WNA 5072": {
+    "current": "S-H-PT-5072-de",
+    "chain": [
+      "WNA 5072",
+      "S-H-PT-5072-de"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3030-EN": {
+    "current": "TEST-156",
+    "chain": [
+      "S-F-ML-3030-EN",
+      "TEST-156"
+    ],
+    "proven": true
+  },
+  "S-G-DN-4016-EN": {
+    "current": "DSGN-430",
+    "chain": [
+      "S-G-DN-4016-EN",
+      "DSGN-430"
+    ],
+    "proven": true
+  },
+  "S-I-PT-5025": {
+    "current": "DSGN-391",
+    "chain": [
+      "S-I-PT-5025",
+      "G-G-PT-5025-en",
+      "DSGN-391"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2178-EN": {
+    "current": "TEST-74",
+    "chain": [
+      "S-F-ML-2178-EN",
+      "TEST-74"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2775-EN": {
+    "current": "TEST-192",
+    "chain": [
+      "S-F-ML-2775-EN",
+      "TEST-192"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2138-EN": {
+    "current": "TEST-274",
+    "chain": [
+      "S-F-ML-2138-EN",
+      "TEST-274"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2918-EN": {
+    "current": "TEST-90",
+    "chain": [
+      "S-F-ML-2918-EN",
+      "TEST-90"
+    ],
+    "proven": true
+  },
+  "S-G-PT-5110-EN": {
+    "current": "DSGN-365",
+    "chain": [
+      "S-G-PT-5110-EN",
+      "DSGN-365"
+    ],
+    "proven": true
+  },
+  "S-F-TG-2154-EN": {
+    "current": "TEST-79",
+    "chain": [
+      "S-F-TG-2154-EN",
+      "TEST-79"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0231-EN": {
+    "current": "DSGN-417",
+    "chain": [
+      "S-G-PT-0231-EN",
+      "DSGN-417"
+    ],
+    "proven": true
+  },
+  "S-F-ML-102992-EN": {
+    "current": "MATL-632",
+    "chain": [
+      "S-F-ML-102992-EN",
+      "MATL-632"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2840-EN": {
+    "current": "TEST-276",
+    "chain": [
+      "S-F-ML-2840-EN",
+      "TEST-276"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4270-EN": {
+    "current": "TEST-134",
+    "chain": [
+      "S-G-ML-4270-EN",
+      "TEST-134"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3600-EN": {
+    "current": "TEST-116",
+    "chain": [
+      "S-F-ML-3600-EN",
+      "TEST-116"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6571-EN": {
+    "current": "DSGN-406",
+    "chain": [
+      "S-F-PT-6571-EN",
+      "DSGN-406"
+    ],
+    "proven": true
+  },
+  "S-F-ME-0647": {
+    "current": "MEAS-525",
+    "chain": [
+      "S-F-ME-0647",
+      "MEAS-525"
+    ],
+    "proven": true
+  },
+  "G-G-DN-5056-EN": {
+    "current": "DSGN-418",
+    "chain": [
+      "G-G-DN-5056-EN",
+      "DSGN-418"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3122-EN": {
+    "current": "TEST-298",
+    "chain": [
+      "S-G-ML-3122-EN",
+      "TEST-298"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2025-EN": {
+    "current": "MATL-618",
+    "chain": [
+      "S-F-ML-2025-EN",
+      "MATL-618"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2186-EN": {
+    "current": "TEST-64",
+    "chain": [
+      "S-F-ML-2186-EN",
+      "TEST-64"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0614-DE": {
+    "current": "MNFG-503",
+    "chain": [
+      "S-F-MA-0614-DE",
+      "MNFG-503"
+    ],
+    "proven": true
+  },
+  "S-A-PT-5032-EN": {
+    "current": "DSGN-378",
+    "chain": [
+      "S-A-PT-5032-EN",
+      "DSGN-378"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1000-EN": {
+    "current": "MATL-584",
+    "chain": [
+      "S-C-ML-1000-EN",
+      "MATL-584"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5052-EN": {
+    "current": "DSGN-410",
+    "chain": [
+      "S-G-DN-5052-EN",
+      "DSGN-410"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2147-EN": {
+    "current": "MATL-573",
+    "chain": [
+      "S-F-ML-2147-EN",
+      "MATL-573"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0660-EN": {
+    "current": "DSGN-470",
+    "chain": [
+      "S-F-PT-0660-EN",
+      "DSGN-470"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2705-EN": {
+    "current": "TEST-139",
+    "chain": [
+      "S-F-ML-2705-EN",
+      "TEST-139"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0646-EN": {
+    "current": "DSGN-453",
+    "chain": [
+      "S-F-PT-0646-EN",
+      "S-F-PT-0646-de",
+      "DSGN-453"
+    ],
+    "proven": true
+  },
+  "S-G-DN-0691-EN": {
+    "current": "DSGN-373",
+    "chain": [
+      "S-G-DN-0691-EN",
+      "DSGN-373"
+    ],
+    "proven": true
+  },
+  "G-I-PT-5035-EN": {
+    "current": "DSGN-436",
+    "chain": [
+      "G-I-PT-5035-EN",
+      "DSGN-436"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2820": {
+    "current": "MEAS-579",
+    "chain": [
+      "S-F-ML-2820",
+      "S-F-ML-2810",
+      "MEAS-579"
+    ],
+    "proven": true
+  },
+  "S-A-PT-5033-EN": {
+    "current": "DSGN-389",
+    "chain": [
+      "S-A-PT-5033-EN",
+      "DSGN-389"
+    ],
+    "proven": true
+  },
+  "G-L-DN-5021-EN": {
+    "current": "DSGN-429",
+    "chain": [
+      "G-L-DN-5021-EN",
+      "DSGN-429"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8101-EN": {
+    "current": "TEST-227",
+    "chain": [
+      "S-C-TG-8101-EN",
+      "TEST-227"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2729-EN": {
+    "current": "TEST-260",
+    "chain": [
+      "S-F-ML-2729-EN",
+      "TEST-260"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3121-EN": {
+    "current": "TEST-270",
+    "chain": [
+      "S-G-ML-3121-EN",
+      "TEST-270"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2013-EN V02": {
+    "current": "MATL-643",
+    "chain": [
+      "S-F-ML-2013-EN V02",
+      "MATL-643"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3490-EN": {
+    "current": "TEST-174",
+    "chain": [
+      "S-G-ML-3490-EN",
+      "TEST-174"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3817-EN": {
+    "current": "MNFG-480",
+    "chain": [
+      "S-G-MA-3817-EN",
+      "MNFG-480"
+    ],
+    "proven": true
+  },
+  "S-G-PT-3815-EN": {
+    "current": "MNFG-507",
+    "chain": [
+      "S-G-PT-3815-EN",
+      "MNFG-507"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2188-EN": {
+    "current": "TEST-61",
+    "chain": [
+      "S-F-ML-2188-EN",
+      "TEST-61"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0400-EN": {
+    "current": "MATL-544",
+    "chain": [
+      "S-C-ML-0400-EN",
+      "MATL-544"
+    ],
+    "proven": true
+  },
+  "WNA 693": {
+    "current": "S-F-PT-0693-en",
+    "chain": [
+      "WNA 693",
+      "S-F-PT-0693-en"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3037-EN": {
+    "current": "TEST-234",
+    "chain": [
+      "S-F-ML-3037-EN",
+      "TEST-234"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6020-DE": {
+    "current": "MNFG-500",
+    "chain": [
+      "S-G-MA-6020-DE",
+      "MNFG-500"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0504-EN": {
+    "current": "DSGN-351",
+    "chain": [
+      "S-L-PT-0504-EN",
+      "DSGN-351"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2600-EN": {
+    "current": "MATL-565",
+    "chain": [
+      "S-C-ML-2600-EN",
+      "MATL-565"
+    ],
+    "proven": true
+  },
+  "S-L-DN-5071-EN": {
+    "current": "DSGN-495",
+    "chain": [
+      "S-L-DN-5071-EN",
+      "DSGN-495"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2041-EN": {
+    "current": "TEST-142",
+    "chain": [
+      "S-F-ML-2041-EN",
+      "TEST-142"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2800-EN": {
+    "current": "MATL-616",
+    "chain": [
+      "S-C-ML-2800-EN",
+      "MATL-616"
+    ],
+    "proven": true
+  },
+  "S-G-PT-5040-EN": {
+    "current": "DSGN-488",
+    "chain": [
+      "S-G-PT-5040-EN",
+      "DSGN-488"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2800-EN": {
+    "current": "TEST-157",
+    "chain": [
+      "S-F-ML-2800-EN",
+      "TEST-157"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4140-EN": {
+    "current": "TEST-244",
+    "chain": [
+      "S-G-ML-4140-EN",
+      "TEST-244"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6502-EN": {
+    "current": "DSGN-472",
+    "chain": [
+      "S-F-PT-6502-EN",
+      "DSGN-472"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0211-EN": {
+    "current": "DSGN-425",
+    "chain": [
+      "S-G-PT-0211-EN",
+      "DSGN-425"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0596-EN": {
+    "current": "MNFG-468",
+    "chain": [
+      "S-F-MA-0596-EN",
+      "MNFG-468"
+    ],
+    "proven": true
+  },
+  "S-I-PT-2136-EN": {
+    "current": "DSGN-444",
+    "chain": [
+      "S-I-PT-2136-EN",
+      "DSGN-444"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2152-EN": {
+    "current": "TEST-259",
+    "chain": [
+      "S-F-ML-2152-EN",
+      "TEST-259"
+    ],
+    "proven": true
+  },
+  "G-A-DN-5024-EN": {
+    "current": "DSGN-367",
+    "chain": [
+      "G-A-DN-5024-EN",
+      "DSGN-367"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2743-EN": {
+    "current": "TEST-190",
+    "chain": [
+      "S-F-ML-2743-EN",
+      "TEST-190"
+    ],
+    "proven": true
+  },
+  "G-A-DN-0621-EN": {
+    "current": "DSGN-356",
+    "chain": [
+      "G-A-DN-0621-EN",
+      "DSGN-356"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2769-EN": {
+    "current": "TEST-175",
+    "chain": [
+      "S-F-ML-2769-EN",
+      "TEST-175"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2792-EN": {
+    "current": "TEST-301",
+    "chain": [
+      "S-F-ML-2792-EN",
+      "TEST-301"
+    ],
+    "proven": true
+  },
+  "G-C-DN-5062-EN": {
+    "current": "DSGN-507",
+    "chain": [
+      "G-C-DN-5062-EN",
+      "DSGN-507"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8104-EN": {
+    "current": "TEST-110",
+    "chain": [
+      "S-C-TG-8104-EN",
+      "TEST-110"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6542-EN": {
+    "current": "DSGN-497",
+    "chain": [
+      "S-F-PT-6542-EN",
+      "DSGN-497"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6565-EN": {
+    "current": "DSGN-415",
+    "chain": [
+      "S-F-PT-6565-EN",
+      "DSGN-415"
+    ],
+    "proven": true
+  },
+  "S-F-ML-102167-EN": {
+    "current": "MATL-630",
+    "chain": [
+      "S-F-ML-102167-EN",
+      "MATL-630"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4130-EN": {
+    "current": "TEST-53",
+    "chain": [
+      "S-G-ML-4130-EN",
+      "TEST-53"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2410-EN": {
+    "current": "TEST-210",
+    "chain": [
+      "S-F-ML-2410-EN",
+      "TEST-210"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2608-EN": {
+    "current": "TEST-161",
+    "chain": [
+      "S-F-ML-2608-EN",
+      "TEST-161"
+    ],
+    "proven": true
+  },
+  "S-F-MA-6041-EN": {
+    "current": "MNFG-501",
+    "chain": [
+      "S-F-MA-6041-EN",
+      "S-F-MA-6041-de",
+      "MNFG-501"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0664-EN": {
+    "current": "DSGN-480",
+    "chain": [
+      "S-F-PT-0664-EN",
+      "S-F-PT-0664-de",
+      "DSGN-480"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0614-EN": {
+    "current": "MNFG-503",
+    "chain": [
+      "S-F-MA-0614-EN",
+      "S-F-MA-0614-de",
+      "MNFG-503"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2187-EN": {
+    "current": "TEST-239",
+    "chain": [
+      "S-F-ML-2187-EN",
+      "TEST-239"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5135-EN": {
+    "current": "DSGN-385",
+    "chain": [
+      "S-G-DN-5135-EN",
+      "DSGN-385"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1200-EN": {
+    "current": "MATL-570",
+    "chain": [
+      "S-C-ML-1200-EN",
+      "MATL-570"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0605-DE": {
+    "current": "MNFG-475",
+    "chain": [
+      "S-F-MA-0605-DE",
+      "MNFG-475"
+    ],
+    "proven": true
+  },
+  "S-F-DN-0660-EN": {
+    "current": "DSGN-497",
+    "chain": [
+      "S-F-DN-0660-EN",
+      "S-F-PT-6542-en",
+      "DSGN-497"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3809-EN": {
+    "current": "MNFG-474",
+    "chain": [
+      "S-G-MA-3809-EN",
+      "MNFG-474"
+    ],
+    "proven": true
+  },
+  "S-H-ML-1016-EN": {
+    "current": "MATL-566",
+    "chain": [
+      "S-H-ML-1016-EN",
+      "MATL-566"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4000-EN": {
+    "current": "TEST-231",
+    "chain": [
+      "S-G-TG-4000-EN",
+      "TEST-231"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2194-EN": {
+    "current": "TEST-291",
+    "chain": [
+      "S-F-ML-2194-EN",
+      "TEST-291"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0639-EN": {
+    "current": "DSGN-420",
+    "chain": [
+      "S-F-PT-0639-EN",
+      "DSGN-420"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4025-P01-EN": {
+    "current": "MATL-560",
+    "chain": [
+      "S-G-ML-4025-P01-EN",
+      "MATL-560"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2774-EN": {
+    "current": "TEST-173",
+    "chain": [
+      "S-F-ML-2774-EN",
+      "TEST-173"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6573-EN": {
+    "current": "DSGN-449",
+    "chain": [
+      "S-F-PT-6573-EN",
+      "DSGN-449"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6011-EN": {
+    "current": "MNFG-472",
+    "chain": [
+      "S-G-MA-6011-EN",
+      "MNFG-472"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3570-EN": {
+    "current": "TEST-232",
+    "chain": [
+      "S-G-ML-3570-EN",
+      "TEST-232"
+    ],
+    "proven": true
+  },
+  "S-G-MA-4014-EN": {
+    "current": "TEST-251",
+    "chain": [
+      "S-G-MA-4014-EN",
+      "TEST-251"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0616-EN": {
+    "current": "DSGN-387",
+    "chain": [
+      "S-F-PT-0616-EN",
+      "S-F-PT-0616-de",
+      "DSGN-387"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4013-P01-EN": {
+    "current": "MATL-619",
+    "chain": [
+      "S-F-ML-4013-P01-EN",
+      "MATL-619"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3035-EN": {
+    "current": "TEST-86",
+    "chain": [
+      "S-F-ML-3035-EN",
+      "TEST-86"
+    ],
+    "proven": true
+  },
+  "G-A-DN-5018-EN": {
+    "current": "DSGN-473",
+    "chain": [
+      "G-A-DN-5018-EN",
+      "DSGN-473"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4018-EN": {
+    "current": "TEST-221",
+    "chain": [
+      "S-G-TG-4018-EN",
+      "TEST-221"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4260-EN": {
+    "current": "TEST-97",
+    "chain": [
+      "S-G-ML-4260-EN",
+      "TEST-97"
+    ],
+    "proven": true
+  },
+  "S-H-ME-5031-EN": {
+    "current": "MEAS-518",
+    "chain": [
+      "S-H-ME-5031-EN",
+      "MEAS-518"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2714-EN": {
+    "current": "TEST-112",
+    "chain": [
+      "S-F-ML-2714-EN",
+      "TEST-112"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3350-EN": {
+    "current": "TEST-52",
+    "chain": [
+      "S-G-ML-3350-EN",
+      "TEST-52"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8103-EN": {
+    "current": "TEST-163",
+    "chain": [
+      "S-C-TG-8103-EN",
+      "TEST-163"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0603-DE": {
+    "current": "MNFG-510",
+    "chain": [
+      "S-F-MA-0603-DE",
+      "MNFG-510"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6580-EN": {
+    "current": "DSGN-370",
+    "chain": [
+      "S-F-PT-6580-EN",
+      "DSGN-370"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4210-EN": {
+    "current": "TEST-59",
+    "chain": [
+      "S-G-ML-4210-EN",
+      "TEST-59"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2770-EN": {
+    "current": "TEST-104",
+    "chain": [
+      "S-F-ML-2770-EN",
+      "TEST-104"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0606-DE": {
+    "current": "MNFG-477",
+    "chain": [
+      "S-F-MA-0606-DE",
+      "MNFG-477"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2781-EN": {
+    "current": "TEST-172",
+    "chain": [
+      "S-F-ML-2781-EN",
+      "TEST-172"
+    ],
+    "proven": true
+  },
+  "G-I-PT-5093-EN": {
+    "current": "DSGN-487",
+    "chain": [
+      "G-I-PT-5093-EN",
+      "DSGN-487"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1800-EN": {
+    "current": "MATL-550",
+    "chain": [
+      "S-C-ML-1800-EN",
+      "MATL-550"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2034-EN": {
+    "current": "TEST-140",
+    "chain": [
+      "S-F-ML-2034-EN",
+      "TEST-140"
+    ],
+    "proven": true
+  },
+  "S-A-DN-5020-EN": {
+    "current": "DSGN-404",
+    "chain": [
+      "S-A-DN-5020-EN",
+      "DSGN-404"
+    ],
+    "proven": true
+  },
+  "S-G-PT-5134-EN": {
+    "current": "DSGN-500",
+    "chain": [
+      "S-G-PT-5134-EN",
+      "DSGN-500"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6584-EN": {
+    "current": "DSGN-360",
+    "chain": [
+      "S-F-PT-6584-EN",
+      "DSGN-360"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2773-EN": {
+    "current": "TEST-58",
+    "chain": [
+      "S-F-ML-2773-EN",
+      "TEST-58"
+    ],
+    "proven": true
+  },
+  "S-G-DN-0221-EN": {
+    "current": "DSGN-456",
+    "chain": [
+      "S-G-DN-0221-EN",
+      "DSGN-456"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4013-EN": {
+    "current": "TEST-40",
+    "chain": [
+      "S-G-TG-4013-EN",
+      "TEST-40"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2050-EN": {
+    "current": "TEST-92",
+    "chain": [
+      "S-F-ML-2050-EN",
+      "TEST-92"
+    ],
+    "proven": true
+  },
+  "S-G-PT-2136": {
+    "current": "DSGN-444",
+    "chain": [
+      "S-G-PT-2136",
+      "S-I-PT-2136-en",
+      "DSGN-444"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6002-EN": {
+    "current": "MNFG-481",
+    "chain": [
+      "S-G-MA-6002-EN",
+      "MNFG-481"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0668-EN": {
+    "current": "DSGN-382",
+    "chain": [
+      "S-F-PT-0668-EN",
+      "DSGN-382"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2179-EN": {
+    "current": "TEST-280",
+    "chain": [
+      "S-F-ML-2179-EN",
+      "TEST-280"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2710-EN": {
+    "current": "TEST-117",
+    "chain": [
+      "S-F-ML-2710-EN",
+      "TEST-117"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2145-EN": {
+    "current": "TEST-159",
+    "chain": [
+      "S-F-ML-2145-EN",
+      "TEST-159"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2170-EN": {
+    "current": "TEST-130",
+    "chain": [
+      "S-F-ML-2170-EN",
+      "TEST-130"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2730-EN": {
+    "current": "TEST-197",
+    "chain": [
+      "S-F-ML-2730-EN",
+      "TEST-197"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0664-DE": {
+    "current": "DSGN-480",
+    "chain": [
+      "S-F-PT-0664-DE",
+      "DSGN-480"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2163-EN": {
+    "current": "TEST-215",
+    "chain": [
+      "S-F-ML-2163-EN",
+      "TEST-215"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3370-EN": {
+    "current": "TEST-247",
+    "chain": [
+      "S-G-ML-3370-EN",
+      "TEST-247"
+    ],
+    "proven": true
+  },
+  "S-G-PT-3816-EN": {
+    "current": "MNFG-464",
+    "chain": [
+      "S-G-PT-3816-EN",
+      "MNFG-464"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2060-EN": {
+    "current": "TEST-89",
+    "chain": [
+      "S-F-ML-2060-EN",
+      "TEST-89"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2142-EN": {
+    "current": "TEST-106",
+    "chain": [
+      "S-F-ML-2142-EN",
+      "TEST-106"
+    ],
+    "proven": true
+  },
+  "S-G-PT-5075-EN": {
+    "current": "DSGN-395",
+    "chain": [
+      "S-G-PT-5075-EN",
+      "DSGN-395"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3811-EN": {
+    "current": "MNFG-458",
+    "chain": [
+      "S-G-MA-3811-EN",
+      "MNFG-458"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0200-EN": {
+    "current": "MATL-557",
+    "chain": [
+      "S-C-ML-0200-EN",
+      "MATL-557"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5001-EN": {
+    "current": "DSGN-348",
+    "chain": [
+      "S-G-DN-5001-EN",
+      "DSGN-348"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2722-EN": {
+    "current": "TEST-293",
+    "chain": [
+      "S-F-ML-2722-EN",
+      "TEST-293"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2169-EN": {
+    "current": "TEST-184",
+    "chain": [
+      "S-F-ML-2169-EN",
+      "TEST-184"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0100-EN": {
+    "current": "MATL-608",
+    "chain": [
+      "S-C-ML-0100-EN",
+      "MATL-608"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0560-EN": {
+    "current": "DSGN-469",
+    "chain": [
+      "S-F-PT-0560-EN",
+      "DSGN-469"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9025-EN": {
+    "current": "TEST-129",
+    "chain": [
+      "S-G-ML-9025-EN",
+      "TEST-129"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2177-EN": {
+    "current": "TEST-169",
+    "chain": [
+      "S-F-ML-2177-EN",
+      "TEST-169"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3039-EN": {
+    "current": "TEST-176",
+    "chain": [
+      "S-F-ML-3039-EN",
+      "TEST-176"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2701-EN": {
+    "current": "TEST-253",
+    "chain": [
+      "S-F-ML-2701-EN",
+      "TEST-253"
+    ],
+    "proven": true
+  },
+  "S-C-PT-0001-EN": {
+    "current": "DSGN-498",
+    "chain": [
+      "S-C-PT-0001-EN",
+      "DSGN-498"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2919-EN": {
+    "current": "TEST-313",
+    "chain": [
+      "S-F-ML-2919-EN",
+      "TEST-313"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6523-EN": {
+    "current": "DSGN-364",
+    "chain": [
+      "S-F-PT-6523-EN",
+      "DSGN-364"
+    ],
+    "proven": true
+  },
+  "S-F-DN-5090-EN": {
+    "current": "DSGN-400",
+    "chain": [
+      "S-F-DN-5090-EN",
+      "DSGN-400"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2810": {
+    "current": "MEAS-579",
+    "chain": [
+      "S-F-ML-2810-en",
+      "TEST-278",
+      "MEAS-579"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2715-EN": {
+    "current": "TEST-194",
+    "chain": [
+      "S-F-ML-2715-EN",
+      "TEST-194"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2000-EN": {
+    "current": "MATL-586",
+    "chain": [
+      "S-C-ML-2000-EN",
+      "MATL-586"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2011-EN": {
+    "current": "TEST-213",
+    "chain": [
+      "S-F-ML-2011-EN",
+      "TEST-213"
+    ],
+    "proven": true
+  },
+  "G-A-PT-5044-EN": {
+    "current": "DSGN-394",
+    "chain": [
+      "G-A-PT-5044-EN",
+      "DSGN-394"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2915-EN": {
+    "current": "TEST-75",
+    "chain": [
+      "S-F-ML-2915-EN",
+      "TEST-75"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0680-EN": {
+    "current": "MNFG-476",
+    "chain": [
+      "S-F-MA-0680-EN",
+      "MNFG-476"
+    ],
+    "proven": true
+  },
+  "G-G-DN-5055": {
+    "current": "DSGN-345",
+    "chain": [
+      "G-G-DN-5055",
+      "DSGN-345"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2746-EN": {
+    "current": "TEST-279",
+    "chain": [
+      "S-F-ML-2746-EN",
+      "TEST-279"
+    ],
+    "proven": true
+  },
+  "G-G-MA-6010-EN": {
+    "current": "MNFG-484",
+    "chain": [
+      "G-G-MA-6010-EN",
+      "S-G-MA-6010-en",
+      "MNFG-484"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2192-EN": {
+    "current": "TEST-243",
+    "chain": [
+      "S-F-ML-2192-EN",
+      "TEST-243"
+    ],
+    "proven": true
+  },
+  "S-C-TG-0005-EN": {
+    "current": "TEST-283",
+    "chain": [
+      "S-C-TG-0005-EN",
+      "TEST-283"
+    ],
+    "proven": true
+  },
+  "S-L-PT-8120-P03-EN": {
+    "current": "DSGN-446",
+    "chain": [
+      "S-L-PT-8120-P03-EN",
+      "DSGN-446"
+    ],
+    "proven": true
+  },
+  "S-G-PT-5076-EN": {
+    "current": "DSGN-454",
+    "chain": [
+      "S-G-PT-5076-EN",
+      "DSGN-454"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0611-EN": {
+    "current": "MNFG-489",
+    "chain": [
+      "S-F-MA-0611-EN",
+      "S-F-MA-0611-de",
+      "MNFG-489"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2168-EN": {
+    "current": "TEST-164",
+    "chain": [
+      "S-F-ML-2168-EN",
+      "TEST-164"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2742-EN": {
+    "current": "TEST-141",
+    "chain": [
+      "S-F-ML-2742-EN",
+      "TEST-141"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4007-EN": {
+    "current": "MATL-578",
+    "chain": [
+      "S-F-ML-4007-EN",
+      "MATL-578"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2150-EN": {
+    "current": "TEST-41",
+    "chain": [
+      "S-F-ML-2150-EN",
+      "TEST-41"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3038-EN": {
+    "current": "TEST-201",
+    "chain": [
+      "S-F-ML-3038-EN",
+      "TEST-201"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5007-EN": {
+    "current": "DSGN-476",
+    "chain": [
+      "S-G-DN-5007-EN",
+      "DSGN-476"
+    ],
+    "proven": true
+  },
+  "S-L-ML-1019-EN": {
+    "current": "MATL-581",
+    "chain": [
+      "S-L-ML-1019-EN",
+      "MATL-581"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2610-EN": {
+    "current": "TEST-82",
+    "chain": [
+      "S-F-ML-2610-EN",
+      "TEST-82"
+    ],
+    "proven": true
+  },
+  "S-G-ML-1005-EN": {
+    "current": "MATL-626",
+    "chain": [
+      "S-G-ML-1005-EN",
+      "MATL-626"
+    ],
+    "proven": true
+  },
+  "S-C-PT-8100-EN": {
+    "current": "DSGN-363",
+    "chain": [
+      "S-C-PT-8100-EN",
+      "DSGN-363"
+    ],
+    "proven": true
+  },
+  "G-G-MA-6009-EN": {
+    "current": "MNFG-506",
+    "chain": [
+      "G-G-MA-6009-EN",
+      "S-G-MA-6009-en",
+      "MNFG-506"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0617-EN": {
+    "current": "MNFG-469",
+    "chain": [
+      "S-F-MA-0617-EN",
+      "MNFG-469"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4060-EN": {
+    "current": "TEST-195",
+    "chain": [
+      "S-G-ML-4060-EN",
+      "TEST-195"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2135-EN": {
+    "current": "TEST-135",
+    "chain": [
+      "S-F-ML-2135-EN",
+      "TEST-135"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9079-EN": {
+    "current": "TEST-229",
+    "chain": [
+      "S-G-ML-9079-EN",
+      "TEST-229"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2017-EN": {
+    "current": "MATL-640",
+    "chain": [
+      "S-F-ML-2017-EN",
+      "MATL-640"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2753": {
+    "current": "MATL-636",
+    "chain": [
+      "S-F-ML-2753",
+      "MATL-636"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2148-EN": {
+    "current": "TEST-83",
+    "chain": [
+      "S-F-ML-2148-EN",
+      "TEST-83"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3110-EN": {
+    "current": "TEST-205",
+    "chain": [
+      "S-G-ML-3110-EN",
+      "TEST-205"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3031-EN": {
+    "current": "TEST-160",
+    "chain": [
+      "S-F-ML-3031-EN",
+      "TEST-160"
+    ],
+    "proven": true
+  },
+  "S-C-ML-2300-EN": {
+    "current": "MATL-605",
+    "chain": [
+      "S-C-ML-2300-EN",
+      "MATL-605"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2024-EN": {
+    "current": "MATL-593",
+    "chain": [
+      "S-F-ML-2024-EN",
+      "MATL-593"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2748-EN": {
+    "current": "TEST-265",
+    "chain": [
+      "S-F-ML-2748-EN",
+      "TEST-265"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2709-EN": {
+    "current": "TEST-128",
+    "chain": [
+      "S-F-ML-2709-EN",
+      "TEST-128"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3810-EN": {
+    "current": "MNFG-485",
+    "chain": [
+      "S-G-MA-3810-EN",
+      "MNFG-485"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8156-EN": {
+    "current": "TEST-273",
+    "chain": [
+      "S-C-TG-8156-EN",
+      "TEST-273"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9051-EN": {
+    "current": "TEST-119",
+    "chain": [
+      "S-G-ML-9051-EN",
+      "TEST-119"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6575-EN": {
+    "current": "DSGN-352",
+    "chain": [
+      "S-F-PT-6575-EN",
+      "DSGN-352"
+    ],
+    "proven": true
+  },
+  "S-L-DN-5080-EN": {
+    "current": "DSGN-381",
+    "chain": [
+      "S-L-DN-5080-EN",
+      "DSGN-381"
+    ],
+    "proven": true
+  },
+  "S-L-ML-1018-EN": {
+    "current": "MATL-617",
+    "chain": [
+      "S-L-ML-1018-EN",
+      "MATL-617"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2193-EN": {
+    "current": "TEST-47",
+    "chain": [
+      "S-F-ML-2193-EN",
+      "TEST-47"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2323-EN": {
+    "current": "TEST-77",
+    "chain": [
+      "S-F-ML-2323-EN",
+      "TEST-77"
+    ],
+    "proven": true
+  },
+  "S-L-DN-5074-EN": {
+    "current": "DSGN-390",
+    "chain": [
+      "S-L-DN-5074-EN",
+      "DSGN-390"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0616-DE": {
+    "current": "DSGN-387",
+    "chain": [
+      "S-F-PT-0616-DE",
+      "DSGN-387"
+    ],
+    "proven": true
+  },
+  "S-G-ML-1006-EN": {
+    "current": "MATL-540",
+    "chain": [
+      "S-G-ML-1006-EN",
+      "MATL-540"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2171-EN": {
+    "current": "TEST-146",
+    "chain": [
+      "S-F-ML-2171-EN",
+      "TEST-146"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2190-EN": {
+    "current": "MATL-591",
+    "chain": [
+      "S-F-ML-2190-EN",
+      "MATL-591"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2740-EN": {
+    "current": "TEST-102",
+    "chain": [
+      "S-F-ML-2740-EN",
+      "TEST-102"
+    ],
+    "proven": true
+  },
+  "S-F-ML-102110-EN": {
+    "current": "MATL-629",
+    "chain": [
+      "S-F-ML-102110-EN",
+      "MATL-629"
+    ],
+    "proven": true
+  },
+  "S-F-TG-2193-EN": {
+    "current": "TEST-238",
+    "chain": [
+      "S-F-TG-2193-EN",
+      "TEST-238"
+    ],
+    "proven": true
+  },
+  "S-F-MA-6091-DE": {
+    "current": "MNFG-463",
+    "chain": [
+      "S-F-MA-6091-DE",
+      "MNFG-463"
+    ],
+    "proven": true
+  },
+  "G-I-PT-3201-EN": {
+    "current": "DSGN-464",
+    "chain": [
+      "G-I-PT-3201-EN",
+      "DSGN-464"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3810-EN": {
+    "current": "TEST-315",
+    "chain": [
+      "S-G-ML-3810-EN",
+      "TEST-315"
+    ],
+    "proven": true
+  },
+  "S-F-ML-3032-EN": {
+    "current": "TEST-216",
+    "chain": [
+      "S-F-ML-3032-EN",
+      "TEST-216"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1500-EN": {
+    "current": "MATL-589",
+    "chain": [
+      "S-C-ML-1500-EN",
+      "MATL-589"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4008-EN": {
+    "current": "TEST-69",
+    "chain": [
+      "S-F-ML-4008-EN",
+      "TEST-69"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8153-EN": {
+    "current": "TEST-218",
+    "chain": [
+      "S-C-TG-8153-EN",
+      "TEST-218"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2607-EN": {
+    "current": "TEST-292",
+    "chain": [
+      "S-F-ML-2607-EN",
+      "TEST-292"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6004-EN": {
+    "current": "MNFG-496",
+    "chain": [
+      "S-G-MA-6004-EN",
+      "MNFG-496"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2786-EN": {
+    "current": "TEST-125",
+    "chain": [
+      "S-F-ML-2786-EN",
+      "TEST-125"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3400-EN": {
+    "current": "TEST-289",
+    "chain": [
+      "S-G-ML-3400-EN",
+      "TEST-289"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2324-EN": {
+    "current": "TEST-306",
+    "chain": [
+      "S-F-ML-2324-EN",
+      "TEST-306"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6582-EN": {
+    "current": "DSGN-450",
+    "chain": [
+      "S-F-PT-6582-EN",
+      "DSGN-450"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2706-EN": {
+    "current": "TEST-56",
+    "chain": [
+      "S-F-ML-2706-EN",
+      "TEST-56"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2780-EN": {
+    "current": "TEST-99",
+    "chain": [
+      "S-F-ML-2780-EN",
+      "TEST-99"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5110": {
+    "current": "DSGN-365",
+    "chain": [
+      "S-G-DN-5110",
+      "S-G-PT-5110-en",
+      "DSGN-365"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4013-EN": {
+    "current": "MATL-546",
+    "chain": [
+      "S-F-ML-4013-EN",
+      "MATL-546"
+    ],
+    "proven": true
+  },
+  "S-G-PT-2203-EN": {
+    "current": "DSGN-362",
+    "chain": [
+      "S-G-PT-2203-EN",
+      "DSGN-362"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2026-EN": {
+    "current": "MATL-588",
+    "chain": [
+      "S-F-ML-2026-EN",
+      "MATL-588"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0595-EN": {
+    "current": "MNFG-470",
+    "chain": [
+      "S-F-MA-0595-EN",
+      "MNFG-470"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0611-DE": {
+    "current": "MNFG-489",
+    "chain": [
+      "S-F-MA-0611-DE",
+      "MNFG-489"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4090-EN": {
+    "current": "TEST-241",
+    "chain": [
+      "S-G-ML-4090-EN",
+      "TEST-241"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2140-EN": {
+    "current": "TEST-143",
+    "chain": [
+      "S-F-ML-2140-EN",
+      "TEST-143"
+    ],
+    "proven": true
+  },
+  "S-C-TG-8108-EN": {
+    "current": "TEST-281",
+    "chain": [
+      "S-C-TG-8108-EN",
+      "TEST-281"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2195-EN": {
+    "current": "TEST-186",
+    "chain": [
+      "S-F-ML-2195-EN",
+      "TEST-186"
+    ],
+    "proven": true
+  },
+  "WNF 102810": {
+    "current": "MEAS-579",
+    "chain": [
+      "WNF 102810",
+      "S-F-ML-2810-en",
+      "TEST-278",
+      "MEAS-579"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3130-EN": {
+    "current": "TEST-288",
+    "chain": [
+      "S-G-ML-3130-EN",
+      "TEST-288"
+    ],
+    "proven": true
+  },
+  "G-G-TG-4008": {
+    "current": "S-G-TG-4008-en",
+    "chain": [
+      "G-G-TG-4008",
+      "S-G-TG-4008-en"
+    ],
+    "proven": true
+  },
+  "G-G-PT-5026-EN": {
+    "current": "DSGN-393",
+    "chain": [
+      "G-G-PT-5026-EN",
+      "DSGN-393"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6003-EN": {
+    "current": "MNFG-462",
+    "chain": [
+      "S-G-MA-6003-EN",
+      "MNFG-462"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2158-EN": {
+    "current": "TEST-303",
+    "chain": [
+      "S-F-ML-2158-EN",
+      "TEST-303"
+    ],
+    "proven": true
+  },
+  "S-F-MA-6041-DE": {
+    "current": "MNFG-501",
+    "chain": [
+      "S-F-MA-6041-DE",
+      "MNFG-501"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4015-EN": {
+    "current": "MATL-571",
+    "chain": [
+      "S-F-ML-4015-EN",
+      "MATL-571"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3120-EN": {
+    "current": "TEST-262",
+    "chain": [
+      "S-G-ML-3120-EN",
+      "TEST-262"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2166-EN": {
+    "current": "TEST-181",
+    "chain": [
+      "S-F-ML-2166-EN",
+      "TEST-181"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2912-EN": {
+    "current": "TEST-136",
+    "chain": [
+      "S-F-ML-2912-EN",
+      "TEST-136"
+    ],
+    "proven": true
+  },
+  "G-G-DN-5055-EN": {
+    "current": "DSGN-345",
+    "chain": [
+      "G-G-DN-5055-EN",
+      "DSGN-345"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2165-EN": {
+    "current": "TEST-272",
+    "chain": [
+      "S-F-ML-2165-EN",
+      "TEST-272"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0612-EN": {
+    "current": "MNFG-505",
+    "chain": [
+      "S-F-MA-0612-EN",
+      "MNFG-505"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4025-EN": {
+    "current": "MATL-583",
+    "chain": [
+      "S-G-ML-4025-EN",
+      "MATL-583"
+    ],
+    "proven": true
+  },
+  "S-G-PT-0213-EN": {
+    "current": "DSGN-421",
+    "chain": [
+      "S-G-PT-0213-EN",
+      "DSGN-421"
+    ],
+    "proven": true
+  },
+  "WNA 5115": {
+    "current": "S-L-PT-5115-en",
+    "chain": [
+      "WNA 5115",
+      "S-L-PT-5115-en"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0270-EN": {
+    "current": "DSGN-486",
+    "chain": [
+      "S-F-PT-0270-EN",
+      "DSGN-486"
+    ],
+    "proven": true
+  },
+  "S-A-DN-5091-EN": {
+    "current": "DSGN-437",
+    "chain": [
+      "S-A-DN-5091-EN",
+      "DSGN-437"
+    ],
+    "proven": true
+  },
+  "S-F-DN-0657-EN": {
+    "current": "DSGN-354",
+    "chain": [
+      "S-F-DN-0657-EN",
+      "DSGN-354"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3380-P02-EN": {
+    "current": "MATL-620",
+    "chain": [
+      "S-G-ML-3380-P02-EN",
+      "MATL-620"
+    ],
+    "proven": true
+  },
+  "S-F-DN-0616-DE": {
+    "current": "DSGN-387",
+    "chain": [
+      "S-F-DN-0616-DE",
+      "S-F-PT-0616-de",
+      "DSGN-387"
+    ],
+    "proven": true
+  },
+  "G-A-PT-5039-EN": {
+    "current": "DSGN-416",
+    "chain": [
+      "G-A-PT-5039-EN",
+      "DSGN-416"
+    ],
+    "proven": true
+  },
+  "G-G-PT-4024-EN": {
+    "current": "DSGN-396",
+    "chain": [
+      "G-G-PT-4024-EN",
+      "DSGN-396"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3300-EN": {
+    "current": "MATL-579",
+    "chain": [
+      "S-C-ML-3300-EN",
+      "MATL-579"
+    ],
+    "proven": true
+  },
+  "S-F-DN-0664-DE": {
+    "current": "DSGN-480",
+    "chain": [
+      "S-F-DN-0664-DE",
+      "DSGN-480"
+    ],
+    "proven": true
+  },
+  "G-I-DN-5048-EN": {
+    "current": "DSGN-414",
+    "chain": [
+      "G-I-DN-5048-EN",
+      "DSGN-414"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0644-EN": {
+    "current": "DSGN-455",
+    "chain": [
+      "S-F-PT-0644-EN",
+      "DSGN-455"
+    ],
+    "proven": true
+  },
+  "G-G-TG-4001-EN": {
+    "current": "TEST-35",
+    "chain": [
+      "G-G-TG-4001-EN",
+      "TEST-35"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2708-EN": {
+    "current": "TEST-212",
+    "chain": [
+      "S-F-ML-2708-EN",
+      "TEST-212"
+    ],
+    "proven": true
+  },
+  "S-F-ME-6561-EN": {
+    "current": "TEST-222",
+    "chain": [
+      "S-F-ME-6561-EN",
+      "TEST-222"
+    ],
+    "proven": true
+  },
+  "S-F-TG-4100-EN": {
+    "current": "TEST-314",
+    "chain": [
+      "S-F-TG-4100-EN",
+      "TEST-314"
+    ],
+    "proven": true
+  },
+  "S-C-ML-1400-EN": {
+    "current": "MATL-597",
+    "chain": [
+      "S-C-ML-1400-EN",
+      "MATL-597"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6451": {
+    "current": "DSGN-512",
+    "chain": [
+      "S-F-PT-6451",
+      "S-L-PT-60451-en",
+      "DSGN-512"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9044-EN": {
+    "current": "TEST-147",
+    "chain": [
+      "S-G-ML-9044-EN",
+      "TEST-147"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4003-EN": {
+    "current": "TEST-148",
+    "chain": [
+      "S-G-TG-4003-EN",
+      "TEST-148"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0600-EN": {
+    "current": "MATL-574",
+    "chain": [
+      "S-C-ML-0600-EN",
+      "MATL-574"
+    ],
+    "proven": true
+  },
+  "G-G-MA-6007-EN": {
+    "current": "MNFG-508",
+    "chain": [
+      "G-G-MA-6007-EN",
+      "S-G-MA-6007-en",
+      "MNFG-508"
+    ],
+    "proven": true
+  },
+  "S-G-ML-4030-EN": {
+    "current": "TEST-165",
+    "chain": [
+      "S-G-ML-4030-EN",
+      "TEST-165"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4000-EN": {
+    "current": "TEST-63",
+    "chain": [
+      "S-F-ML-4000-EN",
+      "TEST-63"
+    ],
+    "proven": true
+  },
+  "S-G-PT-2202-EN": {
+    "current": "DSGN-463",
+    "chain": [
+      "S-G-PT-2202-EN",
+      "DSGN-463"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3812-EN": {
+    "current": "MNFG-490",
+    "chain": [
+      "S-G-MA-3812-EN",
+      "MNFG-490"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6020": {
+    "current": "MNFG-500",
+    "chain": [
+      "S-G-MA-6020",
+      "S-G-MA-6020-de",
+      "MNFG-500"
+    ],
+    "proven": true
+  },
+  "S-C-DN-5034-EN": {
+    "current": "MATL-585",
+    "chain": [
+      "S-C-DN-5034-EN",
+      "MATL-585"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2717-EN": {
+    "current": "MATL-556",
+    "chain": [
+      "S-F-ML-2717-EN",
+      "MATL-556"
+    ],
+    "proven": true
+  },
+  "S-C-ML-3500-EN": {
+    "current": "MATL-547",
+    "chain": [
+      "S-C-ML-3500-EN",
+      "MATL-547"
+    ],
+    "proven": true
+  },
+  "S-F-PT-3150-EN": {
+    "current": "DSGN-426",
+    "chain": [
+      "S-F-PT-3150-EN",
+      "DSGN-426"
+    ],
+    "proven": true
+  },
+  "S-L-DN-5070-EN": {
+    "current": "DSGN-475",
+    "chain": [
+      "S-L-DN-5070-EN",
+      "DSGN-475"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0503-DE": {
+    "current": "DSGN-490",
+    "chain": [
+      "S-L-PT-0503-DE",
+      "DSGN-490"
+    ],
+    "proven": true
+  },
+  "S-L-PT-60451-EN": {
+    "current": "DSGN-512",
+    "chain": [
+      "S-L-PT-60451-EN",
+      "DSGN-512"
+    ],
+    "proven": true
+  },
+  "G-L-DN-5019-EN": {
+    "current": "DSGN-409",
+    "chain": [
+      "G-L-DN-5019-EN",
+      "DSGN-409"
+    ],
+    "proven": true
+  },
+  "S-G-MA-3807-EN": {
+    "current": "MNFG-487",
+    "chain": [
+      "S-G-MA-3807-EN",
+      "MNFG-487"
+    ],
+    "proven": true
+  },
+  "S-G-MA-6010-EN": {
+    "current": "MNFG-484",
+    "chain": [
+      "S-G-MA-6010-EN",
+      "MNFG-484"
+    ],
+    "proven": true
+  },
+  "S-F-ML-4005-EN": {
+    "current": "TEST-203",
+    "chain": [
+      "S-F-ML-4005-EN",
+      "TEST-203"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2325-EN": {
+    "current": "TEST-206",
+    "chain": [
+      "S-F-ML-2325-EN",
+      "TEST-206"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0502-EN": {
+    "current": "DSGN-402",
+    "chain": [
+      "S-L-PT-0502-EN",
+      "DSGN-402"
+    ],
+    "proven": true
+  },
+  "S-F-MA-6042-EN": {
+    "current": "MNFG-488",
+    "chain": [
+      "S-F-MA-6042-EN",
+      "MNFG-488"
+    ],
+    "proven": true
+  },
+  "S-G-DN-5005-EN": {
+    "current": "DSGN-477",
+    "chain": [
+      "S-G-DN-5005-EN",
+      "DSGN-477"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2783-EN": {
+    "current": "TEST-60",
+    "chain": [
+      "S-F-ML-2783-EN",
+      "TEST-60"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0615-DE": {
+    "current": "MNFG-495",
+    "chain": [
+      "S-F-MA-0615-DE",
+      "MNFG-495"
+    ],
+    "proven": true
+  },
+  "S-G-ML-1020-EN": {
+    "current": "MATL-582",
+    "chain": [
+      "S-G-ML-1020-EN",
+      "MATL-582"
+    ],
+    "proven": true
+  },
+  "G-G-PT-5025-EN": {
+    "current": "DSGN-391",
+    "chain": [
+      "G-G-PT-5025-EN",
+      "DSGN-391"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2032-EN": {
+    "current": "TEST-62",
+    "chain": [
+      "S-F-ML-2032-EN",
+      "TEST-62"
+    ],
+    "proven": true
+  },
+  "G-G-ME-5060-EN": {
+    "current": "MEAS-509",
+    "chain": [
+      "G-G-ME-5060-EN",
+      "MEAS-509"
+    ],
+    "proven": true
+  },
+  "S-G-ML-9242-EN": {
+    "current": "TEST-183",
+    "chain": [
+      "S-G-ML-9242-EN",
+      "TEST-183"
+    ],
+    "proven": true
+  },
+  "WNE 101006": {
+    "current": "MATL-540",
+    "chain": [
+      "WNE 101006",
+      "S-G-ML-1006-en",
+      "MATL-540"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0684-EN": {
+    "current": "MNFG-486",
+    "chain": [
+      "S-F-MA-0684-EN",
+      "MNFG-486"
+    ],
+    "proven": true
+  },
+  "S-G-TG-4004-EN": {
+    "current": "TEST-153",
+    "chain": [
+      "S-G-TG-4004-EN",
+      "TEST-153"
+    ],
+    "proven": true
+  },
+  "S-L-MA-0627-EN": {
+    "current": "DSGN-408",
+    "chain": [
+      "S-L-MA-0627-EN",
+      "DSGN-408"
+    ],
+    "proven": true
+  },
+  "S-F-DN-0664-EN": {
+    "current": "DSGN-480",
+    "chain": [
+      "S-F-DN-0664-EN",
+      "S-F-PT-0664-de",
+      "DSGN-480"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2925-EN": {
+    "current": "TEST-151",
+    "chain": [
+      "S-F-ML-2925-EN",
+      "TEST-151"
+    ],
+    "proven": true
+  },
+  "S-C-ML-0500-EN": {
+    "current": "MATL-572",
+    "chain": [
+      "S-C-ML-0500-EN",
+      "MATL-572"
+    ],
+    "proven": true
+  },
+  "G-I-PT-3202": {
+    "current": "DSGN-511",
+    "chain": [
+      "G-I-PT-3202",
+      "DSGN-511"
+    ],
+    "proven": true
+  },
+  "G-I-PT-5065-EN": {
+    "current": "DSGN-379",
+    "chain": [
+      "G-I-PT-5065-EN",
+      "DSGN-379"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2768-EN": {
+    "current": "TEST-42",
+    "chain": [
+      "S-F-ML-2768-EN",
+      "TEST-42"
+    ],
+    "proven": true
+  },
+  "G-G-PT-5028-EN": {
+    "current": "DSGN-499",
+    "chain": [
+      "G-G-PT-5028-EN",
+      "DSGN-499"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2183-EN": {
+    "current": "TEST-285",
+    "chain": [
+      "S-F-ML-2183-EN",
+      "TEST-285"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3550-EN": {
+    "current": "TEST-84",
+    "chain": [
+      "S-G-ML-3550-EN",
+      "TEST-84"
+    ],
+    "proven": true
+  },
+  "S-G-ML-3380-EN": {
+    "current": "MATL-580",
+    "chain": [
+      "S-G-ML-3380-EN",
+      "MATL-580"
+    ],
+    "proven": true
+  },
+  "S-F-MA-0270-EN": {
+    "current": "DSGN-486",
+    "chain": [
+      "S-F-MA-0270-EN",
+      "S-F-PT-0270-en",
+      "DSGN-486"
+    ],
+    "proven": true
+  },
+  "S-L-PT-0510-EN": {
+    "current": "DSGN-380",
+    "chain": [
+      "S-L-PT-0510-EN",
+      "DSGN-380"
+    ],
+    "proven": true
+  },
+  "S-F-PT-6569-EN": {
+    "current": "DSGN-458",
+    "chain": [
+      "S-F-PT-6569-EN",
+      "DSGN-458"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2184-EN": {
+    "current": "TEST-127",
+    "chain": [
+      "S-F-ML-2184-EN",
+      "TEST-127"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2605-EN": {
+    "current": "TEST-155",
+    "chain": [
+      "S-F-ML-2605-EN",
+      "TEST-155"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2061-EN": {
+    "current": "TEST-290",
+    "chain": [
+      "S-F-ML-2061-EN",
+      "TEST-290"
+    ],
+    "proven": true
+  },
+  "S-F-PT-0619-EN": {
+    "current": "DSGN-423",
+    "chain": [
+      "S-F-PT-0619-EN",
+      "DSGN-423"
+    ],
+    "proven": true
+  },
+  "S-F-ML-2174-EN": {
+    "current": "TEST-167",
+    "chain": [
+      "S-F-ML-2174-EN",
+      "TEST-167"
+    ],
+    "proven": true
+  },
+  "TEST-278": {
+    "current": "MEAS-579",
+    "chain": [
+      "TEST-278",
+      "MEAS-579"
+    ],
+    "proven": true
+  }
+}

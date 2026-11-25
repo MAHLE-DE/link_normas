@@ -1,0 +1,39 @@
+{
+  "identification": {
+    "document_no": "S-G-PT-0070",
+    "revision_no": "1.0",
+    "title": "Sales naming",
+    "previous_document_numbers": [
+      "WNA 70"
+    ]
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "design",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "design",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "S-G-PT-0070_WNA 70 BU2_Verkaufsbezeichnungen_20240312.pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-G-PT-0070_WNA 70 BU2_Verkaufsbezeichnungen_20240312.pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "024b7dce-b40d-40b2-8cc8-a56cbf3a7d86",
+  "schema_version": "2.0"
+}

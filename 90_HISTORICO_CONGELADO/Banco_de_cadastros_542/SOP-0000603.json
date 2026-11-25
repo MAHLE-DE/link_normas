@@ -1,0 +1,39 @@
+{
+  "identification": {
+    "document_no": "SOP-0000603",
+    "revision_no": "1.0",
+    "title": "Using FSC label on products and promotional use of FSC trademarks",
+    "previous_document_numbers": [
+      "0W-B-1512-en (V3.0)"
+    ]
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "process",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "process",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "0W-B-1512-en_Using_FSC_label_on_products_and_promotional_use_of_FSC_trademarks_(V3_0).docx",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\0W-B-1512-en_Using_FSC_label_on_products_and_promotional_use_of_FSC_trademarks_(V3_0).docx"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "2c10a576-ce3a-42a3-9549-a9e75f14a3dd",
+  "schema_version": "2.0"
+}

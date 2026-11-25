@@ -1,0 +1,4175 @@
+{
+  "version": "2.0-pilot",
+  "policy": {
+    "whole_document": true,
+    "exclude_sections": [
+      "Lessons Learned",
+      "Revision History",
+      "Changes",
+      "Keywords"
+    ],
+    "preserve_raw_reference": true,
+    "blank_resolved_when_legacy_without_chain": true,
+    "public_standard_used_by_supplier_is_included": true,
+    "supplier_proprietary_method_is_excluded": true,
+    "same_parent_keywords_all_rows": true,
+    "max_keywords": 10
+  },
+  "approved_edges": [
+    {
+      "from": "S-F-PT-0642-en",
+      "to": "DSGN-344",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-DN-5055-en",
+      "to": "DSGN-345",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-5000-en",
+      "to": "DSGN-347",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-5001-en",
+      "to": "DSGN-348",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-8120-P01-en",
+      "to": "DSGN-349",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0209-en",
+      "to": "DSGN-350",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0504-en",
+      "to": "DSGN-351",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6575-en",
+      "to": "DSGN-352",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6588-en",
+      "to": "DSGN-353",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-DN-0657-en",
+      "to": "DSGN-354",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0255-en",
+      "to": "DSGN-355",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-DN-0621-en",
+      "to": "DSGN-356",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0220-en",
+      "to": "DSGN-357",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-PT-5042-en",
+      "to": "DSGN-358",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0260-en",
+      "to": "DSGN-359",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6584-en",
+      "to": "DSGN-360",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0655-en",
+      "to": "DSGN-361",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-2203-en",
+      "to": "DSGN-362",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-PT-8100-en",
+      "to": "DSGN-363",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6523-en",
+      "to": "DSGN-364",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-5110-en",
+      "to": "DSGN-365",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-C-DN-5017-en",
+      "to": "DSGN-366",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-DN-5024-en",
+      "to": "DSGN-367",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-DN-0620-en",
+      "to": "DSGN-368",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-H-DN-5013-en",
+      "to": "DSGN-369",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6580-en",
+      "to": "DSGN-370",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-5036-en",
+      "to": "DSGN-371",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0653-en",
+      "to": "DSGN-372",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-0691-en",
+      "to": "DSGN-373",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-A-PT-5032-en",
+      "to": "DSGN-378",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-5065-en",
+      "to": "DSGN-379",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0510-en",
+      "to": "DSGN-380",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-DN-5080-en",
+      "to": "DSGN-381",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0668-en",
+      "to": "DSGN-382",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0509-en",
+      "to": "DSGN-383",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-5135-en",
+      "to": "DSGN-385",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-0550-en",
+      "to": "DSGN-386",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6541-en",
+      "to": "DSGN-388",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-A-PT-5033-en",
+      "to": "DSGN-389",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-DN-5074-en",
+      "to": "DSGN-390",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-5025-en",
+      "to": "DSGN-391",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6560-en",
+      "to": "DSGN-392",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-5026-en",
+      "to": "DSGN-393",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-PT-5044-en",
+      "to": "DSGN-394",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-5075-en",
+      "to": "DSGN-395",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-4024-en",
+      "to": "DSGN-396",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0511-en",
+      "to": "DSGN-398",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-DN-5090-en",
+      "to": "DSGN-400",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0205-en",
+      "to": "DSGN-401",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0502-en",
+      "to": "DSGN-402",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0638-en",
+      "to": "DSGN-403",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-A-DN-5020-en",
+      "to": "DSGN-404",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-DN-0081-en",
+      "to": "DSGN-405",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6571-en",
+      "to": "DSGN-406",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-MA-0627-en",
+      "to": "DSGN-408",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-L-DN-5019-en",
+      "to": "DSGN-409",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-5052-en",
+      "to": "DSGN-410",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-DN-5045-en",
+      "to": "DSGN-411",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6501-en",
+      "to": "DSGN-412",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6567-en",
+      "to": "DSGN-413",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-DN-5048-en",
+      "to": "DSGN-414",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6565-en",
+      "to": "DSGN-415",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-PT-5039-en",
+      "to": "DSGN-416",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0231-en",
+      "to": "DSGN-417",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-DN-5056-en",
+      "to": "DSGN-418",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0656-en",
+      "to": "DSGN-419",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0639-en",
+      "to": "DSGN-420",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0213-en",
+      "to": "DSGN-421",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-5011-en",
+      "to": "DSGN-422",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0619-en",
+      "to": "DSGN-423",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-8120-P02-en",
+      "to": "DSGN-424",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0211-en",
+      "to": "DSGN-425",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-3150-en",
+      "to": "DSGN-426",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0684-en",
+      "to": "DSGN-427",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-I-PT-5022-en",
+      "to": "DSGN-428",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-L-DN-5021-en",
+      "to": "DSGN-429",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-4016-en",
+      "to": "DSGN-430",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-4012-en",
+      "to": "DSGN-431",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-C-DN-5015-en",
+      "to": "DSGN-432",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0640-en",
+      "to": "DSGN-433",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-PT-5043-en",
+      "to": "DSGN-434",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0501-en",
+      "to": "DSGN-435",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-5035-en",
+      "to": "DSGN-436",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-A-DN-5091-en",
+      "to": "DSGN-437",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-0508-en",
+      "to": "DSGN-438",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-DN-9001-en",
+      "to": "DSGN-439",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-4023-en",
+      "to": "DSGN-441",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0505-en",
+      "to": "DSGN-442",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-I-PT-2136-en",
+      "to": "DSGN-444",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-8120-P03-en",
+      "to": "DSGN-446",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6586-en",
+      "to": "DSGN-447",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-C-DN-5061-en",
+      "to": "DSGN-448",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6573-en",
+      "to": "DSGN-449",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6582-en",
+      "to": "DSGN-450",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-PT-5049-en",
+      "to": "DSGN-451",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-5027-en",
+      "to": "DSGN-452",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-5076-en",
+      "to": "DSGN-454",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0644-en",
+      "to": "DSGN-455",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-0221-en",
+      "to": "DSGN-456",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-DN-5073-en",
+      "to": "DSGN-457",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6569-en",
+      "to": "DSGN-458",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-PT-5037-en",
+      "to": "DSGN-460",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0555-en",
+      "to": "DSGN-461",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-2202-en",
+      "to": "DSGN-463",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-3201-en",
+      "to": "DSGN-464",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0216-en",
+      "to": "DSGN-466",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0212-en",
+      "to": "DSGN-467",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-L-DN-5047-en",
+      "to": "DSGN-468",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0560-en",
+      "to": "DSGN-469",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0660-en",
+      "to": "DSGN-470",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0210-en",
+      "to": "DSGN-471",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6502-en",
+      "to": "DSGN-472",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-DN-5018-en",
+      "to": "DSGN-473",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-DN-5070-en",
+      "to": "DSGN-475",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-5007-en",
+      "to": "DSGN-476",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-DN-5005-en",
+      "to": "DSGN-477",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-I-DN-5010-en",
+      "to": "DSGN-478",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0206-en",
+      "to": "DSGN-479",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0654-en",
+      "to": "DSGN-481",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-9000-en",
+      "to": "DSGN-482",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-2137-en",
+      "to": "DSGN-483",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-5029-en",
+      "to": "DSGN-484",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-F-DN-5058-en",
+      "to": "DSGN-485",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0270-en",
+      "to": "DSGN-486",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-I-PT-5093-en",
+      "to": "DSGN-487",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-5040-en",
+      "to": "DSGN-488",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8102-en",
+      "to": "DSGN-489",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-0214-en",
+      "to": "DSGN-493",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-DN-5071-en",
+      "to": "DSGN-495",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-6542-en",
+      "to": "DSGN-497",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-PT-0001-en",
+      "to": "DSGN-498",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-PT-5028-en",
+      "to": "DSGN-499",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-5134-en",
+      "to": "DSGN-500",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-PT-0652-en",
+      "to": "DSGN-501",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-C-DN-5063-en",
+      "to": "DSGN-506",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-C-DN-5062-en",
+      "to": "DSGN-507",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-60451-en",
+      "to": "DSGN-512",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-A-DN-5051",
+      "to": "DSGN-527",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3400-en",
+      "to": "MATL-542",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0400-en",
+      "to": "MATL-544",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2733-en",
+      "to": "MATL-545",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4013-en",
+      "to": "MATL-546",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3500-en",
+      "to": "MATL-547",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3200-en",
+      "to": "MATL-548",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2100-en",
+      "to": "MATL-549",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1800-en",
+      "to": "MATL-550",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3380-P01-en",
+      "to": "MATL-552",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4014-en",
+      "to": "MATL-553",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2700-en",
+      "to": "MATL-554",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1300-en",
+      "to": "MATL-555",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2717-en",
+      "to": "MATL-556",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0200-en",
+      "to": "MATL-557",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0300-en",
+      "to": "MATL-558",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9020-en",
+      "to": "MATL-559",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4025-P01-en",
+      "to": "MATL-560",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4021-en",
+      "to": "MATL-561",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2500-en",
+      "to": "MATL-562",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3100-en",
+      "to": "MATL-563",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0900-en",
+      "to": "MATL-564",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2600-en",
+      "to": "MATL-565",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-H-ML-1016-en",
+      "to": "MATL-566",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2022-en",
+      "to": "MATL-568",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1600-en",
+      "to": "MATL-569",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1200-en",
+      "to": "MATL-570",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4015-en",
+      "to": "MATL-571",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0500-en",
+      "to": "MATL-572",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2147-en",
+      "to": "MATL-573",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0600-en",
+      "to": "MATL-574",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2038-en",
+      "to": "MATL-575",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1700-en",
+      "to": "MATL-576",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2070-en",
+      "to": "MATL-577",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4007-en",
+      "to": "MATL-578",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3300-en",
+      "to": "MATL-579",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3380-en",
+      "to": "MATL-580",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-ML-1019-en",
+      "to": "MATL-581",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-1020-en",
+      "to": "MATL-582",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4025-en",
+      "to": "MATL-583",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1000-en",
+      "to": "MATL-584",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-DN-5034-en",
+      "to": "MATL-585",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2000-en",
+      "to": "MATL-586",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-2130-en",
+      "to": "MATL-587",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2026-en",
+      "to": "MATL-588",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1500-en",
+      "to": "MATL-589",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2200-en",
+      "to": "MATL-590",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2190-en",
+      "to": "MATL-591",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2721-en",
+      "to": "MATL-592",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2024-en",
+      "to": "MATL-593",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4005-en",
+      "to": "MATL-594",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-H-ML-1021-en",
+      "to": "MATL-595",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1400-en",
+      "to": "MATL-597",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2021-en",
+      "to": "MATL-598",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2120-en",
+      "to": "MATL-599",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1900-en",
+      "to": "MATL-600",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-1010-en",
+      "to": "MATL-602",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2035-en",
+      "to": "MATL-603",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2784-en",
+      "to": "MATL-604",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2300-en",
+      "to": "MATL-605",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0100-en",
+      "to": "MATL-608",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3005-en",
+      "to": "MATL-610",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2400-en",
+      "to": "MATL-611",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3000-en",
+      "to": "MATL-612",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0800-en",
+      "to": "MATL-613",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-1100-en",
+      "to": "MATL-615",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2800-en",
+      "to": "MATL-616",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-ML-1018-en",
+      "to": "MATL-617",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2025-en",
+      "to": "MATL-618",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4013-P01-en",
+      "to": "MATL-619",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3380-P02-en",
+      "to": "MATL-620",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-2900-en",
+      "to": "MATL-621",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-0700-en",
+      "to": "MATL-622",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2016-en V02",
+      "to": "MATL-624",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2015-en",
+      "to": "MATL-625",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-1005-en",
+      "to": "MATL-626",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-ML-3110 D",
+      "to": "MATL-627",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3115-en",
+      "to": "MATL-628",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-102110-en",
+      "to": "MATL-629",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-102167-en",
+      "to": "MATL-630",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-102731-en",
+      "to": "MATL-631",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-102992-en",
+      "to": "MATL-632",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2753",
+      "to": "MATL-636",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2777",
+      "to": "MATL-638",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2017-en",
+      "to": "MATL-640",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2013-en V02",
+      "to": "MATL-643",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-Ml-2801-en V10",
+      "to": "MATL-644",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2778-en",
+      "to": "MATL-645",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNF 102713",
+      "to": "MATL-647",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNF 102731",
+      "to": "MATL-648",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-ME-5060-en",
+      "to": "MEAS-509",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ME-2115-en",
+      "to": "MEAS-512",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-H-ME-5031-en",
+      "to": "MEAS-518",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ME-0647",
+      "to": "MEAS-525",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3811-en",
+      "to": "MNFG-458",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6003-en",
+      "to": "MNFG-462",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-3816-en",
+      "to": "MNFG-464",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3814-en",
+      "to": "MNFG-465",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0596-en",
+      "to": "MNFG-468",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0617-en",
+      "to": "MNFG-469",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0595-en",
+      "to": "MNFG-470",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6011-en",
+      "to": "MNFG-472",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3809-en",
+      "to": "MNFG-474",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0680-en",
+      "to": "MNFG-476",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3806-en",
+      "to": "MNFG-478",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6001-en",
+      "to": "MNFG-479",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3817-en",
+      "to": "MNFG-480",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6002-en",
+      "to": "MNFG-481",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6010-en",
+      "to": "MNFG-484",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3810-en",
+      "to": "MNFG-485",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0684-en",
+      "to": "MNFG-486",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3807-en",
+      "to": "MNFG-487",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-6042-en",
+      "to": "MNFG-488",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3812-en",
+      "to": "MNFG-490",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3805-en",
+      "to": "MNFG-491",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6005-en",
+      "to": "MNFG-492",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-6040-en",
+      "to": "MNFG-494",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6004-en",
+      "to": "MNFG-496",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3813-en",
+      "to": "MNFG-497",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0613-en",
+      "to": "MNFG-498",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3850-en",
+      "to": "MNFG-499",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-3808-en",
+      "to": "MNFG-502",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-MA-0612-en",
+      "to": "MNFG-505",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6009-en",
+      "to": "MNFG-506",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-PT-3815-en",
+      "to": "MNFG-507",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-6007-en",
+      "to": "MNFG-508",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-4110-en",
+      "to": "MNFG-509",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-5706-en",
+      "to": "MNFG-513",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 685",
+      "to": "S-F-PT-0685-en",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 690",
+      "to": "S-F-PT-0690-en",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 693",
+      "to": "S-F-PT-0693-en",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 70",
+      "to": "S-G-PT-0070",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 5072",
+      "to": "S-H-PT-5072-de",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 5105",
+      "to": "S-L-PT-5105-en",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 5115",
+      "to": "S-L-PT-5115-en",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "0W-B-1512-en",
+      "to": "SOP-0000603",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3420-en",
+      "to": "TEST-100",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-I-TG-2139-en",
+      "to": "TEST-101",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2740-en",
+      "to": "TEST-102",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4006-en",
+      "to": "TEST-103",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2770-en",
+      "to": "TEST-104",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2719-en",
+      "to": "TEST-105",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2142-en",
+      "to": "TEST-106",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-0688-en",
+      "to": "TEST-107",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2764-en",
+      "to": "TEST-108",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2922-en",
+      "to": "TEST-109",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8104-en",
+      "to": "TEST-110",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2151-en",
+      "to": "TEST-111",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2714-en",
+      "to": "TEST-112",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-0002-en",
+      "to": "TEST-114",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4160-en",
+      "to": "TEST-115",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3600-en",
+      "to": "TEST-116",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2710-en",
+      "to": "TEST-117",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2793-en",
+      "to": "TEST-118",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9051-en",
+      "to": "TEST-119",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2159-en",
+      "to": "TEST-120",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2704-en",
+      "to": "TEST-121",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2146-en",
+      "to": "TEST-122",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4190-en",
+      "to": "TEST-124",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2786-en",
+      "to": "TEST-125",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2707-en",
+      "to": "TEST-126",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2184-en",
+      "to": "TEST-127",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2709-en",
+      "to": "TEST-128",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9025-en",
+      "to": "TEST-129",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2170-en",
+      "to": "TEST-130",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-1004-en",
+      "to": "TEST-131",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4009-en",
+      "to": "TEST-132",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4002-en",
+      "to": "TEST-133",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4270-en",
+      "to": "TEST-134",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2135-en",
+      "to": "TEST-135",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2912-en",
+      "to": "TEST-136",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2924-en",
+      "to": "TEST-138",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2705-en",
+      "to": "TEST-139",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2034-en",
+      "to": "TEST-140",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2742-en",
+      "to": "TEST-141",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2041-en",
+      "to": "TEST-142",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2140-en",
+      "to": "TEST-143",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2911-en",
+      "to": "TEST-144",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2736-en",
+      "to": "TEST-145",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2171-en",
+      "to": "TEST-146",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9044-en",
+      "to": "TEST-147",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4003-en",
+      "to": "TEST-148",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2738-en",
+      "to": "TEST-150",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2925-en",
+      "to": "TEST-151",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4004-en",
+      "to": "TEST-153",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2799-en",
+      "to": "TEST-154",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2605-en",
+      "to": "TEST-155",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3030-en",
+      "to": "TEST-156",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2800-en",
+      "to": "TEST-157",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2606-en",
+      "to": "TEST-158",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2145-en",
+      "to": "TEST-159",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3031-en",
+      "to": "TEST-160",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2608-en",
+      "to": "TEST-161",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8103-en",
+      "to": "TEST-163",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2168-en",
+      "to": "TEST-164",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4030-en",
+      "to": "TEST-165",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2174-en",
+      "to": "TEST-167",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-TG-4005-en",
+      "to": "TEST-168",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2177-en",
+      "to": "TEST-169",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2917-en",
+      "to": "TEST-171",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2781-en",
+      "to": "TEST-172",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2774-en",
+      "to": "TEST-173",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3490-en",
+      "to": "TEST-174",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2769-en",
+      "to": "TEST-175",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3039-en",
+      "to": "TEST-176",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2702-en",
+      "to": "TEST-177",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8155-en",
+      "to": "TEST-178",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8107-en",
+      "to": "TEST-179",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2196-en",
+      "to": "TEST-180",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2166-en",
+      "to": "TEST-181",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2914-en",
+      "to": "TEST-182",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9242-en",
+      "to": "TEST-183",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2169-en",
+      "to": "TEST-184",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4011-en",
+      "to": "TEST-185",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2195-en",
+      "to": "TEST-186",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2718-en",
+      "to": "TEST-188",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2745-en",
+      "to": "TEST-189",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2743-en",
+      "to": "TEST-190",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2775-en",
+      "to": "TEST-192",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-TG-8125-en",
+      "to": "TEST-193",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2715-en",
+      "to": "TEST-194",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4060-en",
+      "to": "TEST-195",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2111-en",
+      "to": "TEST-196",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2730-en",
+      "to": "TEST-197",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2611-en",
+      "to": "TEST-198",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2766-en",
+      "to": "TEST-200",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3038-en",
+      "to": "TEST-201",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4005-en",
+      "to": "TEST-203",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2220-en",
+      "to": "TEST-204",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3110-en",
+      "to": "TEST-205",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2325-en",
+      "to": "TEST-206",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2830-en",
+      "to": "TEST-207",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4500-en",
+      "to": "TEST-208",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3500-en",
+      "to": "TEST-209",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2410-en",
+      "to": "TEST-210",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2185-en",
+      "to": "TEST-211",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2708-en",
+      "to": "TEST-212",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2011-en",
+      "to": "TEST-213",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2785-en",
+      "to": "TEST-214",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2163-en",
+      "to": "TEST-215",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3032-en",
+      "to": "TEST-216",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3036-en",
+      "to": "TEST-217",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8153-en",
+      "to": "TEST-218",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3390-en",
+      "to": "TEST-219",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2913-en",
+      "to": "TEST-220",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4018-en",
+      "to": "TEST-221",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ME-6561-en",
+      "to": "TEST-222",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2716-en",
+      "to": "TEST-223",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2033-en",
+      "to": "TEST-224",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2777-en",
+      "to": "TEST-225",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2603-en",
+      "to": "TEST-226",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8101-en",
+      "to": "TEST-227",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8152-en",
+      "to": "TEST-228",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9079-en",
+      "to": "TEST-229",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4000-en",
+      "to": "TEST-231",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3570-en",
+      "to": "TEST-232",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3037-en",
+      "to": "TEST-234",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2162-en",
+      "to": "TEST-235",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2734-en",
+      "to": "TEST-236",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2189-en",
+      "to": "TEST-237",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-TG-2193-en",
+      "to": "TEST-238",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2187-en",
+      "to": "TEST-239",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3410-en",
+      "to": "TEST-240",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4090-en",
+      "to": "TEST-241",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2711-en",
+      "to": "TEST-242",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2192-en",
+      "to": "TEST-243",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4140-en",
+      "to": "TEST-244",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-TG-2120-en",
+      "to": "TEST-245",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2723-en",
+      "to": "TEST-246",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3370-en",
+      "to": "TEST-247",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2191-en",
+      "to": "TEST-248",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4700-en",
+      "to": "TEST-249",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4010-en",
+      "to": "TEST-250",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-MA-4014-en",
+      "to": "TEST-251",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2604-en",
+      "to": "TEST-252",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2701-en",
+      "to": "TEST-253",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2040-en",
+      "to": "TEST-254",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2160-en",
+      "to": "TEST-255",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8157-en",
+      "to": "TEST-256",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-L-PT-8120-P04-en",
+      "to": "TEST-257",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4010-en",
+      "to": "TEST-258",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2152-en",
+      "to": "TEST-259",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2729-en",
+      "to": "TEST-260",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2144-en",
+      "to": "TEST-261",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3120-en",
+      "to": "TEST-262",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2735-en",
+      "to": "TEST-263",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2153-en",
+      "to": "TEST-264",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2748-en",
+      "to": "TEST-265",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2811-en",
+      "to": "TEST-266",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2182-en",
+      "to": "TEST-267",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2923-en",
+      "to": "TEST-268",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2601-en",
+      "to": "TEST-269",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3121-en",
+      "to": "TEST-270",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2165-en",
+      "to": "TEST-272",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8156-en",
+      "to": "TEST-273",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2138-en",
+      "to": "TEST-274",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9065-en",
+      "to": "TEST-275",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2840-en",
+      "to": "TEST-276",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2197-en",
+      "to": "TEST-277",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2810-en",
+      "to": "TEST-278",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2746-en",
+      "to": "TEST-279",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2179-en",
+      "to": "TEST-280",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8108-en",
+      "to": "TEST-281",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2749-en",
+      "to": "TEST-282",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-0005-en",
+      "to": "TEST-283",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2183-en",
+      "to": "TEST-285",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2779-en",
+      "to": "TEST-286",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2767-en",
+      "to": "TEST-287",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3130-en",
+      "to": "TEST-288",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3400-en",
+      "to": "TEST-289",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2061-en",
+      "to": "TEST-290",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2194-en",
+      "to": "TEST-291",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2607-en",
+      "to": "TEST-292",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2722-en",
+      "to": "TEST-293",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4001-en",
+      "to": "TEST-294",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3034-en",
+      "to": "TEST-296",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4009-en",
+      "to": "TEST-297",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3122-en",
+      "to": "TEST-298",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2010-en",
+      "to": "TEST-299",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2430-en",
+      "to": "TEST-300",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2792-en",
+      "to": "TEST-301",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4200-en",
+      "to": "TEST-302",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2158-en",
+      "to": "TEST-303",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3440-en",
+      "to": "TEST-304",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3029-en",
+      "to": "TEST-305",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2324-en",
+      "to": "TEST-306",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2431-en",
+      "to": "TEST-307",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2161-en",
+      "to": "TEST-308",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-8106-en",
+      "to": "TEST-310",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2137-en",
+      "to": "TEST-311",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2919-en",
+      "to": "TEST-313",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-TG-4100-en",
+      "to": "TEST-314",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3810-en",
+      "to": "TEST-315",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-0225-en",
+      "to": "TEST-319",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2031-en",
+      "to": "TEST-34",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "G-G-TG-4001-en",
+      "to": "TEST-35",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4050-en",
+      "to": "TEST-37",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4710-en",
+      "to": "TEST-38",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2920-en",
+      "to": "TEST-39",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4013-en",
+      "to": "TEST-40",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2150-en",
+      "to": "TEST-41",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2768-en",
+      "to": "TEST-42",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9080-en",
+      "to": "TEST-43",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2703-en",
+      "to": "TEST-44",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2042-en",
+      "to": "TEST-45",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2193-en",
+      "to": "TEST-47",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2741-en",
+      "to": "TEST-48",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2926-en",
+      "to": "TEST-50",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3350-en",
+      "to": "TEST-52",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4130-en",
+      "to": "TEST-53",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2790-en",
+      "to": "TEST-54",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-TG-2191-en",
+      "to": "TEST-55",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2706-en",
+      "to": "TEST-56",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4008-en",
+      "to": "TEST-57",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2773-en",
+      "to": "TEST-58",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4210-en",
+      "to": "TEST-59",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2783-en",
+      "to": "TEST-60",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2188-en",
+      "to": "TEST-61",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2032-en",
+      "to": "TEST-62",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4000-en",
+      "to": "TEST-63",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2186-en",
+      "to": "TEST-64",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2420-en",
+      "to": "TEST-65",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2776-en",
+      "to": "TEST-66",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2737-en",
+      "to": "TEST-68",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4008-en",
+      "to": "TEST-69",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2927-en",
+      "to": "TEST-70",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3510-en",
+      "to": "TEST-71",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2916-en",
+      "to": "TEST-72",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2176-en",
+      "to": "TEST-73",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2178-en",
+      "to": "TEST-74",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2915-en",
+      "to": "TEST-75",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2602-en",
+      "to": "TEST-76",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2323-en",
+      "to": "TEST-77",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3033-en",
+      "to": "TEST-78",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-TG-2154-en",
+      "to": "TEST-79",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2782-en",
+      "to": "TEST-80",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2610-en",
+      "to": "TEST-82",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2148-en",
+      "to": "TEST-83",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-3550-en",
+      "to": "TEST-84",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2765-en",
+      "to": "TEST-85",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-3035-en",
+      "to": "TEST-86",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-4006-en",
+      "to": "TEST-87",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-C-TG-2122-en",
+      "to": "TEST-88",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2060-en",
+      "to": "TEST-89",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2918-en",
+      "to": "TEST-90",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-TG-4015-en",
+      "to": "TEST-91",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2050-en",
+      "to": "TEST-92",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-9190-en",
+      "to": "TEST-94",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2921-en",
+      "to": "TEST-95",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4260-en",
+      "to": "TEST-97",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-G-ML-4120-en",
+      "to": "TEST-98",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "S-F-ML-2780-en",
+      "to": "TEST-99",
+      "type": "nome anterior",
+      "confidence": 1.0,
+      "evidence": "cadastro.previous_document_numbers"
+    },
+    {
+      "from": "WNA 605",
+      "to": "S-F-MA-0605-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0605-de",
+      "to": "MNFG-475",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "WNA 609",
+      "to": "S-F-MA-0609-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0609-de",
+      "to": "MNFG-467",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "WNA 5025",
+      "to": "S-I-PT-5025",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-I-PT-5025",
+      "to": "G-G-PT-5025-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "WNA 616",
+      "to": "S-F-DN-0616-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-DN-0616-de",
+      "to": "S-F-PT-0616-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-DN-0660-en",
+      "to": "S-F-PT-6542-en",
+      "type": "substituída por",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0270-en",
+      "to": "S-F-PT-0270-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0606-de",
+      "to": "MNFG-477",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0614-de",
+      "to": "MNFG-503",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0615-de",
+      "to": "MNFG-495",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "WNF 102810",
+      "to": "S-F-ML-2820",
+      "type": "substituída por",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-ML-2820",
+      "to": "S-F-ML-2810",
+      "type": "substituída por",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-ML-2810",
+      "to": "MEAS-579",
+      "type": "substituída por",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-G-MA-6007-en",
+      "to": "S-G-MA-6007-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-G-MA-6009-en",
+      "to": "S-G-MA-6009-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-G-MA-6010-en",
+      "to": "S-G-MA-6010-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-DN-0664-de",
+      "to": "DSGN-480",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0601-de",
+      "to": "MNFG-459",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0603-de",
+      "to": "MNFG-510",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0611-de",
+      "to": "MNFG-489",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-6041-de",
+      "to": "MNFG-501",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0620-en",
+      "to": "G-A-DN-0620-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0664-de",
+      "to": "DSGN-480",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-PT-0221",
+      "to": "S-G-DN-0221",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-DN-0221",
+      "to": "DSGN-456",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-I-PT-5027",
+      "to": "G-G-PT-5027-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-L-PT-5026",
+      "to": "S-I-PT-5026",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-I-PT-5026",
+      "to": "G-G-PT-5026-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-C-DN-5034",
+      "to": "S-C-DN-5034-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-G-TG-4008",
+      "to": "S-G-TG-4008-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-TG-4008-en",
+      "to": "MEAS-592",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-G-TG-4008-en",
+      "to": "S-G-TG-4008-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-I-PT-3202",
+      "to": "DSGN-511",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-DN-0616-en",
+      "to": "DSGN-387",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-DN-0664-en",
+      "to": "S-F-PT-0664-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0611-en",
+      "to": "S-F-MA-0611-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-0614-en",
+      "to": "S-F-MA-0614-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-6041-en",
+      "to": "S-F-MA-6041-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-MA-6091-de",
+      "to": "MNFG-463",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0616-de",
+      "to": "DSGN-387",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0616-en",
+      "to": "S-F-PT-0616-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0646-en",
+      "to": "S-F-PT-0646-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0646-de",
+      "to": "DSGN-453",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-0664-en",
+      "to": "S-F-PT-0664-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-F-PT-6451",
+      "to": "S-L-PT-60451-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-DN-5055-en",
+      "to": "G-G-DN-5055",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "G-G-DN-5055",
+      "to": "DSGN-345",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-DN-5110",
+      "to": "S-G-PT-5110-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-MA-6020",
+      "to": "S-G-MA-6020-de",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-MA-6020-de",
+      "to": "MNFG-500",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "WNE 101006",
+      "to": "S-G-ML-1006-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-ML-1006-en",
+      "to": "MATL-540",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-PT-0550-en",
+      "to": "S-G-DN-0550-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-G-PT-2136",
+      "to": "S-I-PT-2136-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-H-DN-5031-en",
+      "to": "S-H-ME-5031-en",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    },
+    {
+      "from": "S-L-PT-0503-de",
+      "to": "DSGN-490",
+      "type": "renomeada como",
+      "confidence": 1.0,
+      "evidence": "validação do usuário"
+    }
+  ],
+  "legacy_final_codes": [
+    "WNA 6008"
+  ],
+  "excluded_codes": [
+    "S-F-DN-0658-de",
+    "S-F-DN-0658-en",
+    "S-F-PT-0658-de",
+    "S-F-PT-0658-en",
+    "S-F-PT-6521-en",
+    "WNA 280",
+    "WNA 5046"
+  ],
+  "client_prefixes": [
+    "VW",
+    "DBL",
+    "BMW",
+    "GMW",
+    "GM",
+    "FORD",
+    "FCA",
+    "CHRYSLER",
+    "RENAULT",
+    "TOYOTA",
+    "HONDA",
+    "NISSAN",
+    "ISUZU",
+    "PSA",
+    "STELLANTIS"
+  ],
+  "supplier_method_patterns": [
+    "MWV SOP",
+    "JACOBI TIX",
+    "H&V STANDARD",
+    "AQF INTERNAL",
+    "CH072",
+    "SO 808/A",
+    "SUPPLIER METHOD",
+    "SUPPLIER STANDARD"
+  ]
+}

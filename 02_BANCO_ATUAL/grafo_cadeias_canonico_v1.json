@@ -1,0 +1,5359 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-11-24T12:22:18.022054+00:00",
+    "official_source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\02_BANCO_ATUAL\\Valid-Documents-2026-11-23-09-38.xlsx",
+    "physical_source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS",
+    "rules": {
+      "prefer_english": true,
+      "revision_not_identity": true,
+      "version_removed_from_previous": true
+    }
+  },
+  "edges": [
+    {
+      "codigo_origem": "G-I-PT-3202",
+      "codigo_destino": "DSGN-511",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-3202",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-8120-P03-en",
+      "codigo_destino": "DSGN-446",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-8120-P03-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-8120-P02-en",
+      "codigo_destino": "DSGN-424",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-8120-P02-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-8120-P01-en",
+      "codigo_destino": "DSGN-349",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-8120-P01-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-8120-P04-en",
+      "codigo_destino": "TEST-257",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-8120-P04-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4015-en",
+      "codigo_destino": "MEAS-596",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4015-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4018-en",
+      "codigo_destino": "MEAS-567",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4018-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-I-TG-2139-en",
+      "codigo_destino": "MEAS-544",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-I-TG-2139-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2810-en",
+      "codigo_destino": "MEAS-579",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2810-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4004-en",
+      "codigo_destino": "MEAS-556",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4004-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4006-en",
+      "codigo_destino": "MEAS-545",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4006-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4008-en",
+      "codigo_destino": "MEAS-592",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4008-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4009-en",
+      "codigo_destino": "MEAS-551",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4009-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4010-en",
+      "codigo_destino": "MEAS-575",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4010-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4013-en",
+      "codigo_destino": "MEAS-588",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4013-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8101-en",
+      "codigo_destino": "MEAS-569",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8101-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-4014-en",
+      "codigo_destino": "MEAS-576",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-4014-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4000-en",
+      "codigo_destino": "MEAS-572",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4000-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4002-en",
+      "codigo_destino": "MEAS-552",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4002-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4003-en",
+      "codigo_destino": "MEAS-554",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4003-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-TG-4001-en",
+      "codigo_destino": "MEAS-586",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-TG-4001-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-TG-4005-en",
+      "codigo_destino": "MEAS-560",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-TG-4005-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2186-de",
+      "codigo_destino": "MEAS-563",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2186-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2187-de",
+      "codigo_destino": "MEAS-557",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2187-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2179-P01-de",
+      "codigo_destino": "MEAS-593",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2179-P01-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2179-P02-de",
+      "codigo_destino": "MEAS-582",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2179-P02-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2180-de",
+      "codigo_destino": "MEAS-590",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2180-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2183-P01-de",
+      "codigo_destino": "MEAS-559",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2183-P01-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2183-P02-de",
+      "codigo_destino": "MEAS-584",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2183-P02-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2185-de",
+      "codigo_destino": "MEAS-550",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2185-de (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-2105-de",
+      "codigo_destino": "MEAS-548",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-2105-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2726-de",
+      "codigo_destino": "MATL-707",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2726-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2727-de",
+      "codigo_destino": "MATL-694",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2727-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2732-de",
+      "codigo_destino": "MATL-756",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2732-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2747-de",
+      "codigo_destino": "MATL-821",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2747-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2107-de",
+      "codigo_destino": "MEAS-553",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2107-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2146-de",
+      "codigo_destino": "MEAS-565",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2146-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2160-de",
+      "codigo_destino": "MEAS-589",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2160-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-A-TG-2110-de",
+      "codigo_destino": "MEAS-555",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-A-TG-2110-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2192-de",
+      "codigo_destino": "MEAS-571",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2192-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-9000-en",
+      "codigo_destino": "DSGN-482",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-9000-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0505-en",
+      "codigo_destino": "DSGN-442",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0505-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0506-de",
+      "codigo_destino": "DSGN-440",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0506-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-1105-de",
+      "codigo_destino": "DSGN-384",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-1105-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-1107-de",
+      "codigo_destino": "DSGN-376",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-1107-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-1109-de",
+      "codigo_destino": "DSGN-462",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-1109-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-5040-en",
+      "codigo_destino": "DSGN-488",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-5040-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-5075-en",
+      "codigo_destino": "DSGN-395",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-5075-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-5076-en",
+      "codigo_destino": "DSGN-454",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-5076-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-5110-en",
+      "codigo_destino": "DSGN-365",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-5110-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-5134-en",
+      "codigo_destino": "DSGN-500",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-5134-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4080-de",
+      "codigo_destino": "MATL-601",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4080-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4100-P03-de",
+      "codigo_destino": "MATL-551",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4100-P03-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4340-de",
+      "codigo_destino": "MATL-567",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4340-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6020-de",
+      "codigo_destino": "MNFG-500",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6020-de (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-2130-en",
+      "codigo_destino": "MATL-587",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-2130-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4100-P01-de",
+      "codigo_destino": "MATL-609",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4100-P01-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4100-P02-de",
+      "codigo_destino": "MATL-614",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4100-P02-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-4016-en",
+      "codigo_destino": "DSGN-430",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-4016-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-5005-en",
+      "codigo_destino": "DSGN-477",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-5005-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-5007-en",
+      "codigo_destino": "DSGN-476",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-5007-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-5135-en",
+      "codigo_destino": "DSGN-385",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-5135-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-0507-de",
+      "codigo_destino": "MNFG-466",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-0507-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3855-de",
+      "codigo_destino": "MNFG-471",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3855-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-5705-de",
+      "codigo_destino": "MNFG-504",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-5705-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6001-en",
+      "codigo_destino": "MNFG-479",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6001-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6002-en",
+      "codigo_destino": "MNFG-481",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6002-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6003-en",
+      "codigo_destino": "MNFG-462",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6003-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6004-en",
+      "codigo_destino": "MNFG-496",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6004-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6005-en",
+      "codigo_destino": "MNFG-492",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6005-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-5026-en",
+      "codigo_destino": "DSGN-393",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-5026-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-4012-en",
+      "codigo_destino": "DSGN-431",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-4012-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-5028-en",
+      "codigo_destino": "DSGN-499",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-5028-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-5029-en",
+      "codigo_destino": "DSGN-484",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-5029-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-DN-5056-en",
+      "codigo_destino": "DSGN-418",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-DN-5056-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-5027-en",
+      "codigo_destino": "DSGN-452",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-5027-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-5000-en",
+      "codigo_destino": "DSGN-347",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-5000-en (V016)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-ME-5060-en",
+      "codigo_destino": "MEAS-509",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-ME-5060-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-DN-5055-en",
+      "codigo_destino": "DSGN-345",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-DN-5055-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-5035-en",
+      "codigo_destino": "DSGN-436",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-5035-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2744-de",
+      "codigo_destino": "MATL-606",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2744-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0509-en",
+      "codigo_destino": "DSGN-383",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0509-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-2141-de",
+      "codigo_destino": "TEST-202",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-2141-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-A-DN-5020-en",
+      "codigo_destino": "DSGN-404",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-A-DN-5020-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0606-de",
+      "codigo_destino": "MNFG-477",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0606-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-8115-de",
+      "codigo_destino": "DSGN-407",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-8115-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3817-en",
+      "codigo_destino": "MNFG-480",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3817-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-H-ME-5031-en",
+      "codigo_destino": "MEAS-518",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-H-ME-5031-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-DN-5080-en",
+      "codigo_destino": "DSGN-381",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-DN-5080-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0501-en",
+      "codigo_destino": "DSGN-435",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0501-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0502-en",
+      "codigo_destino": "DSGN-402",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0502-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0511-en",
+      "codigo_destino": "DSGN-398",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0511-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0540-de",
+      "codigo_destino": "DSGN-474",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0540-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0625-de",
+      "codigo_destino": "DSGN-399",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0625-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-2143-de",
+      "codigo_destino": "DSGN-494",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-2143-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-A-PT-5033-en",
+      "codigo_destino": "DSGN-389",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-A-PT-5033-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-H-PT-5072-de",
+      "codigo_destino": "DSGN-377",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-H-PT-5072-de (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0504-en",
+      "codigo_destino": "DSGN-351",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0504-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0510-en",
+      "codigo_destino": "DSGN-380",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0510-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0623-de",
+      "codigo_destino": "DSGN-397",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0623-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0503-de",
+      "codigo_destino": "DSGN-490",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0503-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-5130-de",
+      "codigo_destino": "DSGN-465",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-5130-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-I-DN-5010-en",
+      "codigo_destino": "DSGN-478",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-I-DN-5010-en (V012)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-I-PT-2136-en",
+      "codigo_destino": "DSGN-444",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-I-PT-2136-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0560-en",
+      "codigo_destino": "DSGN-469",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0560-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-H-DN-5041-de",
+      "codigo_destino": "DSGN-496",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-H-DN-5041-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0270-en",
+      "codigo_destino": "DSGN-486",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0270-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0231-en",
+      "codigo_destino": "DSGN-417",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0231-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3805-en",
+      "codigo_destino": "MNFG-491",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3805-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0230-de",
+      "codigo_destino": "DSGN-492",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0230-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-6091-de",
+      "codigo_destino": "MNFG-463",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-6091-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0630-de",
+      "codigo_destino": "DSGN-491",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0630-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-3201-en",
+      "codigo_destino": "DSGN-464",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-3201-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0646-de",
+      "codigo_destino": "DSGN-453",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0646-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6552-de",
+      "codigo_destino": "DSGN-443",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6552-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0616-de",
+      "codigo_destino": "DSGN-387",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0616-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-PT-8100-en",
+      "codigo_destino": "DSGN-363",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-PT-8100-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6450-de",
+      "codigo_destino": "DSGN-459",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6450-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6550-de",
+      "codigo_destino": "DSGN-445",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6550-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0633-de",
+      "codigo_destino": "DSGN-374",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0633-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0664-de",
+      "codigo_destino": "DSGN-480",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0664-de (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0672-de",
+      "codigo_destino": "DSGN-375",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0672-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0603-de",
+      "codigo_destino": "MNFG-510",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0603-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0611-de",
+      "codigo_destino": "MNFG-489",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0611-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-5036-en",
+      "codigo_destino": "DSGN-371",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-5036-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0614-de",
+      "codigo_destino": "MNFG-503",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0614-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-PT-5039-en",
+      "codigo_destino": "DSGN-416",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-PT-5039-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-A-PT-5032-en",
+      "codigo_destino": "DSGN-378",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-A-PT-5032-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0615-de",
+      "codigo_destino": "MNFG-495",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0615-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-6041-de",
+      "codigo_destino": "MNFG-501",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-6041-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-5011-en",
+      "codigo_destino": "DSGN-422",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-5011-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-8154-de",
+      "codigo_destino": "MATL-607",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-8154-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0605-de",
+      "codigo_destino": "MNFG-475",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0605-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0609-de",
+      "codigo_destino": "MNFG-467",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0609-de (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-5065-en",
+      "codigo_destino": "DSGN-379",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-5065-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-DN-0657-en",
+      "codigo_destino": "DSGN-354",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-DN-0657-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-DN-0621-en",
+      "codigo_destino": "DSGN-356",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-DN-0621-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-PT-5037-en",
+      "codigo_destino": "DSGN-460",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-PT-5037-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-PT-5049-en",
+      "codigo_destino": "DSGN-451",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-PT-5049-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0601-de",
+      "codigo_destino": "MNFG-459",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0601-de (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3811-en",
+      "codigo_destino": "MNFG-458",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3811-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-DN-5048-en",
+      "codigo_destino": "DSGN-414",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-DN-5048-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2034-en",
+      "codigo_destino": "MATL-684",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2034-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2715-en",
+      "codigo_destino": "MATL-726",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2715-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0685-en",
+      "codigo_destino": "PROD-334",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0685-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-4050-en",
+      "codigo_destino": "MEAS-587",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-4050-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-TG-8125-en",
+      "codigo_destino": "MEAS-564",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-TG-8125-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9065-en",
+      "codigo_destino": "MATL-790",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9065-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9079-en",
+      "codigo_destino": "MATL-754",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9079-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9080-en",
+      "codigo_destino": "MATL-827",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9080-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9190-en",
+      "codigo_destino": "MATL-867",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9190-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9242-en",
+      "codigo_destino": "MATL-718",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9242-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-0688-en",
+      "codigo_destino": "MEAS-546",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-0688-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4500-en",
+      "codigo_destino": "MATL-738",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4500-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4700-en",
+      "codigo_destino": "MATL-770",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4700-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4710-en",
+      "codigo_destino": "MATL-823",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4710-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9025-en",
+      "codigo_destino": "MATL-677",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9025-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9044-en",
+      "codigo_destino": "MATL-691",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9044-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9051-en",
+      "codigo_destino": "MATL-668",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9051-en (V09)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4160-en",
+      "codigo_destino": "MATL-664",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4160-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4190-en",
+      "codigo_destino": "MATL-672",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4190-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4200-en",
+      "codigo_destino": "MATL-811",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4200-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4210-en",
+      "codigo_destino": "MATL-838",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4210-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4260-en",
+      "codigo_destino": "MATL-869",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4260-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4270-en",
+      "codigo_destino": "MATL-679",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4270-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4060-en",
+      "codigo_destino": "MATL-727",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4060-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4090-en",
+      "codigo_destino": "MATL-763",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4090-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4120-en",
+      "codigo_destino": "MATL-870",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4120-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4130-en",
+      "codigo_destino": "MATL-834",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4130-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4140-en",
+      "codigo_destino": "MATL-766",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4140-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3500-en",
+      "codigo_destino": "MATL-739",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3500-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3510-en",
+      "codigo_destino": "MATL-849",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3510-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3550-en",
+      "codigo_destino": "MATL-860",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3550-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3570-en",
+      "codigo_destino": "MATL-755",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3570-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3810-en",
+      "codigo_destino": "MATL-820",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3810-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4030-en",
+      "codigo_destino": "MATL-704",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4030-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3390-en",
+      "codigo_destino": "MATL-748",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3390-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3400-en",
+      "codigo_destino": "MATL-800",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3400-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3410-en",
+      "codigo_destino": "MATL-762",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3410-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3420-en",
+      "codigo_destino": "MATL-655",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3420-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3440-en",
+      "codigo_destino": "MATL-813",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3440-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3490-en",
+      "codigo_destino": "MATL-711",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3490-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3120-en",
+      "codigo_destino": "MATL-779",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3120-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3121-en",
+      "codigo_destino": "MATL-787",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3121-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3122-en",
+      "codigo_destino": "MATL-808",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3122-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3130-en",
+      "codigo_destino": "MATL-799",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3130-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3350-en",
+      "codigo_destino": "MATL-833",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3350-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3370-en",
+      "codigo_destino": "MATL-768",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3370-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-4100-en",
+      "codigo_destino": "MEAS-585",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-4100-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3110-en",
+      "codigo_destino": "MATL-735",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3110-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2191-en",
+      "codigo_destino": "MEAS-591",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2191-en (V09)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2193-en",
+      "codigo_destino": "MEAS-573",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2193-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4011-en",
+      "codigo_destino": "MATL-720",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4011-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2120-en",
+      "codigo_destino": "MEAS-574",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2120-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-TG-2154-en",
+      "codigo_destino": "MEAS-594",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-TG-2154-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4001-en",
+      "codigo_destino": "MATL-805",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4001-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4005-en",
+      "codigo_destino": "MATL-733",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4005-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4006-en",
+      "codigo_destino": "MATL-863",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4006-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4008-en",
+      "codigo_destino": "MATL-847",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4008-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4009-en",
+      "codigo_destino": "MATL-807",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4009-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4010-en",
+      "codigo_destino": "MATL-775",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4010-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3037-en",
+      "codigo_destino": "MATL-757",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3037-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3038-en",
+      "codigo_destino": "MATL-732",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3038-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3039-en",
+      "codigo_destino": "MATL-713",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3039-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3600-en",
+      "codigo_destino": "MATL-665",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3600-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4000-en",
+      "codigo_destino": "MATL-842",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4000-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3031-en",
+      "codigo_destino": "MATL-701",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3031-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3032-en",
+      "codigo_destino": "MATL-746",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3032-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3033-en",
+      "codigo_destino": "MATL-856",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3033-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3034-en",
+      "codigo_destino": "MATL-806",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3034-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3035-en",
+      "codigo_destino": "MATL-862",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3035-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3036-en",
+      "codigo_destino": "MATL-747",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3036-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2924-en",
+      "codigo_destino": "MATL-682",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2924-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2925-en",
+      "codigo_destino": "MATL-693",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2925-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2926-en",
+      "codigo_destino": "MATL-832",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2926-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2927-en",
+      "codigo_destino": "MATL-848",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2927-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3029-en",
+      "codigo_destino": "MATL-814",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3029-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3030-en",
+      "codigo_destino": "MATL-697",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3030-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2918-en",
+      "codigo_destino": "MATL-865",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2918-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2919-en",
+      "codigo_destino": "MATL-819",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2919-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2920-en",
+      "codigo_destino": "MATL-824",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2920-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2921-en",
+      "codigo_destino": "MATL-868",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2921-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2922-en",
+      "codigo_destino": "MATL-661",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2922-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2923-en",
+      "codigo_destino": "MATL-785",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2923-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2911-en",
+      "codigo_destino": "MATL-688",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2911-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2912-en",
+      "codigo_destino": "MATL-681",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2912-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2913-en",
+      "codigo_destino": "MATL-749",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2913-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2914-en",
+      "codigo_destino": "MATL-717",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2914-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2915-en",
+      "codigo_destino": "MATL-853",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2915-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2916-en",
+      "codigo_destino": "MATL-850",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2916-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2917-en",
+      "codigo_destino": "MATL-708",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2917-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2811-en",
+      "codigo_destino": "MATL-783",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2811-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2830-en",
+      "codigo_destino": "MATL-737",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2830-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2840-en",
+      "codigo_destino": "MATL-791",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2840-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2786-en",
+      "codigo_destino": "MATL-673",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2786-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2790-en",
+      "codigo_destino": "MATL-835",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2790-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2792-en",
+      "codigo_destino": "MATL-810",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2792-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2793-en",
+      "codigo_destino": "MATL-667",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2793-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2799-en",
+      "codigo_destino": "MATL-695",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2799-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2800-en",
+      "codigo_destino": "MATL-698",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2800-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2779-en",
+      "codigo_destino": "MATL-797",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2779-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2780-en",
+      "codigo_destino": "MATL-871",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2780-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2781-en",
+      "codigo_destino": "MATL-709",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2781-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2782-en",
+      "codigo_destino": "MATL-857",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2782-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2783-en",
+      "codigo_destino": "MATL-839",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2783-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2785-en",
+      "codigo_destino": "MATL-744",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2785-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2769-en",
+      "codigo_destino": "MATL-712",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2769-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2770-en",
+      "codigo_destino": "MATL-657",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2770-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2773-en",
+      "codigo_destino": "MATL-837",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2773-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2774-en",
+      "codigo_destino": "MATL-710",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2774-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2775-en",
+      "codigo_destino": "MATL-725",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2775-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2776-en",
+      "codigo_destino": "MATL-845",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2776-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2777-en",
+      "codigo_destino": "MATL-752",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2777-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2749-en",
+      "codigo_destino": "MATL-795",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2749-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2764-en",
+      "codigo_destino": "MATL-660",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2764-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2765-en",
+      "codigo_destino": "MATL-861",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2765-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2766-en",
+      "codigo_destino": "MATL-731",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2766-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2767-en",
+      "codigo_destino": "MATL-798",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2767-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2768-en",
+      "codigo_destino": "MATL-826",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2768-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2741-en",
+      "codigo_destino": "MATL-831",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2741-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2742-en",
+      "codigo_destino": "MATL-685",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2742-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2743-en",
+      "codigo_destino": "MATL-724",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2743-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2745-en",
+      "codigo_destino": "MATL-723",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2745-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2746-en",
+      "codigo_destino": "MATL-793",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2746-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2748-en",
+      "codigo_destino": "MATL-782",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2748-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2734-en",
+      "codigo_destino": "MATL-759",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2734-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2735-en",
+      "codigo_destino": "MATL-780",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2735-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2736-en",
+      "codigo_destino": "MATL-689",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2736-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2737-en",
+      "codigo_destino": "MATL-846",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2737-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2738-en",
+      "codigo_destino": "MATL-692",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2738-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2740-en",
+      "codigo_destino": "MATL-656",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2740-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2716-en",
+      "codigo_destino": "MATL-750",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2716-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2718-en",
+      "codigo_destino": "MATL-722",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2718-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2719-en",
+      "codigo_destino": "MATL-658",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2719-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2722-en",
+      "codigo_destino": "MATL-804",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2722-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2723-en",
+      "codigo_destino": "MATL-767",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2723-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2729-en",
+      "codigo_destino": "MATL-777",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2729-en (V09)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2730-en",
+      "codigo_destino": "MATL-729",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2730-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2708-en",
+      "codigo_destino": "MATL-742",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2708-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2709-en",
+      "codigo_destino": "MATL-676",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2709-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2710-en",
+      "codigo_destino": "MATL-666",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2710-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2711-en",
+      "codigo_destino": "MATL-764",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2711-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2714-en",
+      "codigo_destino": "MATL-663",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2714-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2707-en",
+      "codigo_destino": "MATL-674",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2707-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2702-en",
+      "codigo_destino": "MATL-714",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2702-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2703-en",
+      "codigo_destino": "MATL-828",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2703-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2704-en",
+      "codigo_destino": "MATL-670",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2704-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2705-en",
+      "codigo_destino": "MATL-683",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2705-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2706-en",
+      "codigo_destino": "MATL-836",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2706-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2606-en",
+      "codigo_destino": "MATL-699",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2606-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2607-en",
+      "codigo_destino": "MATL-803",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2607-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2608-en",
+      "codigo_destino": "MATL-702",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2608-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2610-en",
+      "codigo_destino": "MATL-858",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2610-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2611-en",
+      "codigo_destino": "MATL-730",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2611-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2701-en",
+      "codigo_destino": "MATL-772",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2701-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2431-en",
+      "codigo_destino": "MATL-816",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2431-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2601-en",
+      "codigo_destino": "MATL-786",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2601-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2602-en",
+      "codigo_destino": "MATL-854",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2602-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2603-en",
+      "codigo_destino": "MATL-753",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2603-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2604-en",
+      "codigo_destino": "MATL-771",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2604-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2605-en",
+      "codigo_destino": "MATL-696",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2605-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2324-en",
+      "codigo_destino": "MATL-815",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2324-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2325-en",
+      "codigo_destino": "MATL-736",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2325-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2410-en",
+      "codigo_destino": "MATL-740",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2410-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2420-en",
+      "codigo_destino": "MATL-844",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2420-en (V011)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2430-en",
+      "codigo_destino": "MATL-809",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2430-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2194-en",
+      "codigo_destino": "MATL-802",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2194-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2195-en",
+      "codigo_destino": "MATL-721",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2195-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2196-en",
+      "codigo_destino": "MATL-715",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2196-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2197-en",
+      "codigo_destino": "MATL-792",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2197-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2220-en",
+      "codigo_destino": "MATL-734",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2220-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2323-en",
+      "codigo_destino": "MATL-855",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2323-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2187-en",
+      "codigo_destino": "MATL-761",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2187-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2188-en",
+      "codigo_destino": "MATL-840",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2188-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2189-en",
+      "codigo_destino": "MATL-760",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2189-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2191-en",
+      "codigo_destino": "MATL-769",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2191-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2192-en",
+      "codigo_destino": "MATL-765",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2192-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2193-en",
+      "codigo_destino": "MATL-830",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2193-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2178-en",
+      "codigo_destino": "MATL-852",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2178-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2179-en",
+      "codigo_destino": "MATL-794",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2179-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2182-en",
+      "codigo_destino": "MATL-784",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2182-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2183-en",
+      "codigo_destino": "MATL-796",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2183-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2184-en",
+      "codigo_destino": "MATL-675",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2184-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2185-en",
+      "codigo_destino": "MATL-741",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2185-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2186-en",
+      "codigo_destino": "MATL-843",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2186-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2169-en",
+      "codigo_destino": "MATL-719",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2169-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2170-en",
+      "codigo_destino": "MATL-678",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2170-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2171-en",
+      "codigo_destino": "MATL-690",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2171-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2174-en",
+      "codigo_destino": "MATL-705",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2174-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2176-en",
+      "codigo_destino": "MATL-851",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2176-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2177-en",
+      "codigo_destino": "MATL-706",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2177-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2163-en",
+      "codigo_destino": "MATL-745",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2163-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2165-en",
+      "codigo_destino": "MATL-788",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2165-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2166-en",
+      "codigo_destino": "MATL-716",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2166-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2168-en",
+      "codigo_destino": "MATL-703",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2168-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2162-en",
+      "codigo_destino": "MATL-758",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2162-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2151-en",
+      "codigo_destino": "MATL-662",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2151-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2152-en",
+      "codigo_destino": "MATL-776",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2152-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2153-en",
+      "codigo_destino": "MATL-781",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2153-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2158-en",
+      "codigo_destino": "MATL-812",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2158-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2159-en",
+      "codigo_destino": "MATL-669",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2159-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2160-en",
+      "codigo_destino": "MATL-774",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2160-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2161-en",
+      "codigo_destino": "MATL-817",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2161-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2142-en",
+      "codigo_destino": "MATL-659",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2142-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2144-en",
+      "codigo_destino": "MATL-778",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2144-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2145-en",
+      "codigo_destino": "MATL-700",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2145-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2146-en",
+      "codigo_destino": "MATL-671",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2146-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2148-en",
+      "codigo_destino": "MATL-859",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2148-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2150-en",
+      "codigo_destino": "MATL-825",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2150-en (V09)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2061-en",
+      "codigo_destino": "MATL-801",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2061-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2111-en",
+      "codigo_destino": "MATL-728",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2111-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2135-en",
+      "codigo_destino": "MATL-680",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2135-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2137-en",
+      "codigo_destino": "MATL-818",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2137-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2138-en",
+      "codigo_destino": "MATL-789",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2138-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2140-en",
+      "codigo_destino": "MATL-687",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2140-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2033-en",
+      "codigo_destino": "MATL-751",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2033-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2040-en",
+      "codigo_destino": "MATL-773",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2040-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2041-en",
+      "codigo_destino": "MATL-686",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2041-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2042-en",
+      "codigo_destino": "MATL-829",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2042-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2050-en",
+      "codigo_destino": "MATL-866",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2050-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2060-en",
+      "codigo_destino": "MATL-864",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2060-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8155-en",
+      "codigo_destino": "MEAS-561",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8155-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8156-en",
+      "codigo_destino": "MEAS-578",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8156-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8157-en",
+      "codigo_destino": "MEAS-577",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8157-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ME-6561-en",
+      "codigo_destino": "MEAS-568",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ME-6561-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2011-en",
+      "codigo_destino": "MATL-743",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2011-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2032-en",
+      "codigo_destino": "MATL-841",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2032-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8106-en",
+      "codigo_destino": "MEAS-583",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8106-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8107-en",
+      "codigo_destino": "MEAS-562",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8107-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8108-en",
+      "codigo_destino": "MEAS-580",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8108-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8152-en",
+      "codigo_destino": "MEAS-570",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8152-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8153-en",
+      "codigo_destino": "MEAS-566",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8153-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-0002-en",
+      "codigo_destino": "MEAS-549",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-0002-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-0005-en",
+      "codigo_destino": "MEAS-581",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-0005-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-2122-en",
+      "codigo_destino": "MEAS-595",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-2122-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8103-en",
+      "codigo_destino": "MEAS-558",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8103-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8104-en",
+      "codigo_destino": "MEAS-547",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8104-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2031-en",
+      "codigo_destino": "MATL-822",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2031-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "",
+      "codigo_destino": "MATL-635",
+      "tipo_ligacao": "sem sucessor",
+      "fonte": "decisao aprovada",
+      "evidencia": "Codigo atual original, sem Previous Document No",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "",
+      "codigo_destino": "MATL-633",
+      "tipo_ligacao": "sem sucessor",
+      "fonte": "decisao aprovada",
+      "evidencia": "Codigo atual original, sem Previous Document No",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "WNF 102731",
+      "codigo_destino": "MATL-648",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: WNF 102731",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "WNF 102713",
+      "codigo_destino": "MATL-647",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: WNF 102713",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-102110-en",
+      "codigo_destino": "MATL-629",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-102110-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-102167-en",
+      "codigo_destino": "MATL-630",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-102167-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-102731-en",
+      "codigo_destino": "MATL-631",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-102731-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-102992-en",
+      "codigo_destino": "MATL-632",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-102992-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-3115-en",
+      "codigo_destino": "MATL-628",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-3115-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0213-en",
+      "codigo_destino": "DSGN-421",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0213-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-TG-0225-en",
+      "codigo_destino": "TEST-319",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-TG-0225-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2015-en",
+      "codigo_destino": "MATL-625",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2015-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2016-en",
+      "codigo_destino": "MATL-624",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2016-en V02",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-5706-en",
+      "codigo_destino": "MNFG-513",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-5706-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0212-en",
+      "codigo_destino": "DSGN-467",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0212-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0214-en",
+      "codigo_destino": "DSGN-493",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0214-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0216-en",
+      "codigo_destino": "DSGN-466",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0216-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0220-en",
+      "codigo_destino": "DSGN-357",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0220-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-2202-en",
+      "codigo_destino": "DSGN-463",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-2202-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-2203-en",
+      "codigo_destino": "DSGN-362",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-2203-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-3815-en",
+      "codigo_destino": "MNFG-507",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-3815-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-3816-en",
+      "codigo_destino": "MNFG-464",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-3816-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-9020-en",
+      "codigo_destino": "MATL-559",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-9020-en (V030)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0205-en",
+      "codigo_destino": "DSGN-401",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0205-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0206-en",
+      "codigo_destino": "DSGN-479",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0206-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0210-en",
+      "codigo_destino": "DSGN-471",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0210-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0211-en",
+      "codigo_destino": "DSGN-425",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0211-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6007-en",
+      "codigo_destino": "MNFG-508",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6007-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6009-en",
+      "codigo_destino": "MNFG-506",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6009-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6010-en",
+      "codigo_destino": "MNFG-484",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6010-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-6011-en",
+      "codigo_destino": "MNFG-472",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-6011-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-1004-en",
+      "codigo_destino": "TEST-131",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-1004-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-1010-en",
+      "codigo_destino": "MATL-602",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-1010-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3005-en",
+      "codigo_destino": "MATL-610",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3005-en (V019)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4005-en",
+      "codigo_destino": "MATL-594",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4005-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-0691-en",
+      "codigo_destino": "DSGN-373",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-0691-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-4023-en",
+      "codigo_destino": "DSGN-441",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-4023-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-5052-en",
+      "codigo_destino": "DSGN-410",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-5052-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3850-en",
+      "codigo_destino": "MNFG-499",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3850-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-4110-en",
+      "codigo_destino": "MNFG-509",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-4110-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0209-en",
+      "codigo_destino": "DSGN-350",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0209-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-DN-0081-en",
+      "codigo_destino": "DSGN-405",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-DN-0081-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-DN-9001-en",
+      "codigo_destino": "DSGN-439",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-DN-9001-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-4024-en",
+      "codigo_destino": "DSGN-396",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-4024-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-G-PT-5025-en",
+      "codigo_destino": "DSGN-391",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-G-PT-5025-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-5001-en",
+      "codigo_destino": "DSGN-348",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-5001-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-PT-0070-en",
+      "codigo_destino": "PROD-330",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-PT-0070-en (V072)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-5105-en",
+      "codigo_destino": "PROD-328",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-5105-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2753",
+      "codigo_destino": "MATL-636",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2753",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-DN-5051",
+      "codigo_destino": "DSGN-527",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-DN-5051",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-H-DN-5013-en",
+      "codigo_destino": "DSGN-369",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-H-DN-5013-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2777",
+      "codigo_destino": "MATL-638",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2777",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2017-en",
+      "codigo_destino": "MATL-640",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2017-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ME-0647",
+      "codigo_destino": "MEAS-525",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ME-0647",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-60451-en",
+      "codigo_destino": "DSGN-512",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-60451-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-Ml-2801-en",
+      "codigo_destino": "MATL-644",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-Ml-2801-en V10",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2778-en",
+      "codigo_destino": "MATL-645",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2778-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2013-en",
+      "codigo_destino": "MATL-643",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2013-en V02",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4025-en",
+      "codigo_destino": "MATL-583",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4025-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-4025-P01-en",
+      "codigo_destino": "MATL-560",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-4025-P01-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-1005-en",
+      "codigo_destino": "MATL-626",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-1005-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-1020-en",
+      "codigo_destino": "MATL-582",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-1020-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3110 D",
+      "codigo_destino": "MATL-627",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3110 D",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-C-DN-5062-en",
+      "codigo_destino": "DSGN-507",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-C-DN-5062-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-C-DN-5063-en",
+      "codigo_destino": "DSGN-506",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-C-DN-5063-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0613-en",
+      "codigo_destino": "MNFG-498",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0613-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-6040-en",
+      "codigo_destino": "MNFG-494",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-6040-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0653-en",
+      "codigo_destino": "DSGN-372",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0653-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0684-en",
+      "codigo_destino": "DSGN-427",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0684-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2070-en",
+      "codigo_destino": "MATL-577",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2070-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2026-en",
+      "codigo_destino": "MATL-588",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2026-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-DN-5034-en",
+      "codigo_destino": "MATL-585",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-DN-5034-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1800-en",
+      "codigo_destino": "MATL-550",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1800-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2100-en",
+      "codigo_destino": "MATL-549",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2100-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6565-en",
+      "codigo_destino": "DSGN-415",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6565-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-ML-1019-en",
+      "codigo_destino": "MATL-581",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-ML-1019-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2022-en",
+      "codigo_destino": "MATL-568",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2022-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0300-en",
+      "codigo_destino": "MATL-558",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0300-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2300-en",
+      "codigo_destino": "MATL-605",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2300-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2717-en",
+      "codigo_destino": "MATL-556",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2717-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0260-en",
+      "codigo_destino": "DSGN-359",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0260-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0644-en",
+      "codigo_destino": "DSGN-455",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0644-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0693-en",
+      "codigo_destino": "PROD-333",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0693-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6502-en",
+      "codigo_destino": "DSGN-472",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6502-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6567-en",
+      "codigo_destino": "DSGN-413",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6567-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6580-en",
+      "codigo_destino": "DSGN-370",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6580-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6582-en",
+      "codigo_destino": "DSGN-450",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6582-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3813-en",
+      "codigo_destino": "MNFG-497",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3813-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3380-P01-en",
+      "codigo_destino": "MATL-552",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3380-P01-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-DN-5074-en",
+      "codigo_destino": "DSGN-390",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-DN-5074-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-MA-0627-en",
+      "codigo_destino": "DSGN-408",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-MA-0627-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3300-en",
+      "codigo_destino": "MATL-579",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3300-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4014-en",
+      "codigo_destino": "MATL-553",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4014-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3809-en",
+      "codigo_destino": "MNFG-474",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3809-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-I-PT-5022-en",
+      "codigo_destino": "DSGN-428",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-I-PT-5022-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0639-en",
+      "codigo_destino": "DSGN-420",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0639-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0655-en",
+      "codigo_destino": "DSGN-361",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0655-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6575-en",
+      "codigo_destino": "DSGN-352",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6575-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-H-ML-1021-en",
+      "codigo_destino": "MATL-595",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-H-ML-1021-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-DN-5071-en",
+      "codigo_destino": "DSGN-495",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-DN-5071-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-PT-5043-en",
+      "codigo_destino": "DSGN-434",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-PT-5043-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6583-en",
+      "codigo_destino": "DSGN-423",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6583-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-DN-5070-en",
+      "codigo_destino": "DSGN-475",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-DN-5070-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-ML-1018-en",
+      "codigo_destino": "MATL-617",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-ML-1018-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-0508-en",
+      "codigo_destino": "DSGN-438",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-0508-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-L-DN-5019-en",
+      "codigo_destino": "DSGN-409",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-L-DN-5019-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3814-en",
+      "codigo_destino": "MNFG-465",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3814-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-H-ML-1016-en",
+      "codigo_destino": "MATL-566",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-H-ML-1016-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-DN-5073-en",
+      "codigo_destino": "DSGN-457",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-DN-5073-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0600-en",
+      "codigo_destino": "MATL-574",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0600-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6541-en",
+      "codigo_destino": "DSGN-388",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6541-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0255-en",
+      "codigo_destino": "DSGN-355",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0255-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0656-en",
+      "codigo_destino": "DSGN-419",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0656-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0668-en",
+      "codigo_destino": "DSGN-382",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0668-en (V020)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-0221-en",
+      "codigo_destino": "DSGN-456",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-0221-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3806-en",
+      "codigo_destino": "MNFG-478",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3806-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0200-en",
+      "codigo_destino": "MATL-557",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0200-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6571-en",
+      "codigo_destino": "DSGN-406",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6571-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4013-P01-en",
+      "codigo_destino": "MATL-619",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4013-P01-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3380-P02-en",
+      "codigo_destino": "MATL-620",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3380-P02-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2800-en",
+      "codigo_destino": "MATL-616",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2800-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6523-en",
+      "codigo_destino": "DSGN-364",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6523-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6588-en",
+      "codigo_destino": "DSGN-353",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6588-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-ML-3380-en",
+      "codigo_destino": "MATL-580",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-ML-3380-en (V06)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2784-en",
+      "codigo_destino": "MATL-604",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2784-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4015-en",
+      "codigo_destino": "MATL-571",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4015-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-3150-en",
+      "codigo_destino": "DSGN-426",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-3150-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3808-en",
+      "codigo_destino": "MNFG-502",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3808-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0596-en",
+      "codigo_destino": "MNFG-468",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0596-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0617-en",
+      "codigo_destino": "MNFG-469",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0617-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2147-en",
+      "codigo_destino": "MATL-573",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2147-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3807-en",
+      "codigo_destino": "MNFG-487",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3807-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3810-en",
+      "codigo_destino": "MNFG-485",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3810-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-MA-3812-en",
+      "codigo_destino": "MNFG-490",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-MA-3812-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-G-DN-0550-en",
+      "codigo_destino": "DSGN-386",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-G-DN-0550-en (V010)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0500-en",
+      "codigo_destino": "MATL-572",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0500-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0640-en",
+      "codigo_destino": "DSGN-433",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0640-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6569-en",
+      "codigo_destino": "DSGN-458",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6569-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6573-en",
+      "codigo_destino": "DSGN-449",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6573-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6584-en",
+      "codigo_destino": "DSGN-360",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6584-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6586-en",
+      "codigo_destino": "DSGN-447",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6586-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-DN-5045-en",
+      "codigo_destino": "DSGN-411",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-DN-5045-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0690-en",
+      "codigo_destino": "PROD-332",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0690-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6501-en",
+      "codigo_destino": "DSGN-412",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6501-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6542-en",
+      "codigo_destino": "DSGN-497",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6542-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-6560-en",
+      "codigo_destino": "DSGN-392",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-6560-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3000-en",
+      "codigo_destino": "MATL-612",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3000-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3200-en",
+      "codigo_destino": "MATL-548",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3200-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2190-en",
+      "codigo_destino": "MATL-591",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2190-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0638-en",
+      "codigo_destino": "DSGN-403",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0638-en (V05)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0652-en",
+      "codigo_destino": "DSGN-501",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0652-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0654-en",
+      "codigo_destino": "DSGN-481",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0654-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0660-en",
+      "codigo_destino": "DSGN-470",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0660-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0612-en",
+      "codigo_destino": "MNFG-505",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0612-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2021-en",
+      "codigo_destino": "MATL-598",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2021-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2035-en",
+      "codigo_destino": "MATL-603",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2035-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4007-en",
+      "codigo_destino": "MATL-578",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4007-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4013-en",
+      "codigo_destino": "MATL-546",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4013-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-4021-en",
+      "codigo_destino": "MATL-561",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-4021-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0555-en",
+      "codigo_destino": "DSGN-461",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0555-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-C-DN-5061-en",
+      "codigo_destino": "DSGN-448",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-C-DN-5061-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-PT-0001-en",
+      "codigo_destino": "DSGN-498",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-PT-0001-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2010-en",
+      "codigo_destino": "TEST-299",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2010-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2500-en",
+      "codigo_destino": "MATL-562",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2500-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2400-en",
+      "codigo_destino": "MATL-611",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2400-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2025-en",
+      "codigo_destino": "MATL-618",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2025-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2600-en",
+      "codigo_destino": "MATL-565",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2600-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2721-en",
+      "codigo_destino": "MATL-592",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2721-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2733-en",
+      "codigo_destino": "MATL-545",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2733-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3100-en",
+      "codigo_destino": "MATL-563",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3100-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-5093-en",
+      "codigo_destino": "DSGN-487",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-5093-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2200-en",
+      "codigo_destino": "MATL-590",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2200-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2700-en",
+      "codigo_destino": "MATL-554",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2700-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-DN-0620-en",
+      "codigo_destino": "DSGN-368",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-DN-0620-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-PT-5044-en",
+      "codigo_destino": "DSGN-394",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-PT-5044-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1200-en",
+      "codigo_destino": "MATL-570",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1200-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2000-en",
+      "codigo_destino": "MATL-586",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2000-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3500-en",
+      "codigo_destino": "MATL-547",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3500-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0684-en",
+      "codigo_destino": "MNFG-486",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0684-en (V07)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2120-en",
+      "codigo_destino": "MATL-599",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2120-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-2900-en",
+      "codigo_destino": "MATL-621",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-2900-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2024-en",
+      "codigo_destino": "MATL-593",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2024-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ML-2038-en",
+      "codigo_destino": "MATL-575",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ML-2038-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-A-DN-5091-en",
+      "codigo_destino": "DSGN-437",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-A-DN-5091-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0800-en",
+      "codigo_destino": "MATL-613",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0800-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0680-en",
+      "codigo_destino": "MNFG-476",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0680-en (V016)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-6042-en",
+      "codigo_destino": "MNFG-488",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-6042-en (V04)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-ME-2115-en",
+      "codigo_destino": "MEAS-512",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-ME-2115-en (V08)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-F-DN-5058-en",
+      "codigo_destino": "DSGN-485",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-F-DN-5058-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1400-en",
+      "codigo_destino": "MATL-597",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1400-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1600-en",
+      "codigo_destino": "MATL-569",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1600-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1900-en",
+      "codigo_destino": "MATL-600",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1900-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-TG-8102-en",
+      "codigo_destino": "DSGN-489",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-TG-8102-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-DN-5090-en",
+      "codigo_destino": "DSGN-400",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-DN-5090-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-MA-0595-en",
+      "codigo_destino": "MNFG-470",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-MA-0595-en (V022)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0400-en",
+      "codigo_destino": "MATL-544",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0400-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0700-en",
+      "codigo_destino": "MATL-622",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0700-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0900-en",
+      "codigo_destino": "MATL-564",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0900-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1000-en",
+      "codigo_destino": "MATL-584",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1000-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1100-en",
+      "codigo_destino": "MATL-615",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1100-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1300-en",
+      "codigo_destino": "MATL-555",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1300-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1500-en",
+      "codigo_destino": "MATL-589",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1500-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-1700-en",
+      "codigo_destino": "MATL-576",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-1700-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-C-DN-5015-en",
+      "codigo_destino": "DSGN-432",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-C-DN-5015-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-L-DN-5021-en",
+      "codigo_destino": "DSGN-429",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-L-DN-5021-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-L-DN-5047-en",
+      "codigo_destino": "DSGN-468",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-L-DN-5047-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-0100-en",
+      "codigo_destino": "MATL-608",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-0100-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-I-PT-2137-en",
+      "codigo_destino": "DSGN-483",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-I-PT-2137-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-DN-5018-en",
+      "codigo_destino": "DSGN-473",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-DN-5018-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-DN-5024-en",
+      "codigo_destino": "DSGN-367",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-DN-5024-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-A-PT-5042-en",
+      "codigo_destino": "DSGN-358",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-A-PT-5042-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "G-C-DN-5017-en",
+      "codigo_destino": "DSGN-366",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: G-C-DN-5017-en (V00)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-L-PT-5115-en",
+      "codigo_destino": "PROD-329",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-L-PT-5115-en (V03)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-C-ML-3400-en",
+      "codigo_destino": "MATL-542",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-C-ML-3400-en (V01)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "S-F-PT-0642-en",
+      "codigo_destino": "DSGN-344",
+      "tipo_ligacao": "nome anterior",
+      "fonte": "Valid-Documents-2026-11-23-09-38.xlsx",
+      "evidencia": "Previous Document No: S-F-PT-0642-en (V02)",
+      "confianca": 1.0
+    },
+    {
+      "codigo_origem": "",
+      "codigo_destino": "W-BE-0885-en",
+      "tipo_ligacao": "sem sucessor",
+      "fonte": "decisao aprovada",
+      "evidencia": "Codigo atual original, sem Previous Document No",
+      "confianca": 1.0
+    }
+  ],
+  "alias_to_current": {
+    "G-I-PT-3202": "DSGN-511",
+    "S-L-PT-8120-P03-EN": "DSGN-446",
+    "S-L-PT-8120-P02-EN": "DSGN-424",
+    "S-L-PT-8120-P01-EN": "DSGN-349",
+    "S-L-PT-8120-P04-EN": "TEST-257",
+    "S-G-TG-4015-EN": "MEAS-596",
+    "S-G-TG-4018-EN": "MEAS-567",
+    "S-I-TG-2139-EN": "MEAS-544",
+    "S-F-ML-2810-EN": "MEAS-579",
+    "S-G-TG-4004-EN": "MEAS-556",
+    "S-G-TG-4006-EN": "MEAS-545",
+    "S-G-TG-4008-EN": "MEAS-592",
+    "S-G-TG-4009-EN": "MEAS-551",
+    "S-G-TG-4010-EN": "MEAS-575",
+    "S-G-TG-4013-EN": "MEAS-588",
+    "S-C-TG-8101-EN": "MEAS-569",
+    "S-G-MA-4014-EN": "MEAS-576",
+    "S-G-TG-4000-EN": "MEAS-572",
+    "S-G-TG-4002-EN": "MEAS-552",
+    "S-G-TG-4003-EN": "MEAS-554",
+    "G-G-TG-4001-EN": "MEAS-586",
+    "G-G-TG-4005-EN": "MEAS-560",
+    "S-L-TG-2186-DE": "MEAS-563",
+    "S-L-TG-2187-DE": "MEAS-557",
+    "S-L-TG-2179-P01-DE": "MEAS-593",
+    "S-L-TG-2179-P02-DE": "MEAS-582",
+    "S-L-TG-2180-DE": "MEAS-590",
+    "S-L-TG-2183-P01-DE": "MEAS-559",
+    "S-L-TG-2183-P02-DE": "MEAS-584",
+    "S-L-TG-2185-DE": "MEAS-550",
+    "S-G-TG-2105-DE": "MEAS-548",
+    "S-F-TG-2726-DE": "MATL-707",
+    "S-F-TG-2727-DE": "MATL-694",
+    "S-F-TG-2732-DE": "MATL-756",
+    "S-F-TG-2747-DE": "MATL-821",
+    "S-F-TG-2107-DE": "MEAS-553",
+    "S-F-TG-2146-DE": "MEAS-565",
+    "S-F-TG-2160-DE": "MEAS-589",
+    "S-A-TG-2110-DE": "MEAS-555",
+    "S-C-ML-2192-DE": "MEAS-571",
+    "S-G-PT-9000-EN": "DSGN-482",
+    "S-G-PT-0505-EN": "DSGN-442",
+    "S-G-PT-0506-DE": "DSGN-440",
+    "S-G-PT-1105-DE": "DSGN-384",
+    "S-G-PT-1107-DE": "DSGN-376",
+    "S-G-PT-1109-DE": "DSGN-462",
+    "S-G-PT-5040-EN": "DSGN-488",
+    "S-G-PT-5075-EN": "DSGN-395",
+    "S-G-PT-5076-EN": "DSGN-454",
+    "S-G-PT-5110-EN": "DSGN-365",
+    "S-G-PT-5134-EN": "DSGN-500",
+    "S-G-ML-4080-DE": "MATL-601",
+    "S-G-ML-4100-P03-DE": "MATL-551",
+    "S-G-ML-4340-DE": "MATL-567",
+    "S-G-MA-6020-DE": "MNFG-500",
+    "S-G-ML-2130-EN": "MATL-587",
+    "S-G-ML-4100-P01-DE": "MATL-609",
+    "S-G-ML-4100-P02-DE": "MATL-614",
+    "S-G-DN-4016-EN": "DSGN-430",
+    "S-G-DN-5005-EN": "DSGN-477",
+    "S-G-DN-5007-EN": "DSGN-476",
+    "S-G-DN-5135-EN": "DSGN-385",
+    "S-G-MA-0507-DE": "MNFG-466",
+    "S-G-MA-3855-DE": "MNFG-471",
+    "S-G-MA-5705-DE": "MNFG-504",
+    "S-G-MA-6001-EN": "MNFG-479",
+    "S-G-MA-6002-EN": "MNFG-481",
+    "S-G-MA-6003-EN": "MNFG-462",
+    "S-G-MA-6004-EN": "MNFG-496",
+    "S-G-MA-6005-EN": "MNFG-492",
+    "G-G-PT-5026-EN": "DSGN-393",
+    "G-G-PT-4012-EN": "DSGN-431",
+    "G-G-PT-5028-EN": "DSGN-499",
+    "G-G-PT-5029-EN": "DSGN-484",
+    "G-G-DN-5056-EN": "DSGN-418",
+    "G-G-PT-5027-EN": "DSGN-452",
+    "S-G-DN-5000-EN": "DSGN-347",
+    "G-G-ME-5060-EN": "MEAS-509",
+    "G-G-DN-5055-EN": "DSGN-345",
+    "G-I-PT-5035-EN": "DSGN-436",
+    "S-F-ML-2744-DE": "MATL-606",
+    "S-L-PT-0509-EN": "DSGN-383",
+    "S-L-PT-2141-DE": "TEST-202",
+    "S-A-DN-5020-EN": "DSGN-404",
+    "S-F-MA-0606-DE": "MNFG-477",
+    "S-F-PT-8115-DE": "DSGN-407",
+    "S-G-MA-3817-EN": "MNFG-480",
+    "S-H-ME-5031-EN": "MEAS-518",
+    "S-L-DN-5080-EN": "DSGN-381",
+    "S-L-PT-0501-EN": "DSGN-435",
+    "S-L-PT-0502-EN": "DSGN-402",
+    "S-L-PT-0511-EN": "DSGN-398",
+    "S-L-PT-0540-DE": "DSGN-474",
+    "S-L-PT-0625-DE": "DSGN-399",
+    "S-L-TG-2143-DE": "DSGN-494",
+    "S-A-PT-5033-EN": "DSGN-389",
+    "S-H-PT-5072-DE": "DSGN-377",
+    "S-L-PT-0504-EN": "DSGN-351",
+    "S-L-PT-0510-EN": "DSGN-380",
+    "S-L-PT-0623-DE": "DSGN-397",
+    "S-L-PT-0503-DE": "DSGN-490",
+    "S-F-PT-5130-DE": "DSGN-465",
+    "S-I-DN-5010-EN": "DSGN-478",
+    "S-I-PT-2136-EN": "DSGN-444",
+    "S-F-PT-0560-EN": "DSGN-469",
+    "S-H-DN-5041-DE": "DSGN-496",
+    "S-F-PT-0270-EN": "DSGN-486",
+    "S-G-PT-0231-EN": "DSGN-417",
+    "S-G-MA-3805-EN": "MNFG-491",
+    "S-F-PT-0230-DE": "DSGN-492",
+    "S-F-MA-6091-DE": "MNFG-463",
+    "S-F-PT-0630-DE": "DSGN-491",
+    "G-I-PT-3201-EN": "DSGN-464",
+    "S-F-PT-0646-DE": "DSGN-453",
+    "S-F-PT-6552-DE": "DSGN-443",
+    "S-F-PT-0616-DE": "DSGN-387",
+    "S-C-PT-8100-EN": "DSGN-363",
+    "S-F-PT-6450-DE": "DSGN-459",
+    "S-F-PT-6550-DE": "DSGN-445",
+    "S-F-PT-0633-DE": "DSGN-374",
+    "S-F-PT-0664-DE": "DSGN-480",
+    "S-F-PT-0672-DE": "DSGN-375",
+    "S-F-MA-0603-DE": "MNFG-510",
+    "S-F-MA-0611-DE": "MNFG-489",
+    "G-I-PT-5036-EN": "DSGN-371",
+    "S-F-MA-0614-DE": "MNFG-503",
+    "G-A-PT-5039-EN": "DSGN-416",
+    "S-A-PT-5032-EN": "DSGN-378",
+    "S-F-MA-0615-DE": "MNFG-495",
+    "S-F-MA-6041-DE": "MNFG-501",
+    "G-I-PT-5011-EN": "DSGN-422",
+    "S-C-ML-8154-DE": "MATL-607",
+    "S-F-MA-0605-DE": "MNFG-475",
+    "S-F-MA-0609-DE": "MNFG-467",
+    "G-I-PT-5065-EN": "DSGN-379",
+    "S-F-DN-0657-EN": "DSGN-354",
+    "G-A-DN-0621-EN": "DSGN-356",
+    "G-A-PT-5037-EN": "DSGN-460",
+    "G-A-PT-5049-EN": "DSGN-451",
+    "S-F-MA-0601-DE": "MNFG-459",
+    "S-G-MA-3811-EN": "MNFG-458",
+    "G-I-DN-5048-EN": "DSGN-414",
+    "S-F-ML-2034-EN": "MATL-684",
+    "S-F-ML-2715-EN": "MATL-726",
+    "S-F-PT-0685-EN": "PROD-334",
+    "S-G-TG-4050-EN": "MEAS-587",
+    "S-L-TG-8125-EN": "MEAS-564",
+    "S-G-ML-9065-EN": "MATL-790",
+    "S-G-ML-9079-EN": "MATL-754",
+    "S-G-ML-9080-EN": "MATL-827",
+    "S-G-ML-9190-EN": "MATL-867",
+    "S-G-ML-9242-EN": "MATL-718",
+    "S-G-TG-0688-EN": "MEAS-546",
+    "S-G-ML-4500-EN": "MATL-738",
+    "S-G-ML-4700-EN": "MATL-770",
+    "S-G-ML-4710-EN": "MATL-823",
+    "S-G-ML-9025-EN": "MATL-677",
+    "S-G-ML-9044-EN": "MATL-691",
+    "S-G-ML-9051-EN": "MATL-668",
+    "S-G-ML-4160-EN": "MATL-664",
+    "S-G-ML-4190-EN": "MATL-672",
+    "S-G-ML-4200-EN": "MATL-811",
+    "S-G-ML-4210-EN": "MATL-838",
+    "S-G-ML-4260-EN": "MATL-869",
+    "S-G-ML-4270-EN": "MATL-679",
+    "S-G-ML-4060-EN": "MATL-727",
+    "S-G-ML-4090-EN": "MATL-763",
+    "S-G-ML-4120-EN": "MATL-870",
+    "S-G-ML-4130-EN": "MATL-834",
+    "S-G-ML-4140-EN": "MATL-766",
+    "S-G-ML-3500-EN": "MATL-739",
+    "S-G-ML-3510-EN": "MATL-849",
+    "S-G-ML-3550-EN": "MATL-860",
+    "S-G-ML-3570-EN": "MATL-755",
+    "S-G-ML-3810-EN": "MATL-820",
+    "S-G-ML-4030-EN": "MATL-704",
+    "S-G-ML-3390-EN": "MATL-748",
+    "S-G-ML-3400-EN": "MATL-800",
+    "S-G-ML-3410-EN": "MATL-762",
+    "S-G-ML-3420-EN": "MATL-655",
+    "S-G-ML-3440-EN": "MATL-813",
+    "S-G-ML-3490-EN": "MATL-711",
+    "S-G-ML-3120-EN": "MATL-779",
+    "S-G-ML-3121-EN": "MATL-787",
+    "S-G-ML-3122-EN": "MATL-808",
+    "S-G-ML-3130-EN": "MATL-799",
+    "S-G-ML-3350-EN": "MATL-833",
+    "S-G-ML-3370-EN": "MATL-768",
+    "S-F-TG-4100-EN": "MEAS-585",
+    "S-G-ML-3110-EN": "MATL-735",
+    "S-F-TG-2191-EN": "MEAS-591",
+    "S-F-TG-2193-EN": "MEAS-573",
+    "S-F-ML-4011-EN": "MATL-720",
+    "S-F-TG-2120-EN": "MEAS-574",
+    "S-F-TG-2154-EN": "MEAS-594",
+    "S-F-ML-4001-EN": "MATL-805",
+    "S-F-ML-4005-EN": "MATL-733",
+    "S-F-ML-4006-EN": "MATL-863",
+    "S-F-ML-4008-EN": "MATL-847",
+    "S-F-ML-4009-EN": "MATL-807",
+    "S-F-ML-4010-EN": "MATL-775",
+    "S-F-ML-3037-EN": "MATL-757",
+    "S-F-ML-3038-EN": "MATL-732",
+    "S-F-ML-3039-EN": "MATL-713",
+    "S-F-ML-3600-EN": "MATL-665",
+    "S-F-ML-4000-EN": "MATL-842",
+    "S-F-ML-3031-EN": "MATL-701",
+    "S-F-ML-3032-EN": "MATL-746",
+    "S-F-ML-3033-EN": "MATL-856",
+    "S-F-ML-3034-EN": "MATL-806",
+    "S-F-ML-3035-EN": "MATL-862",
+    "S-F-ML-3036-EN": "MATL-747",
+    "S-F-ML-2924-EN": "MATL-682",
+    "S-F-ML-2925-EN": "MATL-693",
+    "S-F-ML-2926-EN": "MATL-832",
+    "S-F-ML-2927-EN": "MATL-848",
+    "S-F-ML-3029-EN": "MATL-814",
+    "S-F-ML-3030-EN": "MATL-697",
+    "S-F-ML-2918-EN": "MATL-865",
+    "S-F-ML-2919-EN": "MATL-819",
+    "S-F-ML-2920-EN": "MATL-824",
+    "S-F-ML-2921-EN": "MATL-868",
+    "S-F-ML-2922-EN": "MATL-661",
+    "S-F-ML-2923-EN": "MATL-785",
+    "S-F-ML-2911-EN": "MATL-688",
+    "S-F-ML-2912-EN": "MATL-681",
+    "S-F-ML-2913-EN": "MATL-749",
+    "S-F-ML-2914-EN": "MATL-717",
+    "S-F-ML-2915-EN": "MATL-853",
+    "S-F-ML-2916-EN": "MATL-850",
+    "S-F-ML-2917-EN": "MATL-708",
+    "S-F-ML-2811-EN": "MATL-783",
+    "S-F-ML-2830-EN": "MATL-737",
+    "S-F-ML-2840-EN": "MATL-791",
+    "S-F-ML-2786-EN": "MATL-673",
+    "S-F-ML-2790-EN": "MATL-835",
+    "S-F-ML-2792-EN": "MATL-810",
+    "S-F-ML-2793-EN": "MATL-667",
+    "S-F-ML-2799-EN": "MATL-695",
+    "S-F-ML-2800-EN": "MATL-698",
+    "S-F-ML-2779-EN": "MATL-797",
+    "S-F-ML-2780-EN": "MATL-871",
+    "S-F-ML-2781-EN": "MATL-709",
+    "S-F-ML-2782-EN": "MATL-857",
+    "S-F-ML-2783-EN": "MATL-839",
+    "S-F-ML-2785-EN": "MATL-744",
+    "S-F-ML-2769-EN": "MATL-712",
+    "S-F-ML-2770-EN": "MATL-657",
+    "S-F-ML-2773-EN": "MATL-837",
+    "S-F-ML-2774-EN": "MATL-710",
+    "S-F-ML-2775-EN": "MATL-725",
+    "S-F-ML-2776-EN": "MATL-845",
+    "S-F-ML-2777-EN": "MATL-752",
+    "S-F-ML-2749-EN": "MATL-795",
+    "S-F-ML-2764-EN": "MATL-660",
+    "S-F-ML-2765-EN": "MATL-861",
+    "S-F-ML-2766-EN": "MATL-731",
+    "S-F-ML-2767-EN": "MATL-798",
+    "S-F-ML-2768-EN": "MATL-826",
+    "S-F-ML-2741-EN": "MATL-831",
+    "S-F-ML-2742-EN": "MATL-685",
+    "S-F-ML-2743-EN": "MATL-724",
+    "S-F-ML-2745-EN": "MATL-723",
+    "S-F-ML-2746-EN": "MATL-793",
+    "S-F-ML-2748-EN": "MATL-782",
+    "S-F-ML-2734-EN": "MATL-759",
+    "S-F-ML-2735-EN": "MATL-780",
+    "S-F-ML-2736-EN": "MATL-689",
+    "S-F-ML-2737-EN": "MATL-846",
+    "S-F-ML-2738-EN": "MATL-692",
+    "S-F-ML-2740-EN": "MATL-656",
+    "S-F-ML-2716-EN": "MATL-750",
+    "S-F-ML-2718-EN": "MATL-722",
+    "S-F-ML-2719-EN": "MATL-658",
+    "S-F-ML-2722-EN": "MATL-804",
+    "S-F-ML-2723-EN": "MATL-767",
+    "S-F-ML-2729-EN": "MATL-777",
+    "S-F-ML-2730-EN": "MATL-729",
+    "S-F-ML-2708-EN": "MATL-742",
+    "S-F-ML-2709-EN": "MATL-676",
+    "S-F-ML-2710-EN": "MATL-666",
+    "S-F-ML-2711-EN": "MATL-764",
+    "S-F-ML-2714-EN": "MATL-663",
+    "S-F-ML-2707-EN": "MATL-674",
+    "S-F-ML-2702-EN": "MATL-714",
+    "S-F-ML-2703-EN": "MATL-828",
+    "S-F-ML-2704-EN": "MATL-670",
+    "S-F-ML-2705-EN": "MATL-683",
+    "S-F-ML-2706-EN": "MATL-836",
+    "S-F-ML-2606-EN": "MATL-699",
+    "S-F-ML-2607-EN": "MATL-803",
+    "S-F-ML-2608-EN": "MATL-702",
+    "S-F-ML-2610-EN": "MATL-858",
+    "S-F-ML-2611-EN": "MATL-730",
+    "S-F-ML-2701-EN": "MATL-772",
+    "S-F-ML-2431-EN": "MATL-816",
+    "S-F-ML-2601-EN": "MATL-786",
+    "S-F-ML-2602-EN": "MATL-854",
+    "S-F-ML-2603-EN": "MATL-753",
+    "S-F-ML-2604-EN": "MATL-771",
+    "S-F-ML-2605-EN": "MATL-696",
+    "S-F-ML-2324-EN": "MATL-815",
+    "S-F-ML-2325-EN": "MATL-736",
+    "S-F-ML-2410-EN": "MATL-740",
+    "S-F-ML-2420-EN": "MATL-844",
+    "S-F-ML-2430-EN": "MATL-809",
+    "S-F-ML-2194-EN": "MATL-802",
+    "S-F-ML-2195-EN": "MATL-721",
+    "S-F-ML-2196-EN": "MATL-715",
+    "S-F-ML-2197-EN": "MATL-792",
+    "S-F-ML-2220-EN": "MATL-734",
+    "S-F-ML-2323-EN": "MATL-855",
+    "S-F-ML-2187-EN": "MATL-761",
+    "S-F-ML-2188-EN": "MATL-840",
+    "S-F-ML-2189-EN": "MATL-760",
+    "S-F-ML-2191-EN": "MATL-769",
+    "S-F-ML-2192-EN": "MATL-765",
+    "S-F-ML-2193-EN": "MATL-830",
+    "S-F-ML-2178-EN": "MATL-852",
+    "S-F-ML-2179-EN": "MATL-794",
+    "S-F-ML-2182-EN": "MATL-784",
+    "S-F-ML-2183-EN": "MATL-796",
+    "S-F-ML-2184-EN": "MATL-675",
+    "S-F-ML-2185-EN": "MATL-741",
+    "S-F-ML-2186-EN": "MATL-843",
+    "S-F-ML-2169-EN": "MATL-719",
+    "S-F-ML-2170-EN": "MATL-678",
+    "S-F-ML-2171-EN": "MATL-690",
+    "S-F-ML-2174-EN": "MATL-705",
+    "S-F-ML-2176-EN": "MATL-851",
+    "S-F-ML-2177-EN": "MATL-706",
+    "S-F-ML-2163-EN": "MATL-745",
+    "S-F-ML-2165-EN": "MATL-788",
+    "S-F-ML-2166-EN": "MATL-716",
+    "S-F-ML-2168-EN": "MATL-703",
+    "S-F-ML-2162-EN": "MATL-758",
+    "S-F-ML-2151-EN": "MATL-662",
+    "S-F-ML-2152-EN": "MATL-776",
+    "S-F-ML-2153-EN": "MATL-781",
+    "S-F-ML-2158-EN": "MATL-812",
+    "S-F-ML-2159-EN": "MATL-669",
+    "S-F-ML-2160-EN": "MATL-774",
+    "S-F-ML-2161-EN": "MATL-817",
+    "S-F-ML-2142-EN": "MATL-659",
+    "S-F-ML-2144-EN": "MATL-778",
+    "S-F-ML-2145-EN": "MATL-700",
+    "S-F-ML-2146-EN": "MATL-671",
+    "S-F-ML-2148-EN": "MATL-859",
+    "S-F-ML-2150-EN": "MATL-825",
+    "S-F-ML-2061-EN": "MATL-801",
+    "S-F-ML-2111-EN": "MATL-728",
+    "S-F-ML-2135-EN": "MATL-680",
+    "S-F-ML-2137-EN": "MATL-818",
+    "S-F-ML-2138-EN": "MATL-789",
+    "S-F-ML-2140-EN": "MATL-687",
+    "S-F-ML-2033-EN": "MATL-751",
+    "S-F-ML-2040-EN": "MATL-773",
+    "S-F-ML-2041-EN": "MATL-686",
+    "S-F-ML-2042-EN": "MATL-829",
+    "S-F-ML-2050-EN": "MATL-866",
+    "S-F-ML-2060-EN": "MATL-864",
+    "S-C-TG-8155-EN": "MEAS-561",
+    "S-C-TG-8156-EN": "MEAS-578",
+    "S-C-TG-8157-EN": "MEAS-577",
+    "S-F-ME-6561-EN": "MEAS-568",
+    "S-F-ML-2011-EN": "MATL-743",
+    "S-F-ML-2032-EN": "MATL-841",
+    "S-C-TG-8106-EN": "MEAS-583",
+    "S-C-TG-8107-EN": "MEAS-562",
+    "S-C-TG-8108-EN": "MEAS-580",
+    "S-C-TG-8152-EN": "MEAS-570",
+    "S-C-TG-8153-EN": "MEAS-566",
+    "S-C-TG-0002-EN": "MEAS-549",
+    "S-C-TG-0005-EN": "MEAS-581",
+    "S-C-TG-2122-EN": "MEAS-595",
+    "S-C-TG-8103-EN": "MEAS-558",
+    "S-C-TG-8104-EN": "MEAS-547",
+    "S-F-ML-2031-EN": "MATL-822",
+    "WNF 102731": "MATL-648",
+    "WNF 102713": "MATL-647",
+    "S-F-ML-102110-EN": "MATL-629",
+    "S-F-ML-102167-EN": "MATL-630",
+    "S-F-ML-102731-EN": "MATL-631",
+    "S-F-ML-102992-EN": "MATL-632",
+    "S-F-ML-3115-EN": "MATL-628",
+    "S-G-PT-0213-EN": "DSGN-421",
+    "S-G-TG-0225-EN": "TEST-319",
+    "S-F-ML-2015-EN": "MATL-625",
+    "S-F-ML-2016-EN": "MATL-624",
+    "S-G-MA-5706-EN": "MNFG-513",
+    "S-G-PT-0212-EN": "DSGN-467",
+    "S-G-PT-0214-EN": "DSGN-493",
+    "S-G-PT-0216-EN": "DSGN-466",
+    "S-G-PT-0220-EN": "DSGN-357",
+    "S-G-PT-2202-EN": "DSGN-463",
+    "S-G-PT-2203-EN": "DSGN-362",
+    "S-G-PT-3815-EN": "MNFG-507",
+    "S-G-PT-3816-EN": "MNFG-464",
+    "S-G-ML-9020-EN": "MATL-559",
+    "S-G-PT-0205-EN": "DSGN-401",
+    "S-G-PT-0206-EN": "DSGN-479",
+    "S-G-PT-0210-EN": "DSGN-471",
+    "S-G-PT-0211-EN": "DSGN-425",
+    "S-G-MA-6007-EN": "MNFG-508",
+    "S-G-MA-6009-EN": "MNFG-506",
+    "S-G-MA-6010-EN": "MNFG-484",
+    "S-G-MA-6011-EN": "MNFG-472",
+    "S-G-ML-1004-EN": "TEST-131",
+    "S-G-ML-1010-EN": "MATL-602",
+    "S-G-ML-3005-EN": "MATL-610",
+    "S-G-ML-4005-EN": "MATL-594",
+    "S-G-DN-0691-EN": "DSGN-373",
+    "S-G-DN-4023-EN": "DSGN-441",
+    "S-G-DN-5052-EN": "DSGN-410",
+    "S-G-MA-3850-EN": "MNFG-499",
+    "S-G-MA-4110-EN": "MNFG-509",
+    "S-G-PT-0209-EN": "DSGN-350",
+    "G-G-DN-0081-EN": "DSGN-405",
+    "G-G-DN-9001-EN": "DSGN-439",
+    "G-G-PT-4024-EN": "DSGN-396",
+    "G-G-PT-5025-EN": "DSGN-391",
+    "S-G-DN-5001-EN": "DSGN-348",
+    "S-G-PT-0070-EN": "PROD-330",
+    "S-L-PT-5105-EN": "PROD-328",
+    "S-F-ML-2753": "MATL-636",
+    "G-A-DN-5051": "DSGN-527",
+    "G-H-DN-5013-EN": "DSGN-369",
+    "S-F-ML-2777": "MATL-638",
+    "S-F-ML-2017-EN": "MATL-640",
+    "S-F-ME-0647": "MEAS-525",
+    "S-L-PT-60451-EN": "DSGN-512",
+    "S-F-ML-2801-EN": "MATL-644",
+    "S-F-ML-2778-EN": "MATL-645",
+    "S-F-ML-2013-EN": "MATL-643",
+    "S-G-ML-4025-EN": "MATL-583",
+    "S-G-ML-4025-P01-EN": "MATL-560",
+    "S-G-ML-1005-EN": "MATL-626",
+    "S-G-ML-1020-EN": "MATL-582",
+    "S-C-ML-3110 D": "MATL-627",
+    "G-C-DN-5062-EN": "DSGN-507",
+    "G-C-DN-5063-EN": "DSGN-506",
+    "S-F-MA-0613-EN": "MNFG-498",
+    "S-F-MA-6040-EN": "MNFG-494",
+    "S-F-PT-0653-EN": "DSGN-372",
+    "S-F-PT-0684-EN": "DSGN-427",
+    "S-F-ML-2070-EN": "MATL-577",
+    "S-F-ML-2026-EN": "MATL-588",
+    "S-C-DN-5034-EN": "MATL-585",
+    "S-C-ML-1800-EN": "MATL-550",
+    "S-C-ML-2100-EN": "MATL-549",
+    "S-F-PT-6565-EN": "DSGN-415",
+    "S-L-ML-1019-EN": "MATL-581",
+    "S-F-ML-2022-EN": "MATL-568",
+    "S-C-ML-0300-EN": "MATL-558",
+    "S-C-ML-2300-EN": "MATL-605",
+    "S-F-ML-2717-EN": "MATL-556",
+    "S-F-PT-0260-EN": "DSGN-359",
+    "S-F-PT-0644-EN": "DSGN-455",
+    "S-F-PT-0693-EN": "PROD-333",
+    "S-F-PT-6502-EN": "DSGN-472",
+    "S-F-PT-6567-EN": "DSGN-413",
+    "S-F-PT-6580-EN": "DSGN-370",
+    "S-F-PT-6582-EN": "DSGN-450",
+    "S-G-MA-3813-EN": "MNFG-497",
+    "S-G-ML-3380-P01-EN": "MATL-552",
+    "S-L-DN-5074-EN": "DSGN-390",
+    "S-L-MA-0627-EN": "DSGN-408",
+    "S-C-ML-3300-EN": "MATL-579",
+    "S-F-ML-4014-EN": "MATL-553",
+    "S-G-MA-3809-EN": "MNFG-474",
+    "S-I-PT-5022-EN": "DSGN-428",
+    "S-F-PT-0639-EN": "DSGN-420",
+    "S-F-PT-0655-EN": "DSGN-361",
+    "S-F-PT-6575-EN": "DSGN-352",
+    "S-H-ML-1021-EN": "MATL-595",
+    "S-L-DN-5071-EN": "DSGN-495",
+    "G-A-PT-5043-EN": "DSGN-434",
+    "S-F-PT-6583-EN": "DSGN-423",
+    "S-L-DN-5070-EN": "DSGN-475",
+    "S-L-ML-1018-EN": "MATL-617",
+    "S-L-PT-0508-EN": "DSGN-438",
+    "G-L-DN-5019-EN": "DSGN-409",
+    "S-G-MA-3814-EN": "MNFG-465",
+    "S-H-ML-1016-EN": "MATL-566",
+    "S-L-DN-5073-EN": "DSGN-457",
+    "S-C-ML-0600-EN": "MATL-574",
+    "S-F-PT-6541-EN": "DSGN-388",
+    "S-F-PT-0255-EN": "DSGN-355",
+    "S-F-PT-0656-EN": "DSGN-419",
+    "S-F-PT-0668-EN": "DSGN-382",
+    "S-G-DN-0221-EN": "DSGN-456",
+    "S-G-MA-3806-EN": "MNFG-478",
+    "S-C-ML-0200-EN": "MATL-557",
+    "S-F-PT-6571-EN": "DSGN-406",
+    "S-F-ML-4013-P01-EN": "MATL-619",
+    "S-G-ML-3380-P02-EN": "MATL-620",
+    "S-C-ML-2800-EN": "MATL-616",
+    "S-F-PT-6523-EN": "DSGN-364",
+    "S-F-PT-6588-EN": "DSGN-353",
+    "S-G-ML-3380-EN": "MATL-580",
+    "S-F-ML-2784-EN": "MATL-604",
+    "S-F-ML-4015-EN": "MATL-571",
+    "S-F-PT-3150-EN": "DSGN-426",
+    "S-G-MA-3808-EN": "MNFG-502",
+    "S-F-MA-0596-EN": "MNFG-468",
+    "S-F-MA-0617-EN": "MNFG-469",
+    "S-F-ML-2147-EN": "MATL-573",
+    "S-G-MA-3807-EN": "MNFG-487",
+    "S-G-MA-3810-EN": "MNFG-485",
+    "S-G-MA-3812-EN": "MNFG-490",
+    "S-G-DN-0550-EN": "DSGN-386",
+    "S-C-ML-0500-EN": "MATL-572",
+    "S-F-PT-0640-EN": "DSGN-433",
+    "S-F-PT-6569-EN": "DSGN-458",
+    "S-F-PT-6573-EN": "DSGN-449",
+    "S-F-PT-6584-EN": "DSGN-360",
+    "S-F-PT-6586-EN": "DSGN-447",
+    "G-A-DN-5045-EN": "DSGN-411",
+    "S-F-PT-0690-EN": "PROD-332",
+    "S-F-PT-6501-EN": "DSGN-412",
+    "S-F-PT-6542-EN": "DSGN-497",
+    "S-F-PT-6560-EN": "DSGN-392",
+    "S-C-ML-3000-EN": "MATL-612",
+    "S-C-ML-3200-EN": "MATL-548",
+    "S-F-ML-2190-EN": "MATL-591",
+    "S-F-PT-0638-EN": "DSGN-403",
+    "S-F-PT-0652-EN": "DSGN-501",
+    "S-F-PT-0654-EN": "DSGN-481",
+    "S-F-PT-0660-EN": "DSGN-470",
+    "S-F-MA-0612-EN": "MNFG-505",
+    "S-F-ML-2021-EN": "MATL-598",
+    "S-F-ML-2035-EN": "MATL-603",
+    "S-F-ML-4007-EN": "MATL-578",
+    "S-F-ML-4013-EN": "MATL-546",
+    "S-F-ML-4021-EN": "MATL-561",
+    "S-F-PT-0555-EN": "DSGN-461",
+    "G-C-DN-5061-EN": "DSGN-448",
+    "S-C-PT-0001-EN": "DSGN-498",
+    "S-F-ML-2010-EN": "TEST-299",
+    "S-C-ML-2500-EN": "MATL-562",
+    "S-C-ML-2400-EN": "MATL-611",
+    "S-F-ML-2025-EN": "MATL-618",
+    "S-C-ML-2600-EN": "MATL-565",
+    "S-F-ML-2721-EN": "MATL-592",
+    "S-F-ML-2733-EN": "MATL-545",
+    "S-C-ML-3100-EN": "MATL-563",
+    "G-I-PT-5093-EN": "DSGN-487",
+    "S-C-ML-2200-EN": "MATL-590",
+    "S-C-ML-2700-EN": "MATL-554",
+    "G-A-DN-0620-EN": "DSGN-368",
+    "G-A-PT-5044-EN": "DSGN-394",
+    "S-C-ML-1200-EN": "MATL-570",
+    "S-C-ML-2000-EN": "MATL-586",
+    "S-C-ML-3500-EN": "MATL-547",
+    "S-F-MA-0684-EN": "MNFG-486",
+    "S-F-ML-2120-EN": "MATL-599",
+    "S-C-ML-2900-EN": "MATL-621",
+    "S-F-ML-2024-EN": "MATL-593",
+    "S-F-ML-2038-EN": "MATL-575",
+    "S-A-DN-5091-EN": "DSGN-437",
+    "S-C-ML-0800-EN": "MATL-613",
+    "S-F-MA-0680-EN": "MNFG-476",
+    "S-F-MA-6042-EN": "MNFG-488",
+    "S-F-ME-2115-EN": "MEAS-512",
+    "G-F-DN-5058-EN": "DSGN-485",
+    "S-C-ML-1400-EN": "MATL-597",
+    "S-C-ML-1600-EN": "MATL-569",
+    "S-C-ML-1900-EN": "MATL-600",
+    "S-C-TG-8102-EN": "DSGN-489",
+    "S-F-DN-5090-EN": "DSGN-400",
+    "S-F-MA-0595-EN": "MNFG-470",
+    "S-C-ML-0400-EN": "MATL-544",
+    "S-C-ML-0700-EN": "MATL-622",
+    "S-C-ML-0900-EN": "MATL-564",
+    "S-C-ML-1000-EN": "MATL-584",
+    "S-C-ML-1100-EN": "MATL-615",
+    "S-C-ML-1300-EN": "MATL-555",
+    "S-C-ML-1500-EN": "MATL-589",
+    "S-C-ML-1700-EN": "MATL-576",
+    "G-C-DN-5015-EN": "DSGN-432",
+    "G-L-DN-5021-EN": "DSGN-429",
+    "G-L-DN-5047-EN": "DSGN-468",
+    "S-C-ML-0100-EN": "MATL-608",
+    "G-I-PT-2137-EN": "DSGN-483",
+    "G-A-DN-5018-EN": "DSGN-473",
+    "G-A-DN-5024-EN": "DSGN-367",
+    "G-A-PT-5042-EN": "DSGN-358",
+    "G-C-DN-5017-EN": "DSGN-366",
+    "S-L-PT-5115-EN": "PROD-329",
+    "S-C-ML-3400-EN": "MATL-542",
+    "S-F-PT-0642-EN": "DSGN-344"
+  }
+}

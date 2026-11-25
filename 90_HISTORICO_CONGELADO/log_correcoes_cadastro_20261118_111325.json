@@ -1,0 +1,98 @@
+[
+  {
+    "document_no": "DSGN-355",
+    "before": {
+      "previous_document_numbers": [
+        "S-F-PT-0255-en (V02)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13771",
+        "file_name": "S-F-PT-0619-en.pdf",
+        "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-PT-0619-en.pdf"
+      }
+    },
+    "after": {
+      "previous_document_numbers": [
+        "S-F-PT-0255-en (V02)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13771",
+        "file_name": "S-F-PT-0255-en.pdf",
+        "file_path": "X:\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-F-PT-0255-en.pdf"
+      }
+    },
+    "note": ""
+  },
+  {
+    "document_no": "DSGN-423",
+    "before": {
+      "previous_document_numbers": [
+        "S-F-PT-6583-en (V02)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13866",
+        "file_name": "S-F-PT-0619-en.pdf",
+        "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-PT-0619-en.pdf"
+      }
+    },
+    "after": {
+      "previous_document_numbers": [
+        "S-F-PT-0619-en"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13866",
+        "file_name": "S-F-PT-0619-en.pdf",
+        "file_path": "X:\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-F-PT-0619-en.pdf"
+      }
+    },
+    "note": "Desconsiderado S-F-PT-6583-en do cadastro do site; o arquivo e o conteúdo identificam S-F-PT-0619-en."
+  },
+  {
+    "document_no": "MATL-546",
+    "before": {
+      "previous_document_numbers": [
+        "S-F-ML-4013-en (V01)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13759",
+        "file_name": "S-F-ML-4013-01-en_R822-EC02_ATLBack-50B (002).pdf",
+        "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-4013-01-en_R822-EC02_ATLBack-50B (002).pdf"
+      }
+    },
+    "after": {
+      "previous_document_numbers": [
+        "S-F-ML-4013-en (V01)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13759",
+        "file_name": "S-F-ML-4013_R822-EC01_1A13-50-CDAE (002).pdf",
+        "file_path": "X:\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-F-ML-4013_R822-EC01_1A13-50-CDAE (002).pdf"
+      }
+    },
+    "note": ""
+  },
+  {
+    "document_no": "MATL-619",
+    "before": {
+      "previous_document_numbers": [
+        "S-F-ML-4013-P01-en (V01)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13761",
+        "file_name": "S-F-ML-4013-01-en_R822-EC02_ATLBack-50B (002).pdf",
+        "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-4013-01-en_R822-EC02_ATLBack-50B (002).pdf"
+      }
+    },
+    "after": {
+      "previous_document_numbers": [
+        "S-F-ML-4013-P01-en (V01)"
+      ],
+      "document_location": {
+        "online_url": "https://mahle.sharepoint.com/sites/DevDocs/_layouts/15/listform.aspx?PageType=4&ListId=3b02ada5-1936-4997-8416-69a1f96c403c&ID=13761",
+        "file_name": "S-F-ML-4013-01-en_R822-EC02_ATLBack-50B (002).pdf",
+        "file_path": "X:\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-F-ML-4013-01-en_R822-EC02_ATLBack-50B (002).pdf"
+      }
+    },
+    "note": ""
+  }
+]

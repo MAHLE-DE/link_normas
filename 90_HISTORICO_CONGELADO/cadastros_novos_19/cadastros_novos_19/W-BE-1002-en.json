@@ -1,0 +1,37 @@
+{
+  "identification": {
+    "document_no": "W-BE-1002-en",
+    "revision_no": "1.0",
+    "title": "Guideline for field failure part analysis",
+    "previous_document_numbers": []
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "process",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "process",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "W-BE-1002-en_Guideline_for_Field_Failure_Parts_analysis_(V3_0).pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\W-BE-1002-en_Guideline_for_Field_Failure_Parts_analysis_(V3_0).pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "b8093274-198c-489b-9a07-e0d009857256",
+  "schema_version": "2.0"
+}

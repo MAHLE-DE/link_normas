@@ -1,0 +1,123 @@
+{
+  "installed_at": "2026-11-18T11:34:31.094745-03:00",
+  "source": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\cadastros_novos_19\\cadastros_novos_19",
+  "target": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Banco_de_cadastros",
+  "installed": [
+    "DSGN-511.json",
+    "DSGN-527.json",
+    "P-B-0796-en.json",
+    "P-B-132-en.json",
+    "S-F-PT-0685-en.json",
+    "S-F-PT-0690-en.json",
+    "S-F-PT-0693-en.json",
+    "S-G-ML-2008-en.json",
+    "S-G-PT-0070.json",
+    "S-H-DN-5041-de.json",
+    "S-H-PT-5072-de.json",
+    "S-L-PT-5105-en.json",
+    "S-L-PT-5115-en.json",
+    "SOP-0000603.json",
+    "W-B-720-en.json",
+    "W-BE-0885-en.json",
+    "W-BE-1002-en.json",
+    "W-BE-7200-en.json",
+    "WNA_687.json"
+  ],
+  "validated": [
+    {
+      "json": "DSGN-511.json",
+      "document_no": "DSGN-511",
+      "physical_file": "DSGN-511.docx"
+    },
+    {
+      "json": "DSGN-527.json",
+      "document_no": "DSGN-527",
+      "physical_file": "DSGN-527.pdf"
+    },
+    {
+      "json": "P-B-0796-en.json",
+      "document_no": "P-B-0796-en",
+      "physical_file": "P-B-0796_Engineering_Change_Management_(MS0-QG2)_(V2_0).pdf"
+    },
+    {
+      "json": "P-B-132-en.json",
+      "document_no": "P-B-132-en",
+      "physical_file": "P-B-132-en_BU2_Fluid_Product_Development_Process(V_8.0).pdf"
+    },
+    {
+      "json": "S-F-PT-0685-en.json",
+      "document_no": "S-F-PT-0685-en",
+      "physical_file": "S-F-PT-0685-en_WNA685v03.pdf"
+    },
+    {
+      "json": "S-F-PT-0690-en.json",
+      "document_no": "S-F-PT-0690-en",
+      "physical_file": "S-F-PT-0690-en.pdf"
+    },
+    {
+      "json": "S-F-PT-0693-en.json",
+      "document_no": "S-F-PT-0693-en",
+      "physical_file": "S-F-PT-0693-en.pdf"
+    },
+    {
+      "json": "S-G-ML-2008-en.json",
+      "document_no": "S-G-ML-2008-en",
+      "physical_file": "S-G-ML-2008-en 2_Fleece and Media.pdf"
+    },
+    {
+      "json": "S-G-PT-0070.json",
+      "document_no": "S-G-PT-0070",
+      "physical_file": "S-G-PT-0070_WNA 70 BU2_Verkaufsbezeichnungen_20240312.pdf"
+    },
+    {
+      "json": "S-H-DN-5041-de.json",
+      "document_no": "S-H-DN-5041-de",
+      "physical_file": "S-H-DN-5041-de.pdf"
+    },
+    {
+      "json": "S-H-PT-5072-de.json",
+      "document_no": "S-H-PT-5072-de",
+      "physical_file": "S-H-PT-5072-de.pdf"
+    },
+    {
+      "json": "S-L-PT-5105-en.json",
+      "document_no": "S-L-PT-5105-en",
+      "physical_file": "S-L-PT-5105-en.pdf"
+    },
+    {
+      "json": "S-L-PT-5115-en.json",
+      "document_no": "S-L-PT-5115-en",
+      "physical_file": "S-L-PT-5115-en.pdf"
+    },
+    {
+      "json": "SOP-0000603.json",
+      "document_no": "SOP-0000603",
+      "physical_file": "0W-B-1512-en_Using_FSC_label_on_products_and_promotional_use_of_FSC_trademarks_(V3_0).docx"
+    },
+    {
+      "json": "W-B-720-en.json",
+      "document_no": "W-B-720-en",
+      "physical_file": "W-B-720-en_ConceptDesignReviewMeeting_Approval_by_CoC_(V2)_.pdf"
+    },
+    {
+      "json": "W-BE-0885-en.json",
+      "document_no": "W-BE-0885-en",
+      "physical_file": "W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf"
+    },
+    {
+      "json": "W-BE-1002-en.json",
+      "document_no": "W-BE-1002-en",
+      "physical_file": "W-BE-1002-en_Guideline_for_Field_Failure_Parts_analysis_(V3_0).pdf"
+    },
+    {
+      "json": "W-BE-7200-en.json",
+      "document_no": "W-BE-7200-en",
+      "physical_file": "W-BE-7200-en_Compliance_of_Design_and_Process_FMEA.pdf"
+    },
+    {
+      "json": "WNA_687.json",
+      "document_no": "WNA 687",
+      "physical_file": "WNA_687_Blow_by_Lagerung_20141121.pdf"
+    }
+  ]
+}

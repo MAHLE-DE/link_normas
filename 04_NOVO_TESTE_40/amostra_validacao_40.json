@@ -1,0 +1,567 @@
+{
+  "source_official": "Valid-Documents-2026-11-23-09-38.xlsx",
+  "documents_directory": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS",
+  "count": 40,
+  "documents": [
+    {
+      "document_no": "DSGN-390",
+      "previous": [
+        "S-L-DN-5074-en"
+      ],
+      "title": "Special Characteristics and Inspection Characteristics Fuel Filter Benzene",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-L-DN-5074-en.pdf",
+      "ordem": 1,
+      "categoria": "DSGN",
+      "motivo_selecao": "medição/ensaio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-DN-5074-en.pdf"
+    },
+    {
+      "document_no": "DSGN-490",
+      "previous": [
+        "S-L-PT-0503-de"
+      ],
+      "title": "Gewindeausläufe für metrisches ISO-Regelgewinde Richtwerte für Gewindegrundlöcher an GD-Al-Bauteilen (Nicht gültig für Neukonstruktionen!)",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-L-PT-0503-de.pdf",
+      "ordem": 2,
+      "categoria": "DSGN",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-0503-de.pdf"
+    },
+    {
+      "document_no": "DSGN-439",
+      "previous": [
+        "G-G-DN-9001-en"
+      ],
+      "title": "Self-tapping screwing / Design guidelines and guidelines for monitoring the production process",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "G-G-DN-9001-en.pdf",
+      "ordem": 3,
+      "categoria": "DSGN",
+      "motivo_selecao": "processo/fabricação; projeto/compêndio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-G-DN-9001-en.pdf"
+    },
+    {
+      "document_no": "DSGN-344",
+      "previous": [
+        "S-F-PT-0642-en"
+      ],
+      "title": "Number of pleats and filtration area of pocket-type cylindrical air filter elements with PU and PVC end plates (Not allowed for new design!)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-PT-0642-en.pdf",
+      "ordem": 4,
+      "categoria": "DSGN",
+      "motivo_selecao": "projeto/compêndio; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0642-en.pdf"
+    },
+    {
+      "document_no": "DSGN-485",
+      "previous": [
+        "G-F-DN-5058-en"
+      ],
+      "title": "Design compendium I - Filter media",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "G-F-DN-5058-en.pdf",
+      "ordem": 5,
+      "categoria": "DSGN",
+      "motivo_selecao": "tabelas/métodos; projeto/compêndio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\G-F-DN-5058-en.pdf"
+    },
+    {
+      "document_no": "DSGN-457",
+      "previous": [
+        "S-L-DN-5073-en"
+      ],
+      "title": "Special Characteristics and Inspection Characteristic Diesel Fuel Filter",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-L-DN-5073-en.pdf",
+      "ordem": 6,
+      "categoria": "DSGN",
+      "motivo_selecao": "medição/ensaio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-DN-5073-en.pdf"
+    },
+    {
+      "document_no": "DSGN-435-de",
+      "previous": [
+        "S-L-PT-0501-de"
+      ],
+      "title": "Gewinde im Dichtbereich Kunststoffdeckel / GD-Al-Gehaeuse oder Kunststoffdeckel / Kunststoffgehaeuse fuer Fluessigkeitsfilter",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-L-PT-0501-de.pdf",
+      "ordem": 7,
+      "categoria": "DSGN",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-0501-de.pdf"
+    },
+    {
+      "document_no": "DSGN-430",
+      "previous": [
+        "S-G-DN-4016-en"
+      ],
+      "title": "Definition of the maximum acceptable welding mismatch (WMI) at plastic welding lines",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-DN-4016-de.pdf",
+      "ordem": 8,
+      "categoria": "DSGN",
+      "motivo_selecao": "processo/fabricação; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-DN-4016-de.pdf"
+    },
+    {
+      "document_no": "DSGN-433",
+      "previous": [
+        "S-F-PT-0640-en"
+      ],
+      "title": "Pleat depth and filtration area of pocket-type cylindrical air filter elements with sealing mold D1 or D2 (Not allowed for new design!)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-PT-0640-en.pdf",
+      "ordem": 9,
+      "categoria": "DSGN",
+      "motivo_selecao": "projeto/compêndio; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0640-en.pdf"
+    },
+    {
+      "document_no": "DSGN-459",
+      "previous": [
+        "S-F-PT-6450-de"
+      ],
+      "title": "Abdichtung von Öko-Ölfilter-Einsätzen mit innendichtenden Kunststoffendscheiben (IDI) (Nicht gültig für Neukonstruktionen!)",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-F-PT-6450-de.pdf",
+      "ordem": 10,
+      "categoria": "DSGN",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-6450-de.pdf"
+    },
+    {
+      "document_no": "MATL-562",
+      "previous": [
+        "S-C-ML-2500-en"
+      ],
+      "title": "Characteristics for activated carbon Calgon Mitsubishi Chem.Corp. : Diahope CM1",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-C-ML-2500-en.pdf",
+      "ordem": 11,
+      "categoria": "MATL",
+      "motivo_selecao": "possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-2500-en.pdf"
+    },
+    {
+      "document_no": "MATL-628",
+      "previous": [
+        "S-F-ML-3115-en"
+      ],
+      "title": "Molecular sieve for air drying overview (Not allowed for new design!)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "MATL-628.pdf",
+      "ordem": 12,
+      "categoria": "MATL",
+      "motivo_selecao": "projeto/compêndio; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MATL-628.pdf"
+    },
+    {
+      "document_no": "MATL-689",
+      "previous": [
+        "S-F-ML-2736-en"
+      ],
+      "title": "Test specification for filter materials (filter fleece, double-layered) S136F (formerly T 36) Testing acc. to S-F-ML-2810 (former WNF 102810)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-ML-2736-en.pdf",
+      "ordem": 13,
+      "categoria": "MATL",
+      "motivo_selecao": "tabelas/métodos; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2736-en.pdf"
+    },
+    {
+      "document_no": "MATL-607",
+      "previous": [
+        "S-C-ML-8154-de"
+      ],
+      "title": "Aktivkohlefilter für Kraftstoffdämpfe, Serienprüfverfahren für AKF Verdunstung",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-C-ML-8154-de.pdf",
+      "ordem": 14,
+      "categoria": "MATL",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-8154-de.pdf"
+    },
+    {
+      "document_no": "MATL-841",
+      "previous": [
+        "S-F-ML-2032-en"
+      ],
+      "title": "Test specification for filter materials Valid for the version G013F-E01, G013F-E02, G013F-ML01, G013F ML01 and G013F-UL06 (formerly A13F)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-ML-2032-en.pdf",
+      "ordem": 15,
+      "categoria": "MATL",
+      "motivo_selecao": "tabelas/métodos; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2032-en.pdf"
+    },
+    {
+      "document_no": "MATL-563",
+      "previous": [
+        "S-C-ML-3100-en"
+      ],
+      "title": "Characteristics for extruded activated carbon MeadWestvaco: HCA 41x150-200",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-C-ML-3100-en.pdf",
+      "ordem": 16,
+      "categoria": "MATL",
+      "motivo_selecao": "possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-3100-en.pdf"
+    },
+    {
+      "document_no": "MATL-670",
+      "previous": [
+        "S-F-ML-2704-en"
+      ],
+      "title": "Test specification for filter materials (filter fleece, single-layered) S104F (formerly T 4) valid for version S104F-EW01& S104F-EW02",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-ML-2704-en.pdf",
+      "ordem": 17,
+      "categoria": "MATL",
+      "motivo_selecao": "tabelas/métodos; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-ML-2704-en.pdf"
+    },
+    {
+      "document_no": "MATL-612",
+      "previous": [
+        "S-C-ML-3000-en"
+      ],
+      "title": "Characteristics for extruded activated carbon MeadWestvaco: HCA 41x60-200",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-C-ML-3000-en.pdf",
+      "ordem": 18,
+      "categoria": "MATL",
+      "motivo_selecao": "possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-ML-3000-en.pdf"
+    },
+    {
+      "document_no": "MATL-581",
+      "previous": [
+        "S-L-ML-1019-en"
+      ],
+      "title": "Material specification for AEM and ACM rubber parts in pressure valve for oil filter application (Not allowed for new design!)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-L-ML-1019-en.pdf",
+      "ordem": 19,
+      "categoria": "MATL",
+      "motivo_selecao": "tabelas/métodos; projeto/compêndio; legado; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-ML-1019-en.pdf"
+    },
+    {
+      "document_no": "MATL-694",
+      "previous": [
+        "S-F-TG-2727-de"
+      ],
+      "title": "Kenndaten für Filterwerkstoffe T27 (Nicht gültig für Neukonstruktionen!)",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-F-TG-2727-de.pdf",
+      "ordem": 20,
+      "categoria": "MATL",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2727-de.pdf"
+    },
+    {
+      "document_no": "MEAS-573",
+      "previous": [
+        "S-F-TG-2193-en"
+      ],
+      "title": "Test procedure for fractional efficiency measurements with normsand (acc. To DIN1164, grain size 1, fine) by use of “Test Rig for Media Characterisation” (TMC)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-TG-2193-en.pdf",
+      "ordem": 21,
+      "categoria": "MEAS",
+      "motivo_selecao": "medição/ensaio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2193-en.pdf"
+    },
+    {
+      "document_no": "MEAS-570",
+      "previous": [
+        "S-C-TG-8152-en"
+      ],
+      "title": "Activated carbon canister for gasoline vapor Determination of working capacity with gasoline (GWC) Scheme for testing",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-C-TG-8152-en.pdf",
+      "ordem": 22,
+      "categoria": "MEAS",
+      "motivo_selecao": "possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8152-en.pdf"
+    },
+    {
+      "document_no": "MEAS-576",
+      "previous": [
+        "S-G-MA-4014-en"
+      ],
+      "title": "Validation of welding machine setup using a friction image (friction welding)",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-MA-4014-de.pdf",
+      "ordem": 23,
+      "categoria": "MEAS",
+      "motivo_selecao": "processo/fabricação; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-4014-de.pdf"
+    },
+    {
+      "document_no": "MEAS-577",
+      "previous": [
+        "S-C-TG-8157-en"
+      ],
+      "title": "Activated carbon canister for gasoline vapor, Migration- and permeation properties in the mini-SHED, Test specification",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-C-TG-8157-en.pdf",
+      "ordem": 24,
+      "categoria": "MEAS",
+      "motivo_selecao": "tabelas/métodos; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8157-en.pdf"
+    },
+    {
+      "document_no": "MEAS-525",
+      "previous": [
+        "S-F-ME-0647"
+      ],
+      "title": "Measurement specification – length measurement “cabin air filter\"",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "MEAS-525.pdf",
+      "ordem": 25,
+      "categoria": "MEAS",
+      "motivo_selecao": "medição/ensaio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\MEAS-525.pdf"
+    },
+    {
+      "document_no": "MEAS-565",
+      "previous": [
+        "S-F-TG-2146-de"
+      ],
+      "title": "Vorschrift für die Prüfung von Schmierölfiltern für Verbrennungskraftmaschinen (Nicht gültig für Neukonstruktionen!)",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-F-TG-2146-de.pdf",
+      "ordem": 26,
+      "categoria": "MEAS",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2146-de.pdf"
+    },
+    {
+      "document_no": "MEAS-588",
+      "previous": [
+        "S-G-TG-4013-en"
+      ],
+      "title": "Creation and evaluation of a melting image for hot gas welding process",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-TG-4013-de.pdf",
+      "ordem": 27,
+      "categoria": "MEAS",
+      "motivo_selecao": "processo/fabricação; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-TG-4013-de.pdf"
+    },
+    {
+      "document_no": "MEAS-561",
+      "previous": [
+        "S-C-TG-8155-en"
+      ],
+      "title": "Activated carbon canister for gasoline vapor Test specification for determination of working capacity with n-butane",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-C-TG-8155-en.pdf",
+      "ordem": 28,
+      "categoria": "MEAS",
+      "motivo_selecao": "tabelas/métodos; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-C-TG-8155-en.pdf"
+    },
+    {
+      "document_no": "MEAS-574",
+      "previous": [
+        "S-F-TG-2120-en"
+      ],
+      "title": "Measurement of adhesive strength of side strips on filter inserts",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-TG-2120-en.pdf",
+      "ordem": 29,
+      "categoria": "MEAS",
+      "motivo_selecao": "medição/ensaio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-TG-2120-en.pdf"
+    },
+    {
+      "document_no": "MEAS-550",
+      "previous": [
+        "S-L-TG-2185-de"
+      ],
+      "title": "Prüfvorschrift für Ölfilter-Einsatz im Versuchsgehäuse (Für Einsatz PER 393) (Nicht gültig für Neukonstruktionen!)",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-L-TG-2185-de.pdf",
+      "ordem": 30,
+      "categoria": "MEAS",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-TG-2185-de.pdf"
+    },
+    {
+      "document_no": "MNFG-487",
+      "previous": [
+        "S-G-MA-3807-en"
+      ],
+      "title": "Folding box mainly for automated packaging of replacement filters and filter elements, based on FEFCO Norm 0717/1",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-MA-3807-en.pdf",
+      "ordem": 31,
+      "categoria": "MNFG",
+      "motivo_selecao": "embalagem; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3807-en.pdf"
+    },
+    {
+      "document_no": "MNFG-458-de",
+      "previous": [
+        "S-G-MA-3811-de"
+      ],
+      "title": "Faltschachtel für maschinelle Verpackung von Wechselfiltern und Filtereinsätzen, in Anlehnung an FEFCO Norm 0720",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-G-MA-3811-de.pdf",
+      "ordem": 32,
+      "categoria": "MNFG",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3811-de.pdf"
+    },
+    {
+      "document_no": "MNFG-508",
+      "previous": [
+        "S-G-MA-6007-en"
+      ],
+      "title": "Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-MA-6007-en.pdf",
+      "ordem": 33,
+      "categoria": "MNFG",
+      "motivo_selecao": "processo/fabricação; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-6007-en.pdf"
+    },
+    {
+      "document_no": "MNFG-474",
+      "previous": [
+        "S-G-MA-3809-en"
+      ],
+      "title": "Folding box useable for automatically packaging for replacement filter and filter element, based on FEFCO design 0720/3",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-MA-3809-en.pdf",
+      "ordem": 34,
+      "categoria": "MNFG",
+      "motivo_selecao": "projeto/compêndio; embalagem; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3809-en.pdf"
+    },
+    {
+      "document_no": "MNFG-502",
+      "previous": [
+        "S-G-MA-3808-en"
+      ],
+      "title": "Folding box mainly for automated packaging of replacement filters and filter elements, based on FEFCO Norm 0720/1",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-G-MA-3808-en_2024.pdf",
+      "ordem": 35,
+      "categoria": "MNFG",
+      "motivo_selecao": "embalagem; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-G-MA-3808-en_2024.pdf"
+    },
+    {
+      "document_no": "PROD-333",
+      "previous": [
+        "S-F-PT-0693-en"
+      ],
+      "title": "Visual inspection of cabin air filters",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-F-PT-0693-en.pdf",
+      "ordem": 36,
+      "categoria": "OUTROS",
+      "motivo_selecao": "medição/ensaio; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-F-PT-0693-en.pdf"
+    },
+    {
+      "document_no": "PROD-329",
+      "previous": [
+        "S-L-PT-5115-en"
+      ],
+      "title": "Suppliers identification at aluminium extruded components for intank filter",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-L-PT-5115-en.pdf",
+      "ordem": 37,
+      "categoria": "OUTROS",
+      "motivo_selecao": "possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-5115-en.pdf"
+    },
+    {
+      "document_no": "TEST-257",
+      "previous": [
+        "S-L-PT-8120-P04-en"
+      ],
+      "title": "Valve assemblies for liquid filters – Test specifications",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "S-L-PT-8120-P04-de_V01.pdf",
+      "ordem": 38,
+      "categoria": "OUTROS",
+      "motivo_selecao": "tabelas/métodos; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-8120-P04-de_V01.pdf"
+    },
+    {
+      "document_no": "TEST-202",
+      "previous": [
+        "S-L-PT-2141-de"
+      ],
+      "title": "Prüfvorschrift für Ölnebenabscheider (Nicht gültig für Neukonstruktionen!)",
+      "language": "de",
+      "revision": "1.0",
+      "file_name": "S-L-PT-2141-de.pdf",
+      "ordem": 39,
+      "categoria": "OUTROS",
+      "motivo_selecao": "possui nome anterior; alemão sem equivalente inglês",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\S-L-PT-2141-de.pdf"
+    },
+    {
+      "document_no": "TEST-299",
+      "previous": [
+        "S-F-ML-2010-en"
+      ],
+      "title": "Air bubble test specification for filter materials",
+      "language": "en",
+      "revision": "1.0",
+      "file_name": "20250522_V02_S-F-ML-2010-en.pdf",
+      "ordem": 40,
+      "categoria": "OUTROS",
+      "motivo_selecao": "tabelas/métodos; possui nome anterior",
+      "caminho_completo": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\05_DOCUMENTS\\20250522_V02_S-F-ML-2010-en.pdf"
+    }
+  ]
+}

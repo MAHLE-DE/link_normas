@@ -1,0 +1,648 @@
+{
+  "pilot_id": "PILOTO-001",
+  "selection_size": 40,
+  "category_counts": {
+    "design": 10,
+    "material": 10,
+    "manufacturing": 4,
+    "measurement": 1,
+    "test": 15
+  },
+  "selection_logic": "amostra estratificada por categoria, incluindo documentos ricos em referências, códigos legados, normas públicas e ausência de referências",
+  "documents": [
+    {
+      "document_no": "DSGN-352",
+      "category": "design",
+      "title": "Sealing geometry for cylindrical elements shape E6",
+      "file_name": "S-F-PT-6575-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-PT-6575-en.pdf",
+      "old_names": [
+        "S-F-PT-6575-en"
+      ],
+      "relation_count": 0,
+      "rich": 0,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 1
+    },
+    {
+      "document_no": "DSGN-411",
+      "category": "design",
+      "title": "Design Compendium for Air Filter Modules",
+      "file_name": "G-A-DN-5045-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\G-A-DN-5045-en.pdf",
+      "old_names": [
+        "G-A-DN-5045-en"
+      ],
+      "relation_count": 44,
+      "rich": 44,
+      "legacy": 1,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-431",
+      "category": "design",
+      "title": "Work instruction for examination of the joining path at a plastic welding line",
+      "file_name": "G-G-PT-4012-en_v04.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\G-G-PT-4012-en_v04.pdf",
+      "old_names": [
+        "G-G-PT-4012-en"
+      ],
+      "relation_count": 8,
+      "rich": 8,
+      "legacy": 1,
+      "public": 3,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-451",
+      "category": "design",
+      "title": "Vibration welding line execution for clean air ducts and charge air pipes",
+      "file_name": "G-A-PT-5049-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\G-A-PT-5049-en.pdf",
+      "old_names": [
+        "G-A-PT-5049-en"
+      ],
+      "relation_count": 7,
+      "rich": 7,
+      "legacy": 1,
+      "public": 3,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-410",
+      "category": "design",
+      "title": "Design handbook Filtration and Engine Peripherals",
+      "file_name": "DSGN-410.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\DSGN-410.pdf",
+      "old_names": [
+        "S-G-DN-5052-en"
+      ],
+      "relation_count": 36,
+      "rich": 36,
+      "legacy": 0,
+      "public": 29,
+      "body_or_special": 2,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-348",
+      "category": "design",
+      "title": "Standard texts for drawings",
+      "file_name": "S-G-DN-5001-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-DN-5001-en.pdf",
+      "old_names": [
+        "S-G-DN-5001-en"
+      ],
+      "relation_count": 28,
+      "rich": 28,
+      "legacy": 0,
+      "public": 25,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-429",
+      "category": "design",
+      "title": "Design Compendium for Spin-on Oil Filters",
+      "file_name": "G-L-DN-5021-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\G-L-DN-5021-en.pdf",
+      "old_names": [
+        "G-L-DN-5021-en"
+      ],
+      "relation_count": 47,
+      "rich": 47,
+      "legacy": 0,
+      "public": 18,
+      "body_or_special": 2,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-427",
+      "category": "design",
+      "title": "Pleat depth and -tolerances for filter elements – overview",
+      "file_name": "S-F-PT-0684-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-PT-0684-en.pdf",
+      "old_names": [
+        "S-F-PT-0684-en"
+      ],
+      "relation_count": 17,
+      "rich": 17,
+      "legacy": 0,
+      "public": 2,
+      "body_or_special": 10,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-468",
+      "category": "design",
+      "title": "Design Compendium for Liquid Filtration",
+      "file_name": "G-L-DN-5047-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\G-L-DN-5047-en.pdf",
+      "old_names": [
+        "G-L-DN-5047-en"
+      ],
+      "relation_count": 28,
+      "rich": 28,
+      "legacy": 0,
+      "public": 11,
+      "body_or_special": 9,
+      "empty": 0
+    },
+    {
+      "document_no": "DSGN-409",
+      "category": "design",
+      "title": "Design Compendium for Fuel Filters",
+      "file_name": "G-L-DN-5019-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\G-L-DN-5019-en.pdf",
+      "old_names": [
+        "G-L-DN-5019-en"
+      ],
+      "relation_count": 53,
+      "rich": 53,
+      "legacy": 0,
+      "public": 10,
+      "body_or_special": 4,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-550",
+      "category": "material",
+      "title": "Characteristics for activated carbon Ingevity: BAX 1500",
+      "file_name": "S-C-ML-1800-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-C-ML-1800-en.pdf",
+      "old_names": [
+        "S-C-ML-1800-en"
+      ],
+      "relation_count": 0,
+      "rich": 0,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 1
+    },
+    {
+      "document_no": "MATL-587",
+      "category": "material",
+      "title": "Coatings for corrosion protection of face surfaces",
+      "file_name": "S-G-ML-2130-en (002).pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-ML-2130-en (002).pdf",
+      "old_names": [
+        "S-G-ML-2130-en"
+      ],
+      "relation_count": 18,
+      "rich": 18,
+      "legacy": 0,
+      "public": 18,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-626",
+      "category": "material",
+      "title": "Material specification for rubber parts in oil- and fuel filters in MAHLE Aftermarket GmbH",
+      "file_name": "MATL-626.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\MATL-626.pdf",
+      "old_names": [
+        "S-G-ML-1005-en"
+      ],
+      "relation_count": 18,
+      "rich": 18,
+      "legacy": 0,
+      "public": 15,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-566",
+      "category": "material",
+      "title": "WNE 101016 Material specification for rubber parts in membranes",
+      "file_name": "S-H-ML-1016-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-H-ML-1016-en.pdf",
+      "old_names": [
+        "S-H-ML-1016-en"
+      ],
+      "relation_count": 17,
+      "rich": 17,
+      "legacy": 0,
+      "public": 15,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-635",
+      "category": "material",
+      "title": "Material specification for filter materials C 835 (w/ activated carbon) Testing acc. to TEST-278 (former S-F-ML-2810)",
+      "file_name": "MATL-635.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\MATL-635.pdf",
+      "old_names": [],
+      "relation_count": 15,
+      "rich": 15,
+      "legacy": 0,
+      "public": 14,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-644",
+      "category": "material",
+      "title": "Test specification for filter materials C615 (activated carbon and IX)",
+      "file_name": "MATL-644.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\MATL-644.pdf",
+      "old_names": [
+        "S-F-Ml-2801-en V10"
+      ],
+      "relation_count": 15,
+      "rich": 15,
+      "legacy": 0,
+      "public": 14,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-604",
+      "category": "material",
+      "title": "Material specification for filter media C618 EA26",
+      "file_name": "S-F-ML-2784-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2784-en.pdf",
+      "old_names": [
+        "S-F-ML-2784-en"
+      ],
+      "relation_count": 14,
+      "rich": 14,
+      "legacy": 0,
+      "public": 13,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-632",
+      "category": "material",
+      "title": "Test specification for filter materials L753-EF01 (sealing foam)",
+      "file_name": "MATL-632.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\MATL-632.pdf",
+      "old_names": [
+        "S-F-ML-102992-en"
+      ],
+      "relation_count": 5,
+      "rich": 5,
+      "legacy": 0,
+      "public": 3,
+      "body_or_special": 2,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-553",
+      "category": "material",
+      "title": "Material specification for carrier layer R821",
+      "file_name": "250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+      "old_names": [
+        "S-F-ML-4014-en"
+      ],
+      "relation_count": 12,
+      "rich": 12,
+      "legacy": 0,
+      "public": 9,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "MATL-633",
+      "category": "material",
+      "title": "Material specification for filter materials C 618 (w/ activated carbon) Testing acc. to TEST-278 (former S-F-ML-2810)",
+      "file_name": "MATL-633.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\MATL-633.pdf",
+      "old_names": [],
+      "relation_count": 14,
+      "rich": 14,
+      "legacy": 0,
+      "public": 13,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "MNFG-480",
+      "category": "manufacturing",
+      "title": "Folding box useable for automatically packaging for replacement filter and filter element.",
+      "file_name": "S-G-MA-3817-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-MA-3817-en.pdf",
+      "old_names": [
+        "S-G-MA-3817-en"
+      ],
+      "relation_count": 0,
+      "rich": 0,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 1
+    },
+    {
+      "document_no": "MNFG-470",
+      "category": "manufacturing",
+      "title": "Embossing of pleat blocks – overview",
+      "file_name": "S-F-MA-0595-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-MA-0595-en.pdf",
+      "old_names": [
+        "S-F-MA-0595-en"
+      ],
+      "relation_count": 14,
+      "rich": 14,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 10,
+      "empty": 0
+    },
+    {
+      "document_no": "MNFG-472",
+      "category": "manufacturing",
+      "title": "Heated Insert Manufacturing Process Overview",
+      "file_name": "S-G-MA-6011-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-MA-6011-en.pdf",
+      "old_names": [
+        "S-G-MA-6011-en"
+      ],
+      "relation_count": 13,
+      "rich": 13,
+      "legacy": 0,
+      "public": 6,
+      "body_or_special": 5,
+      "empty": 0
+    },
+    {
+      "document_no": "MNFG-506",
+      "category": "manufacturing",
+      "title": "Setup Process for Vibration Weld Tooling",
+      "file_name": "S-G-MA-6009-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-MA-6009-en.pdf",
+      "old_names": [
+        "S-G-MA-6009-en"
+      ],
+      "relation_count": 5,
+      "rich": 5,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 3,
+      "empty": 0
+    },
+    {
+      "document_no": "W-BE-0885-en",
+      "category": "measurement",
+      "title": "Acceptance Testing and MSA of Leakage Test Devices",
+      "file_name": "W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+      "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+      "old_names": [],
+      "relation_count": 0,
+      "rich": 0,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 1
+    },
+    {
+      "document_no": "TEST-107",
+      "category": "test",
+      "title": "Determination of Hydrophobic Properties with Water-Ethanol-Mixtures",
+      "file_name": "S-G-TG-688-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-TG-688-en.pdf",
+      "old_names": [
+        "S-G-TG-0688-en"
+      ],
+      "relation_count": 0,
+      "rich": 0,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 1
+    },
+    {
+      "document_no": "TEST-118",
+      "category": "test",
+      "title": "Test specification for filter materials M688 (impactor nonwoven, single-layer + grid)",
+      "file_name": "S-F-ML-2793-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2793-en.pdf",
+      "old_names": [
+        "S-F-ML-2793-en"
+      ],
+      "relation_count": 3,
+      "rich": 3,
+      "legacy": 1,
+      "public": 0,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-37",
+      "category": "test",
+      "title": "Component test specifications BU2 PL5",
+      "file_name": "S-G-TG-4050-en_V09.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-TG-4050-en_V09.pdf",
+      "old_names": [
+        "S-G-TG-4050-en"
+      ],
+      "relation_count": 41,
+      "rich": 41,
+      "legacy": 0,
+      "public": 23,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-61",
+      "category": "test",
+      "title": "Test specification for filter material O092 (filter paper)",
+      "file_name": "S-F-ML-2188-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2188-en.pdf",
+      "old_names": [
+        "S-F-ML-2188-en"
+      ],
+      "relation_count": 12,
+      "rich": 12,
+      "legacy": 0,
+      "public": 9,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-129",
+      "category": "test",
+      "title": "Test specification for casting compounds",
+      "file_name": "S-G-ML-9025-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-ML-9025-en.pdf",
+      "old_names": [
+        "S-G-ML-9025-en"
+      ],
+      "relation_count": 10,
+      "rich": 10,
+      "legacy": 0,
+      "public": 10,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-102",
+      "category": "test",
+      "title": "Test specification for filter materials S140 (T40) (filter fleece, single-layer)",
+      "file_name": "S-F-ML-2740-en _V05.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2740-en _V05.pdf",
+      "old_names": [
+        "S-F-ML-2740-en"
+      ],
+      "relation_count": 8,
+      "rich": 8,
+      "legacy": 0,
+      "public": 6,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-130",
+      "category": "test",
+      "title": "Test specification for filter materials F096R-EP02 (old A96R) (filter paper)",
+      "file_name": "S-F-ML-2170_en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2170_en.pdf",
+      "old_names": [
+        "S-F-ML-2170-en"
+      ],
+      "relation_count": 8,
+      "rich": 8,
+      "legacy": 0,
+      "public": 7,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-142",
+      "category": "test",
+      "title": "Test specification for filter materials F041-EP01(old A41) (filter paper)",
+      "file_name": "S-F-ML-2041-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2041-en.pdf",
+      "old_names": [
+        "S-F-ML-2041-en"
+      ],
+      "relation_count": 8,
+      "rich": 8,
+      "legacy": 0,
+      "public": 7,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-114",
+      "category": "test",
+      "title": "Test specification for activated carbon",
+      "file_name": "S-C-TG-0002-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-C-TG-0002-en.pdf",
+      "old_names": [
+        "S-C-TG-0002-en"
+      ],
+      "relation_count": 7,
+      "rich": 7,
+      "legacy": 0,
+      "public": 7,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-131",
+      "category": "test",
+      "title": "Test method: Rubber materials; Resistance against synthetically test-blow-by",
+      "file_name": "S-G-ML-1004-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-ML-1004-en.pdf",
+      "old_names": [
+        "S-G-ML-1004-en"
+      ],
+      "relation_count": 6,
+      "rich": 6,
+      "legacy": 0,
+      "public": 6,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-77",
+      "category": "test",
+      "title": "Test specification for sandwich band O003-EW01 - formerly (SB3)",
+      "file_name": "S-F-ML-2323-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2323-en.pdf",
+      "old_names": [
+        "S-F-ML-2323-en"
+      ],
+      "relation_count": 8,
+      "rich": 8,
+      "legacy": 0,
+      "public": 5,
+      "body_or_special": 0,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-57",
+      "category": "test",
+      "title": "Vibration test using electro-dynamic shaker test bench Test instruction",
+      "file_name": "S-G-TG-4008-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-G-TG-4008-en.pdf",
+      "old_names": [
+        "S-G-TG-4008-en"
+      ],
+      "relation_count": 6,
+      "rich": 6,
+      "legacy": 0,
+      "public": 5,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-109",
+      "category": "test",
+      "title": "Test specification for filter materials (cellular material / cellular rubber FS 12",
+      "file_name": "S-F-ML-2922-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2922-en.pdf",
+      "old_names": [
+        "S-F-ML-2922-en"
+      ],
+      "relation_count": 1,
+      "rich": 1,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-138",
+      "category": "test",
+      "title": "Test specification for filter materials (cellular material / cellular rubber FS 14",
+      "file_name": "S-F-ML-2924-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2924-en.pdf",
+      "old_names": [
+        "S-F-ML-2924-en"
+      ],
+      "relation_count": 1,
+      "rich": 1,
+      "legacy": 0,
+      "public": 0,
+      "body_or_special": 1,
+      "empty": 0
+    },
+    {
+      "document_no": "TEST-151",
+      "category": "test",
+      "title": "Test specification for filter materials S 758 (HC-trap)",
+      "file_name": "S-F-ML-2925-en.pdf",
+      "file_path": "\\\\\\\\itc.global.mahle\\\\BRJU\\\\BU2\\\\15. Robustez DE-CAD\\\\00 Dashboard - KPI\\\\source_app\\\\validstandards\\\\S-F-ML-2925-en.pdf",
+      "old_names": [
+        "S-F-ML-2925-en"
+      ],
+      "relation_count": 6,
+      "rich": 6,
+      "legacy": 0,
+      "public": 5,
+      "body_or_special": 0,
+      "empty": 0
+    }
+  ]
+}

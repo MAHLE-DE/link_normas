@@ -1,0 +1,41 @@
+{
+  "identification": {
+    "document_no": "DSGN-527",
+    "revision_no": "1.0",
+    "title": "Design Compendium Fuel-Cell Air-Components",
+    "previous_document_numbers": [
+      "G-A-DN-5051"
+    ]
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "design",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [
+      "FLUID-SYSTEMS-AIR"
+    ],
+    "product_subgroup_ids": [],
+    "is_general": false
+  },
+  "tree_entry": {
+    "family": "design",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "DSGN-527.pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\DSGN-527.pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "e7179f67-615d-4a6f-b14b-f40d06af40bb",
+  "schema_version": "2.0"
+}

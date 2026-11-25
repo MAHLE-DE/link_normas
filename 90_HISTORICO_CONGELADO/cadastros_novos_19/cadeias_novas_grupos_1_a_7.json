@@ -1,0 +1,113 @@
+{
+  "chains": [
+    {
+      "codigo_legado": "0W-B-1512-en",
+      "codigo_intermediario": "",
+      "codigo_atual": "SOP-0000603",
+      "tipo_ligacao": "renomeada como",
+      "estado_cadeia": "inicia no legado",
+      "codigo_final_legitimo": "não",
+      "evidencia_documento": "SOP-0000603",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "",
+      "codigo_intermediario": "G-A-DN-5051",
+      "codigo_atual": "DSGN-527",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "inicia no intermediário",
+      "codigo_final_legitimo": "não",
+      "evidencia_documento": "DSGN-527",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 685",
+      "codigo_intermediario": "S-F-PT-0685-en",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-F-PT-0685-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 690",
+      "codigo_intermediario": "S-F-PT-0690-en",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-F-PT-0690-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 693",
+      "codigo_intermediario": "S-F-PT-0693-en",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-F-PT-0693-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 70",
+      "codigo_intermediario": "S-G-PT-0070",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-G-PT-0070",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 5072",
+      "codigo_intermediario": "S-H-PT-5072-de",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-H-PT-5072-de",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 5105",
+      "codigo_intermediario": "S-L-PT-5105-en",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-L-PT-5105-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 5115",
+      "codigo_intermediario": "S-L-PT-5115-en",
+      "codigo_atual": "",
+      "tipo_ligacao": "nome anterior",
+      "estado_cadeia": "sem código novo",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "S-L-PT-5115-en",
+      "confianca": 1.0
+    },
+    {
+      "codigo_legado": "WNA 687",
+      "codigo_intermediario": "",
+      "codigo_atual": "",
+      "tipo_ligacao": "sem sucessor",
+      "estado_cadeia": "legado final válido",
+      "codigo_final_legitimo": "sim",
+      "evidencia_documento": "WNA 687",
+      "confianca": 1.0
+    }
+  ],
+  "possible_matches": [
+    {
+      "codigo_legado": "WNF 102008",
+      "codigo_intermediario": "S-G-ML-2008-en",
+      "tipo_ligacao": "possível correspondência",
+      "estado_cadeia": "pendente",
+      "confianca": 0.5
+    }
+  ]
+}

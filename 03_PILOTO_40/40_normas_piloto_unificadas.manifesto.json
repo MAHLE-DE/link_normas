@@ -1,0 +1,408 @@
+{
+  "source_directory": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents",
+  "source_file_count": 672,
+  "document_count": 40,
+  "total_pages": 857,
+  "documents": [
+    {
+      "ordem": 1,
+      "arquivo_solicitado": "250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+      "arquivo_utilizado": "250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+      "pagina_inicial": 1,
+      "pagina_final": 4,
+      "paginas": 4
+    },
+    {
+      "ordem": 2,
+      "arquivo_solicitado": "Design_handbook_Filtration_and_Engine_Peripherals_v01_2023-09-21.pdf",
+      "arquivo_utilizado": "Design_handbook_Filtration_and_Engine_Peripherals_v01_2023-09-21.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\Design_handbook_Filtration_and_Engine_Peripherals_v01_2023-09-21.pdf",
+      "pagina_inicial": 5,
+      "pagina_final": 38,
+      "paginas": 34
+    },
+    {
+      "ordem": 3,
+      "arquivo_solicitado": "G-A-DN-5045-en.pdf",
+      "arquivo_utilizado": "G-A-DN-5045-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\G-A-DN-5045-en.pdf",
+      "pagina_inicial": 39,
+      "pagina_final": 113,
+      "paginas": 75
+    },
+    {
+      "ordem": 4,
+      "arquivo_solicitado": "G-A-PT-5049-en.pdf",
+      "arquivo_utilizado": "G-A-PT-5049-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\G-A-PT-5049-en.pdf",
+      "pagina_inicial": 114,
+      "pagina_final": 131,
+      "paginas": 18
+    },
+    {
+      "ordem": 5,
+      "arquivo_solicitado": "G-G-PT-4012-en_v04.pdf",
+      "arquivo_utilizado": "G-G-PT-4012-en_v04.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\G-G-PT-4012-en_v04.pdf",
+      "pagina_inicial": 132,
+      "pagina_final": 143,
+      "paginas": 12
+    },
+    {
+      "ordem": 6,
+      "arquivo_solicitado": "G-L-DN-5019-en.pdf",
+      "arquivo_utilizado": "G-L-DN-5019-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\G-L-DN-5019-en.pdf",
+      "pagina_inicial": 144,
+      "pagina_final": 280,
+      "paginas": 137
+    },
+    {
+      "ordem": 7,
+      "arquivo_solicitado": "G-L-DN-5021-en.pdf",
+      "arquivo_utilizado": "G-L-DN-5021-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\G-L-DN-5021-en.pdf",
+      "pagina_inicial": 281,
+      "pagina_final": 326,
+      "paginas": 46
+    },
+    {
+      "ordem": 8,
+      "arquivo_solicitado": "G-L-DN-5047-en.pdf",
+      "arquivo_utilizado": "G-L-DN-5047-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\G-L-DN-5047-en.pdf",
+      "pagina_inicial": 327,
+      "pagina_final": 350,
+      "paginas": 24
+    },
+    {
+      "ordem": 9,
+      "arquivo_solicitado": "MATL-626.pdf",
+      "arquivo_utilizado": "MATL-626.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\MATL-626.pdf",
+      "pagina_inicial": 351,
+      "pagina_final": 369,
+      "paginas": 19
+    },
+    {
+      "ordem": 10,
+      "arquivo_solicitado": "MATL-632.pdf",
+      "arquivo_utilizado": "MATL-632.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\MATL-632.pdf",
+      "pagina_inicial": 370,
+      "pagina_final": 372,
+      "paginas": 3
+    },
+    {
+      "ordem": 11,
+      "arquivo_solicitado": "MATL-633.pdf",
+      "arquivo_utilizado": "MATL-633.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\MATL-633.pdf",
+      "pagina_inicial": 373,
+      "pagina_final": 377,
+      "paginas": 5
+    },
+    {
+      "ordem": 12,
+      "arquivo_solicitado": "MATL-635.pdf",
+      "arquivo_utilizado": "MATL-635.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\MATL-635.pdf",
+      "pagina_inicial": 378,
+      "pagina_final": 382,
+      "paginas": 5
+    },
+    {
+      "ordem": 13,
+      "arquivo_solicitado": "MATL-644.pdf",
+      "arquivo_utilizado": "MATL-644.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\MATL-644.pdf",
+      "pagina_inicial": 383,
+      "pagina_final": 388,
+      "paginas": 6
+    },
+    {
+      "ordem": 14,
+      "arquivo_solicitado": "S-C-ML-1800-en.pdf",
+      "arquivo_utilizado": "S-C-ML-1800-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-C-ML-1800-en.pdf",
+      "pagina_inicial": 389,
+      "pagina_final": 392,
+      "paginas": 4
+    },
+    {
+      "ordem": 15,
+      "arquivo_solicitado": "S-C-TG-0002-en.pdf",
+      "arquivo_utilizado": "S-C-TG-0002-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-C-TG-0002-en.pdf",
+      "pagina_inicial": 393,
+      "pagina_final": 396,
+      "paginas": 4
+    },
+    {
+      "ordem": 16,
+      "arquivo_solicitado": "S-F-MA-0595-en.pdf",
+      "arquivo_utilizado": "S-F-MA-0595-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-MA-0595-en.pdf",
+      "pagina_inicial": 397,
+      "pagina_final": 400,
+      "paginas": 4
+    },
+    {
+      "ordem": 17,
+      "arquivo_solicitado": "S-F-ML-2041-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2041-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2041-en.pdf",
+      "pagina_inicial": 401,
+      "pagina_final": 405,
+      "paginas": 5
+    },
+    {
+      "ordem": 18,
+      "arquivo_solicitado": "S-F-ML-2170_en.pdf",
+      "arquivo_utilizado": "S-F-ML-2170_en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2170_en.pdf",
+      "pagina_inicial": 406,
+      "pagina_final": 410,
+      "paginas": 5
+    },
+    {
+      "ordem": 19,
+      "arquivo_solicitado": "S-F-ML-2188-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2188-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2188-en.pdf",
+      "pagina_inicial": 411,
+      "pagina_final": 418,
+      "paginas": 8
+    },
+    {
+      "ordem": 20,
+      "arquivo_solicitado": "S-F-ML-2323-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2323-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2323-en.pdf",
+      "pagina_inicial": 419,
+      "pagina_final": 422,
+      "paginas": 4
+    },
+    {
+      "ordem": 21,
+      "arquivo_solicitado": "S-F-ML-2740-en _V05.pdf",
+      "arquivo_utilizado": "S-F-ML-2740-en _V05.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2740-en _V05.pdf",
+      "pagina_inicial": 423,
+      "pagina_final": 427,
+      "paginas": 5
+    },
+    {
+      "ordem": 22,
+      "arquivo_solicitado": "S-F-ML-2784-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2784-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2784-en.pdf",
+      "pagina_inicial": 428,
+      "pagina_final": 432,
+      "paginas": 5
+    },
+    {
+      "ordem": 23,
+      "arquivo_solicitado": "S-F-ML-2793-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2793-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2793-en.pdf",
+      "pagina_inicial": 433,
+      "pagina_final": 435,
+      "paginas": 3
+    },
+    {
+      "ordem": 24,
+      "arquivo_solicitado": "S-F-ML-2922-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2922-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2922-en.pdf",
+      "pagina_inicial": 436,
+      "pagina_final": 439,
+      "paginas": 4
+    },
+    {
+      "ordem": 25,
+      "arquivo_solicitado": "S-F-ML-2924-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2924-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2924-en.pdf",
+      "pagina_inicial": 440,
+      "pagina_final": 443,
+      "paginas": 4
+    },
+    {
+      "ordem": 26,
+      "arquivo_solicitado": "S-F-ML-2925-en.pdf",
+      "arquivo_utilizado": "S-F-ML-2925-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-ML-2925-en.pdf",
+      "pagina_inicial": 444,
+      "pagina_final": 448,
+      "paginas": 5
+    },
+    {
+      "ordem": 27,
+      "arquivo_solicitado": "S-F-PT-0684-en.pdf",
+      "arquivo_utilizado": "S-F-PT-0684-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-PT-0684-en.pdf",
+      "pagina_inicial": 449,
+      "pagina_final": 454,
+      "paginas": 6
+    },
+    {
+      "ordem": 28,
+      "arquivo_solicitado": "S-F-PT-6575-en.pdf",
+      "arquivo_utilizado": "S-F-PT-6575-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-F-PT-6575-en.pdf",
+      "pagina_inicial": 455,
+      "pagina_final": 457,
+      "paginas": 3
+    },
+    {
+      "ordem": 29,
+      "arquivo_solicitado": "S-G-DN-5001-en.pdf",
+      "arquivo_utilizado": "S-G-DN-5001-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-DN-5001-en.pdf",
+      "pagina_inicial": 458,
+      "pagina_final": 496,
+      "paginas": 39
+    },
+    {
+      "ordem": 30,
+      "arquivo_solicitado": "S-G-MA-3817-en.pdf",
+      "arquivo_utilizado": "S-G-MA-3817-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-MA-3817-en.pdf",
+      "pagina_inicial": 497,
+      "pagina_final": 502,
+      "paginas": 6
+    },
+    {
+      "ordem": 31,
+      "arquivo_solicitado": "S-G-MA-6009-en.pdf",
+      "arquivo_utilizado": "S-G-MA-6009-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-MA-6009-en.pdf",
+      "pagina_inicial": 503,
+      "pagina_final": 557,
+      "paginas": 55
+    },
+    {
+      "ordem": 32,
+      "arquivo_solicitado": "S-G-MA-6011-en.pdf",
+      "arquivo_utilizado": "S-G-MA-6011-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-MA-6011-en.pdf",
+      "pagina_inicial": 558,
+      "pagina_final": 624,
+      "paginas": 67
+    },
+    {
+      "ordem": 33,
+      "arquivo_solicitado": "S-G-ML-1004-en.pdf",
+      "arquivo_utilizado": "S-G-ML-1004-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-ML-1004-en.pdf",
+      "pagina_inicial": 625,
+      "pagina_final": 628,
+      "paginas": 4
+    },
+    {
+      "ordem": 34,
+      "arquivo_solicitado": "S-G-ML-2130-en (002).pdf",
+      "arquivo_utilizado": "S-G-ML-2130-en (002).pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-ML-2130-en (002).pdf",
+      "pagina_inicial": 629,
+      "pagina_final": 634,
+      "paginas": 6
+    },
+    {
+      "ordem": 35,
+      "arquivo_solicitado": "S-G-ML-9025-en.pdf",
+      "arquivo_utilizado": "S-G-ML-9025-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-ML-9025-en.pdf",
+      "pagina_inicial": 635,
+      "pagina_final": 638,
+      "paginas": 4
+    },
+    {
+      "ordem": 36,
+      "arquivo_solicitado": "S-G-TG-4008-en.pdf",
+      "arquivo_utilizado": "S-G-TG-4008-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-TG-4008-en.pdf",
+      "pagina_inicial": 639,
+      "pagina_final": 642,
+      "paginas": 4
+    },
+    {
+      "ordem": 37,
+      "arquivo_solicitado": "S-G-TG-4050-en_V09.pdf",
+      "arquivo_utilizado": "S-G-TG-4050-en_V09.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-TG-4050-en_V09.pdf",
+      "pagina_inicial": 643,
+      "pagina_final": 828,
+      "paginas": 186
+    },
+    {
+      "ordem": 38,
+      "arquivo_solicitado": "S-G-TG-688-en.pdf",
+      "arquivo_utilizado": "S-G-TG-688-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-G-TG-688-en.pdf",
+      "pagina_inicial": 829,
+      "pagina_final": 831,
+      "paginas": 3
+    },
+    {
+      "ordem": 39,
+      "arquivo_solicitado": "S-H-ML-1016-en.pdf",
+      "arquivo_utilizado": "S-H-ML-1016-en.pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\S-H-ML-1016-en.pdf",
+      "pagina_inicial": 832,
+      "pagina_final": 845,
+      "paginas": 14
+    },
+    {
+      "ordem": 40,
+      "arquivo_solicitado": "W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+      "arquivo_utilizado": "W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+      "metodo_localizacao": "exact",
+      "caminho": "C:\\Users\\M0242198\\cauaferrari\\ESTUDOS\\link_normas\\Valid-Documents\\W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+      "pagina_inicial": 846,
+      "pagina_final": 857,
+      "paginas": 12
+    }
+  ]
+}

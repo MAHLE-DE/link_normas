@@ -1,0 +1,39 @@
+{
+  "identification": {
+    "document_no": "S-L-PT-5105-en",
+    "revision_no": "1.0",
+    "title": "Date-marking of products",
+    "previous_document_numbers": [
+      "WNA 5105"
+    ]
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "design",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "design",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "S-L-PT-5105-en.pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\S-L-PT-5105-en.pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "62c5108f-d046-45e9-b7d0-f9ac2c9f1058",
+  "schema_version": "2.0"
+}

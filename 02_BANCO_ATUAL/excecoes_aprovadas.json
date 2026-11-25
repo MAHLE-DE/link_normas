@@ -1,0 +1,29 @@
+{
+  "approved_file_mappings": {
+    "S-F-ML-2145-en (V02)": "S-F-ML-2145en.pdf",
+    "S-G-PT-0505-en": "S-G-DN-0505-en.pdf",
+    "S-G-DN-5052-en (V02)": "Design_handbook_Filtration_and_Engine_Peripherals_v01_2023-09-21.pdf",
+    "S-G-MA-3850-en (V02)": "S-G-ML-3850-en.pdf",
+    "S-G-MA-3855-de (V01)": "S-G-ML-3855-de.pdf",
+    "S-F-ML-2070-en (V01)": "S-F-ML-2070_R819-EC02_MOPET TCS FLATBOND 60.pdf",
+    "S-L-TG-2143-de (V01)": "S-L-PT-2143-de.pdf",
+    "S-F-ML-4014-en (V01)": "250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+    "S-F-PT-6583-en (V02)": "S-F-PT-0619-en.pdf",
+    "S-F-ML-4013-en (V01)": "S-G-TG-4013-en.pdf"
+  },
+  "original_current_codes": [
+    "MATL-633",
+    "MATL-635",
+    "W-BE-0885-en"
+  ],
+  "extra_current_documents": [
+    {
+      "Document No": "W-BE-0885-en",
+      "Document Language": "en",
+      "Revision No": "3.0",
+      "Title": "Acceptance Testing and MSA of Leakage Test Devices",
+      "Previous Document No": null,
+      "External": "W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf"
+    }
+  ]
+}

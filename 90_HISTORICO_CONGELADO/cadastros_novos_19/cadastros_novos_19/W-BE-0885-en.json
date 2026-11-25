@@ -1,0 +1,37 @@
+{
+  "identification": {
+    "document_no": "W-BE-0885-en",
+    "revision_no": "1.0",
+    "title": "Acceptance Testing and MSA of Leakage Test Devices",
+    "previous_document_numbers": []
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "measurement",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [],
+    "product_subgroup_ids": [],
+    "is_general": true
+  },
+  "tree_entry": {
+    "family": "measurement",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "88e6bbae-ddc0-4f56-9052-f1505ded1f51",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,39 @@
+{
+  "identification": {
+    "document_no": "DSGN-511",
+    "revision_no": "1.0",
+    "title": "Auslegungsrichtlinie für Ansaugmodule mit integriertem Ladeluftkühler am Beispiel LM284/2 (Not allowed for new design!)",
+    "previous_document_numbers": []
+  },
+  "classification": {
+    "origin": "internal",
+    "internal_category": "design",
+    "organization": "MAHLE",
+    "customer_id": null
+  },
+  "applicability": {
+    "product_group_ids": [
+      "FLUID-SYSTEMS-AIR"
+    ],
+    "product_subgroup_ids": [],
+    "is_general": false
+  },
+  "tree_entry": {
+    "family": "design",
+    "strength_level": 3
+  },
+  "document_location": {
+    "online_url": "",
+    "file_name": "DSGN-511.docx",
+    "file_path": "\\\\itc.global.mahle\\BRJU\\BU2\\15. Robustez DE-CAD\\00 Dashboard - KPI\\source_app\\validstandards\\DSGN-511.docx"
+  },
+  "record_control": {
+    "revision": 1,
+    "created_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_at": "2026-11-18T14:32:05.091590+00:00",
+    "updated_by": "ITC\\M0242198",
+    "status": "active"
+  },
+  "id": "fab2047e-0eda-41bc-8ec5-e49b1094ef56",
+  "schema_version": "2.0"
+}
