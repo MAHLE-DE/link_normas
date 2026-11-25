@@ -13,6 +13,19 @@ de arquivo e, por fim, a capa. `Avisos` informa associações aprovadas que
 colidem com outro documento do cadastro e normas processadas a partir de
 mais de um arquivo; estes arquivos continuam sendo agregados.
 
+Para atualizar a base completa no PC antigo, execute `01_gerar_mapa.bat`
+e depois `03_extrair_05_DOCUMENTS.bat`. O primeiro lê `05_DOCUMENTS/`
+recursivamente quando ela existe, incluindo variantes de idioma como evidência,
+e grava o mapa local em `02_BANCO_ATUAL/mapa_base/`. Sem essa pasta de documentos,
+avisa e usa somente fontes do repositório. O extrator prefere esse mapa local
+quando disponível e informa o mapa escolhido; `--mapa` tem prioridade explícita.
+O mapa versionado permanece gerado sem base (`--sem-base`).
+
+O gerador aceita `--base-documentos <pasta>` e `--saida <pasta>`; impede
+sobrescrever o mapa versionado quando usa base. `--sem-cache` desliga o cache
+de texto por SHA256 em `02_BANCO_ATUAL/cache_texto/`. Cache e `mapa_base/`
+são ignorados pelo Git por dependerem dos arquivos locais do usuário.
+
 Requer Python **3.10 ou mais recente**, PyMuPDF **1.23.0 ou mais recente**,
 python-docx e openpyxl. Os testes usam pytest. O import aceita tanto
 `pymupdf` quanto o nome antigo `fitz`. O mínimo de PyMuPDF cobre também o
@@ -32,7 +45,7 @@ de executar `03` sobre o banco completo.
 | Lançador | O que faz e onde fica o resultado |
 | --- | --- |
 | `00_instalar_dependencias.bat` | Instala PyMuPDF, python-docx, openpyxl e pytest no Python de `py -3`. |
-| `01_gerar_mapa.bat` | Gera `02_BANCO_ATUAL/mapa_normas_v1.json` e `mapa_normas_v1_revisao.xlsx`. Na primeira execução, cria o dump do corpus se ele faltar; essa etapa pode demorar. |
+| `01_gerar_mapa.bat` | Gera JSON e XLSX em `02_BANCO_ATUAL/mapa_base/`, usando `05_DOCUMENTS/` quando existir. Preserva o mapa versionado. Na primeira execução, cria o dump do corpus se faltar. |
 | `02_validar_40_normas.bat` | Imprime precisão/recall/F1 e gera `saida/resultado_40.xlsx` e `.json`. A referência atual é 100%/100%, com 551 pares após as decisões F9. |
 | `03_extrair_05_DOCUMENTS.bat` | Percorre `05_DOCUMENTS/` e todas as subpastas; gera `saida/resultado_05_DOCUMENTS.xlsx` e `.json`. Se a pasta faltar, mostra uma orientação e encerra. |
 | `04_rodar_testes.bat` | Executa pytest em `02_BANCO_ATUAL/` e `10_EXTRATOR/`. |
@@ -87,7 +100,8 @@ py -3 extrator_normas.py --entrada ..\05_DOCUMENTS --recursivo --saida saida\res
 ```
 
 `--manifesto` e `--gabarito` são opcionais. `--mapa` permite selecionar outro
-mapa; o padrão é `02_BANCO_ATUAL/mapa_normas_v1.json`.
+mapa; o padrão prefere `02_BANCO_ATUAL/mapa_base/mapa_normas_v1.json`, se existir,
+e usa `02_BANCO_ATUAL/mapa_normas_v1.json` caso contrário.
 
 Sem manifesto, a identidade do pai vem dos nomes de arquivo do cadastro v3,
 das associações físicas aprovadas de F2 ou do `Document-No.` da capa resolvido

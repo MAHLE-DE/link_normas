@@ -210,12 +210,19 @@ def unir_linhas(text):
     return joined, lines, starts
 
 
-def ler_paginas(path):
+def ler_paginas(path, incluir_cabecalhos=False):
     if path.suffix.lower() == ".pdf":
         with pymupdf.open(path) as pdf:
             return [(n, page.get_text("text")) for n, page in enumerate(pdf, 1)]
     doc = Document(path)
     lines = []
+    if incluir_cabecalhos:
+        for section in doc.sections:
+            for container in (section.header, section.first_page_header, section.even_page_header,
+                              section.footer, section.first_page_footer, section.even_page_footer):
+                lines.extend(p.text for p in container.paragraphs)
+                for table in container.tables:
+                    lines.extend(" | ".join(cell.text for cell in row.cells) for row in table.rows)
     for child in doc.element.body.iterchildren():
         if child.tag.endswith("}p"):
             lines.append(Paragraph(child, doc).text)
@@ -291,7 +298,7 @@ def colisoes_mapeamentos(cadastro, mapa, excecoes):
     return warnings
 
 
-def identidade(path, manifesto, cadastro, mapa, excecoes, avisos=None):
+def identidade(path, manifesto, cadastro, mapa, excecoes, avisos=None, incluir_variantes=False, paginas=None):
     entry = next((e for e in manifesto if Path(e["arquivo"]).name.casefold() == path.name.casefold()), None)
     if entry:
         return entry["document_no"], entry["nomes_anteriores"]
@@ -304,8 +311,12 @@ def identidade(path, manifesto, cadastro, mapa, excecoes, avisos=None):
             raise IdentidadeNaoEncontrada(f"Arquivo ambíguo no cadastro F1: {path.name}")
         record = matches[0]
         return record["document_no"], [record["previous_document_no"]] if record.get("previous_document_no") else []
-    if any(Path(v["file_name"]).stem.casefold() == path.stem.casefold()
-           for v in cadastro.get("language_variants", [])):
+    variant = next((v for v in cadastro.get("language_variants", [])
+                    if Path(v["file_name"]).stem.casefold() == path.stem.casefold()), None)
+    if variant:
+        if incluir_variantes:
+            record = next(r for r in cadastro["records"] if r["document_no"] == variant["variant_of"])
+            return record["document_no"], [record["previous_document_no"]] if record.get("previous_document_no") else []
         raise IdentidadeNaoEncontrada(f"Variante de idioma não operacional: {path.name}")
     # Mapeamentos aprovados são associações físicas, jamais equivalências de código.
     approved = [alias for alias, filename in excecoes.get("approved_file_mappings", {}).items()
@@ -314,7 +325,7 @@ def identidade(path, manifesto, cadastro, mapa, excecoes, avisos=None):
         current, status, _ = lookup(alias, mapa)
         if status in {"VIGENTE", "RESOLVIDO"}:
             return current, [alias]
-    first_page = ler_paginas(path)[0][1]
+    first_page = (paginas if paginas is not None else ler_paginas(path))[0][1]
     joined, _, _ = unir_linhas(first_page)
     heading = re.search(r"Document\s*-?\s*No\.?\s*:?(.*)", joined, re.I)
     for candidate in candidatos(heading[1][:160] if heading else ""):
@@ -496,9 +507,18 @@ def caminho(value, output=False):
     return path.resolve() if path.exists() else ROOT / path
 
 
+def selecionar_mapa(mapa_path=None):
+    selected_map = caminho(mapa_path) if mapa_path else ROOT / "02_BANCO_ATUAL/mapa_base/mapa_normas_v1.json"
+    if not mapa_path and not selected_map.exists():
+        selected_map = ROOT / "02_BANCO_ATUAL/mapa_normas_v1.json"
+    return selected_map
+
+
 def executar(entrada, manifesto=None, mapa_path=None, gabarito=None, recursivo=False):
     started = time.perf_counter()
-    mapa = json.loads(caminho(mapa_path or "02_BANCO_ATUAL/mapa_normas_v1.json").read_text(encoding="utf-8"))["codigos"]
+    selected_map = selecionar_mapa(mapa_path)
+    print(f"Mapa usado: {selected_map.relative_to(ROOT).as_posix() if selected_map.is_relative_to(ROOT) else selected_map.name}")
+    mapa = json.loads(selected_map.read_text(encoding="utf-8"))["codigos"]
     cadastro = json.loads((ROOT / "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json").read_text(encoding="utf-8"))
     excecoes = json.loads((ROOT / "02_BANCO_ATUAL/excecoes_aprovadas.json").read_text(encoding="utf-8"))
     manifest = json.loads(caminho(manifesto).read_text(encoding="utf-8")) if manifesto else []
@@ -543,6 +563,7 @@ def executar(entrada, manifesto=None, mapa_path=None, gabarito=None, recursivo=F
                              "arquivo": paths, "detalhe": "Arquivos processados e agregados para a mesma norma."})
     result = {"correlacoes": agregar(accepted), "descartes": discarded, "ignorados": ignored,
               "avisos": warnings,
+              "mapa_usado": selected_map.relative_to(ROOT).as_posix() if selected_map.is_relative_to(ROOT) else selected_map.name,
               "documentos_processados": processed, "arquivos_encontrados": len(files)}
     if gabarito:
         result["avaliacao"] = avaliar(result, json.loads(caminho(gabarito).read_text(encoding="utf-8")), mapa, corrections)

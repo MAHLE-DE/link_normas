@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T16:37:20.941022+00:00",
+  "gerado_em": "2026-11-25T17:26:06.736297+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -185597,6 +185597,12 @@
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     }
+  },
+  "base_documentos": {
+    "usada": false,
+    "arquivos_encontrados": 0,
+    "documentos_lidos": 0,
+    "arquivos_com_erro": 0
   },
   "avisos": [
     {

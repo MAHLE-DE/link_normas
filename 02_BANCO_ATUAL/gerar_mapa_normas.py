@@ -6,11 +6,15 @@ independentes elegíveis; citações automáticas nunca confirmam identidade.
 """
 
 import csv
+import argparse
+import hashlib
+import importlib.util
 import difflib
 import json
 import re
 import subprocess
 import sys
+import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from functools import lru_cache
@@ -414,63 +418,120 @@ class Consolidacao:
                         if re.fullmatch(r"WN[A-Z] \d+(?:[-/]\d+)*", key):
                             self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", text))
                     text_lines.append((page, text))
-            for i, (page, line) in enumerate(text_lines):
-                same_page = [t for p, t in text_lines[i:i + 4] if p == page]
-                if len(same_page) > 1 and re.search(r"\bWN[A-Z]\s*$", same_page[0], re.I) and re.match(r"\s*\d", same_page[1]):
-                    same_page = [same_page[0] + " " + same_page[1]] + same_page[2:]
-                for key, title in titulos_adjacentes(same_page, 0):
-                    self.title_observations.append((key, title, f"{filename}: página {page}"))
-                following = [t for p, t in text_lines[i + 1:i + 3] if p == page]
-                # Um código pode ser quebrado pelo PDF entre prefixo e número.
-                if following and re.search(r"\bWN[A-Z]\s*$", line, re.I) and re.match(r"\s*\d", following[0]):
-                    joined = line + " " + following[0]
-                    self.scan(joined, "F8", f"{filename}: página {page}, código quebrado", parent, corpus=True)
-                    for raw, key in codigos(joined):
-                        if key.startswith("WN"):
-                            self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", joined))
-                if re.search(r"Document\s*-?\s*No\.", line, re.I) and not re.search("Previous", line, re.I):
-                    header_codes = codigos(" ".join([line] + following[:1]))
-                    known = [key for _, key in header_codes if key in owned]
-                    if known:
-                        target = known[0]
-                        for raw, key in header_codes:
-                            if key not in owned:
-                                self.edge(raw, target, "F8", "Cabeçalho de identidade do próprio documento: " + " ".join([line] + following[:1]), f"{filename}: página {page}", authority=3)
-                if not IDENTITY_RE.search(line) and not re.search("Previous Document No", line, re.I):
-                    continue
-                context = " ".join([line] + following)
-                location = f"{filename}: página {page}"
-                # Previous Document No de capa só aceita o valor adjacente isolado.
-                if re.search("Previous Document No", line, re.I):
-                    values = codigos(line.split(":", 1)[-1])
-                    if not values and following:
-                        values = codigos(following[0]) if CODE_RE.fullmatch(following[0].strip()) else []
-                    for raw, _ in values:
-                        self.edge(raw, parent, "F8", "Capa do próprio documento: " + context, location, authority=3)
-                    continue
-                # X (former Y), ou X formerly Y: destino é X, jamais a norma-pai.
-                former = re.search(r"(?:\b(?:formerly|former|previously|ehemals|statt|vormals)\b|\balt:)", context, re.I)
-                replaced = re.search(r"\b(?:replaces|ersetzt|Ersatz für|instead of)\b", context, re.I)
-                pairs = []
-                if re.search(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, re.I):
-                    split = re.split(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, maxsplit=1, flags=re.I)
-                    before, after = codigos(split[0]), codigos(split[1])
-                    if before and after:
-                        pairs.append((before[-1][0], after[0][0]))
-                elif former:
-                    before, after = codigos(context[:former.start()]), codigos(context[former.end():])
-                    if before and after:
-                        pairs.append((after[0][0], before[-1][0]))
-                elif replaced:
-                    before, after = codigos(context[:replaced.start()]), codigos(context[replaced.end():])
-                    target = before[-1][0] if before else parent if re.search(r"(?:this|diese[rs]?)\s+(?:company\s+)?(?:standard|norm)", context[:replaced.start()], re.I) else None
-                    if target:
-                        pairs.extend((raw, target) for raw, _ in after)
-                for before, after in pairs:
-                    self.edge(before, after, "F8", context, location,
-                              authority=3 if normalizar(after) in owned else 0)
-                if not pairs and codigos(context):
-                    self.aviso("F8", location, "Frase de identidade sem direção segura; sem elo: " + context)
+            self.analisar_texto(parent, filename, text_lines, corpus=True)
+
+    def analisar_texto(self, parent, filename, text_lines, corpus=False):
+        owned = self.owner_codes[normalizar(parent)]
+        for page, text in text_lines:
+            if not corpus:
+                self.scan(text, "F8", f"{filename}: página {page}", parent)
+            for raw, key in codigos(text):
+                if re.fullmatch(r"WN[A-Z] \d+(?:[-/]\d+)*", key):
+                    self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", text))
+        for i, (page, line) in enumerate(text_lines):
+            same_page = [t for p, t in text_lines[i:i + 4] if p == page]
+            if len(same_page) > 1 and re.search(r"\bWN[A-Z]\s*$", same_page[0], re.I) and re.match(r"\s*\d", same_page[1]):
+                same_page = [same_page[0] + " " + same_page[1]] + same_page[2:]
+            for key, title in titulos_adjacentes(same_page, 0):
+                self.title_observations.append((key, title, f"{filename}: página {page}"))
+            following = [t for p, t in text_lines[i + 1:i + 3] if p == page]
+            # Um código pode ser quebrado pelo PDF entre prefixo e número.
+            if following and re.search(r"\bWN[A-Z]\s*$", line, re.I) and re.match(r"\s*\d", following[0]):
+                joined = line + " " + following[0]
+                self.scan(joined, "F8", f"{filename}: página {page}, código quebrado", parent, corpus=corpus)
+                for raw, key in codigos(joined):
+                    if key.startswith("WN"):
+                        self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", joined))
+            if re.search(r"Document\s*-?\s*No\.", line, re.I) and not re.search("Previous", line, re.I):
+                header_codes = codigos(" ".join([line] + following[:1]))
+                known = [key for _, key in header_codes if key in owned]
+                if known:
+                    target = known[0]
+                    for raw, key in header_codes:
+                        if key not in owned:
+                            self.edge(raw, target, "F8", "Cabeçalho de identidade do próprio documento: " + " ".join([line] + following[:1]), f"{filename}: página {page}", authority=3)
+            if not IDENTITY_RE.search(line) and not re.search("Previous Document No", line, re.I):
+                continue
+            context = " ".join([line] + following)
+            location = f"{filename}: página {page}"
+            # Previous Document No de capa só aceita o valor adjacente isolado.
+            if re.search("Previous Document No", line, re.I):
+                values = codigos(line.split(":", 1)[-1])
+                if not values and following:
+                    values = codigos(following[0]) if CODE_RE.fullmatch(following[0].strip()) else []
+                for raw, _ in values:
+                    self.edge(raw, parent, "F8", "Capa do próprio documento: " + context, location, authority=3)
+                continue
+            # X (former Y), ou X formerly Y: destino é X, jamais a norma-pai.
+            former = re.search(r"(?:\b(?:formerly|former|previously|ehemals|statt|vormals)\b|\balt:)", context, re.I)
+            replaced = re.search(r"\b(?:replaces|ersetzt|Ersatz für|instead of)\b", context, re.I)
+            pairs = []
+            if re.search(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, re.I):
+                split = re.split(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, maxsplit=1, flags=re.I)
+                before, after = codigos(split[0]), codigos(split[1])
+                if before and after:
+                    pairs.append((before[-1][0], after[0][0]))
+            elif former:
+                before, after = codigos(context[:former.start()]), codigos(context[former.end():])
+                if before and after:
+                    pairs.append((after[0][0], before[-1][0]))
+            elif replaced:
+                before, after = codigos(context[:replaced.start()]), codigos(context[replaced.end():])
+                target = before[-1][0] if before else parent if re.search(r"(?:this|diese[rs]?)\s+(?:company\s+)?(?:standard|norm)", context[:replaced.start()], re.I) else None
+                if target:
+                    pairs.extend((raw, target) for raw, _ in after)
+            for before, after in pairs:
+                self.edge(before, after, "F8", context, location,
+                          authority=3 if normalizar(after) in owned else 0)
+            if not pairs and codigos(context):
+                self.aviso("F8", location, "Frase de identidade sem direção segura; sem elo: " + context)
+
+    def base_fonte(self, folder, cache=None):
+        # Importação tardia: o extrator importa apenas a normalização deste
+        # módulo; nenhuma geração é executada durante a importação.
+        spec = importlib.util.spec_from_file_location("extrator_f8_base", ROOT / "10_EXTRATOR/extrator_normas.py")
+        extractor = importlib.util.module_from_spec(spec)
+        sys.modules[spec.name] = extractor
+        spec.loader.exec_module(extractor)
+        cadastro, excecoes = ler_json("F1"), ler_json("F2")
+        previous_warnings = list(self.warnings)
+        identity_map = self.classificar()
+        self.warnings = previous_warnings
+        result = {"usada": True, "arquivos_encontrados": 0, "documentos_lidos": 0, "arquivos_com_erro": 0}
+        if cache:
+            cache.mkdir(parents=True, exist_ok=True)
+        for path in sorted(folder.rglob("*"), key=lambda p: p.relative_to(folder).as_posix()):
+            if not path.is_file() or path.suffix.lower() not in {".pdf", ".docx"}:
+                continue
+            result["arquivos_encontrados"] += 1
+            location = "F8-base/" + path.relative_to(folder).as_posix()
+            try:
+                cached = None
+                if cache:
+                    # Versão do leitor e formato evitam reaproveitar cache incompatível.
+                    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+                    cached = cache / f"v1_{digest}{path.suffix.lower()}.json"
+                pages = None
+                if cached and cached.exists():
+                    try:
+                        pages = json.loads(cached.read_text(encoding="utf-8"))
+                    except (ValueError, OSError):
+                        pass
+                if pages is None:
+                    pages = extractor.ler_paginas(path, incluir_cabecalhos=True)
+                    if cached:
+                        cached.write_text(json.dumps(pages, ensure_ascii=False), encoding="utf-8")
+                # Reutiliza o texto já lido quando a identidade precisa da capa.
+                parent, _ = extractor.identidade(path, [], cadastro, identity_map, excecoes,
+                                                 incluir_variantes=True, paginas=pages)
+                lines = [(page, line) for page, text in pages for line in [""] + text.splitlines()]
+                self.analisar_texto(parent, location, lines)
+                result["documentos_lidos"] += 1
+            except Exception as error:
+                result["arquivos_com_erro"] += 1
+                # Sem caminhos absolutos do ambiente nas saídas versionáveis.
+                self.aviso("F8", location, f"Arquivo não utilizado: {type(error).__name__}")
+        return result
 
     def corroborar_old_number(self):
         for target, number, qualifier, line in self.bu2_old_numbers:
@@ -696,7 +757,7 @@ class Consolidacao:
         return result
 
 
-def gerar():
+def gerar(base_documentos=None, cache=None):
     builder = Consolidacao()
     builder.oficiais()
     builder.manuais()
@@ -705,6 +766,8 @@ def gerar():
     builder.preenchimento()
     builder.historico()
     builder.corpus_fonte()
+    base_summary = builder.base_fonte(Path(base_documentos), Path(cache) if cache else None) if base_documentos else {
+        "usada": False, "arquivos_encontrados": 0, "documentos_lidos": 0, "arquivos_com_erro": 0}
     builder.corroborar_old_number()
     builder.confirmar_titulos()
     entries = builder.classificar()
@@ -714,6 +777,7 @@ def gerar():
         "fontes": FONTES, "regras": REGRAS,
         "resumo": {status: counts[status] for status in STATUSES},
         "codigos": entries,
+        "base_documentos": base_summary,
         "avisos": sorted(builder.warnings, key=lambda a: (a["fonte"], a["local"], a["aviso"])),
     }
 
@@ -738,7 +802,7 @@ def indicios_legiveis(edges):
     return "\n".join(lines)
 
 
-def salvar_planilha(data):
+def salvar_planilha(data, saida=None):
     book = Workbook()
     book.remove(book.active)
 
@@ -780,6 +844,7 @@ def salvar_planilha(data):
     summary += [["Citado no corpus", status, sum(e["citado_no_corpus"] and e["status"] == status for e in entries.values())] for status in STATUSES]
     summary += [["Caminho da fonte", source, path] for source, path in FONTES.items()]
     summary += [["Regra", i, rule] for i, rule in enumerate(REGRAS, 1)]
+    summary += [["F8-base", key, value] for key, value in data.get("base_documentos", {}).items()]
     ws = sheet("Resumo", ["Grupo", "Item", "Quantidade ou descrição"], summary)
     ws.column_dimensions["C"].width = 120
     groups = [
@@ -815,7 +880,7 @@ def salvar_planilha(data):
                 row.extend([" | ".join(entry["candidatos_propostos"]), "\n".join(principal)])
         sheet(name, sheet_headers, rows)
     sheet("Avisos", ["Fonte", "Local", "Aviso"], [[a["fonte"], a["local"], a["aviso"]] for a in data["avisos"]])
-    book.save(BASE / "mapa_normas_v1_revisao.xlsx")
+    book.save(Path(saida or BASE) / "mapa_normas_v1_revisao.xlsx")
 
 
 @lru_cache(maxsize=1)
@@ -833,9 +898,26 @@ def resolver(codigo_bruto):
 def main():
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    data = gerar()
-    (BASE / "mapa_normas_v1.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    salvar_planilha(data)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base-documentos", type=Path, help="Base PDF/DOCX recursiva; padrão: 05_DOCUMENTS da raiz, se existir")
+    parser.add_argument("--sem-base", action="store_true", help="Gera somente das fontes do repositório")
+    parser.add_argument("--saida", type=Path, help="Pasta de saída; com base, padrão mapa_base; sem base, pasta do script")
+    parser.add_argument("--sem-cache", action="store_true")
+    args = parser.parse_args()
+    folder = None if args.sem_base else args.base_documentos or (ROOT / "05_DOCUMENTS" if (ROOT / "05_DOCUMENTS").is_dir() else None)
+    if folder and not folder.is_dir():
+        parser.error("A pasta --base-documentos não existe")
+    output = args.saida or (BASE / "mapa_base" if folder else BASE)
+    if folder and output.resolve() == BASE.resolve():
+        parser.error("Mapa com base não pode sobrescrever o mapa versionado; use outra pasta --saida")
+    output.mkdir(parents=True, exist_ok=True)
+    started = time.perf_counter()
+    print("F8-base: " + ("ativada" if folder else "05_DOCUMENTS ausente ou --sem-base: somente fontes do repositório"))
+    data = gerar(folder, None if args.sem_cache else BASE / "cache_texto")
+    (output / "mapa_normas_v1.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    salvar_planilha(data, output)
+    print(f"Tempo de geração: {time.perf_counter() - started:.3f}s; saída: {output.name}")
+    print(json.dumps(data["base_documentos"], ensure_ascii=False))
     print(json.dumps(data["resumo"], ensure_ascii=False, indent=2))
     print("Citados no corpus:")
     print(json.dumps(dict(Counter(e["status"] for e in data["codigos"].values() if e["citado_no_corpus"])), indent=2))

@@ -388,6 +388,17 @@ def test_multiplos_arquivos_mesmo_pai_avisados_e_agregados(tmp_path):
     book.close()
 
 
+def test_selecao_mapa_local_e_prioridade_explicita(tmp_path, monkeypatch):
+    monkeypatch.setattr(extractor, "ROOT", tmp_path)
+    official = tmp_path / "02_BANCO_ATUAL/mapa_normas_v1.json"
+    local = tmp_path / "02_BANCO_ATUAL/mapa_base/mapa_normas_v1.json"
+    assert extractor.selecionar_mapa() == official
+    local.parent.mkdir(parents=True)
+    local.write_text("{}", encoding="utf-8")
+    assert extractor.selecionar_mapa() == local
+    assert extractor.selecionar_mapa(str(official)) == official
+
+
 def test_recursivo_ignora_variantes_desconhecidos_e_corrompidos(tmp_path):
     source = tmp_path / "documentos"
     nested = source / "subpasta"
