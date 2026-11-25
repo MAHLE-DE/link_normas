@@ -4556,6 +4556,55 @@
     {
       "pai": "DSGN-354",
       "pai_nome_antigo": "S-F-DN-0657-en",
+      "citada": "DSGN-359",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 260"
+      ],
+      "paginas": [
+        1,
+        3,
+        8
+      ],
+      "secao": [
+        "Corpo",
+        "Lessons Learned"
+      ],
+      "evidencia": [
+        "4.1.2.4 Tolerance for number of pleats (WNA 260) 3",
+        "4.1.2.4 Tolerance for number of pleats (WNA 260) Is required for the pleated block drawing entry.",
+        "The validity of this standard is limited to MAHLE BU2 Europe. WNA 260"
+      ],
+      "arquivo": [
+        "S-F-DN-0657-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-354",
+      "pai_nome_antigo": "S-F-DN-0657-en",
+      "citada": "DSGN-361",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 655"
+      ],
+      "paginas": [
+        8
+      ],
+      "secao": [
+        "Lessons Learned"
+      ],
+      "evidencia": [
+        "Pleat pitches filter elements (general) WNA 655"
+      ],
+      "arquivo": [
+        "S-F-DN-0657-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-354",
+      "pai_nome_antigo": "S-F-DN-0657-en",
       "citada": "DSGN-368",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -4611,6 +4660,37 @@
         "4.1.2.11 Media area (WNA 653) The media area is required for the drawing entry and the calculation of the material consumption of",
         "4.1.2.13 Filtration area (WNA 653) The filtration area is required for the drawing entry and for the design principle of the panel element.",
         "housing geometry WNA 653 Filter area calculation of filter elements - number of pleats, paper area and"
+      ],
+      "arquivo": [
+        "S-F-DN-0657-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-354",
+      "pai_nome_antigo": "S-F-DN-0657-en",
+      "citada": "DSGN-386",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 550"
+      ],
+      "paginas": [
+        1,
+        5,
+        8
+      ],
+      "secao": [
+        "Corpo",
+        "Lessons Learned"
+      ],
+      "evidencia": [
+        "4.1.2.16 Designing glue beads (WNA 550) 5",
+        "4.1.2.17 Material consumption of glue beads (WNA 550) 5",
+        "4.1.2.16 Designing glue beads (WNA 550) The design of the glue beads are defined in the WNA 550. Use the number and the position of glue",
+        "4.1.2.16 Designing glue beads (WNA 550) The design of the glue beads are defined in the WNA 550. Use the number and the position of glue beads recommended in this WNA, if no other data available. The exact number and position of glue",
+        "4.1.2.17 Material consumption of glue beads (WNA 550) The consumption of the required glue for the glue beads is listed in the WNA 550. With the extended",
+        "4.1.2.17 Material consumption of glue beads (WNA 550) The consumption of the required glue for the glue beads is listed in the WNA 550. With the extended length or the pleated block length and the consumption of the glue you can calculate the material",
+        "Dimensional tolerances for panel elements WNA 550"
       ],
       "arquivo": [
         "S-F-DN-0657-en.pdf"
@@ -4753,64 +4833,6 @@
     {
       "pai": "DSGN-354",
       "pai_nome_antigo": "S-F-DN-0657-en",
-      "citada": "WNA 260",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 260"
-      ],
-      "paginas": [
-        1,
-        3,
-        8
-      ],
-      "secao": [
-        "Corpo",
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "4.1.2.4 Tolerance for number of pleats (WNA 260) 3",
-        "4.1.2.4 Tolerance for number of pleats (WNA 260) Is required for the pleated block drawing entry.",
-        "The validity of this standard is limited to MAHLE BU2 Europe. WNA 260"
-      ],
-      "arquivo": [
-        "S-F-DN-0657-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-354",
-      "pai_nome_antigo": "S-F-DN-0657-en",
-      "citada": "WNA 550",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 550"
-      ],
-      "paginas": [
-        1,
-        5,
-        8
-      ],
-      "secao": [
-        "Corpo",
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "4.1.2.16 Designing glue beads (WNA 550) 5",
-        "4.1.2.17 Material consumption of glue beads (WNA 550) 5",
-        "4.1.2.16 Designing glue beads (WNA 550) The design of the glue beads are defined in the WNA 550. Use the number and the position of glue",
-        "4.1.2.16 Designing glue beads (WNA 550) The design of the glue beads are defined in the WNA 550. Use the number and the position of glue beads recommended in this WNA, if no other data available. The exact number and position of glue",
-        "4.1.2.17 Material consumption of glue beads (WNA 550) The consumption of the required glue for the glue beads is listed in the WNA 550. With the extended",
-        "4.1.2.17 Material consumption of glue beads (WNA 550) The consumption of the required glue for the glue beads is listed in the WNA 550. With the extended length or the pleated block length and the consumption of the glue you can calculate the material",
-        "Dimensional tolerances for panel elements WNA 550"
-      ],
-      "arquivo": [
-        "S-F-DN-0657-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-354",
-      "pai_nome_antigo": "S-F-DN-0657-en",
       "citada": "WNA 60523",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -4887,31 +4909,9 @@
     {
       "pai": "DSGN-354",
       "pai_nome_antigo": "S-F-DN-0657-en",
-      "citada": "WNA 655",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 655"
-      ],
-      "paginas": [
-        8
-      ],
-      "secao": [
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "Pleat pitches filter elements (general) WNA 655"
-      ],
-      "arquivo": [
-        "S-F-DN-0657-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-354",
-      "pai_nome_antigo": "S-F-DN-0657-en",
       "citada": "WNA 684",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "WNA 684"
       ],
@@ -6513,6 +6513,31 @@
     {
       "pai": "DSGN-364",
       "pai_nome_antigo": "S-F-PT-6523-en",
+      "citada": "DSGN-486",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-MA-0270-en"
+      ],
+      "paginas": [
+        5,
+        6
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "Outer dimensions incl. tolerances acc. to product drawing (S-F-MA-0270-en).",
+        "Reference documents S-F-MA-0270-en DIN ISO 2768-c"
+      ],
+      "arquivo": [
+        "S-F-PT-6523-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-364",
+      "pai_nome_antigo": "S-F-PT-6523-en",
       "citada": "ISO 2768",
       "tipo": "publica",
       "status_mapa": "",
@@ -6588,31 +6613,6 @@
         "Example for a drawing entry of B8 sealing made of polyurethane V11B orange: Sealing shape B8 acc. to S-F-PT-6523-en Polyurethane V11B orange acc. to S-G-ML-9051-en.",
         "for a drawing entry: Sealing shape B8 acc. to S-F-PT-6523-en but *6; *13.2mm Polyurethane V11B orange acc. to S-G- ML-9051-en.",
         "S-F-PT-6523-en S-G-ML-9051-en S-G-ML-9020-en"
-      ],
-      "arquivo": [
-        "S-F-PT-6523-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-364",
-      "pai_nome_antigo": "S-F-PT-6523-en",
-      "citada": "S-F-MA-0270",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "S-F-MA-0270-en"
-      ],
-      "paginas": [
-        5,
-        6
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "Outer dimensions incl. tolerances acc. to product drawing (S-F-MA-0270-en).",
-        "Reference documents S-F-MA-0270-en DIN ISO 2768-c"
       ],
       "arquivo": [
         "S-F-PT-6523-en.pdf"
@@ -7361,29 +7361,6 @@
       ]
     },
     {
-      "pai": "DSGN-373",
-      "pai_nome_antigo": "S-G-DN-0691-en",
-      "citada": "WNA 691",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 691"
-      ],
-      "paginas": [
-        4
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "= allowed discontinuities according to WNA 691",
-        "Grade according to WNA 691 grade X (entry of specific grade)"
-      ],
-      "arquivo": [
-        "S-G-DN-0691-en.pdf"
-      ]
-    },
-    {
       "pai": "DSGN-374",
       "pai_nome_antigo": "S-F-PT-0633-de",
       "citada": "DSGN-415",
@@ -7519,6 +7496,29 @@
     {
       "pai": "DSGN-377",
       "pai_nome_antigo": "S-H-PT-5072-de",
+      "citada": "DSGN-478",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA5010"
+      ],
+      "paginas": [
+        7
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Düsengeometrie, Düsen durchgängig ohne Gratbildung gemäß WNA5010;",
+        "Düsengeometrie; Düsen durchgängig ohne Gratbildung gemäß WNA5010; Montage / Verbaut"
+      ],
+      "arquivo": [
+        "S-H-PT-5072-de.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-377",
+      "pai_nome_antigo": "S-H-PT-5072-de",
       "citada": "WNA 2137",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -7533,29 +7533,6 @@
       ],
       "evidencia": [
         "MAHLE internal restricted (CL2) Risiko von Ölreißen bei Dieselmotoren; Bewertung = 10; hier ist zwingend die WNA 2137 „Design of impactor separators for oil mist separators and cylinder head covers“ zu beachten"
-      ],
-      "arquivo": [
-        "S-H-PT-5072-de.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-377",
-      "pai_nome_antigo": "S-H-PT-5072-de",
-      "citada": "WNA 5010",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA5010"
-      ],
-      "paginas": [
-        7
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Düsengeometrie, Düsen durchgängig ohne Gratbildung gemäß WNA5010;",
-        "Düsengeometrie; Düsen durchgängig ohne Gratbildung gemäß WNA5010; Montage / Verbaut"
       ],
       "arquivo": [
         "S-H-PT-5072-de.pdf"
@@ -7933,6 +7910,122 @@
     {
       "pai": "DSGN-381",
       "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-351",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA  \n504"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Bauteilen WNA 504 Gewindefurchende Schrauben Richtwerte für die Kernlochgestaltung an GD-Al-Bauteilen/ Thread grooving"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-373",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 691",
+        "WNA  \n691"
+      ],
+      "paginas": [
+        29,
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "4.5.5 Pore classification of light metal cast parts ➔ According to WNA 691!",
+        "I, II, III, IV = permissible flaws according to WNA 691",
+        "Faltenteilung von Ringeinsätzen mit Endscheiben für Flüssigkeitsfilter WNA 691 Zulässige Fehlstellen an Aluminium-Gussteilen / Allowed discontinuities at aluminum casted parts"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-380",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA  \n510"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Schutzsenkung für Dichtflächen an GD-Al-Bauteilen WNA 510 Spann- und Auflageflächen mit Aufnahmepunkten an GD-Al-Bauteilen / Restrained and bearing surfaces"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-390",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n5074"
+      ],
+      "paginas": [
+        25,
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "5073 Special Characteristics and Inspection Characteristics Diesel Fuel Filter WNA 5074 Special Characteristics and Inspection Characteristics Fuel Filter Benzin In connection with this, the W-B-0718 in the Intranet also applies:",
+        "Characteristic Diesel Fuel Filter WNA 5074 Besondere Merkmale und Prüfmerkmale Kraftstofffilter Benzin/ Special Characteristics and Inspection"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-398",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA  \n511"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "with location points on GD-Al-components WNA 511 Stiftschraube in GD-Al-Bauteilen / Stud bolt in GD-Al-components"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
       "citada": "DSGN-400",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -7958,6 +8051,50 @@
         "Characteristics Fuel Filter Benzin WNA 5090 Zeichnungsstandard für Filterelemente/ drawing standard for filter elements",
         "Valid is only the document available in the MAHLE Intranet. Copies are not subject to a updating utility. 4.8.2 Heat exchanger + filter elements (WNA 5090) They belong to the development and delivery scope but are developed in another department.",
         "➔ S-G-DN-5000 ➔ WNA 5090 ➔ WNA 5040"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-402",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA  \n502"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "plastic cover / cast metal housing for liquid filters WNA 502 Sägengewinde für Flüssigkeitsfilter / Buttress thread for fluid filters"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-435",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA  \n501"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Titel WNA 501 Gewinde im Dichtbereich Kunststoffdeckel / Gußgehaeuse für Flüssigkeitsfilter / Thread in sealing area"
       ],
       "arquivo": [
         "S-L-DN-5080-en_V07.pdf"
@@ -8010,6 +8147,76 @@
     {
       "pai": "DSGN-381",
       "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-457",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n5073"
+      ],
+      "paginas": [
+        25,
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "5071 Special characteristics heat exchanger WNA 5073 Special Characteristics and Inspection Characteristics Diesel Fuel Filter WNA",
+        "Besondere Merkmale Wärmetauscher/Special characteristics heat exchanger WNA 5073 Besondere Merkmale und Prüfmerkmale Kraftstofffilter Diesel/ Special Characteristics and Inspection"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-475",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA  \n5070"
+      ],
+      "paginas": [
+        25,
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "WNA 5070 Special characteristics oil filter WNA",
+        "abstimmen WNA 5070 Besondere Merkmale Oelfilter/Special characteristics oilfilter"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-477",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n5005"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Filter Systems GmbH WNA 5005 Referenz-Punkt-System (RPS)/ Datum - Point- System (RPS)"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
       "citada": "DSGN-490",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -8024,6 +8231,52 @@
       ],
       "evidencia": [
         "Sägengewinde für Flüssigkeitsfilter / Buttress thread for fluid filters WNA 503 Gewindeausläufe für metrisches ISO-Regelgewinde, Richtwerte für Gewindegrundlöcher an GD-Al-"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-495",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n5071"
+      ],
+      "paginas": [
+        25,
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "5070 Special characteristics oil filter WNA 5071 Special characteristics heat exchanger WNA",
+        "Besondere Merkmale Oelfilter/Special characteristics oilfilter WNA 5071 Besondere Merkmale Wärmetauscher/Special characteristics heat exchanger"
+      ],
+      "arquivo": [
+        "S-L-DN-5080-en_V07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-381",
+      "pai_nome_antigo": "S-L-DN-5080-en",
+      "citada": "DSGN-512",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n60451"
+      ],
+      "paginas": [
+        33
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Abdichtung von Öko-Ölfilter-Einsätzen mit innendichtenden Kunststoffendscheiben (IDI) WNA 60451 Abdichtung von Oeko-Oelfilter-Einsätzen mit Vlies-Endscheibe"
       ],
       "arquivo": [
         "S-L-DN-5080-en_V07.pdf"
@@ -8192,94 +8445,6 @@
     {
       "pai": "DSGN-381",
       "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 5005",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA \n5005"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Filter Systems GmbH WNA 5005 Referenz-Punkt-System (RPS)/ Datum - Point- System (RPS)"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 501",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "WNA  \n501"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Titel WNA 501 Gewinde im Dichtbereich Kunststoffdeckel / Gußgehaeuse für Flüssigkeitsfilter / Thread in sealing area"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 502",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "WNA  \n502"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "plastic cover / cast metal housing for liquid filters WNA 502 Sägengewinde für Flüssigkeitsfilter / Buttress thread for fluid filters"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 504",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA  \n504"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Bauteilen WNA 504 Gewindefurchende Schrauben Richtwerte für die Kernlochgestaltung an GD-Al-Bauteilen/ Thread grooving"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
       "citada": "WNA 5040",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -8298,102 +8463,6 @@
       "evidencia": [
         "Referenz-Punkt-System (RPS)/ Datum - Point- System (RPS) WNA 5040 Zeichnungseintragung für Elastomerbauteile / Drawing entry for elastomer components- > Immer mit Labor",
         "➔ WNA 5090 ➔ WNA 5040"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 5070",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA  \n5070"
-      ],
-      "paginas": [
-        25,
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "WNA 5070 Special characteristics oil filter WNA",
-        "abstimmen WNA 5070 Besondere Merkmale Oelfilter/Special characteristics oilfilter"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 5071",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA \n5071"
-      ],
-      "paginas": [
-        25,
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "5070 Special characteristics oil filter WNA 5071 Special characteristics heat exchanger WNA",
-        "Besondere Merkmale Oelfilter/Special characteristics oilfilter WNA 5071 Besondere Merkmale Wärmetauscher/Special characteristics heat exchanger"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 5073",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA \n5073"
-      ],
-      "paginas": [
-        25,
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "5071 Special characteristics heat exchanger WNA 5073 Special Characteristics and Inspection Characteristics Diesel Fuel Filter WNA",
-        "Besondere Merkmale Wärmetauscher/Special characteristics heat exchanger WNA 5073 Besondere Merkmale und Prüfmerkmale Kraftstofffilter Diesel/ Special Characteristics and Inspection"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 5074",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "WNA \n5074"
-      ],
-      "paginas": [
-        25,
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "5073 Special Characteristics and Inspection Characteristics Diesel Fuel Filter WNA 5074 Special Characteristics and Inspection Characteristics Fuel Filter Benzin In connection with this, the W-B-0718 in the Intranet also applies:",
-        "Characteristic Diesel Fuel Filter WNA 5074 Besondere Merkmale und Prüfmerkmale Kraftstofffilter Benzin/ Special Characteristics and Inspection"
       ],
       "arquivo": [
         "S-L-DN-5080-en_V07.pdf"
@@ -8438,50 +8507,6 @@
       ],
       "evidencia": [
         "Formdichtung mit Dichtnut im GD-Al-Gehäuse / Form sealing with sealing groove for GD-Al-housings WNA 509 Schutzsenkung für Dichtflächen an GD-Al-Bauteilen"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 510",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "WNA  \n510"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Schutzsenkung für Dichtflächen an GD-Al-Bauteilen WNA 510 Spann- und Auflageflächen mit Aufnahmepunkten an GD-Al-Bauteilen / Restrained and bearing surfaces"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 511",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "WNA  \n511"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "with location points on GD-Al-components WNA 511 Stiftschraube in GD-Al-Bauteilen / Stud bolt in GD-Al-components"
       ],
       "arquivo": [
         "S-L-DN-5080-en_V07.pdf"
@@ -8600,28 +8625,6 @@
     {
       "pai": "DSGN-381",
       "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 60451",
-      "tipo": "interna",
-      "status_mapa": "LEGADO_SEM_SUCESSOR",
-      "codigo_bruto": [
-        "WNA \n60451"
-      ],
-      "paginas": [
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Abdichtung von Öko-Ölfilter-Einsätzen mit innendichtenden Kunststoffendscheiben (IDI) WNA 60451 Abdichtung von Oeko-Oelfilter-Einsätzen mit Vlies-Endscheibe"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
       "citada": "WNA 668",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -8636,32 +8639,6 @@
       ],
       "evidencia": [
         "Faltenzahl und Filterfläche von Ringeinsätzen für Flüssigkeitsfilter WNA 668 Faltenteilung von Ringeinsätzen mit Endscheiben für Flüssigkeitsfilter"
-      ],
-      "arquivo": [
-        "S-L-DN-5080-en_V07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-381",
-      "pai_nome_antigo": "S-L-DN-5080-en",
-      "citada": "WNA 691",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 691",
-        "WNA  \n691"
-      ],
-      "paginas": [
-        29,
-        33
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "4.5.5 Pore classification of light metal cast parts ➔ According to WNA 691!",
-        "I, II, III, IV = permissible flaws according to WNA 691",
-        "Faltenteilung von Ringeinsätzen mit Endscheiben für Flüssigkeitsfilter WNA 691 Zulässige Fehlstellen an Aluminium-Gussteilen / Allowed discontinuities at aluminum casted parts"
       ],
       "arquivo": [
         "S-L-DN-5080-en_V07.pdf"
@@ -8904,7 +8881,7 @@
       "pai_nome_antigo": "S-F-PT-0668-en",
       "citada": "S-F-DN-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0658-de"
       ],
@@ -9046,6 +9023,31 @@
     {
       "pai": "DSGN-386",
       "pai_nome_antigo": "S-G-DN-0550-en",
+      "citada": "DSGN-481",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 654"
+      ],
+      "paginas": [
+        5,
+        9
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "Number of pleats : _____  acc. WNA 654/ ___ Pleat height",
+        "WNA 550/1 WNA 654 WNA 270"
+      ],
+      "arquivo": [
+        "S-G-DN-0550-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-386",
+      "pai_nome_antigo": "S-G-DN-0550-en",
       "citada": "DSGN-486",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -9130,30 +9132,6 @@
     {
       "pai": "DSGN-386",
       "pai_nome_antigo": "S-G-DN-0550-en",
-      "citada": "WNA 550",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 550"
-      ],
-      "paginas": [
-        6
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Pleat fixation acc. to WNA 550 / 1+3 Run-along glue bead on clean side and laid-on glue bead on dust side",
-        "Pleat fixation acc. to WNA 550 / 2+3 Run-along glue bead on clean and dust side",
-        "with the numbers after \" WNA 550 /\" corresponding to the respective version. 4.3"
-      ],
-      "arquivo": [
-        "S-G-DN-0550-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-386",
-      "pai_nome_antigo": "S-G-DN-0550-en",
       "citada": "WNA 550/1",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -9221,31 +9199,6 @@
         "Pleat fixation acc to WNA 550/3 (laid-on glue bead) (Type of glue bead also needs to be described in text form)",
         "0.722 g/100 mm pleated block length Pleat fixation acc to WNA 550/3 (laid-on glue bead) (Type of glue bead also needs to be described in text form)",
         "WNA 685 WNA 550/3 WNA 550/2"
-      ],
-      "arquivo": [
-        "S-G-DN-0550-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-386",
-      "pai_nome_antigo": "S-G-DN-0550-en",
-      "citada": "WNA 654",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "WNA 654"
-      ],
-      "paginas": [
-        5,
-        9
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "Number of pleats : _____  acc. WNA 654/ ___ Pleat height",
-        "WNA 550/1 WNA 654 WNA 270"
       ],
       "arquivo": [
         "S-G-DN-0550-en.pdf"
@@ -9370,7 +9323,7 @@
       "pai_nome_antigo": "S-F-PT-0616-de",
       "citada": "S-F-DN-0664",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0664-de"
       ],
@@ -9558,7 +9511,7 @@
       "pai_nome_antigo": "S-F-PT-6541-en",
       "citada": "S-F-DN-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0658-de"
       ],
@@ -9580,7 +9533,7 @@
       "pai_nome_antigo": "S-F-PT-6541-en",
       "citada": "S-F-DN-0660",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0660-en"
       ],
@@ -9602,7 +9555,7 @@
       "pai_nome_antigo": "S-F-PT-6541-en",
       "citada": "S-F-DN-0664",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0664-de"
       ],
@@ -9666,6 +9619,28 @@
     {
       "pai": "DSGN-389",
       "pai_nome_antigo": "S-A-PT-5033-en",
+      "citada": "DSGN-477",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 5005"
+      ],
+      "paginas": [
+        12
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Drawing standard at MAHLE Filter Systems GmbH WNA 5005:"
+      ],
+      "arquivo": [
+        "S-A-PT-5033-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-389",
+      "pai_nome_antigo": "S-A-PT-5033-en",
       "citada": "DSGN-478",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -9705,28 +9680,6 @@
       ],
       "evidencia": [
         "Referenced documents DIN ISO 20457: Plastics moulded parts- Tolerances and acceptance conditions"
-      ],
-      "arquivo": [
-        "S-A-PT-5033-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-389",
-      "pai_nome_antigo": "S-A-PT-5033-en",
-      "citada": "WNA 5005",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 5005"
-      ],
-      "paginas": [
-        12
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Drawing standard at MAHLE Filter Systems GmbH WNA 5005:"
       ],
       "arquivo": [
         "S-A-PT-5033-en.pdf"
@@ -10085,6 +10038,28 @@
     {
       "pai": "DSGN-391",
       "pai_nome_antigo": "G-G-PT-5025-en",
+      "citada": "MNFG-484",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 6010"
+      ],
+      "paginas": [
+        72
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "S-G-MA-6009 : Setup Process for Vibration Weld Tooling WNA 6010 : Vibration Welding Water Absorption Criteria G-A-PT-5049 : Vibration welding line execution for clean air ducts and charge air pipes"
+      ],
+      "arquivo": [
+        "G-G-PT-5025-en_2025_02_07.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-391",
+      "pai_nome_antigo": "G-G-PT-5025-en",
       "citada": "MNFG-506",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -10158,28 +10133,6 @@
       "evidencia": [
         "S-G-MA-6007 : Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling WNA 6008 : Linear Vibration Welding Tooling Specification S-G-MA-6009 : Setup Process for Vibration Weld Tooling",
         "• WNA 6008 •"
-      ],
-      "arquivo": [
-        "G-G-PT-5025-en_2025_02_07.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-391",
-      "pai_nome_antigo": "G-G-PT-5025-en",
-      "citada": "WNA 6010",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 6010"
-      ],
-      "paginas": [
-        72
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "S-G-MA-6009 : Setup Process for Vibration Weld Tooling WNA 6010 : Vibration Welding Water Absorption Criteria G-A-PT-5049 : Vibration welding line execution for clean air ducts and charge air pipes"
       ],
       "arquivo": [
         "G-G-PT-5025-en_2025_02_07.pdf"
@@ -10595,6 +10548,32 @@
     {
       "pai": "DSGN-395",
       "pai_nome_antigo": "S-G-PT-5075-en",
+      "citada": "DSGN-478",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA5010",
+        "WNA 5010"
+      ],
+      "paginas": [
+        8,
+        19
+      ],
+      "secao": [
+        "Corpo",
+        "Lessons Learned"
+      ],
+      "evidencia": [
+        "The O-ring drawing contains the front view and a section view, as shown in Figure 7. The standard text according to WNA5010 must be entered on the drawing and the corresponding information must be inserted. It should be noted that the \"WNA3200\" validation test point is only valid for MAHLE and",
+        "- WNA 5010: General Specifications for Drawings Drawing standard for air intake modules, valve cover modules and components"
+      ],
+      "arquivo": [
+        "S-G-PT-5075-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-395",
+      "pai_nome_antigo": "S-G-PT-5075-en",
       "citada": "ISO 10135",
       "tipo": "publica",
       "status_mapa": "",
@@ -10691,32 +10670,6 @@
         "To create a standardized nomenclature for interfaces with an O-ring seal, uniform terms and symbols are defined in accordance with ISO 3601-2:2008. Furthermore, drawing entries for the receiving bore and the element to be paired with the bore (also",
         "Note 1: The specification of z is to be understood as the minimum length of the lead-in chamfer according to ISO 3601-2:2008. This should still be extended in the design as far as this is constructively possible. Optimal design of z can be achieved with the formula:",
         "- ISO 3601-2:2008: Fluid power systems - O-rings - Part 2: Housing dimensions for general applications"
-      ],
-      "arquivo": [
-        "S-G-PT-5075-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-395",
-      "pai_nome_antigo": "S-G-PT-5075-en",
-      "citada": "WNA 5010",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA5010",
-        "WNA 5010"
-      ],
-      "paginas": [
-        8,
-        19
-      ],
-      "secao": [
-        "Corpo",
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "The O-ring drawing contains the front view and a section view, as shown in Figure 7. The standard text according to WNA5010 must be entered on the drawing and the corresponding information must be inserted. It should be noted that the \"WNA3200\" validation test point is only valid for MAHLE and",
-        "- WNA 5010: General Specifications for Drawings Drawing standard for air intake modules, valve cover modules and components"
       ],
       "arquivo": [
         "S-G-PT-5075-en.pdf"
@@ -10969,6 +10922,54 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-359",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 260",
+        "WNA \n260"
+      ],
+      "paginas": [
+        12,
+        13
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "acc. to WNA 260",
+        "WNA 260 Number of pleat tolerances"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-361",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n655"
+      ],
+      "paginas": [
+        14
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "WNA 655 Calculation and Design of Cabin Air Filters"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "DSGN-368",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -11005,6 +11006,54 @@
       ],
       "evidencia": [
         "housing geometry WNA 653 Filter area calculation of filter elements - number of pleats, paper area and effective"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-386",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n550"
+      ],
+      "paginas": [
+        13
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Dimensional tolerances for panel elements WNA 550 Fixation of pleat packs for panel air filter elements by using glue beads"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-419",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA656",
+        "WNA \n656"
+      ],
+      "paginas": [
+        13,
+        14
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "bar geometry acc.to :WNA656 (1.2mm)",
+        "Calculation and Design of Cabin Air Filters WNA 656 Bar geometry in filter elements"
       ],
       "arquivo": [
         "S-F-DN-5090-en.pdf"
@@ -11060,6 +11109,58 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-475",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n5070",
+        "WNA  \n5070"
+      ],
+      "paginas": [
+        9,
+        14
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "4.6.8 Addition to chapter 16 Additional to WNA 5000 chapter 16 Critical characteristics for all oilfilter elements additionally WNA 5070 Besondere Merkmale Oelfilter is valid.",
+        "Drawing notation for rubber parts WNA 5070 Special characteristics oil filter"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-481",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA654",
+        "WNA \n654"
+      ],
+      "paginas": [
+        13,
+        14
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "number of pleats: __ ± __ (acc. to WNA654± __) pleats height:",
+        "filter area WNA 654 Pleat pitches filter elements (general)"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "DSGN-486",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -11074,6 +11175,28 @@
       ],
       "evidencia": [
         "Number of pleat tolerances WNA 270 Dimensional tolerances for panel elements"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-512",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA \n60451"
+      ],
+      "paginas": [
+        14
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "(IDI) WNA 60451 Sealing of eco oil filter inserts with fleece end plates"
       ],
       "arquivo": [
         "S-F-DN-5090-en.pdf"
@@ -11519,32 +11642,6 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 260",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 260",
-        "WNA \n260"
-      ],
-      "paginas": [
-        12,
-        13
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "acc. to WNA 260",
-        "WNA 260 Number of pleat tolerances"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "WNA 5040",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -11559,32 +11656,6 @@
       ],
       "evidencia": [
         "Drawing standard at MAHLE Filter Systems GmbH WNA 5040 Drawing notation for rubber parts"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 5070",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA \n5070",
-        "WNA  \n5070"
-      ],
-      "paginas": [
-        9,
-        14
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "4.6.8 Addition to chapter 16 Additional to WNA 5000 chapter 16 Critical characteristics for all oilfilter elements additionally WNA 5070 Besondere Merkmale Oelfilter is valid.",
-        "Drawing notation for rubber parts WNA 5070 Special characteristics oil filter"
       ],
       "arquivo": [
         "S-F-DN-5090-en.pdf"
@@ -11640,28 +11711,6 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 550",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA \n550"
-      ],
-      "paginas": [
-        13
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Dimensional tolerances for panel elements WNA 550 Fixation of pleat packs for panel air filter elements by using glue beads"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "WNA 604-2",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -11706,28 +11755,6 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 60451",
-      "tipo": "interna",
-      "status_mapa": "LEGADO_SEM_SUCESSOR",
-      "codigo_bruto": [
-        "WNA \n60451"
-      ],
-      "paginas": [
-        14
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "(IDI) WNA 60451 Sealing of eco oil filter inserts with fleece end plates"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "WNA 60523",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -11764,32 +11791,6 @@
       ],
       "evidencia": [
         "MAHLE internal (CL2) WNA 619 Plastic air-cleaner housings containing plate elements: housing geometry"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 654",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "WNA654",
-        "WNA \n654"
-      ],
-      "paginas": [
-        13,
-        14
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "number of pleats: __ ± __ (acc. to WNA654± __) pleats height:",
-        "filter area WNA 654 Pleat pitches filter elements (general)"
       ],
       "arquivo": [
         "S-F-DN-5090-en.pdf"
@@ -11846,57 +11847,9 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 655",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA \n655"
-      ],
-      "paginas": [
-        14
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "WNA 655 Calculation and Design of Cabin Air Filters"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 656",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA656",
-        "WNA \n656"
-      ],
-      "paginas": [
-        13,
-        14
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "bar geometry acc.to :WNA656 (1.2mm)",
-        "Calculation and Design of Cabin Air Filters WNA 656 Bar geometry in filter elements"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "WNA 684",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "WNA 684",
         "WNA \n684"
@@ -12390,6 +12343,28 @@
     {
       "pai": "DSGN-404",
       "pai_nome_antigo": "S-A-DN-5020-en",
+      "citada": "DSGN-477",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 5005"
+      ],
+      "paginas": [
+        11
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "As a rule, datums should be defined according to the 3-2-1 rule (plane, line, point). Preferably, a datum system is created with the help of a datum point system according to WNA 5005, which is compatible to the ISO standard, but not actually fixed in the ISO standard. In this system, a datum"
+      ],
+      "arquivo": [
+        "S-A-DN-5020-en_V05.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-404",
+      "pai_nome_antigo": "S-A-DN-5020-en",
       "citada": "ISO 10135",
       "tipo": "publica",
       "status_mapa": "",
@@ -12426,28 +12401,6 @@
       ],
       "evidencia": [
         "4.2.2 Assembly Deviations from DIN ISO 5456-2: The position of views may deviate for reasons of space or representation."
-      ],
-      "arquivo": [
-        "S-A-DN-5020-en_V05.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-404",
-      "pai_nome_antigo": "S-A-DN-5020-en",
-      "citada": "WNA 5005",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 5005"
-      ],
-      "paginas": [
-        11
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "As a rule, datums should be defined according to the 3-2-1 rule (plane, line, point). Preferably, a datum system is created with the help of a datum point system according to WNA 5005, which is compatible to the ISO standard, but not actually fixed in the ISO standard. In this system, a datum"
       ],
       "arquivo": [
         "S-A-DN-5020-en_V05.pdf"
@@ -13590,7 +13543,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "DIN 1688-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -13612,7 +13565,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "DIN 1688-3",
       "tipo": "publica",
       "status_mapa": "",
@@ -13634,7 +13587,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "DIN 1688-4",
       "tipo": "publica",
       "status_mapa": "",
@@ -13656,7 +13609,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "DIN 2769",
       "tipo": "publica",
       "status_mapa": "",
@@ -13678,7 +13631,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "DSGN-400",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -13700,7 +13653,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 10135",
       "tipo": "publica",
       "status_mapa": "",
@@ -13722,7 +13675,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 10579",
       "tipo": "publica",
       "status_mapa": "",
@@ -13744,7 +13697,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 1101",
       "tipo": "publica",
       "status_mapa": "",
@@ -13766,7 +13719,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 1302",
       "tipo": "publica",
       "status_mapa": "",
@@ -13788,7 +13741,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 13715",
       "tipo": "publica",
       "status_mapa": "",
@@ -13810,7 +13763,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 14405-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -13832,7 +13785,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 14405-2",
       "tipo": "publica",
       "status_mapa": "",
@@ -13854,7 +13807,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 14405-3",
       "tipo": "publica",
       "status_mapa": "",
@@ -13876,7 +13829,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 16332",
       "tipo": "publica",
       "status_mapa": "",
@@ -13898,7 +13851,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 19438",
       "tipo": "publica",
       "status_mapa": "",
@@ -13920,7 +13873,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 20457",
       "tipo": "publica",
       "status_mapa": "",
@@ -13943,7 +13896,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 22081",
       "tipo": "publica",
       "status_mapa": "",
@@ -13965,7 +13918,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 2692",
       "tipo": "publica",
       "status_mapa": "",
@@ -13987,7 +13940,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 286-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -14009,7 +13962,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 286-2",
       "tipo": "publica",
       "status_mapa": "",
@@ -14031,7 +13984,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 2942",
       "tipo": "publica",
       "status_mapa": "",
@@ -14053,7 +14006,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 3601-3",
       "tipo": "publica",
       "status_mapa": "",
@@ -14075,7 +14028,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 4020",
       "tipo": "publica",
       "status_mapa": "",
@@ -14097,7 +14050,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 4548-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -14119,7 +14072,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 4548-12",
       "tipo": "publica",
       "status_mapa": "",
@@ -14141,7 +14094,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 4548-5",
       "tipo": "publica",
       "status_mapa": "",
@@ -14163,7 +14116,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 4548-7",
       "tipo": "publica",
       "status_mapa": "",
@@ -14185,7 +14138,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 5458",
       "tipo": "publica",
       "status_mapa": "",
@@ -14207,7 +14160,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 5459",
       "tipo": "publica",
       "status_mapa": "",
@@ -14229,7 +14182,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 8015",
       "tipo": "publica",
       "status_mapa": "",
@@ -14251,7 +14204,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "MEAS-587",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -14275,7 +14228,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "W-B-0718",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -15319,7 +15272,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "DSGN-355",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15341,7 +15294,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "DSGN-359",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15363,7 +15316,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "DSGN-364",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15385,7 +15338,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "DSGN-403",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15407,7 +15360,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "DSGN-472",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15429,7 +15382,29 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
+      "citada": "DSGN-486",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-MA-0270-en"
+      ],
+      "paginas": [
+        3
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "S-F-PT-0255-en S-F-MA-0270-en S-F-PT-0260-en"
+      ],
+      "arquivo": [
+        "S-F-PT-0619-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-423",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "MATL-559",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15451,7 +15426,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "MEAS-591",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -15473,29 +15448,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
-      "citada": "S-F-MA-0270",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "S-F-MA-0270-en"
-      ],
-      "paginas": [
-        3
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "S-F-PT-0255-en S-F-MA-0270-en S-F-PT-0260-en"
-      ],
-      "arquivo": [
-        "S-F-PT-0619-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-F-PT-0619",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -15520,7 +15473,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-F-PT-0620",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -15542,7 +15495,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -15564,7 +15517,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-F-PT-6521",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -15586,7 +15539,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-G-ML-2008",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -17870,9 +17823,9 @@
     {
       "pai": "DSGN-436",
       "pai_nome_antigo": "G-I-PT-5035-en",
-      "citada": "WNA 5010",
+      "citada": "DSGN-478",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "WNA 5010"
       ],
@@ -17964,31 +17917,9 @@
     {
       "pai": "DSGN-438",
       "pai_nome_antigo": "S-L-PT-0508-en",
-      "citada": "ISO 10579",
-      "tipo": "publica",
-      "status_mapa": "",
-      "codigo_bruto": [
-        "ISO 10579"
-      ],
-      "paginas": [
-        46
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "ISO 10579"
-      ],
-      "arquivo": [
-        "S-L-PT-0508-en_V05.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-438",
-      "pai_nome_antigo": "S-L-PT-0508-en",
-      "citada": "WNA 5070",
+      "citada": "DSGN-475",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "WNA 5070"
       ],
@@ -18020,6 +17951,28 @@
         "- Sealing surface area marked as Inspection Characteristic acc. WNA 5070",
         "- Special Characteristics acc. WNA 5070",
         "Referenced documents WNA 5070"
+      ],
+      "arquivo": [
+        "S-L-PT-0508-en_V05.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-438",
+      "pai_nome_antigo": "S-L-PT-0508-en",
+      "citada": "ISO 10579",
+      "tipo": "publica",
+      "status_mapa": "",
+      "codigo_bruto": [
+        "ISO 10579"
+      ],
+      "paginas": [
+        46
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "ISO 10579"
       ],
       "arquivo": [
         "S-L-PT-0508-en_V05.pdf"
@@ -19000,9 +18953,9 @@
     {
       "pai": "DSGN-460",
       "pai_nome_antigo": "G-A-PT-5037-en",
-      "citada": "WNA 5020",
+      "citada": "DSGN-404",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "WNA 5020"
       ],
@@ -20514,6 +20467,50 @@
     {
       "pai": "DSGN-475",
       "pai_nome_antigo": "S-L-DN-5070-en",
+      "citada": "DSGN-457",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 5073"
+      ],
+      "paginas": [
+        14
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "22.01.2019 Characterisation specification adjusted in according to W-BE-0718 and special features added in welding procedures (coordination with WNA 5073) 09.12.2020 Correction from SC to Inspection Characteristic, at the point “connection bores: Roughness at"
+      ],
+      "arquivo": [
+        "S-L-DN-5070-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-475",
+      "pai_nome_antigo": "S-L-DN-5070-en",
+      "citada": "DSGN-495",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 5071"
+      ],
+      "paginas": [
+        14
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "13.02.2013 WNA 5070 was added to the WN 28.03.2013 Characteristic bursting pressure at item heat exchanger added (coordination with WNA 5071) 07.05.2014 Marking specification adapted to W-BE-0718; English translation created as a separate document"
+      ],
+      "arquivo": [
+        "S-L-DN-5070-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-475",
+      "pai_nome_antigo": "S-L-DN-5070-en",
       "citada": "DSGN-499",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -20550,72 +20547,6 @@
       ],
       "evidencia": [
         "defined Hot gas welding WNA 5027"
-      ],
-      "arquivo": [
-        "S-L-DN-5070-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-475",
-      "pai_nome_antigo": "S-L-DN-5070-en",
-      "citada": "WNA 5070",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 5070"
-      ],
-      "paginas": [
-        14
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Changes: 13.02.2013 WNA 5070 was added to the WN 28.03.2013 Characteristic bursting pressure at item heat exchanger added (coordination with WNA 5071)"
-      ],
-      "arquivo": [
-        "S-L-DN-5070-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-475",
-      "pai_nome_antigo": "S-L-DN-5070-en",
-      "citada": "WNA 5071",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 5071"
-      ],
-      "paginas": [
-        14
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "13.02.2013 WNA 5070 was added to the WN 28.03.2013 Characteristic bursting pressure at item heat exchanger added (coordination with WNA 5071) 07.05.2014 Marking specification adapted to W-BE-0718; English translation created as a separate document"
-      ],
-      "arquivo": [
-        "S-L-DN-5070-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-475",
-      "pai_nome_antigo": "S-L-DN-5070-en",
-      "citada": "WNA 5073",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 5073"
-      ],
-      "paginas": [
-        14
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "22.01.2019 Characterisation specification adjusted in according to W-BE-0718 and special features added in welding procedures (coordination with WNA 5073) 09.12.2020 Correction from SC to Inspection Characteristic, at the point “connection bores: Roughness at"
       ],
       "arquivo": [
         "S-L-DN-5070-en.pdf"
@@ -21182,7 +21113,7 @@
       "pai_nome_antigo": "S-F-PT-0654-en",
       "citada": "S-F-DN-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0658-de"
       ],
@@ -21207,7 +21138,7 @@
       "pai_nome_antigo": "S-F-PT-0654-en",
       "citada": "S-F-DN-0660",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0660-en"
       ],
@@ -21232,7 +21163,7 @@
       "pai_nome_antigo": "S-F-PT-0654-en",
       "citada": "S-F-DN-0664",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0664-de"
       ],
@@ -21668,6 +21599,28 @@
     {
       "pai": "DSGN-484",
       "pai_nome_antigo": "G-G-PT-5029-en",
+      "citada": "MNFG-484",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 6010"
+      ],
+      "paginas": [
+        13
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Filtersysteme GmbH WNA 6010:"
+      ],
+      "arquivo": [
+        "G-G-PT-5029-en_V01.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-484",
+      "pai_nome_antigo": "G-G-PT-5029-en",
       "citada": "MNFG-492",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -21772,28 +21725,6 @@
       ],
       "evidencia": [
         "Mirror welding S-L-PT-5026 S-G-MA-"
-      ],
-      "arquivo": [
-        "G-G-PT-5029-en_V01.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-484",
-      "pai_nome_antigo": "G-G-PT-5029-en",
-      "citada": "WNA 6010",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 6010"
-      ],
-      "paginas": [
-        13
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Filtersysteme GmbH WNA 6010:"
       ],
       "arquivo": [
         "G-G-PT-5029-en_V01.pdf"
@@ -22899,6 +22830,29 @@
     {
       "pai": "DSGN-490",
       "pai_nome_antigo": "S-L-PT-0503-de",
+      "citada": "DSGN-351",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 504"
+      ],
+      "paginas": [
+        3
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "Schutzsenkung siehe auch WNA 504 b = a + 4· Steigung",
+        "Schutzsenkung siehe auch WNA 504 b = a + Steigung + 1"
+      ],
+      "arquivo": [
+        "S-L-PT-0503-de.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-490",
+      "pai_nome_antigo": "S-L-PT-0503-de",
       "citada": "ISO 2768",
       "tipo": "publica",
       "status_mapa": "",
@@ -22915,29 +22869,6 @@
         "b = a + 4· Steigung Toleranz = ISO 2768 mK",
         "b = a + 2,5· Steigung Toleranz: = ISO 2768 mK",
         "b = a + Steigung + 1 Toleranz: = ISO 2768 mK"
-      ],
-      "arquivo": [
-        "S-L-PT-0503-de.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-490",
-      "pai_nome_antigo": "S-L-PT-0503-de",
-      "citada": "WNA 504",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 504"
-      ],
-      "paginas": [
-        3
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Schutzsenkung siehe auch WNA 504 b = a + 4· Steigung",
-        "Schutzsenkung siehe auch WNA 504 b = a + Steigung + 1"
       ],
       "arquivo": [
         "S-L-PT-0503-de.pdf"
@@ -23094,7 +23025,7 @@
     },
     {
       "pai": "DSGN-494",
-      "pai_nome_antigo": "S-L-TG-2143-de (V01)",
+      "pai_nome_antigo": "S-L-TG-2143-de",
       "citada": "S-L-PT-2143",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -23243,7 +23174,7 @@
       "pai_nome_antigo": "S-F-PT-6542-en",
       "citada": "S-F-DN-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0658-de"
       ],
@@ -23268,7 +23199,7 @@
       "pai_nome_antigo": "S-F-PT-6542-en",
       "citada": "S-F-DN-0660",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0660-en"
       ],
@@ -23293,7 +23224,7 @@
       "pai_nome_antigo": "S-F-PT-6542-en",
       "citada": "S-F-DN-0664",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0664-de"
       ],
@@ -25136,35 +25067,6 @@
     },
     {
       "pai": "MATL-546",
-      "pai_nome_antigo": "S-F-ML-4013-en (V01)",
-      "citada": "MEAS-588",
-      "tipo": "interna",
-      "status_mapa": "RESOLVIDO",
-      "codigo_bruto": [
-        "S-G-TG-4013-en"
-      ],
-      "paginas": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "secao": [
-        "Corpo",
-        "Termos/Abreviaturas"
-      ],
-      "evidencia": [
-        "Document-No. S-G-TG-4013-en Version"
-      ],
-      "arquivo": [
-        "S-G-TG-4013-en.pdf"
-      ]
-    },
-    {
-      "pai": "MATL-546",
       "pai_nome_antigo": "S-F-ML-4013-en",
       "citada": "NEN 1842",
       "tipo": "publica",
@@ -26102,7 +26004,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "DIN 75200",
       "tipo": "publica",
       "status_mapa": "",
@@ -26124,7 +26026,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "DIN 75201",
       "tipo": "publica",
       "status_mapa": "",
@@ -26146,7 +26048,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "FMVSS 302",
       "tipo": "publica",
       "status_mapa": "",
@@ -26168,7 +26070,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "ISO 846",
       "tipo": "publica",
       "status_mapa": "",
@@ -26190,7 +26092,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "ISO 9073-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -26212,7 +26114,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "ISO 9073-2",
       "tipo": "publica",
       "status_mapa": "",
@@ -26234,7 +26136,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "ISO 9073-3",
       "tipo": "publica",
       "status_mapa": "",
@@ -26259,7 +26161,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "ISO 9073-7",
       "tipo": "publica",
       "status_mapa": "",
@@ -26282,7 +26184,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "ISO 9237",
       "tipo": "publica",
       "status_mapa": "",
@@ -26304,7 +26206,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "MEAS-579",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -26333,7 +26235,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "S-G-ML-2008",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -26355,7 +26257,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "VDA 270",
       "tipo": "publica",
       "status_mapa": "",
@@ -29056,7 +28958,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "DIN 75200",
       "tipo": "publica",
       "status_mapa": "",
@@ -29078,7 +28980,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "DIN 75201",
       "tipo": "publica",
       "status_mapa": "",
@@ -29100,7 +29002,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "FMVSS 302",
       "tipo": "publica",
       "status_mapa": "",
@@ -29122,7 +29024,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "ISO 846",
       "tipo": "publica",
       "status_mapa": "",
@@ -29144,7 +29046,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "ISO 9073-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -29166,7 +29068,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "ISO 9073-2",
       "tipo": "publica",
       "status_mapa": "",
@@ -29188,7 +29090,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "ISO 9073-3",
       "tipo": "publica",
       "status_mapa": "",
@@ -29213,7 +29115,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "ISO 9073-7",
       "tipo": "publica",
       "status_mapa": "",
@@ -29236,7 +29138,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "ISO 9237",
       "tipo": "publica",
       "status_mapa": "",
@@ -29258,7 +29160,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "MEAS-579",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -29285,7 +29187,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "VDA 270",
       "tipo": "publica",
       "status_mapa": "",
@@ -43274,7 +43176,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "EN 20187",
       "tipo": "publica",
       "status_mapa": "",
@@ -43296,7 +43198,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "ISO 19438",
       "tipo": "publica",
       "status_mapa": "",
@@ -43318,7 +43220,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "ISO 554",
       "tipo": "publica",
       "status_mapa": "",
@@ -43340,7 +43242,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "MEAS-579",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -57120,9 +57022,9 @@
     {
       "pai": "MEAS-525",
       "pai_nome_antigo": "S-F-ME-0647",
-      "citada": "WNA 655",
+      "citada": "DSGN-361",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "WNA 655"
       ],
@@ -57414,9 +57316,9 @@
     {
       "pai": "MEAS-551",
       "pai_nome_antigo": "S-G-TG-4009-en",
-      "citada": "WNA 4010",
+      "citada": "MEAS-575",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "WNA 4010"
       ],
@@ -57790,6 +57692,31 @@
     {
       "pai": "MEAS-568",
       "pai_nome_antigo": "S-F-ME-6561-en",
+      "citada": "DSGN-359",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 260"
+      ],
+      "paginas": [
+        3,
+        16
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "• WNA 260 (tolerance of the number of folds) •",
+        "Referenced documents WNA 260 WNA 646"
+      ],
+      "arquivo": [
+        "S-F-ME-6561-en.pdf"
+      ]
+    },
+    {
+      "pai": "MEAS-568",
+      "pai_nome_antigo": "S-F-ME-6561-en",
       "citada": "DSGN-372",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -57807,6 +57734,31 @@
       "evidencia": [
         "• WNA 653 (calculation of the optimum paper area of a pleat star)",
         "WNA 646 WNA 653 WNA 654 or WNA 654/1"
+      ],
+      "arquivo": [
+        "S-F-ME-6561-en.pdf"
+      ]
+    },
+    {
+      "pai": "MEAS-568",
+      "pai_nome_antigo": "S-F-ME-6561-en",
+      "citada": "DSGN-481",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 654"
+      ],
+      "paginas": [
+        3,
+        16
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "• WNA 654 or WNA 654/1 (computation fold division) •",
+        "WNA 653 WNA 654 or WNA 654/1 WNA 684"
       ],
       "arquivo": [
         "S-F-ME-6561-en.pdf"
@@ -57893,31 +57845,6 @@
     {
       "pai": "MEAS-568",
       "pai_nome_antigo": "S-F-ME-6561-en",
-      "citada": "WNA 260",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 260"
-      ],
-      "paginas": [
-        3,
-        16
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "• WNA 260 (tolerance of the number of folds) •",
-        "Referenced documents WNA 260 WNA 646"
-      ],
-      "arquivo": [
-        "S-F-ME-6561-en.pdf"
-      ]
-    },
-    {
-      "pai": "MEAS-568",
-      "pai_nome_antigo": "S-F-ME-6561-en",
       "citada": "WNA 60561",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -57934,31 +57861,6 @@
         "Drawing entry The using of this standard on drawings should be presented, that after the reference of WNA 60561 further the to be carry out tests have to be added by information on to the regarding chapter.",
         "Example: Plastifizierung nach / plasticizing acc. to WNA 60561 (Kapitel / chapter 3, 5, 6, 7.6)",
         "The exemplary entry prescribes the observance the requirements of the following chapters from the WNA 60561:"
-      ],
-      "arquivo": [
-        "S-F-ME-6561-en.pdf"
-      ]
-    },
-    {
-      "pai": "MEAS-568",
-      "pai_nome_antigo": "S-F-ME-6561-en",
-      "citada": "WNA 654",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "WNA 654"
-      ],
-      "paginas": [
-        3,
-        16
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "• WNA 654 or WNA 654/1 (computation fold division) •",
-        "WNA 653 WNA 654 or WNA 654/1 WNA 684"
       ],
       "arquivo": [
         "S-F-ME-6561-en.pdf"
@@ -57994,7 +57896,7 @@
       "pai_nome_antigo": "S-F-ME-6561-en",
       "citada": "WNA 684",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "WNA 684"
       ],
@@ -58246,6 +58148,28 @@
     {
       "pai": "MEAS-572",
       "pai_nome_antigo": "S-G-TG-4000-en",
+      "citada": "MEAS-575",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 4010"
+      ],
+      "paginas": [
+        4
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Work Instruction flower test on a plastic weld WNA 4010 Work Instruction fracture pattern control of a plastic weld"
+      ],
+      "arquivo": [
+        "S-G-TG-4000-en.pdf"
+      ]
+    },
+    {
+      "pai": "MEAS-572",
+      "pai_nome_antigo": "S-G-TG-4000-en",
       "citada": "MEAS-587",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -58261,6 +58185,28 @@
       "evidencia": [
         "The pulsation test is carried out in accordance with “S-G-TG- 4050 en - Work Instruction pulsation test”",
         "The shaker test is carried out in accordance with “S-G-TG- 4050 en - Work Instruction shaker test”"
+      ],
+      "arquivo": [
+        "S-G-TG-4000-en.pdf"
+      ]
+    },
+    {
+      "pai": "MEAS-572",
+      "pai_nome_antigo": "S-G-TG-4000-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 4015"
+      ],
+      "paginas": [
+        3
+      ],
+      "secao": [
+        "Corpo"
+      ],
+      "evidencia": [
+        "The micrographic image is carried out in accordance with “WNA 4015 - Work instruction for micrographic image of a plastic weld”"
       ],
       "arquivo": [
         "S-G-TG-4000-en.pdf"
@@ -58341,28 +58287,6 @@
     {
       "pai": "MEAS-572",
       "pai_nome_antigo": "S-G-TG-4000-en",
-      "citada": "WNA 4010",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 4010"
-      ],
-      "paginas": [
-        4
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Work Instruction flower test on a plastic weld WNA 4010 Work Instruction fracture pattern control of a plastic weld"
-      ],
-      "arquivo": [
-        "S-G-TG-4000-en.pdf"
-      ]
-    },
-    {
-      "pai": "MEAS-572",
-      "pai_nome_antigo": "S-G-TG-4000-en",
       "citada": "WNA 4013",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -58405,28 +58329,6 @@
       "evidencia": [
         "The grinding picture is carried out in accordance with “WNA 4014 - Work instruction assessment of grinding picture on a plastic weld”",
         "Work instruction melting image assessment on a plastic weld WNA 4014 Work instruction step melt image assessment on a plastic weld"
-      ],
-      "arquivo": [
-        "S-G-TG-4000-en.pdf"
-      ]
-    },
-    {
-      "pai": "MEAS-572",
-      "pai_nome_antigo": "S-G-TG-4000-en",
-      "citada": "WNA 4015",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 4015"
-      ],
-      "paginas": [
-        3
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "The micrographic image is carried out in accordance with “WNA 4015 - Work instruction for micrographic image of a plastic weld”"
       ],
       "arquivo": [
         "S-G-TG-4000-en.pdf"
@@ -58718,6 +58620,31 @@
     {
       "pai": "MEAS-575",
       "pai_nome_antigo": "S-G-TG-4010-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 4015"
+      ],
+      "paginas": [
+        2,
+        4
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "investigation and detailed evaluation. A precise weld line analysis has to be done for example by tensile testing (WNA 4006) and microscopic analysis (WNA 4015). 2",
+        "WNA 4009 work instruction flower test on a plastic weld WNA 4015 work instruction for microscopic analysis of a plastic weld"
+      ],
+      "arquivo": [
+        "S-G-TG-4010-en.pdf"
+      ]
+    },
+    {
+      "pai": "MEAS-575",
+      "pai_nome_antigo": "S-G-TG-4010-en",
       "citada": "WNA 4009",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -58736,31 +58663,6 @@
         "WNA 4006 work instruction for tensile tests on a plastic weld line WNA 4009 work instruction flower test on a plastic weld WNA 4015 work instruction for microscopic analysis of a plastic weld",
         "4.1.2 Number of parts to be tested During process validation and mass production all parts coming from the flower test (WNA 4009) and tensile test (WNA 4006) must be investigated to identify big welding issues as soon as possible.",
         "• Since the parts must have been named already in the flower test (WNA 4009) as well as in the tensile test (WNA 4006), just refer to this naming"
-      ],
-      "arquivo": [
-        "S-G-TG-4010-en.pdf"
-      ]
-    },
-    {
-      "pai": "MEAS-575",
-      "pai_nome_antigo": "S-G-TG-4010-en",
-      "citada": "WNA 4015",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 4015"
-      ],
-      "paginas": [
-        2,
-        4
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "investigation and detailed evaluation. A precise weld line analysis has to be done for example by tensile testing (WNA 4006) and microscopic analysis (WNA 4015). 2",
-        "WNA 4009 work instruction flower test on a plastic weld WNA 4015 work instruction for microscopic analysis of a plastic weld"
       ],
       "arquivo": [
         "S-G-TG-4010-en.pdf"
@@ -61570,59 +61472,6 @@
       ]
     },
     {
-      "pai": "MEAS-596",
-      "pai_nome_antigo": "S-G-TG-4015-en",
-      "citada": "WNA 4015",
-      "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
-      "codigo_bruto": [
-        "WNA 4015"
-      ],
-      "paginas": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line"
-      ],
-      "arquivo": [
-        "S-G-TG-4015-en.pdf"
-      ]
-    },
-    {
       "pai": "MNFG-458",
       "pai_nome_antigo": "S-G-MA-3811-en",
       "citada": "FEFCO 0720",
@@ -62214,6 +62063,31 @@
     {
       "pai": "MNFG-469",
       "pai_nome_antigo": "S-F-MA-0617-en",
+      "citada": "DSGN-486",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-MA-0270-en"
+      ],
+      "paginas": [
+        2,
+        12
+      ],
+      "secao": [
+        "Termos/Abreviaturas",
+        "Referencias"
+      ],
+      "evidencia": [
+        "• S-F-PT-0260-en - Number of pleat tolerances • S-F-MA-0270-en - Dimensional tolerances for panel elements • S-F-MA-0596-en - Embossing geometry and embossing height for filter elements - standard",
+        "S-F-PT-0260-en S-F-MA-0270-en S-F-MA-0596-en"
+      ],
+      "arquivo": [
+        "S-F-MA-0617-en.pdf"
+      ]
+    },
+    {
+      "pai": "MNFG-469",
+      "pai_nome_antigo": "S-F-MA-0617-en",
       "citada": "DSGN-497",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -62333,31 +62207,6 @@
       ],
       "evidencia": [
         "Tolerances of the slit widths of filter media must comply with S-F-DN-0255-en."
-      ],
-      "arquivo": [
-        "S-F-MA-0617-en.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-469",
-      "pai_nome_antigo": "S-F-MA-0617-en",
-      "citada": "S-F-MA-0270",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "S-F-MA-0270-en"
-      ],
-      "paginas": [
-        2,
-        12
-      ],
-      "secao": [
-        "Termos/Abreviaturas",
-        "Referencias"
-      ],
-      "evidencia": [
-        "• S-F-PT-0260-en - Number of pleat tolerances • S-F-MA-0270-en - Dimensional tolerances for panel elements • S-F-MA-0596-en - Embossing geometry and embossing height for filter elements - standard",
-        "S-F-PT-0260-en S-F-MA-0270-en S-F-MA-0596-en"
       ],
       "arquivo": [
         "S-F-MA-0617-en.pdf"
@@ -62807,7 +62656,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "VDA 4902",
       "tipo": "publica",
       "status_mapa": "",
@@ -63255,9 +63104,9 @@
     {
       "pai": "MNFG-476",
       "pai_nome_antigo": "S-F-MA-0680-en",
-      "citada": "WNA 550",
+      "citada": "DSGN-386",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "WNA 550"
       ],
@@ -63447,9 +63296,9 @@
     {
       "pai": "MNFG-484",
       "pai_nome_antigo": "S-G-MA-6010-en",
-      "citada": "G-G-MA-6009",
+      "citada": "MNFG-506",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
         "G-G-MA-6009-en"
       ],
@@ -64188,7 +64037,7 @@
       "pai_nome_antigo": "S-F-MA-0613-en",
       "citada": "S-F-DN-0660",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0660-de"
       ],
@@ -64442,7 +64291,7 @@
       "pai_nome_antigo": "S-F-MA-0614-de",
       "citada": "S-F-DN-0660",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": [
         "S-F-DN-0660-en"
       ],
@@ -64728,28 +64577,6 @@
     {
       "pai": "MNFG-508",
       "pai_nome_antigo": "S-G-MA-6007-en",
-      "citada": "G-G-MA-6009",
-      "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
-      "codigo_bruto": [
-        "G-G-MA-6009-en"
-      ],
-      "paginas": [
-        20
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Linear Vibration Weld Tooling Specification G-G-MA-6009-en Setup Process for Vibration Weld Tooling"
-      ],
-      "arquivo": [
-        "S-G-MA-6007-en.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-508",
-      "pai_nome_antigo": "S-G-MA-6007-en",
       "citada": "MNFG-484",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -64764,6 +64591,28 @@
       ],
       "evidencia": [
         "Setup Process for Vibration Weld Tooling G-G-MA-6010-en Vibration Welding Water Absorption Criteria"
+      ],
+      "arquivo": [
+        "S-G-MA-6007-en.pdf"
+      ]
+    },
+    {
+      "pai": "MNFG-508",
+      "pai_nome_antigo": "S-G-MA-6007-en",
+      "citada": "MNFG-506",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "G-G-MA-6009-en"
+      ],
+      "paginas": [
+        20
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Linear Vibration Weld Tooling Specification G-G-MA-6009-en Setup Process for Vibration Weld Tooling"
       ],
       "arquivo": [
         "S-G-MA-6007-en.pdf"
@@ -66226,7 +66075,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "MATL-553",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -66241,7 +66090,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "MATL-553",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -66256,7 +66105,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "MATL-553",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -66271,7 +66120,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "NEN 1842",
       "tipo": "publica",
       "status_mapa": "",
@@ -66286,7 +66135,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "NEN 1842",
       "tipo": "publica",
       "status_mapa": "",
@@ -66301,7 +66150,7 @@
     },
     {
       "pai": "MATL-553",
-      "pai_nome_antigo": "S-F-ML-4014-en (V01)",
+      "pai_nome_antigo": "S-F-ML-4014-en",
       "citada": "MATL-553",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -66436,7 +66285,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "P-B-132",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66451,7 +66300,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 21920-1",
       "tipo": "publica",
       "status_mapa": "",
@@ -66466,7 +66315,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 21920-2",
       "tipo": "publica",
       "status_mapa": "",
@@ -66481,7 +66330,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ISO 21920-3",
       "tipo": "publica",
       "status_mapa": "",
@@ -66496,7 +66345,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "WI-QMHO-57A",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66511,7 +66360,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "IEC 60093",
       "tipo": "publica",
       "status_mapa": "",
@@ -66526,7 +66375,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "E21001M",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66541,7 +66390,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES96200-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66556,7 +66405,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES96200-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66571,7 +66420,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES05206-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66586,7 +66435,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES05213-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66601,7 +66450,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES05214-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66616,7 +66465,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES21300-01",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66631,7 +66480,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES26300-01/-02",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66646,7 +66495,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES26311-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66661,7 +66510,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES26300-03",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66676,7 +66525,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES01000-00",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66691,7 +66540,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "ES31970-02",
       "tipo": "cliente",
       "status_mapa": "",
@@ -66706,7 +66555,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "P-B-132",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66721,7 +66570,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "P-B-796",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66736,7 +66585,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "P-B-890",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66751,7 +66600,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "W-B-701",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66766,7 +66615,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "W-BE-7200",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66781,7 +66630,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "W-G-02",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66796,7 +66645,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "W-G-03",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -66811,7 +66660,7 @@
     },
     {
       "pai": "DSGN-410",
-      "pai_nome_antigo": "S-G-DN-5052-en (V02)",
+      "pai_nome_antigo": "S-G-DN-5052-en",
       "citada": "W-B-790",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -87317,9 +87166,9 @@
     {
       "pai": "MATL-572",
       "pai_nome_antigo": "S-C-ML-0500-en",
-      "citada": "WNA 100500",
+      "citada": "MATL-572",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 100500",
       "paginas": [
         4
@@ -87467,9 +87316,9 @@
     {
       "pai": "MATL-622",
       "pai_nome_antigo": "S-C-ML-0700-en",
-      "citada": "WNA 100700",
+      "citada": "MATL-622",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 100700",
       "paginas": [
         4
@@ -87617,9 +87466,9 @@
     {
       "pai": "MATL-564",
       "pai_nome_antigo": "S-C-ML-0900-en",
-      "citada": "WNA 100900",
+      "citada": "MATL-564",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 100900",
       "paginas": [
         4
@@ -95117,9 +94966,9 @@
     {
       "pai": "MATL-743",
       "pai_nome_antigo": "S-F-ML-2011-en",
-      "citada": "WNF 102011",
+      "citada": "MATL-743",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102011",
       "paginas": [
         10
@@ -95387,9 +95236,9 @@
     {
       "pai": "MATL-822",
       "pai_nome_antigo": "S-F-ML-2031-en",
-      "citada": "WNF 102031",
+      "citada": "MATL-822",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102031",
       "paginas": [
         4
@@ -95972,9 +95821,9 @@
     {
       "pai": "MATL-751",
       "pai_nome_antigo": "S-F-ML-2033-en",
-      "citada": "WNF 102033",
+      "citada": "MATL-751",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102033",
       "paginas": [
         4
@@ -95987,9 +95836,9 @@
     {
       "pai": "MATL-684",
       "pai_nome_antigo": "S-F-ML-2034-en",
-      "citada": "WNF 102034",
+      "citada": "MATL-684",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102034",
       "paginas": [
         1
@@ -96092,9 +95941,9 @@
     {
       "pai": "MATL-603",
       "pai_nome_antigo": "S-F-ML-2035-en",
-      "citada": "WNF 102035",
+      "citada": "MATL-603",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102035",
       "paginas": [
         4
@@ -96167,9 +96016,9 @@
     {
       "pai": "MATL-575",
       "pai_nome_antigo": "S-F-ML-2038-en",
-      "citada": "WNF 102038",
+      "citada": "MATL-575",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102038",
       "paginas": [
         4
@@ -96257,9 +96106,9 @@
     {
       "pai": "MATL-773",
       "pai_nome_antigo": "S-F-ML-2040-en",
-      "citada": "WNF 102040",
+      "citada": "MATL-773",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102040",
       "paginas": [
         5
@@ -96437,9 +96286,9 @@
     {
       "pai": "MATL-829",
       "pai_nome_antigo": "S-F-ML-2042-en",
-      "citada": "WNF 102042",
+      "citada": "MATL-829",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102042",
       "paginas": [
         4
@@ -96557,9 +96406,9 @@
     {
       "pai": "MATL-866",
       "pai_nome_antigo": "S-F-ML-2050-en",
-      "citada": "WNF 102050",
+      "citada": "MATL-866",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102050",
       "paginas": [
         4
@@ -96677,9 +96526,9 @@
     {
       "pai": "MATL-864",
       "pai_nome_antigo": "S-F-ML-2060-en",
-      "citada": "WNF 102060",
+      "citada": "MATL-864",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102060",
       "paginas": [
         4
@@ -96797,9 +96646,9 @@
     {
       "pai": "MATL-801",
       "pai_nome_antigo": "S-F-ML-2061-en",
-      "citada": "WNF 102061",
+      "citada": "MATL-801",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102061",
       "paginas": [
         4
@@ -96841,7 +96690,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "MATL-577",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -96856,7 +96705,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "MATL-577",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -96871,7 +96720,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "MATL-577",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -96886,7 +96735,7 @@
     },
     {
       "pai": "MATL-577",
-      "pai_nome_antigo": "S-F-ML-2070-en (V01)",
+      "pai_nome_antigo": "S-F-ML-2070-en",
       "citada": "MATL-577",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -97082,9 +96931,9 @@
     {
       "pai": "MATL-599",
       "pai_nome_antigo": "S-F-ML-2120-en",
-      "citada": "WNF 102120",
+      "citada": "MATL-599",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102120",
       "paginas": [
         4
@@ -97172,9 +97021,9 @@
     {
       "pai": "MATL-680",
       "pai_nome_antigo": "S-F-ML-2135-en",
-      "citada": "WNF 102135",
+      "citada": "MATL-680",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102135",
       "paginas": [
         5
@@ -97262,9 +97111,9 @@
     {
       "pai": "MATL-818",
       "pai_nome_antigo": "S-F-ML-2137-en",
-      "citada": "WNF 102137",
+      "citada": "MATL-818",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102137",
       "paginas": [
         4
@@ -97412,9 +97261,9 @@
     {
       "pai": "MATL-789",
       "pai_nome_antigo": "S-F-ML-2138-en",
-      "citada": "WNF 102138",
+      "citada": "MATL-789",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102138",
       "paginas": [
         7
@@ -97577,9 +97426,9 @@
     {
       "pai": "MATL-659",
       "pai_nome_antigo": "S-F-ML-2142-en",
-      "citada": "WNF 102142",
+      "citada": "MATL-659",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102142",
       "paginas": [
         4
@@ -97667,9 +97516,9 @@
     {
       "pai": "MATL-778",
       "pai_nome_antigo": "S-F-ML-2144-en",
-      "citada": "WNF 102144",
+      "citada": "MATL-778",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102144",
       "paginas": [
         5
@@ -97681,7 +97530,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "MATL-700",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -97696,7 +97545,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "MATL-700",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -97711,7 +97560,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "MVSS 1",
       "tipo": "publica",
       "status_mapa": "",
@@ -97726,7 +97575,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "MATL-700",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -97741,7 +97590,7 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
+      "pai_nome_antigo": "S-F-ML-2145-en",
       "citada": "MATL-700",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -97756,10 +97605,10 @@
     },
     {
       "pai": "MATL-700",
-      "pai_nome_antigo": "S-F-ML-2145-en (V02)",
-      "citada": "WNF 102145",
+      "pai_nome_antigo": "S-F-ML-2145-en",
+      "citada": "MATL-700",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102145",
       "paginas": [
         4
@@ -97847,9 +97696,9 @@
     {
       "pai": "MATL-671",
       "pai_nome_antigo": "S-F-ML-2146-en",
-      "citada": "WNF 102146",
+      "citada": "MATL-671",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102146",
       "paginas": [
         4
@@ -97982,9 +97831,9 @@
     {
       "pai": "MATL-573",
       "pai_nome_antigo": "S-F-ML-2147-en",
-      "citada": "WNF 102147",
+      "citada": "MATL-573",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102147",
       "paginas": [
         4
@@ -98057,9 +97906,9 @@
     {
       "pai": "MATL-859",
       "pai_nome_antigo": "S-F-ML-2148-en",
-      "citada": "WNF 102148",
+      "citada": "MATL-859",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102148",
       "paginas": [
         4
@@ -98132,9 +97981,9 @@
     {
       "pai": "MATL-825",
       "pai_nome_antigo": "S-F-ML-2150-en",
-      "citada": "WNF 102150",
+      "citada": "MATL-825",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102150",
       "paginas": [
         4
@@ -98447,9 +98296,9 @@
     {
       "pai": "MATL-776",
       "pai_nome_antigo": "S-F-ML-2152-en",
-      "citada": "WNF 102152",
+      "citada": "MATL-776",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102152",
       "paginas": [
         6
@@ -98522,9 +98371,9 @@
     {
       "pai": "MATL-781",
       "pai_nome_antigo": "S-F-ML-2153-en",
-      "citada": "WNF 102153",
+      "citada": "MATL-781",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102153",
       "paginas": [
         4
@@ -98642,9 +98491,9 @@
     {
       "pai": "MATL-812",
       "pai_nome_antigo": "S-F-ML-2158-en",
-      "citada": "WNF 102158",
+      "citada": "MATL-812",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102158",
       "paginas": [
         5
@@ -98717,9 +98566,9 @@
     {
       "pai": "MATL-669",
       "pai_nome_antigo": "S-F-ML-2159-en",
-      "citada": "WNF 102159",
+      "citada": "MATL-669",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102159",
       "paginas": [
         4
@@ -98837,9 +98686,9 @@
     {
       "pai": "MATL-774",
       "pai_nome_antigo": "S-F-ML-2160-en",
-      "citada": "WNF 102160",
+      "citada": "MATL-774",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102160",
       "paginas": [
         5
@@ -98867,9 +98716,9 @@
     {
       "pai": "MATL-774",
       "pai_nome_antigo": "S-F-ML-2160-en",
-      "citada": "WNF 102160",
+      "citada": "MATL-774",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102160",
       "paginas": [
         6
@@ -98877,14 +98726,14 @@
       "secao": "Historico",
       "evidencia": "15.01.2016 a) Aufnahme der Variante G044F-EW02 in die WNF 102160 Latest revision:",
       "arquivo": "S-F-ML-2160-en.pdf",
-      "motivo": "historica"
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MATL-774",
       "pai_nome_antigo": "S-F-ML-2160-en",
-      "citada": "WNF 102160",
+      "citada": "MATL-774",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102160",
       "paginas": [
         6
@@ -98892,7 +98741,7 @@
       "secao": "Historico",
       "evidencia": "15.01.2016 a) Addition of version G044F-EW02 into WNF 102160",
       "arquivo": "S-F-ML-2160-en.pdf",
-      "motivo": "historica"
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MATL-817",
@@ -98972,9 +98821,9 @@
     {
       "pai": "MATL-817",
       "pai_nome_antigo": "S-F-ML-2161-en",
-      "citada": "WNF 102161",
+      "citada": "MATL-817",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102161",
       "paginas": [
         5
@@ -99077,9 +98926,9 @@
     {
       "pai": "MATL-758",
       "pai_nome_antigo": "S-F-ML-2162-en",
-      "citada": "WNF 102162",
+      "citada": "MATL-758",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102162",
       "paginas": [
         6
@@ -99272,9 +99121,9 @@
     {
       "pai": "MATL-745",
       "pai_nome_antigo": "S-F-ML-2163-en",
-      "citada": "WNF 102163",
+      "citada": "MATL-745",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102163",
       "paginas": [
         8
@@ -99437,9 +99286,9 @@
     {
       "pai": "MATL-716",
       "pai_nome_antigo": "S-F-ML-2166-en",
-      "citada": "WNF 102166",
+      "citada": "MATL-716",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102166",
       "paginas": [
         5
@@ -99542,9 +99391,9 @@
     {
       "pai": "MATL-703",
       "pai_nome_antigo": "S-F-ML-2168-en",
-      "citada": "WNF 102168",
+      "citada": "MATL-703",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102168",
       "paginas": [
         6
@@ -99677,9 +99526,9 @@
     {
       "pai": "MATL-719",
       "pai_nome_antigo": "S-F-ML-2169-en",
-      "citada": "WNF 102169",
+      "citada": "MATL-719",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102169",
       "paginas": [
         6
@@ -99887,9 +99736,9 @@
     {
       "pai": "MATL-690",
       "pai_nome_antigo": "S-F-ML-2171-en",
-      "citada": "WNF 102171",
+      "citada": "MATL-690",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF102171",
       "paginas": [
         5
@@ -100142,9 +99991,9 @@
     {
       "pai": "MATL-705",
       "pai_nome_antigo": "S-F-ML-2174-en",
-      "citada": "WNF 102174",
+      "citada": "MATL-705",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102174",
       "paginas": [
         8
@@ -100517,9 +100366,9 @@
     {
       "pai": "MATL-851",
       "pai_nome_antigo": "S-F-ML-2176-en",
-      "citada": "WNF 102176",
+      "citada": "MATL-851",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102176",
       "paginas": [
         8
@@ -100637,9 +100486,9 @@
     {
       "pai": "MATL-706",
       "pai_nome_antigo": "S-F-ML-2177-en",
-      "citada": "WNF 102177",
+      "citada": "MATL-706",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102177",
       "paginas": [
         5
@@ -100847,9 +100696,9 @@
     {
       "pai": "MATL-852",
       "pai_nome_antigo": "S-F-ML-2178-en",
-      "citada": "WNF 102178",
+      "citada": "MATL-852",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF102178",
       "paginas": [
         5
@@ -101057,9 +100906,9 @@
     {
       "pai": "MATL-794",
       "pai_nome_antigo": "S-F-ML-2179-en",
-      "citada": "WNF 102179",
+      "citada": "MATL-794",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102179",
       "paginas": [
         5
@@ -101147,9 +100996,9 @@
     {
       "pai": "MATL-784",
       "pai_nome_antigo": "S-F-ML-2182-en",
-      "citada": "WNF 102182",
+      "citada": "MATL-784",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102182",
       "paginas": [
         5
@@ -101342,9 +101191,9 @@
     {
       "pai": "MATL-796",
       "pai_nome_antigo": "S-F-ML-2183-en",
-      "citada": "WNF 102183",
+      "citada": "MATL-796",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102183",
       "paginas": [
         8
@@ -101552,9 +101401,9 @@
     {
       "pai": "MATL-675",
       "pai_nome_antigo": "S-F-ML-2184-en",
-      "citada": "WNF 102184",
+      "citada": "MATL-675",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102184",
       "paginas": [
         5
@@ -101717,9 +101566,9 @@
     {
       "pai": "MATL-843",
       "pai_nome_antigo": "S-F-ML-2186-en",
-      "citada": "WNF 102186",
+      "citada": "MATL-843",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102186",
       "paginas": [
         4
@@ -101852,9 +101701,9 @@
     {
       "pai": "MATL-761",
       "pai_nome_antigo": "S-F-ML-2187-en",
-      "citada": "WNF 102187",
+      "citada": "MATL-761",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102187",
       "paginas": [
         5
@@ -102167,9 +102016,9 @@
     {
       "pai": "MATL-760",
       "pai_nome_antigo": "S-F-ML-2189-en",
-      "citada": "WNF 102189",
+      "citada": "MATL-760",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102189",
       "paginas": [
         5
@@ -102242,9 +102091,9 @@
     {
       "pai": "MATL-591",
       "pai_nome_antigo": "S-F-ML-2190-en",
-      "citada": "WNF 102190",
+      "citada": "MATL-591",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102190",
       "paginas": [
         4
@@ -102257,9 +102106,9 @@
     {
       "pai": "MATL-591",
       "pai_nome_antigo": "S-F-ML-2190-en",
-      "citada": "WNF 102190",
+      "citada": "MATL-591",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102190",
       "paginas": [
         4
@@ -102267,14 +102116,14 @@
       "secao": "Historico",
       "evidencia": "31.07.2023 a) WNF 102190 in Werksnorm aufgenommen b) Keine Änderung in letzter Revision",
       "arquivo": "S-F-ML-2190-en.pdf",
-      "motivo": "historica"
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MATL-591",
       "pai_nome_antigo": "S-F-ML-2190-en",
-      "citada": "WNF 102190",
+      "citada": "MATL-591",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102190",
       "paginas": [
         4
@@ -102282,7 +102131,7 @@
       "secao": "Historico",
       "evidencia": "31.07.2023 a) WNF 102190 added in factory standard b) no change in last revision",
       "arquivo": "S-F-ML-2190-en.pdf",
-      "motivo": "historica"
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MATL-769",
@@ -102377,9 +102226,9 @@
     {
       "pai": "MATL-769",
       "pai_nome_antigo": "S-F-ML-2191-en",
-      "citada": "WNF 102191",
+      "citada": "MATL-769",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102191",
       "paginas": [
         6
@@ -102467,9 +102316,9 @@
     {
       "pai": "MATL-765",
       "pai_nome_antigo": "S-F-ML-2192-en",
-      "citada": "WNF 102192",
+      "citada": "MATL-765",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102192",
       "paginas": [
         5
@@ -102677,9 +102526,9 @@
     {
       "pai": "MATL-830",
       "pai_nome_antigo": "S-F-ML-2193-en",
-      "citada": "WNF 102193",
+      "citada": "MATL-830",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102193",
       "paginas": [
         5
@@ -102782,9 +102631,9 @@
     {
       "pai": "MATL-802",
       "pai_nome_antigo": "S-F-ML-2194-en",
-      "citada": "WNF 102194",
+      "citada": "MATL-802",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102194",
       "paginas": [
         6
@@ -102887,9 +102736,9 @@
     {
       "pai": "MATL-721",
       "pai_nome_antigo": "S-F-ML-2195-en",
-      "citada": "WNF 102195",
+      "citada": "MATL-721",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102195",
       "paginas": [
         6
@@ -104027,9 +103876,9 @@
     {
       "pai": "MATL-815",
       "pai_nome_antigo": "S-F-ML-2324-en",
-      "citada": "WNF 102324",
+      "citada": "MATL-815",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102324",
       "paginas": [
         12
@@ -104102,9 +103951,9 @@
     {
       "pai": "MATL-736",
       "pai_nome_antigo": "S-F-ML-2325-en",
-      "citada": "WNF 102325",
+      "citada": "MATL-736",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102325",
       "paginas": [
         4
@@ -104117,9 +103966,9 @@
     {
       "pai": "MATL-736",
       "pai_nome_antigo": "S-F-ML-2325-en",
-      "citada": "WNF 102325",
+      "citada": "MATL-736",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102325",
       "paginas": [
         4
@@ -104127,14 +103976,14 @@
       "secao": "Historico",
       "evidencia": "23.03.2013 a) WNF 102325 SB5 Entwurf neu in Werknorm aufgenommen",
       "arquivo": "S-F-ML-2325-en.pdf",
-      "motivo": "historica"
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MATL-736",
       "pai_nome_antigo": "S-F-ML-2325-en",
-      "citada": "WNF 102325",
+      "citada": "MATL-736",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102325",
       "paginas": [
         4
@@ -104142,7 +103991,7 @@
       "secao": "Historico",
       "evidencia": "23.03.2013 a) WNF 102325 SB5 design new in factory standard",
       "arquivo": "S-F-ML-2325-en.pdf",
-      "motivo": "historica"
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MATL-740",
@@ -104207,9 +104056,9 @@
     {
       "pai": "MATL-740",
       "pai_nome_antigo": "S-F-ML-2410-en",
-      "citada": "WNF 102410",
+      "citada": "MATL-740",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102410",
       "paginas": [
         4
@@ -104297,9 +104146,9 @@
     {
       "pai": "MATL-844",
       "pai_nome_antigo": "S-F-ML-2420-en",
-      "citada": "WNF 102420",
+      "citada": "MATL-844",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102420",
       "paginas": [
         4
@@ -104387,9 +104236,9 @@
     {
       "pai": "MATL-809",
       "pai_nome_antigo": "S-F-ML-2430-en",
-      "citada": "WNF 102430",
+      "citada": "MATL-809",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102430",
       "paginas": [
         4
@@ -104507,9 +104356,9 @@
     {
       "pai": "MATL-816",
       "pai_nome_antigo": "S-F-ML-2431-en",
-      "citada": "WNF 102431",
+      "citada": "MATL-816",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102431",
       "paginas": [
         4
@@ -104597,9 +104446,9 @@
     {
       "pai": "MATL-786",
       "pai_nome_antigo": "S-F-ML-2601-en",
-      "citada": "WNF 102601",
+      "citada": "MATL-786",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102601",
       "paginas": [
         4
@@ -104687,9 +104536,9 @@
     {
       "pai": "MATL-854",
       "pai_nome_antigo": "S-F-ML-2602-en",
-      "citada": "WNF 102602",
+      "citada": "MATL-854",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102602",
       "paginas": [
         4
@@ -104777,9 +104626,9 @@
     {
       "pai": "MATL-753",
       "pai_nome_antigo": "S-F-ML-2603-en",
-      "citada": "WNF 102603",
+      "citada": "MATL-753",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102603",
       "paginas": [
         4
@@ -104957,9 +104806,9 @@
     {
       "pai": "MATL-696",
       "pai_nome_antigo": "S-F-ML-2605-en",
-      "citada": "WNF 102605",
+      "citada": "MATL-696",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102605",
       "paginas": [
         4
@@ -105047,9 +104896,9 @@
     {
       "pai": "MATL-699",
       "pai_nome_antigo": "S-F-ML-2606-en",
-      "citada": "WNF 102606",
+      "citada": "MATL-699",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102606",
       "paginas": [
         4
@@ -105137,9 +104986,9 @@
     {
       "pai": "MATL-803",
       "pai_nome_antigo": "S-F-ML-2607-en",
-      "citada": "WNF 102607",
+      "citada": "MATL-803",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102607",
       "paginas": [
         4
@@ -105227,9 +105076,9 @@
     {
       "pai": "MATL-702",
       "pai_nome_antigo": "S-F-ML-2608-en",
-      "citada": "WNF 102608",
+      "citada": "MATL-702",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102608",
       "paginas": [
         4
@@ -105317,9 +105166,9 @@
     {
       "pai": "MATL-858",
       "pai_nome_antigo": "S-F-ML-2610-en",
-      "citada": "WNF 102610",
+      "citada": "MATL-858",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102610",
       "paginas": [
         4
@@ -105392,9 +105241,9 @@
     {
       "pai": "MATL-730",
       "pai_nome_antigo": "S-F-ML-2611-en",
-      "citada": "WNF 102611",
+      "citada": "MATL-730",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102611",
       "paginas": [
         3
@@ -105512,9 +105361,9 @@
     {
       "pai": "MATL-772",
       "pai_nome_antigo": "S-F-ML-2701-en",
-      "citada": "WNF 102701",
+      "citada": "MATL-772",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102701",
       "paginas": [
         5
@@ -105767,9 +105616,9 @@
     {
       "pai": "MATL-714",
       "pai_nome_antigo": "S-F-ML-2702-en",
-      "citada": "WNF 102702",
+      "citada": "MATL-714",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102702",
       "paginas": [
         12
@@ -105872,9 +105721,9 @@
     {
       "pai": "MATL-828",
       "pai_nome_antigo": "S-F-ML-2703-en",
-      "citada": "WNF 102703",
+      "citada": "MATL-828",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102703",
       "paginas": [
         4
@@ -106052,9 +105901,9 @@
     {
       "pai": "MATL-670",
       "pai_nome_antigo": "S-F-ML-2704-en",
-      "citada": "WNF 102704",
+      "citada": "MATL-670",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102704",
       "paginas": [
         7
@@ -106157,9 +106006,9 @@
     {
       "pai": "MATL-683",
       "pai_nome_antigo": "S-F-ML-2705-en",
-      "citada": "WNF 102705",
+      "citada": "MATL-683",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102705",
       "paginas": [
         4
@@ -106292,9 +106141,9 @@
     {
       "pai": "MATL-836",
       "pai_nome_antigo": "S-F-ML-2706-en",
-      "citada": "WNF 102706",
+      "citada": "MATL-836",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102706",
       "paginas": [
         4
@@ -106427,9 +106276,9 @@
     {
       "pai": "MATL-674",
       "pai_nome_antigo": "S-F-ML-2707-en",
-      "citada": "WNF 102707",
+      "citada": "MATL-674",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102707",
       "paginas": [
         4
@@ -106532,9 +106381,9 @@
     {
       "pai": "MATL-742",
       "pai_nome_antigo": "S-F-ML-2708-en",
-      "citada": "WNF 102708",
+      "citada": "MATL-742",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102708",
       "paginas": [
         4
@@ -106652,9 +106501,9 @@
     {
       "pai": "MATL-676",
       "pai_nome_antigo": "S-F-ML-2709-en",
-      "citada": "WNF 102709",
+      "citada": "MATL-676",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102709",
       "paginas": [
         4
@@ -106877,9 +106726,9 @@
     {
       "pai": "MATL-764",
       "pai_nome_antigo": "S-F-ML-2711-en",
-      "citada": "WNF 102711",
+      "citada": "MATL-764",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102711",
       "paginas": [
         4
@@ -107087,9 +106936,9 @@
     {
       "pai": "MATL-726",
       "pai_nome_antigo": "S-F-ML-2715-en",
-      "citada": "WNF 102715",
+      "citada": "MATL-726",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102715",
       "paginas": [
         1
@@ -107192,9 +107041,9 @@
     {
       "pai": "MATL-750",
       "pai_nome_antigo": "S-F-ML-2716-en",
-      "citada": "WNF 102716",
+      "citada": "MATL-750",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102716",
       "paginas": [
         4
@@ -107282,9 +107131,9 @@
     {
       "pai": "MATL-556",
       "pai_nome_antigo": "S-F-ML-2717-en",
-      "citada": "WNF 102717",
+      "citada": "MATL-556",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102717",
       "paginas": [
         4
@@ -107507,9 +107356,9 @@
     {
       "pai": "MATL-658",
       "pai_nome_antigo": "S-F-ML-2719-en",
-      "citada": "WNF 102719",
+      "citada": "MATL-658",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102719",
       "paginas": [
         4
@@ -107597,9 +107446,9 @@
     {
       "pai": "MATL-592",
       "pai_nome_antigo": "S-F-ML-2721-en",
-      "citada": "WNF 102721",
+      "citada": "MATL-592",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102721",
       "paginas": [
         4
@@ -107687,9 +107536,9 @@
     {
       "pai": "MATL-804",
       "pai_nome_antigo": "S-F-ML-2722-en",
-      "citada": "WNF 102722",
+      "citada": "MATL-804",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102722",
       "paginas": [
         4
@@ -107777,9 +107626,9 @@
     {
       "pai": "MATL-767",
       "pai_nome_antigo": "S-F-ML-2723-en",
-      "citada": "WNF 102723",
+      "citada": "MATL-767",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102723",
       "paginas": [
         4
@@ -108017,9 +107866,9 @@
     {
       "pai": "MATL-777",
       "pai_nome_antigo": "S-F-ML-2729-en",
-      "citada": "WNF 102729",
+      "citada": "MATL-777",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102729",
       "paginas": [
         6
@@ -108212,9 +108061,9 @@
     {
       "pai": "MATL-729",
       "pai_nome_antigo": "S-F-ML-2730-en",
-      "citada": "WNF 102730",
+      "citada": "MATL-729",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102730",
       "paginas": [
         5
@@ -108662,9 +108511,9 @@
     {
       "pai": "MATL-780",
       "pai_nome_antigo": "S-F-ML-2735-en",
-      "citada": "WNF 102735",
+      "citada": "MATL-780",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102735",
       "paginas": [
         5
@@ -108857,9 +108706,9 @@
     {
       "pai": "MATL-689",
       "pai_nome_antigo": "S-F-ML-2736-en",
-      "citada": "WNF 102736",
+      "citada": "MATL-689",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102736",
       "paginas": [
         5
@@ -109052,9 +108901,9 @@
     {
       "pai": "MATL-692",
       "pai_nome_antigo": "S-F-ML-2738-en",
-      "citada": "WNF 102738",
+      "citada": "MATL-692",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102738",
       "paginas": [
         5
@@ -109352,9 +109201,9 @@
     {
       "pai": "MATL-831",
       "pai_nome_antigo": "S-F-ML-2741-en",
-      "citada": "WNF 102741",
+      "citada": "MATL-831",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102741",
       "paginas": [
         4
@@ -109457,9 +109306,9 @@
     {
       "pai": "MATL-685",
       "pai_nome_antigo": "S-F-ML-2742-en",
-      "citada": "WNF 102742",
+      "citada": "MATL-685",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102742",
       "paginas": [
         4
@@ -109592,9 +109441,9 @@
     {
       "pai": "MATL-724",
       "pai_nome_antigo": "S-F-ML-2743-en",
-      "citada": "WNF 102743",
+      "citada": "MATL-724",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102743",
       "paginas": [
         4
@@ -109712,9 +109561,9 @@
     {
       "pai": "MATL-606",
       "pai_nome_antigo": "S-F-ML-2744-de",
-      "citada": "WNF 102744",
+      "citada": "MATL-606",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102744",
       "paginas": [
         4
@@ -109817,9 +109666,9 @@
     {
       "pai": "MATL-723",
       "pai_nome_antigo": "S-F-ML-2745-en",
-      "citada": "WNF 102745",
+      "citada": "MATL-723",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102745",
       "paginas": [
         4
@@ -109937,9 +109786,9 @@
     {
       "pai": "MATL-793",
       "pai_nome_antigo": "S-F-ML-2746-en",
-      "citada": "WNF 102746",
+      "citada": "MATL-793",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102746",
       "paginas": [
         4
@@ -110027,9 +109876,9 @@
     {
       "pai": "MATL-782",
       "pai_nome_antigo": "S-F-ML-2748-en",
-      "citada": "WNF 102748",
+      "citada": "MATL-782",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102748",
       "paginas": [
         4
@@ -110267,9 +110116,9 @@
     {
       "pai": "MATL-660",
       "pai_nome_antigo": "S-F-ML-2764-en",
-      "citada": "WNF 102764",
+      "citada": "MATL-660",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102764",
       "paginas": [
         8
@@ -110372,9 +110221,9 @@
     {
       "pai": "MATL-861",
       "pai_nome_antigo": "S-F-ML-2765-en",
-      "citada": "WNF 102765",
+      "citada": "MATL-861",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102765",
       "paginas": [
         4
@@ -110462,9 +110311,9 @@
     {
       "pai": "MATL-731",
       "pai_nome_antigo": "S-F-ML-2766-en",
-      "citada": "WNF 102766",
+      "citada": "MATL-731",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102766",
       "paginas": [
         4
@@ -110552,9 +110401,9 @@
     {
       "pai": "MATL-798",
       "pai_nome_antigo": "S-F-ML-2767-en",
-      "citada": "WNF 102767",
+      "citada": "MATL-798",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102767",
       "paginas": [
         4
@@ -110642,9 +110491,9 @@
     {
       "pai": "MATL-826",
       "pai_nome_antigo": "S-F-ML-2768-en",
-      "citada": "WNF 102768",
+      "citada": "MATL-826",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102768",
       "paginas": [
         4
@@ -110762,9 +110611,9 @@
     {
       "pai": "MATL-712",
       "pai_nome_antigo": "S-F-ML-2769-en",
-      "citada": "WNF 102769",
+      "citada": "MATL-712",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102769",
       "paginas": [
         5
@@ -110987,9 +110836,9 @@
     {
       "pai": "MATL-657",
       "pai_nome_antigo": "S-F-ML-2770-en",
-      "citada": "WNF 102770",
+      "citada": "MATL-657",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102770",
       "paginas": [
         8
@@ -111497,9 +111346,9 @@
     {
       "pai": "MATL-725",
       "pai_nome_antigo": "S-F-ML-2775-en",
-      "citada": "WNF 102775",
+      "citada": "MATL-725",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102775",
       "paginas": [
         9
@@ -111617,9 +111466,9 @@
     {
       "pai": "MATL-845",
       "pai_nome_antigo": "S-F-ML-2776-en",
-      "citada": "WNF 102776",
+      "citada": "MATL-845",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102776",
       "paginas": [
         4
@@ -112037,9 +111886,9 @@
     {
       "pai": "MATL-797",
       "pai_nome_antigo": "S-F-ML-2779-en",
-      "citada": "WNF 102779",
+      "citada": "MATL-797",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102779",
       "paginas": [
         4
@@ -112202,9 +112051,9 @@
     {
       "pai": "MATL-871",
       "pai_nome_antigo": "S-F-ML-2780-en",
-      "citada": "WNF 102780",
+      "citada": "MATL-871",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102780",
       "paginas": [
         4
@@ -112442,9 +112291,9 @@
     {
       "pai": "MATL-709",
       "pai_nome_antigo": "S-F-ML-2781-en",
-      "citada": "WNF 102781",
+      "citada": "MATL-709",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102781",
       "paginas": [
         5
@@ -112637,9 +112486,9 @@
     {
       "pai": "MATL-857",
       "pai_nome_antigo": "S-F-ML-2782-en",
-      "citada": "WNF 102782",
+      "citada": "MATL-857",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102782",
       "paginas": [
         5
@@ -112787,9 +112636,9 @@
     {
       "pai": "MATL-839",
       "pai_nome_antigo": "S-F-ML-2783-en",
-      "citada": "WNF 102783",
+      "citada": "MATL-839",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102783",
       "paginas": [
         5
@@ -113282,9 +113131,9 @@
     {
       "pai": "MATL-673",
       "pai_nome_antigo": "S-F-ML-2786-en",
-      "citada": "WNF 102786",
+      "citada": "MATL-673",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102786",
       "paginas": [
         5
@@ -113447,9 +113296,9 @@
     {
       "pai": "MATL-835",
       "pai_nome_antigo": "S-F-ML-2790-en",
-      "citada": "WNF 102790",
+      "citada": "MATL-835",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102790",
       "paginas": [
         4
@@ -116087,9 +115936,9 @@
     {
       "pai": "MATL-688",
       "pai_nome_antigo": "S-F-ML-2911-en",
-      "citada": "WNF 102911",
+      "citada": "MATL-688",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102911",
       "paginas": [
         4
@@ -116162,9 +116011,9 @@
     {
       "pai": "MATL-681",
       "pai_nome_antigo": "S-F-ML-2912-en",
-      "citada": "WNF 102912",
+      "citada": "MATL-681",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102912",
       "paginas": [
         3
@@ -116327,9 +116176,9 @@
     {
       "pai": "MATL-749",
       "pai_nome_antigo": "S-F-ML-2913-en",
-      "citada": "WNF 102913",
+      "citada": "MATL-749",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102913",
       "paginas": [
         4
@@ -116522,9 +116371,9 @@
     {
       "pai": "MATL-717",
       "pai_nome_antigo": "S-F-ML-2914-en",
-      "citada": "WNF 102914",
+      "citada": "MATL-717",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102914",
       "paginas": [
         4
@@ -116702,9 +116551,9 @@
     {
       "pai": "MATL-853",
       "pai_nome_antigo": "S-F-ML-2915-en",
-      "citada": "WNF 102915",
+      "citada": "MATL-853",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102915",
       "paginas": [
         4
@@ -116882,9 +116731,9 @@
     {
       "pai": "MATL-850",
       "pai_nome_antigo": "S-F-ML-2916-en",
-      "citada": "WNF 102916",
+      "citada": "MATL-850",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102916",
       "paginas": [
         4
@@ -117062,9 +116911,9 @@
     {
       "pai": "MATL-708",
       "pai_nome_antigo": "S-F-ML-2917-en",
-      "citada": "WNF 102917",
+      "citada": "MATL-708",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102917",
       "paginas": [
         4
@@ -117274,7 +117123,7 @@
       "pai_nome_antigo": "S-F-ML-2918-en",
       "citada": "WNF 12820",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "NAO_CONFIRMADO",
       "codigo_bruto": "WNF12820",
       "paginas": [
         4
@@ -117499,7 +117348,7 @@
       "pai_nome_antigo": "S-F-ML-2919-en",
       "citada": "WNF 12820",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "NAO_CONFIRMADO",
       "codigo_bruto": "WNF12820",
       "paginas": [
         4
@@ -117662,9 +117511,9 @@
     {
       "pai": "MATL-824",
       "pai_nome_antigo": "S-F-ML-2920-en",
-      "citada": "WNF 102920",
+      "citada": "MATL-824",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102920",
       "paginas": [
         4
@@ -117917,9 +117766,9 @@
     {
       "pai": "MATL-868",
       "pai_nome_antigo": "S-F-ML-2921-en",
-      "citada": "WNF 102921",
+      "citada": "MATL-868",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102921",
       "paginas": [
         4
@@ -118427,9 +118276,9 @@
     {
       "pai": "MATL-785",
       "pai_nome_antigo": "S-F-ML-2923-en",
-      "citada": "WNF 102923",
+      "citada": "MATL-785",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102923",
       "paginas": [
         4
@@ -118997,9 +118846,9 @@
     {
       "pai": "MATL-848",
       "pai_nome_antigo": "S-F-ML-2927-en",
-      "citada": "WNF 102927",
+      "citada": "MATL-848",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 102927",
       "paginas": [
         4
@@ -119072,9 +118921,9 @@
     {
       "pai": "MATL-814",
       "pai_nome_antigo": "S-F-ML-3029-en",
-      "citada": "WNF 103029",
+      "citada": "MATL-814",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103029",
       "paginas": [
         4
@@ -119147,9 +118996,9 @@
     {
       "pai": "MATL-697",
       "pai_nome_antigo": "S-F-ML-3030-en",
-      "citada": "WNF 103030",
+      "citada": "MATL-697",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103030",
       "paginas": [
         4
@@ -119222,9 +119071,9 @@
     {
       "pai": "MATL-701",
       "pai_nome_antigo": "S-F-ML-3031-en",
-      "citada": "WNF 103031",
+      "citada": "MATL-701",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103031",
       "paginas": [
         4
@@ -119297,9 +119146,9 @@
     {
       "pai": "MATL-746",
       "pai_nome_antigo": "S-F-ML-3032-en",
-      "citada": "WNF 103032",
+      "citada": "MATL-746",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103032",
       "paginas": [
         4
@@ -119372,9 +119221,9 @@
     {
       "pai": "MATL-856",
       "pai_nome_antigo": "S-F-ML-3033-en",
-      "citada": "WNF 103033",
+      "citada": "MATL-856",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103033",
       "paginas": [
         4
@@ -119507,9 +119356,9 @@
     {
       "pai": "MATL-806",
       "pai_nome_antigo": "S-F-ML-3034-en",
-      "citada": "WNF 103034",
+      "citada": "MATL-806",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103034",
       "paginas": [
         8
@@ -119612,9 +119461,9 @@
     {
       "pai": "MATL-862",
       "pai_nome_antigo": "S-F-ML-3035-en",
-      "citada": "WNF 103035",
+      "citada": "MATL-862",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103035",
       "paginas": [
         6
@@ -119687,9 +119536,9 @@
     {
       "pai": "MATL-747",
       "pai_nome_antigo": "S-F-ML-3036-en",
-      "citada": "WNF 103036",
+      "citada": "MATL-747",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103036",
       "paginas": [
         4
@@ -119762,9 +119611,9 @@
     {
       "pai": "MATL-757",
       "pai_nome_antigo": "S-F-ML-3037-en",
-      "citada": "WNF 103037",
+      "citada": "MATL-757",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNF 103037",
       "paginas": [
         4
@@ -120754,7 +120603,7 @@
       "pai_nome_antigo": "S-F-ML-4006-en",
       "citada": "WNF 12820",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "NAO_CONFIRMADO",
       "codigo_bruto": "WNF12820",
       "paginas": [
         4
@@ -122207,9 +122056,9 @@
     {
       "pai": "DSGN-359",
       "pai_nome_antigo": "S-F-PT-0260-en",
-      "citada": "WNA 260",
+      "citada": "DSGN-359",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 260",
       "paginas": [
         3
@@ -122656,7 +122505,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-F-PT-0619",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -122671,7 +122520,7 @@
     },
     {
       "pai": "DSGN-423",
-      "pai_nome_antigo": "S-F-PT-6583-en (V02)",
+      "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "WNA 619",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
@@ -123692,9 +123541,9 @@
     {
       "pai": "DSGN-481",
       "pai_nome_antigo": "S-F-PT-0654-en",
-      "citada": "WNA 654",
+      "citada": "DSGN-481",
       "tipo": "interna",
-      "status_mapa": "CONFLITO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 654",
       "paginas": [
         5
@@ -124172,9 +124021,9 @@
     {
       "pai": "DSGN-361",
       "pai_nome_antigo": "S-F-PT-0655-en",
-      "citada": "WNA 655",
+      "citada": "DSGN-361",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 655",
       "paginas": [
         30
@@ -124669,7 +124518,7 @@
       "pai_nome_antigo": "S-F-PT-0684-en",
       "citada": "WNA 684",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "CONFLITO",
       "codigo_bruto": "WNA 684",
       "paginas": [
         6
@@ -129950,6 +129799,51 @@
       "citada": "DSGN-386",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 550",
+      "paginas": [
+        6
+      ],
+      "secao": "Corpo",
+      "evidencia": "Pleat fixation acc. to WNA 550 / 1+3 Run-along glue bead on clean side and laid-on glue bead on dust side",
+      "arquivo": "S-G-DN-0550-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-386",
+      "pai_nome_antigo": "S-G-DN-0550-en",
+      "citada": "DSGN-386",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 550",
+      "paginas": [
+        6
+      ],
+      "secao": "Corpo",
+      "evidencia": "Pleat fixation acc. to WNA 550 / 2+3 Run-along glue bead on clean and dust side",
+      "arquivo": "S-G-DN-0550-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-386",
+      "pai_nome_antigo": "S-G-DN-0550-en",
+      "citada": "DSGN-386",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 550",
+      "paginas": [
+        6
+      ],
+      "secao": "Corpo",
+      "evidencia": "with the numbers after \" WNA 550 /\" corresponding to the respective version. 4.3",
+      "arquivo": "S-G-DN-0550-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-386",
+      "pai_nome_antigo": "S-G-DN-0550-en",
+      "citada": "DSGN-386",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-DN-0550-en",
       "paginas": [
         7
@@ -130046,6 +129940,36 @@
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. S-G-DN-0691-en Version",
+      "arquivo": "S-G-DN-0691-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-373",
+      "pai_nome_antigo": "S-G-DN-0691-en",
+      "citada": "DSGN-373",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 691",
+      "paginas": [
+        4
+      ],
+      "secao": "Corpo",
+      "evidencia": "= allowed discontinuities according to WNA 691",
+      "arquivo": "S-G-DN-0691-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-373",
+      "pai_nome_antigo": "S-G-DN-0691-en",
+      "citada": "DSGN-373",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 691",
+      "paginas": [
+        4
+      ],
+      "secao": "Corpo",
+      "evidencia": "Grade according to WNA 691 grade X (entry of specific grade)",
       "arquivo": "S-G-DN-0691-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -140866,7 +140790,7 @@
     },
     {
       "pai": "MNFG-499",
-      "pai_nome_antigo": "S-G-MA-3850-en (V02)",
+      "pai_nome_antigo": "S-G-MA-3850-en",
       "citada": "MNFG-499",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140881,7 +140805,7 @@
     },
     {
       "pai": "MNFG-499",
-      "pai_nome_antigo": "S-G-MA-3850-en (V02)",
+      "pai_nome_antigo": "S-G-MA-3850-en",
       "citada": "MNFG-499",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140896,7 +140820,7 @@
     },
     {
       "pai": "MNFG-499",
-      "pai_nome_antigo": "S-G-MA-3850-en (V02)",
+      "pai_nome_antigo": "S-G-MA-3850-en",
       "citada": "MNFG-499",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140911,7 +140835,7 @@
     },
     {
       "pai": "MNFG-499",
-      "pai_nome_antigo": "S-G-MA-3850-en (V02)",
+      "pai_nome_antigo": "S-G-MA-3850-en",
       "citada": "MNFG-499",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140926,7 +140850,7 @@
     },
     {
       "pai": "MNFG-499",
-      "pai_nome_antigo": "S-G-MA-3850-en (V02)",
+      "pai_nome_antigo": "S-G-MA-3850-en",
       "citada": "WNA 3850",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -140941,7 +140865,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "MNFG-471",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140956,7 +140880,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "MNFG-471",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140971,7 +140895,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "MNFG-471",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -140986,7 +140910,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "MNFG-471",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -141001,7 +140925,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "MNFG-471",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -141016,7 +140940,7 @@
     },
     {
       "pai": "MNFG-471",
-      "pai_nome_antigo": "S-G-MA-3855-de (V01)",
+      "pai_nome_antigo": "S-G-MA-3855-de",
       "citada": "WNA 3855",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -149130,8 +149054,8 @@
       "motivo": "autorreferencia"
     },
     {
-      "pai": "MATL-546",
-      "pai_nome_antigo": "S-F-ML-4013-en (V01)",
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
       "citada": "MEAS-588",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -149142,7 +149066,127 @@
       "secao": "Sumario",
       "evidencia": "Document-No. S-G-TG-4013-en Version",
       "arquivo": "S-G-TG-4013-en.pdf",
-      "motivo": "falso_positivo"
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        3
+      ],
+      "secao": "Termos/Abreviaturas",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        4
+      ],
+      "secao": "Corpo",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        5
+      ],
+      "secao": "Corpo",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        6
+      ],
+      "secao": "Corpo",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        7
+      ],
+      "secao": "Corpo",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-588",
+      "pai_nome_antigo": "S-G-TG-4013-en",
+      "citada": "MEAS-588",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-G-TG-4013-en",
+      "paginas": [
+        8
+      ],
+      "secao": "Corpo",
+      "evidencia": "Document-No. S-G-TG-4013-en Version",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        1
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
     },
     {
       "pai": "MEAS-596",
@@ -149156,6 +149200,21 @@
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149180,12 +149239,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        3
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         3
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        4
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149210,12 +149299,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        5
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         5
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        6
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149240,12 +149359,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        7
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         7
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        8
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149270,12 +149419,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        9
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         9
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        10
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149300,12 +149479,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        11
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         11
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        12
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149330,12 +149539,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        13
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         13
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        14
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149360,12 +149599,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        15
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         15
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        16
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149390,12 +149659,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        17
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         17
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        18
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149420,12 +149719,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        19
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         19
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        20
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149450,12 +149779,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        21
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         21
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        22
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149480,12 +149839,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        23
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         23
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        24
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149510,12 +149899,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        25
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         25
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        26
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149540,12 +149959,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        27
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         27
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        28
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149570,12 +150019,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        29
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         29
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        30
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149600,12 +150079,42 @@
       "citada": "MEAS-596",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        31
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "S-G-TG-4015-en",
       "paginas": [
         31
       ],
       "secao": "Corpo",
       "evidencia": "Document-No. [S-G-TG-4015-en] Version",
+      "arquivo": "S-G-TG-4015-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "MEAS-596",
+      "pai_nome_antigo": "S-G-TG-4015-en",
+      "citada": "MEAS-596",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 4015",
+      "paginas": [
+        32
+      ],
+      "secao": "Corpo",
+      "evidencia": "WNA 4015 Work instruction for microscopic analysis on a thermoplastic weld line",
       "arquivo": "S-G-TG-4015-en.pdf",
       "motivo": "autorreferencia"
     },
@@ -149627,9 +150136,9 @@
     {
       "pai": "MEAS-596",
       "pai_nome_antigo": "S-G-TG-4015-en",
-      "citada": "WNA 4015",
+      "citada": "MEAS-596",
       "tipo": "interna",
-      "status_mapa": "NAO_CONFIRMADO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 4015",
       "paginas": [
         32
@@ -160892,6 +161401,21 @@
     {
       "pai": "DSGN-475",
       "pai_nome_antigo": "S-L-DN-5070-en",
+      "citada": "DSGN-475",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "WNA 5070",
+      "paginas": [
+        14
+      ],
+      "secao": "Corpo",
+      "evidencia": "Changes: 13.02.2013 WNA 5070 was added to the WN 28.03.2013 Characteristic bursting pressure at item heat exchanger added (coordination with WNA 5071)",
+      "arquivo": "S-L-DN-5070-en.pdf",
+      "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-475",
+      "pai_nome_antigo": "S-L-DN-5070-en",
       "citada": "W-BE-0718",
       "tipo": "interna",
       "status_mapa": "DESCONHECIDO",
@@ -164416,7 +164940,7 @@
     },
     {
       "pai": "DSGN-494",
-      "pai_nome_antigo": "S-L-TG-2143-de (V01)",
+      "pai_nome_antigo": "S-L-TG-2143-de",
       "citada": "WNA 2143",
       "tipo": "interna",
       "status_mapa": "NAO_CONFIRMADO",
@@ -167041,8 +167565,37 @@
       "variante_de": "TEST-257"
     }
   ],
+  "avisos": [
+    {
+      "motivo": "colisao_mapeamento_aprovado",
+      "arquivo": "S-G-TG-4013-en.pdf",
+      "document_no": "MEAS-588",
+      "codigo_excecao": "S-F-ML-4013-en (V01)",
+      "destino_excecao": "MATL-546",
+      "detalhe": "Arquivo pertence a F1; associação da exceção não aplicada."
+    },
+    {
+      "motivo": "multiplos_arquivos_mesma_norma",
+      "document_no": "DSGN-380",
+      "arquivo": [
+        "S-L-PT-0510-en.docx",
+        "S-L-PT-0510-en.pdf"
+      ],
+      "detalhe": "Arquivos processados e agregados para a mesma norma."
+    },
+    {
+      "motivo": "multiplos_arquivos_mesma_norma",
+      "document_no": "DSGN-398",
+      "arquivo": [
+        "S-L-PT-0511-en.docx",
+        "S-L-PT-0511-en.pdf"
+      ],
+      "detalhe": "Arquivos processados e agregados para a mesma norma."
+    }
+  ],
+  "mapa_usado": "02_BANCO_ATUAL/mapa_base/mapa_normas_v1.json",
   "documentos_processados": 597,
   "arquivos_encontrados": 674,
-  "tempo_segundos": 25.81295500000124,
-  "tempo_total_segundos": 30.46858610000345
+  "tempo_segundos": 21.462251399992965,
+  "tempo_total_segundos": 25.371679400006542
 }
