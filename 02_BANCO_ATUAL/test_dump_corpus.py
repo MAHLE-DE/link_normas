@@ -30,12 +30,13 @@ def test_dump_com_manifesto_e_saida_fora_da_pasta_do_script(tmp_path):
     }]), encoding="utf-8")
     output = tmp_path / "saida do dump"
     command = [sys.executable, str(root / "03_PILOTO_40/corpus/dump_corpus.py"),
-               "--manifesto", str(manifest), "--saida", str(output), "--sem-tabelas-pdf"]
+               "--manifesto", str(manifest), "--saida", str(output)]
     result = subprocess.run(command, cwd=cwd, capture_output=True,
                             env=dict(os.environ, PYTHONIOENCODING="cp1252"))
     assert result.returncode == 0, result.stderr
     text = (output / "DSGN-352.txt").read_text(encoding="utf-8")
     assert "idioma: de" in text
+    assert "Tabelas PDF:" in text
     assert "===== PAGINA 1 =====" in text and "L001: ISO 9001" in text
     assert (output / "candidatos.tsv").is_file()
     assert "DSGN-352\t1\t1" in result.stdout.decode("utf-8")

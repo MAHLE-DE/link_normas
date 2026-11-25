@@ -31,6 +31,15 @@ de executar `03` sobre o banco completo.
 | `03_extrair_05_DOCUMENTS.bat` | Percorre `05_DOCUMENTS/` e todas as subpastas; gera `saida/resultado_05_DOCUMENTS.xlsx` e `.json`. Se a pasta faltar, mostra uma orientação e encerra. |
 | `04_rodar_testes.bat` | Executa pytest em `02_BANCO_ATUAL/` e `10_EXTRATOR/`. |
 | `05_validar_segunda_amostra.bat` | Valida a segunda amostra contra o gabarito v2.1; gera `saida/resultado_v2.xlsx` e `.json`. |
+| `06_validar_terceira_amostra.bat` | Valida a terceira amostra contra o gabarito v3.1; gera `saida/resultado_v3.xlsx` e `.json`. |
+
+As avaliações cegas, antes de corrigir regras gerais, mediram precisão
+90,80% / recall 76,70% na segunda amostra e precisão 96,23% / recall 98,55%
+na terceira. As três amostras têm testes de regressão exigindo 100%/100%.
+
+O dump usa por padrão texto PDF sem `find_tables`, que pode encerrar o
+processo nativamente. O texto das tabelas permanece no texto extraído;
+tabelas DOCX continuam sendo emitidas. O extrator não chama `find_tables`.
 
 Todas as saídas de extração ficam em `10_EXTRATOR/saida/`, ignorada pelo Git.
 Confira `Ignorados`: variantes de idioma não operacionais, arquivos sem

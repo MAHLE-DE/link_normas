@@ -99,6 +99,21 @@ def test_regressao_segunda_amostra():
     assert result["avaliacao"]["geral"]["recall"] == 1
 
 
+def test_regressao_terceira_amostra():
+    result = extractor.executar("TESTE40_V3", "TESTE40_V3/corpus/corpus_40_v3.json", gabarito="TESTE40_V3/corpus/gabarito_40_v3.json")
+    assert result["documentos_processados"] == 40
+    assert result["avaliacao"]["geral"]["precisao"] == 1
+    assert result["avaliacao"]["geral"]["recall"] == 1
+
+
+def test_sufixo_sem_idioma_nao_inventa_parte():
+    assert extractor.lookup("S-G-ML-4100-02", {})[2] == "S-G-ML-4100-02"
+
+
+def test_clausula_decimal_nao_trunca_outros_prefixos():
+    assert [c.raw for c in extractor.candidatos("VDI 1234-2.3")] == ["VDI 1234-2"]
+
+
 def test_chaves_publicas_do_gabarito_ja_sao_canonicas():
     gold = json.loads((extractor.ROOT / "03_PILOTO_40/corpus/gabarito_40_v1.json").read_text(encoding="utf-8"))
     for document in gold["documentos"].values():
@@ -394,7 +409,7 @@ def test_sintaxe_python_310_e_lancadores_portateis():
         for path in directory.glob("*.py"):
             ast.parse(path.read_text(encoding="utf-8"), feature_version=(3, 10))
     launchers = sorted(extractor.BASE.glob("*.bat"))
-    assert len(launchers) == 6
+    assert len(launchers) == 7
     for path in launchers:
         text = path.read_text(encoding="utf-8").lower()
         for required in ['cd /d "%~dp0"', "chcp 65001 >nul", "py -3", "if errorlevel 1", "pause", "exit /b 1"]:

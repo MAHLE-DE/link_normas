@@ -188,7 +188,7 @@ def candidatos(text):
             if tolerance and re.match(r"\s*/\s*\+\d+", text[end:]):
                 end = match.start() + tolerance.start()
             clause = re.search(r"-\d+$", text[match.start():end])
-            if clause and re.match(r"\.\d", text[end:]):
+            if clause and re.match(r"(?:DIN\s+)?(?:EN\s+)?(?:ISO|IEC|EN)\b", match[0], re.I) and re.match(r"\.\d", text[end:]):
                 # "ISO 4020-6.3": 6.3 é cláusula da norma, não parte.
                 end = match.start() + clause.start()
             found.append(Candidate(match.start(), end, text[match.start():end], "publica"))
@@ -261,7 +261,7 @@ def lookup(raw, mapa):
     # Legado escrito em grupos: "WNF 10 20 08" -> WNF 102008.
     raw = re.sub(r"^(WN[A-Z])[ _-]*(\d{2})\s(\d{2})\s(\d{2})$", r"\1 \2\3\4", raw, flags=re.I)
     # Parte sem "P": "S-G-ML-4100-02-de" -> S-G-ML-4100-P02.
-    raw = re.sub(r"^([SG]-[A-Z]-[A-Z]{2}-\d{4})-(\d{2})(?=-[A-Z]{2}$|$)", r"\1-P\2", raw, flags=re.I)
+    raw = re.sub(r"^([SG]-[A-Z]-[A-Z]{2}-\d{4})-(\d{2})(?=-(?:EN|DE|FR|ES|PT|IT|ZH)$)", r"\1-P\2", raw, flags=re.I)
     key = normalizar_interna(re.sub(r"\s*-\s*", "-", raw))
     entry = mapa.get(key, {"status": "DESCONHECIDO", "atual": ""})
     output = entry["atual"] if entry["status"] in {"VIGENTE", "RESOLVIDO"} else key

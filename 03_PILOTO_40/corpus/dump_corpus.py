@@ -153,7 +153,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifesto", type=Path, default=BASE / "corpus_40.json")
     parser.add_argument("--saida", type=Path, help="Pasta dos dumps; padrão: dump/ ao lado do manifesto")
-    parser.add_argument("--sem-tabelas-pdf", action="store_true", help="Usa texto dos PDFs sem chamar a detecção nativa de tabelas; tabelas DOCX são preservadas")
+    parser.add_argument("--sem-tabelas-pdf", action="store_true", default=True, help="Padrão seguro: usa texto PDF sem detecção nativa; tabelas DOCX preservadas")
     args = parser.parse_args()
     root = BASE.parent.parent
     manifest = args.manifesto
