@@ -1,0 +1,641 @@
+{
+ "versao": "3.1",
+ "amostra": "TESTE40_V3 (terceira amostra cega)",
+ "gerado_em": "2026-11-25",
+ "autor": "orquestrador (revisao manual dos dumps, sem consultar a saida do extrator)",
+ "regras": [
+  "Unidade de avaliacao: par (norma-pai vigente, norma citada vigente/canonica), deduplicado.",
+  "Internas: a chave do gabarito e o codigo como citado (normalizado); a avaliacao resolve pelo mapa_normas_v1 e descarta EXCLUIDO_DECISAO e RETIRADO; autorreferencia apos resolucao e descartada.",
+  "Publicas: DIN EN ISO / DIN ISO / EN ISO -> ISO; DIN EN -> EN; EN 6xxxx e IEC 68-x -> IEC 60068-x; ISO IEC -> ISO/IEC; ISO TR/TS -> ISO/TR, ISO/TS.",
+  "Publicas: remover ano/edicao (:2015, -2004, (12/1992), 2009, OCT2011) e qualificadores de metodo (A3, B, NSS, A+C, KFW 2,0S, -m, NR, N, classe, method A).",
+  "Partes: '4548/12'->4548-12; 'Teil 1 & 3'->-1,-3; '11357-1/-2'->-1,-2; zeros a esquerda de parte removidos (9073-07->9073-7); numero partido entre linhas e unido.",
+  "Familias citadas (ISO 4548, ISO 16232 Part1-10, DIN 51604) sao incluidas como familia, mesmo se partes tambem forem citadas.",
+  "Espacos internos: VDA 675 116 -> VDA 675116; DIN 75 201 -> DIN 75201. ASTM D-5228 -> ASTM D5228. IPC revisoes (A/B) removidas.",
+  "Regulatorios REACH, GADSL, RoHS, ELV, IMDS incluidos quando em contexto de requisito; excluidos em listas de abreviaturas.",
+  "Excluir: autorreferencia (codigo atual, nomes anteriores, legado em titulo/Keywords), mencao historica (former/statt/substituted by/changed to no historico), clientes, fornecedores, falsos positivos de sumario/pagina, curingas, caminhos de arquivo.",
+  "Documentos de processo/planta/regionais (P-B-*, W-B-*, W-BE-* de processo, W-G-*, WI-*, diretrizes regionais) nao sao extraidos, EXCETO W-B-0718 (decisao do usuario). W-BE-0885 segue valido por ser excecao do cadastro.",
+  "Normas que o proprio documento marca como [WITHDRAWN] ou 'Not in use' nao sao extraidas.",
+  "Erros de digitacao: corrigir so quando obvio (forma correta citada no mesmo doc ou inequivoca): DIN 14214->EN 14214, DIN228->EN 228; demais como citado.",
+  "Normas tecnicas publicas de outros orgaos (CSA etc.) sao incluidas; diretivas/decretos legais nao (exceto REACH, GADSL, RoHS, ELV, IMDS).",
+  "FEFCO: codigo de estilo de embalagem 'FEFCO Norm/design NNNN/x' -> 'FEFCO NNNN' (variante /x e qualificador)."
+ ],
+ "documentos": {
+  "DSGN-369": {
+   "incluir": [
+    "S-I-PT-5022",
+    "S-G-TG-4050",
+    "S-G-ML-1010",
+    "S-G-PT-5040",
+    "ISO 815-1",
+    "ISO 3384",
+    "G-G-PT-5025",
+    "G-I-PT-2137",
+    "G-I-PT-3201",
+    "S-I-PT-2136",
+    "W-B-0718",
+    "G-A-DN-5045",
+    "S-H-DN-5041",
+    "S-I-TG-2139",
+    "WNA 6011",
+    "S-G-PT-0505"
+   ],
+   "excluir": {
+    "G-H-DN-5013": "autorreferencia",
+    "TOYOTA/HONDA/NISSAN/FCA/SUZUKI": "norma de cliente (exemplos de motores/pecas de clientes)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "DSGN-376": {
+   "incluir": [],
+   "excluir": {
+    "S-G-PT-1107": "autorreferencia",
+    "WNA 1107": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "DSGN-389": {
+   "incluir": [
+    "S-I-DN-5010",
+    "S-G-DN-5000",
+    "WNA 5005",
+    "ISO 20457"
+   ],
+   "excluir": {
+    "S-A-PT-5033": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'S-I-DN-5010 and 5005' - '5005' sem prefixo nao conta (WNA 5005 aparece explicita na lista de referencias)."
+  },
+  "DSGN-398": {
+   "incluir": [
+    "DIN 2768",
+    "DIN 8062-3",
+    "ISO 8015"
+   ],
+   "excluir": {
+    "S-L-PT-0511": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'DIN 8062-3' mantida como citada (provavel DIN EN ISO 8062-3, mas nao e erro obvio pela regra do usuario). 'DIN 2768 - mK' -> DIN 2768."
+  },
+  "DSGN-399": {
+   "incluir": [],
+   "excluir": {
+    "S-L-PT-0625": "autorreferencia",
+    "WNA 625": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "DSGN-428": {
+   "incluir": [
+    "S-I-DN-5010",
+    "S-G-DN-5000",
+    "S-L-PT-0508",
+    "S-G-PT-5075",
+    "WNA 5031"
+   ],
+   "excluir": {
+    "S-I-PT-5022": "autorreferencia",
+    "VW 01057": "norma de cliente",
+    "LL 01791/LL 2205/LL 02144": "falso positivo (ids de Lessons Learned)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "DSGN-462": {
+   "incluir": [],
+   "excluir": {
+    "S-G-PT-1109": "autorreferencia",
+    "WNA 1109": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "DSGN-473": {
+   "incluir": [
+    "G-A-DN-0620",
+    "S-G-ML-9020",
+    "S-G-ML-9051",
+    "ISO 2768",
+    "S-F-PT-0270"
+   ],
+   "excluir": {
+    "G-A-DN-5018": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'DIN ISO 2768-c' -> ISO 2768 (classe c e qualificador)."
+  },
+  "DSGN-480": {
+   "incluir": [
+    "S-F-PT-0612",
+    "S-F-MA-0605",
+    "S-F-MA-0615",
+    "S-F-MA-0606",
+    "S-F-PT-0616",
+    "S-F-MA-0612",
+    "S-F-PT-0660",
+    "S-F-PT-0658"
+   ],
+   "excluir": {
+    "S-F-PT-0664": "autorreferencia",
+    "WNA 664": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": "S-F-MA-0605/0606 aparecem como tipos de dobra listados ('nach S-F-MA-0605-de (auslaufend, ersetzt durch ...)') alem de 'Ersatz fuer' -> incluidas como citacao de tipo vigente no documento."
+  },
+  "DSGN-511": {
+   "incluir": [
+    "WNA 5022",
+    "S-I-PT-5022",
+    "DSGN-428"
+   ],
+   "excluir": {
+    "G-I-PT-3202": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'S-I-PT-5022-en / DSGN-428' = mesmo documento (colapsa no mapa). 'WNA 5022 Excel-Tool' citado como ferramenta normativa."
+  },
+  "MATL-549": {
+   "incluir": [
+    "S-C-TG-0002"
+   ],
+   "excluir": {
+    "S-C-ML-2100": "autorreferencia",
+    "WNC 102100": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)",
+    "MWV SOP 0960-130": "metodo/norma de fornecedor"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-576": {
+   "incluir": [
+    "S-C-TG-0002"
+   ],
+   "excluir": {
+    "S-C-ML-1700": "autorreferencia",
+    "WNC 101700": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)",
+    "MWV SOP 0960-130": "metodo/norma de fornecedor"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-584": {
+   "incluir": [
+    "S-C-TG-0002"
+   ],
+   "excluir": {
+    "S-C-ML-1000": "autorreferencia",
+    "WNC 101000": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-588": {
+   "incluir": [
+    "GB/T 8331",
+    "GB 8144",
+    "ISO 11155-2"
+   ],
+   "excluir": {
+    "S-F-ML-2026": "autorreferencia",
+    "Jacobi TIX4011/4065/4021/4030": "metodo/norma de fornecedor"
+   },
+   "duvida": {},
+   "obs": "'GB/T 8331-87' e 'GB 8144-87' -> ano removido."
+  },
+  "MATL-595": {
+   "incluir": [
+    "ISO 1629",
+    "ISO 17025",
+    "ISO 1183-1",
+    "ISO 7619-1",
+    "ISO 48",
+    "GADSL",
+    "REACH",
+    "DIN 53504",
+    "ISO 34-1",
+    "VDA 675116",
+    "ISO 815-1",
+    "ISO 188",
+    "ISO 1817",
+    "ISO 3384",
+    "VDA 675135"
+   ],
+   "excluir": {
+    "S-H-ML-1021": "autorreferencia",
+    "WNE 101021": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)",
+    "BMW GS 97018": "norma de cliente",
+    "BMW GS 93010": "norma de cliente"
+   },
+   "duvida": {},
+   "obs": "'Accreditation acc. to ISO 17025' mantida como citada (ISO 17025). GADSL/REACH em requisito ('must be conform to ... (GADSL, REACH)'). v3.1: VDA 675135 incluida (4.3.11 Thermogravimetric Analysis, p7)."
+  },
+  "MATL-614": {
+   "incluir": [
+    "DIN 51757",
+    "DIN 53479",
+    "ISO 2431",
+    "DIN 53214",
+    "DIN 53568",
+    "VDA 621-111",
+    "VDA 621-112",
+    "DIN 53219",
+    "DIN 53220",
+    "ISO 2178",
+    "DIN 50982-3",
+    "ISO 2064",
+    "ISO 3882",
+    "ISO 2409",
+    "ISO 1519",
+    "ISO 2815",
+    "DIN 50021",
+    "DIN 53210",
+    "DIN 53230",
+    "DIN 53209",
+    "DIN 53167",
+    "DIN 50017"
+   ],
+   "excluir": {
+    "S-G-ML-4100": "autorreferencia",
+    "WNL 104100-2": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)",
+    "TL 8010-0001": "norma de cliente ('Miterfuellte Kundenspezifikationen')"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-617": {
+   "incluir": [
+    "ISO 1183-1",
+    "ISO 7619-1",
+    "ISO 48",
+    "DIN 53504",
+    "ISO 34-1",
+    "VDA 675116",
+    "ISO 815-1",
+    "DIN 53508",
+    "WNA 5040",
+    "ISO 1817",
+    "ISO 815",
+    "DIN 51604",
+    "EN 14214"
+   ],
+   "excluir": {
+    "S-L-ML-1018": "autorreferencia",
+    "WNE 101018": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)",
+    "VW 2.8.1": "norma de cliente",
+    "DBL 5587": "norma de cliente",
+    "PN 707-2": "norma de cliente",
+    "DBL 60358/5565": "norma de cliente",
+    "ISO 48-5": "falso positivo (tolerancia '-5/+2')",
+    "ISO 1817-1/-2/-10": "falso positivo (tolerancias)",
+    "DIN 14214": "erro de digitacao unificado com EN 14214"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-634": {
+   "incluir": [
+    "TEST-278",
+    "ISO 9237",
+    "ISO 9073-2",
+    "ISO 9073-1",
+    "DIN 75200",
+    "FMVSS 302",
+    "DIN 54310",
+    "ISO 846",
+    "DIN 75201",
+    "VDA 270",
+    "DIN 71460-1",
+    "ISO 11155-1",
+    "ISO 11155-2"
+   ],
+   "excluir": {
+    "MATL-634": "autorreferencia",
+    "S-F-ML-2810": "mencao historica ('TEST-278 (former S-F-ML-2810)', mesmo documento)",
+    "S-F-ML-2783": "mencao historica ('S-F-ML-2783-en is substituted by MATL-634-en')"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-643": {
+   "incluir": [
+    "S-F-ML-2810",
+    "ISO 9237",
+    "ISO 9073-2",
+    "ISO 9073-1",
+    "ISO 9073-3",
+    "DIN 75200",
+    "FMVSS 302",
+    "DIN 53438",
+    "DIN 54310",
+    "DIN 71460"
+   ],
+   "excluir": {
+    "MATL-643": "autorreferencia",
+    "S-F-ML-2013": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-647": {
+   "incluir": [
+    "WNF 102810",
+    "DIN 53438",
+    "MVSS 302"
+   ],
+   "excluir": {
+    "MATL-647": "autorreferencia",
+    "WNF 102713": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-648": {
+   "incluir": [
+    "DIN 53438",
+    "MVSS 302"
+   ],
+   "excluir": {
+    "MATL-648": "autorreferencia",
+    "WNF 102731": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-684": {
+   "incluir": [
+    "WNF 102810",
+    "DIN 53438"
+   ],
+   "excluir": {
+    "S-F-ML-2034": "autorreferencia",
+    "TEST-140": "autorreferencia (cabecalho 'Document No. TEST-140 / Previous S-F-ML-2034-en')",
+    "WNF 102034": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MATL-726": {
+   "incluir": [
+    "S-F-ML-2810"
+   ],
+   "excluir": {
+    "S-F-ML-2715": "autorreferencia",
+    "WNF 102715": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)",
+    "WNF 102810": "mencao historica (former, mesmo documento)",
+    "VW PV 3925": "norma de cliente"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MEAS-509": {
+   "incluir": [
+    "ISO 8015",
+    "ISO 12180-2",
+    "ISO 14405-1"
+   ],
+   "excluir": {
+    "G-G-ME-5060": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MEAS-512": {
+   "incluir": [
+    "WNA 596",
+    "WNA 604-2"
+   ],
+   "excluir": {
+    "S-F-ME-2115": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'(604 for old projects)' sem prefixo nao conta."
+  },
+  "MEAS-518": {
+   "incluir": [
+    "WNA 5072",
+    "ISO 10579",
+    "ISO 2692",
+    "VDA 5",
+    "DIN 2239",
+    "DIN 7150-2",
+    "ISO 10360-2",
+    "VDI/VDE 2617",
+    "WNA 5060"
+   ],
+   "excluir": {
+    "S-H-ME-5031": "autorreferencia",
+    "WNA 5031": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter) e capitulo 'for creating the WNA5031'",
+    "W-Q-8821/8824/8825": "documento de processo/planta (regra do usuario: so W-B-0718)",
+    "MSA User Guide QS-9000": "manual de guia (AIAG), nao codigo de norma"
+   },
+   "duvida": {},
+   "obs": "'DIN ISO 10 579 NR' -> ISO 10579 (numero com espaco). 'VDA volume 5' / 'VDA 5' -> VDA 5. 'VDI / VDE 2617' -> VDI/VDE 2617."
+  },
+  "MEAS-555": {
+   "incluir": [],
+   "excluir": {
+    "S-A-TG-2110": "autorreferencia",
+    "WNA 2110": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MEAS-568": {
+   "incluir": [
+    "WNA 260",
+    "WNA 646",
+    "WNA 653",
+    "WNA 654",
+    "WNA 654/1",
+    "WNA 684",
+    "WNF 102010",
+    "ISO 2942",
+    "WNK 103110",
+    "WNK 103120",
+    "WNK 103121",
+    "WNF 102151",
+    "WNA 60561",
+    "WNF 102051"
+   ],
+   "excluir": {
+    "S-F-ME-6561": "autorreferencia",
+    "W-2270-AA_226-de": "documento de processo/planta (regra do usuario: so W-B-0718)",
+    "PM 30": "falso positivo"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MEAS-569": {
+   "incluir": [
+    "DIN 66160",
+    "DIN 66165-1",
+    "DIN 66165-2"
+   ],
+   "excluir": {
+    "S-C-TG-8101": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'DIN 66165 part 1 and 2' -> partes 1 e 2."
+  },
+  "MNFG-486": {
+   "incluir": [
+    "WNA 612",
+    "WNA 615",
+    "WNA 604",
+    "WNA 609-1",
+    "ISO 7747",
+    "DIN 71459"
+   ],
+   "excluir": {
+    "S-F-MA-0684": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MNFG-489": {
+   "incluir": [
+    "S-G-ML-2008",
+    "S-F-PT-0255"
+   ],
+   "excluir": {
+    "S-F-MA-0611": "autorreferencia",
+    "WNA 611": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MNFG-497": {
+   "incluir": [
+    "FEFCO 0714"
+   ],
+   "excluir": {
+    "S-G-MA-3813": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MNFG-500": {
+   "incluir": [
+    "VDA 5.2",
+    "S-G-PT-9000"
+   ],
+   "excluir": {
+    "S-G-MA-6020": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": "'VDA 5.2 Abschnitt 4.3' mantida como citada."
+  },
+  "MNFG-503": {
+   "incluir": [
+    "S-F-DN-0660",
+    "S-F-PT-0668",
+    "S-G-ML-2008",
+    "S-F-DN-0255",
+    "S-F-PT-0255",
+    "S-F-PT-0660"
+   ],
+   "excluir": {
+    "S-F-MA-0614": "autorreferencia",
+    "WNA 614": "autorreferencia (legado do proprio documento em Keywords/Schlagwoerter)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "MNFG-507": {
+   "incluir": [
+    "FEFCO 0215"
+   ],
+   "excluir": {
+    "S-G-PT-3815": "autorreferencia"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "PROD-328": {
+   "incluir": [
+    "DIN 1451"
+   ],
+   "excluir": {
+    "S-L-PT-5105": "autorreferencia",
+    "WNA 5105": "autorreferencia (legado do proprio documento; F4 WNA 5105 -> S-L-PT-5105)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "PROD-330": {
+   "incluir": [],
+   "excluir": {
+    "S-G-PT-0070": "autorreferencia",
+    "WNA 70": "autorreferencia (titulo/rodape do proprio documento)"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "PROD-332": {
+   "incluir": [
+    "WNA 255",
+    "WNF 102008",
+    "WNF 102154"
+   ],
+   "excluir": {
+    "S-F-PT-0690": "autorreferencia",
+    "US TR116421 (Hollingsworth & Vose)": "metodo/norma de fornecedor"
+   },
+   "duvida": {},
+   "obs": "'WNF 10 20 08' (com espacos) = WNF 102008, tambem citada como 'WNF 102008'."
+  },
+  "PROD-334": {
+   "incluir": [
+    "S-G-DN-0550",
+    "S-F-MA-0656",
+    "WNA 2115",
+    "S-F-PT-0596",
+    "S-F-PT-6042",
+    "S-F-PT-0555",
+    "S-F-ME-2115"
+   ],
+   "excluir": {
+    "S-F-PT-0685": "autorreferencia",
+    "TEST-6": "falso positivo ('test 6.3')"
+   },
+   "duvida": {},
+   "obs": ""
+  },
+  "TEST-319": {
+   "incluir": [
+    "S-L-PT-8125",
+    "ISO 4548-12",
+    "ISO 4548-1",
+    "ISO 4548-3",
+    "ISO 4548-2",
+    "ISO 4548-9",
+    "S-L-TG-8125",
+    "WNA 2191-1",
+    "ISO 4020",
+    "ISO 19438",
+    "ISO/TS 16332",
+    "ISO 5011",
+    "ISO 11155-1",
+    "ISO 11155-2",
+    "ISO 4548-6",
+    "ISO/TS 13353",
+    "WNA 8125",
+    "ISO 12103-2",
+    "ISO 16332",
+    "ISO 12103"
+   ],
+   "excluir": {
+    "TEST-319": "autorreferencia",
+    "S-G-TG-0225": "autorreferencia",
+    "ISO 4020-6": "falso positivo ('ISO 4020-6.3/6.5' = clausula, nao parte -> ISO 4020)",
+    "SAE 5W30": "falso positivo"
+   },
+   "duvida": {},
+   "obs": "'S-L-PT-8125' mantida como citada (alem de S-L-TG-8125). 'ISO 12103/2 M2' -> ISO 12103-2. 'ISO 16332' e 'ISO/TS 16332' citadas nas duas formas."
+  }
+ }
+}
