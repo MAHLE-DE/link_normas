@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T13:19:02.963648+00:00",
+  "gerado_em": "2026-11-25T13:33:25.156434+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -31,12 +31,12 @@
   ],
   "resumo": {
     "VIGENTE": 595,
-    "RESOLVIDO": 681,
+    "RESOLVIDO": 682,
     "RETIRADO": 171,
     "EXCLUIDO_DECISAO": 3,
     "LEGADO_SEM_SUCESSOR": 141,
     "CONFLITO": 5,
-    "NAO_CONFIRMADO": 364,
+    "NAO_CONFIRMADO": 363,
     "DESCONHECIDO": 123
   },
   "codigos": {
@@ -97298,7 +97298,8 @@
         "F5",
         "F6",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [
@@ -97334,7 +97335,8 @@
         "F7: edges[848]",
         "F7: edges[849]",
         "F8: DSGN-348.txt: página 32, L038",
-        "F8: candidatos.tsv: página 32, linha 38, texto"
+        "F8: candidatos.tsv: página 32, linha 38, texto",
+        "F9: decisoes[21]"
       ],
       "normas_pai": [
         "DSGN-347",
@@ -149594,21 +149596,163 @@
       "ocorrencias_corpus": []
     },
     "WNA 4016": {
-      "status": "NAO_CONFIRMADO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-430",
+      "cadeia": [
+        "WNA 4016",
+        "S-G-DN-4016",
+        "DSGN-430"
+      ],
       "formas_vistas": [
         "WNA 4016"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "WNA 4016",
+          "para": "S-G-DN-4016",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'",
+              "local": "decisoes[21]",
+              "autoridade": 4,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[21]: usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 4
+        },
+        {
+          "de": "S-G-DN-4016",
+          "para": "DSGN-430",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "language_variants.file_name",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 627",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 628",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 629",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 630",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 631",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 632",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+              "local": "Sheet1!linha 633",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[847]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[848]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-G-DN-4016-en",
+              "local": "edges[849]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : language_variants.file_name",
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 627: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F6 Sheet1!linha 628: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F6 Sheet1!linha 629: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F6 Sheet1!linha 630: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F6 Sheet1!linha 631: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F6 Sheet1!linha 632: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F6 Sheet1!linha 633: Parent Old name=S-G-DN-4016-en; Parent Standard=DSGN-430",
+            "F7 edges[847]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[848]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[849]: Cadastro Canônico V3: Previous Document No.: S-G-DN-4016-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Definition of the maximum acceptable welding mismatch (WMI) at plastic welding lines",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'"
+      ],
       "comparacoes_titulo": [
         {
           "regra": "B",
@@ -149626,7 +149770,8 @@
         "F8: DSGN-431.txt: página 11, L002",
         "F8: DSGN-431.txt: página 11, L061",
         "F8: candidatos.tsv: página 11, linha 2, tabela",
-        "F8: candidatos.tsv: página 11, linha 61, texto"
+        "F8: candidatos.tsv: página 11, linha 61, texto",
+        "F9: decisoes[21]"
       ],
       "normas_pai": [
         "DSGN-431"
@@ -149634,8 +149779,9 @@
       "base_legado": "WNA 4016",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-431",
-        "G-G-PT-4012"
+        "DSGN-430",
+        "G-G-PT-4012",
+        "S-G-DN-4016"
       ],
       "indicios": [
         {
@@ -149659,6 +149805,28 @@
           "confianca": 0.0,
           "confirmado": false,
           "autoridade": 0
+        },
+        {
+          "de": "WNA 4016",
+          "para": "S-G-DN-4016",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'",
+              "local": "decisoes[21]",
+              "autoridade": 4,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[21]: usuario: DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 4
         }
       ],
       "citado_no_corpus": true,
@@ -185581,6 +185749,11 @@
       "fonte": "CONFLITO",
       "local": "WNA 4000",
       "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-G-TG-4000 (F5)"
+    },
+    {
+      "fonte": "CONFLITO",
+      "local": "WNA 4016",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: G-G-PT-4012 (F7)"
     },
     {
       "fonte": "CONFLITO",

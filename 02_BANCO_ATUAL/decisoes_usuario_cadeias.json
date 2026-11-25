@@ -25,6 +25,7 @@
     {"codigo": "WNA 6007", "acao": "ligar", "para": "S-G-MA-6007", "evidencia": "MNFG-506 p10 Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling (WNA 6007)", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
     {"codigo": "WNA 6008", "acao": "ligar", "para": "S-G-MA-6008", "evidencia": "MNFG-506 p11 Linear Vibration Weld Tooling Specification (WNA 6008); G-G-MA-6008-en com o mesmo titulo (MNFG-506 p55)", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
     {"codigo": "G-G-MA-6008", "acao": "ligar", "para": "S-G-MA-6008", "evidencia": "variante de prefixo G/S com o mesmo titulo Linear Vibration Weld Tooling Specification", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
-    {"codigo": "S-F-DN-0616", "acao": "ligar", "para": "DSGN-387", "evidencia": "variante de tipo DN/PT do previous S-F-PT-0616-de (DSGN-387); MNFG-470 e DSGN-427 citam a mesma geometria", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"}
+    {"codigo": "S-F-DN-0616", "acao": "ligar", "para": "DSGN-387", "evidencia": "variante de tipo DN/PT do previous S-F-PT-0616-de (DSGN-387); MNFG-470 e DSGN-427 citam a mesma geometria", "origem": "usuario (aprovacao em lote 2026-11-25)", "data": "2026-11-25"},
+    {"codigo": "WNA 4016", "acao": "ligar", "para": "S-G-DN-4016", "evidencia": "DSGN-431 p11 'WNA 4016: Definition of the max. acceptable welding mismatch' = titulo DSGN-430 'Definition of the maximum acceptable welding mismatch (WMI)...' (previous S-G-DN-4016-en; similaridade 0,75 pela abreviacao 'max.'); DSGN-348 'Maximum welding mismatch: S-G-DN-4016'", "data": "2026-11-25", "origem": "usuario"}
   ]
 }

@@ -185,6 +185,7 @@ def test_titulo_fraco_ambiguo_e_sem_adjacencia():
     ("WNA 5090", "DSGN-400"), ("WNA 5080", "DSGN-381"), ("WNA 5091", "DSGN-437"),
     ("WNA 5039", "DSGN-416"), ("WNA 6004", "MNFG-496"), ("WNA 6007", "MNFG-508"),
     ("WNA 6008", "S-G-MA-6008"), ("G-G-MA-6008", "S-G-MA-6008"), ("S-F-DN-0616", "DSGN-387"),
+    ("WNA 4016", "DSGN-430"),
 ])
 def test_decisoes_contexto_t2d(raw, current):
     assert resolver(raw)["atual"] == current
