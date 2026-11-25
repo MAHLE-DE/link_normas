@@ -4,6 +4,7 @@ Execute com Python e PyMuPDF instalados. Os resultados ficam em dump/.
 Esta ferramenta não resolve nem valida referências normativas.
 """
 
+import argparse
 import csv
 import json
 import re
@@ -111,14 +112,23 @@ def resolve_corpus(corpus, records):
 def main():
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    manifest = BASE / "corpus_40.json"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--manifesto", type=Path, default=BASE / "corpus_40.json")
+    parser.add_argument("--saida", type=Path, help="Pasta dos dumps; padrão: dump/ ao lado do manifesto")
+    args = parser.parse_args()
+    root = BASE.parent.parent
+    manifest = args.manifesto
+    if not manifest.is_absolute():
+        manifest = manifest.resolve() if manifest.exists() else root / manifest
     corpus = json.loads(manifest.read_text(encoding="utf-8"))
     register = BASE.parent.parent / "02_BANCO_ATUAL" / "cadastro_canonico_v3_SEM_URL_SHAREPOINT.json"
     records = json.loads(register.read_text(encoding="utf-8"))["records"]
     corpus = resolve_corpus(corpus, records)
     manifest.write_text(json.dumps(corpus, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    output = BASE / "dump"
-    output.mkdir(exist_ok=True)
+    output = args.saida or manifest.parent / "dump"
+    if not output.is_absolute():
+        output = root / output if output.parts[0] in {"03_PILOTO_40", "04_NOVO_TESTE_40"} else Path.cwd() / output
+    output.mkdir(parents=True, exist_ok=True)
     expected = {f"{entry['document_no']}.txt" for entry in corpus}
     for old_dump in output.glob("*.txt"):
         if old_dump.name not in expected:
@@ -133,7 +143,7 @@ def main():
         for entry in corpus:
             code = entry["document_no"]
             count = 0
-            with pymupdf.open(BASE / entry["arquivo"]) as pdf, (output / f"{code}.txt").open(
+            with pymupdf.open(manifest.parent / entry["arquivo"]) as pdf, (output / f"{code}.txt").open(
                 "w", encoding="utf-8"
             ) as dump:
                 dump.write(
@@ -144,6 +154,8 @@ def main():
                     f"titulo_cadastro: {entry['titulo_cadastro']}\n"
                     f"arquivo: {entry['arquivo']}\n"
                 )
+                if entry.get("idioma"):
+                    dump.write(f"idioma: {entry['idioma']}\n")
                 for page_number, page in enumerate(pdf, 1):
                     raw = page.get_text("text")
                     lines = raw.splitlines()

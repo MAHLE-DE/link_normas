@@ -1,0 +1,742 @@
+[
+  {
+    "arquivo": "../normas_v2/20250522_V02_S-F-ML-2010-en.pdf",
+    "document_no": "TEST-299",
+    "nomes_anteriores": [
+      "S-F-ML-2010-en"
+    ],
+    "titulo": "Air bubble test specification for filter materials",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-299",
+    "titulo_cadastro": "Air bubble test specification for filter materials",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 40,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/G-F-DN-5058-en.pdf",
+    "document_no": "DSGN-485",
+    "nomes_anteriores": [
+      "G-F-DN-5058-en"
+    ],
+    "titulo": "Design compendium I - Filter media",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-485",
+    "titulo_cadastro": "Design compendium I - Filter media",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 5,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/G-G-DN-9001-en.pdf",
+    "document_no": "DSGN-439",
+    "nomes_anteriores": [
+      "G-G-DN-9001-en"
+    ],
+    "titulo": "Self-tapping screwing / Design guidelines and guidelines for monitoring the production process",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-439",
+    "titulo_cadastro": "Self-tapping screwing / Design guidelines and guidelines for monitoring the production process",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 3,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/MATL-628.pdf",
+    "document_no": "MATL-628",
+    "nomes_anteriores": [
+      "S-F-ML-3115-en"
+    ],
+    "titulo": "Molecular sieve for air drying overview (Not allowed for new design!)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-628",
+    "titulo_cadastro": "Molecular sieve for air drying overview (Not allowed for new design!)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 12,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/MEAS-525.pdf",
+    "document_no": "MEAS-525",
+    "nomes_anteriores": [
+      "S-F-ME-0647"
+    ],
+    "titulo": "Measurement specification – length measurement “cabin air filter\"",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-525",
+    "titulo_cadastro": "Measurement specification – length measurement “cabin air filter\"",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 25,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-ML-2500-en.pdf",
+    "document_no": "MATL-562",
+    "nomes_anteriores": [
+      "S-C-ML-2500-en"
+    ],
+    "titulo": "Characteristics for activated carbon Calgon Mitsubishi Chem.Corp. : Diahope CM1",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-562",
+    "titulo_cadastro": "Characteristics for activated carbon Calgon Mitsubishi Chem.Corp. : Diahope CM1",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 11,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-ML-3000-en.pdf",
+    "document_no": "MATL-612",
+    "nomes_anteriores": [
+      "S-C-ML-3000-en"
+    ],
+    "titulo": "Characteristics for extruded activated carbon MeadWestvaco: HCA 41x60-200",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-612",
+    "titulo_cadastro": "Characteristics for extruded activated carbon MeadWestvaco: HCA 41x60-200",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 18,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-ML-3100-en.pdf",
+    "document_no": "MATL-563",
+    "nomes_anteriores": [
+      "S-C-ML-3100-en"
+    ],
+    "titulo": "Characteristics for extruded activated carbon MeadWestvaco: HCA 41x150-200",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-563",
+    "titulo_cadastro": "Characteristics for extruded activated carbon MeadWestvaco: HCA 41x150-200",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 16,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-ML-8154-de.pdf",
+    "document_no": "MATL-607",
+    "nomes_anteriores": [
+      "S-C-ML-8154-de"
+    ],
+    "titulo": "Aktivkohlefilter für Kraftstoffdämpfe, Serienprüfverfahren für AKF Verdunstung",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-607",
+    "titulo_cadastro": "Aktivkohlefilter für Kraftstoffdämpfe, Serienprüfverfahren für AKF Verdunstung",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 14,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-TG-8152-en.pdf",
+    "document_no": "MEAS-570",
+    "nomes_anteriores": [
+      "S-C-TG-8152-en"
+    ],
+    "titulo": "Activated carbon canister for gasoline vapor Determination of working capacity with gasoline (GWC) Scheme for testing",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-570",
+    "titulo_cadastro": "Activated carbon canister for gasoline vapor Determination of working capacity with gasoline (GWC) Scheme for testing",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 22,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-TG-8155-en.pdf",
+    "document_no": "MEAS-561",
+    "nomes_anteriores": [
+      "S-C-TG-8155-en"
+    ],
+    "titulo": "Activated carbon canister for gasoline vapor Test specification for determination of working capacity with n-butane",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-561",
+    "titulo_cadastro": "Activated carbon canister for gasoline vapor Test specification for determination of working capacity with n-butane",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 28,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-C-TG-8157-en.pdf",
+    "document_no": "MEAS-577",
+    "nomes_anteriores": [
+      "S-C-TG-8157-en"
+    ],
+    "titulo": "Activated carbon canister for gasoline vapor, Migration- and permeation properties in the mini-SHED, Test specification",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-577",
+    "titulo_cadastro": "Activated carbon canister for gasoline vapor, Migration- and permeation properties in the mini-SHED, Test specification",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 24,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-ML-2032-en.pdf",
+    "document_no": "MATL-841",
+    "nomes_anteriores": [
+      "S-F-ML-2032-en"
+    ],
+    "titulo": "Test specification for filter materials Valid for the version G013F-E01, G013F-E02, G013F-ML01, G013F ML01 and G013F-UL06 (formerly A13F)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-841",
+    "titulo_cadastro": "Test specification for filter materials Valid for the version G013F-E01, G013F-E02, G013F-ML01, G013F ML01 and G013F-UL06 (formerly A13F)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 15,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-ML-2704-en.pdf",
+    "document_no": "MATL-670",
+    "nomes_anteriores": [
+      "S-F-ML-2704-en"
+    ],
+    "titulo": "Test specification for filter materials (filter fleece, single-layered) S104F (formerly T 4) valid for version S104F-EW01& S104F-EW02",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-670",
+    "titulo_cadastro": "Test specification for filter materials (filter fleece, single-layered) S104F (formerly T 4) valid for version S104F-EW01& S104F-EW02",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 17,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-ML-2736-en.pdf",
+    "document_no": "MATL-689",
+    "nomes_anteriores": [
+      "S-F-ML-2736-en"
+    ],
+    "titulo": "Test specification for filter materials (filter fleece, double-layered) S136F (formerly T 36) Testing acc. to S-F-ML-2810 (former WNF 102810)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-689",
+    "titulo_cadastro": "Test specification for filter materials (filter fleece, double-layered) S136F (formerly T 36) Testing acc. to S-F-ML-2810 (former WNF 102810)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 13,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-PT-0640-en.pdf",
+    "document_no": "DSGN-433",
+    "nomes_anteriores": [
+      "S-F-PT-0640-en"
+    ],
+    "titulo": "Pleat depth and filtration area of pocket-type cylindrical air filter elements with sealing mold D1 or D2 (Not allowed for new design!)",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-433",
+    "titulo_cadastro": "Pleat depth and filtration area of pocket-type cylindrical air filter elements with sealing mold D1 or D2 (Not allowed for new design!)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 9,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-PT-0642-en.pdf",
+    "document_no": "DSGN-344",
+    "nomes_anteriores": [
+      "S-F-PT-0642-en"
+    ],
+    "titulo": "Number of pleats and filtration area of pocket-type cylindrical air filter elements with PU and PVC end plates (Not allowed for new design!)",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-344",
+    "titulo_cadastro": "Number of pleats and filtration area of pocket-type cylindrical air filter elements with PU and PVC end plates (Not allowed for new design!)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 4,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-PT-0693-en.pdf",
+    "document_no": "PROD-333",
+    "nomes_anteriores": [
+      "S-F-PT-0693-en"
+    ],
+    "titulo": "Visual inspection of cabin air filters",
+    "categoria": "product",
+    "codigo_piloto_antigo": "PROD-333",
+    "titulo_cadastro": "Visual inspection of cabin air filters",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 36,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-PT-6450-de.pdf",
+    "document_no": "DSGN-459",
+    "nomes_anteriores": [
+      "S-F-PT-6450-de"
+    ],
+    "titulo": "Abdichtung von Öko-Ölfilter-Einsätzen mit innendichtenden Kunststoffendscheiben (IDI) (Nicht gültig für Neukonstruktionen!)",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-459",
+    "titulo_cadastro": "Abdichtung von Öko-Ölfilter-Einsätzen mit innendichtenden Kunststoffendscheiben (IDI) (Nicht gültig für Neukonstruktionen!)",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 10,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-TG-2120-en.pdf",
+    "document_no": "MEAS-574",
+    "nomes_anteriores": [
+      "S-F-TG-2120-en"
+    ],
+    "titulo": "Measurement of adhesive strength of side strips on filter inserts",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-574",
+    "titulo_cadastro": "Measurement of adhesive strength of side strips on filter inserts",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 29,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-TG-2146-de.pdf",
+    "document_no": "MEAS-565",
+    "nomes_anteriores": [
+      "S-F-TG-2146-de"
+    ],
+    "titulo": "Vorschrift für die Prüfung von Schmierölfiltern für Verbrennungskraftmaschinen (Nicht gültig für Neukonstruktionen!)",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-565",
+    "titulo_cadastro": "Vorschrift für die Prüfung von Schmierölfiltern für Verbrennungskraftmaschinen (Nicht gültig für Neukonstruktionen!)",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 26,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-TG-2193-en.pdf",
+    "document_no": "MEAS-573",
+    "nomes_anteriores": [
+      "S-F-TG-2193-en"
+    ],
+    "titulo": "Test procedure for fractional efficiency measurements with normsand (acc. To DIN1164, grain size 1, fine) by use of “Test Rig for Media Characterisation” (TMC)",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-573",
+    "titulo_cadastro": "Test procedure for fractional efficiency measurements with normsand (acc. To DIN1164, grain size 1, fine) by use of “Test Rig for Media Characterisation” (TMC)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 21,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-F-TG-2727-de.pdf",
+    "document_no": "MATL-694",
+    "nomes_anteriores": [
+      "S-F-TG-2727-de"
+    ],
+    "titulo": "Kenndaten für Filterwerkstoffe T27 (Nicht gültig für Neukonstruktionen!)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-694",
+    "titulo_cadastro": "Kenndaten für Filterwerkstoffe T27 (Nicht gültig für Neukonstruktionen!)",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 20,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-G-DN-4016-de.pdf",
+    "document_no": "DSGN-430",
+    "nomes_anteriores": [
+      "S-G-DN-4016-en",
+      "S-G-DN-4016-de"
+    ],
+    "titulo": "Definition of the maximum acceptable welding mismatch (WMI) at plastic welding lines",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-430",
+    "titulo_cadastro": "Definition of the maximum acceptable welding mismatch (WMI) at plastic welding lines",
+    "idioma": "de",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": true,
+    "resolucao_identidade": "F1 language_variants.file_name -> variant_of",
+    "ordem_amostra": 8,
+    "divergencias_amostra": [
+      {
+        "arquivo": "S-G-DN-4016-de.pdf",
+        "campo": "idioma",
+        "amostra": "en",
+        "cadastro_ou_arquivo": "de"
+      }
+    ]
+  },
+  {
+    "arquivo": "../normas_v2/S-G-MA-3807-en.pdf",
+    "document_no": "MNFG-487",
+    "nomes_anteriores": [
+      "S-G-MA-3807-en"
+    ],
+    "titulo": "Folding box mainly for automated packaging of replacement filters and filter elements, based on FEFCO Norm 0717/1",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-487",
+    "titulo_cadastro": "Folding box mainly for automated packaging of replacement filters and filter elements, based on FEFCO Norm 0717/1",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 31,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-G-MA-3808-en_2024.pdf",
+    "document_no": "MNFG-502",
+    "nomes_anteriores": [
+      "S-G-MA-3808-en"
+    ],
+    "titulo": "Folding box mainly for automated packaging of replacement filters and filter elements, based on FEFCO Norm 0720/1",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-502",
+    "titulo_cadastro": "Folding box mainly for automated packaging of replacement filters and filter elements, based on FEFCO Norm 0720/1",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 35,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-G-MA-3809-en.pdf",
+    "document_no": "MNFG-474",
+    "nomes_anteriores": [
+      "S-G-MA-3809-en"
+    ],
+    "titulo": "Folding box useable for automatically packaging for replacement filter and filter element, based on FEFCO design 0720/3",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-474",
+    "titulo_cadastro": "Folding box useable for automatically packaging for replacement filter and filter element, based on FEFCO design 0720/3",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 34,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-G-MA-3811-de.pdf",
+    "document_no": "MNFG-458",
+    "nomes_anteriores": [
+      "S-G-MA-3811-de",
+      "S-G-MA-3811-en"
+    ],
+    "titulo": "Faltschachtel für maschinelle Verpackung von Wechselfiltern und Filtereinsätzen, in Anlehnung an FEFCO Norm 0720",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-458-de",
+    "titulo_cadastro": "Folding box useable for automatically packaging for replacement filter and filter element, based on FEFCO design 0720.",
+    "idioma": "de",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": true,
+    "resolucao_identidade": "F1 language_variants.file_name -> variant_of",
+    "ordem_amostra": 32,
+    "divergencias_amostra": [
+      {
+        "arquivo": "S-G-MA-3811-de.pdf",
+        "campo": "document_no",
+        "amostra": "MNFG-458-de",
+        "cadastro_ou_arquivo": "MNFG-458"
+      },
+      {
+        "arquivo": "S-G-MA-3811-de.pdf",
+        "campo": "titulo",
+        "amostra": "Faltschachtel für maschinelle Verpackung von Wechselfiltern und Filtereinsätzen, in Anlehnung an FEFCO Norm 0720",
+        "cadastro_ou_arquivo": "Folding box useable for automatically packaging for replacement filter and filter element, based on FEFCO design 0720."
+      }
+    ]
+  },
+  {
+    "arquivo": "../normas_v2/S-G-MA-4014-de.pdf",
+    "document_no": "MEAS-576",
+    "nomes_anteriores": [
+      "S-G-MA-4014-en",
+      "S-G-MA-4014-de"
+    ],
+    "titulo": "Validation of welding machine setup using a friction image (friction welding)",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-576",
+    "titulo_cadastro": "Validation of welding machine setup using a friction image (friction welding)",
+    "idioma": "de",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": true,
+    "resolucao_identidade": "F1 language_variants.file_name -> variant_of",
+    "ordem_amostra": 23,
+    "divergencias_amostra": [
+      {
+        "arquivo": "S-G-MA-4014-de.pdf",
+        "campo": "idioma",
+        "amostra": "en",
+        "cadastro_ou_arquivo": "de"
+      }
+    ]
+  },
+  {
+    "arquivo": "../normas_v2/S-G-MA-6007-en.pdf",
+    "document_no": "MNFG-508",
+    "nomes_anteriores": [
+      "S-G-MA-6007-en"
+    ],
+    "titulo": "Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-508",
+    "titulo_cadastro": "Establishing Parameters for Vibration Welding Machine and Vibration Weld Tooling",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 33,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-G-TG-4013-de.pdf",
+    "document_no": "MEAS-588",
+    "nomes_anteriores": [
+      "S-G-TG-4013-en",
+      "S-G-TG-4013-de"
+    ],
+    "titulo": "Creation and evaluation of a melting image for hot gas welding process",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-588",
+    "titulo_cadastro": "Creation and evaluation of a melting image for hot gas welding process",
+    "idioma": "de",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": true,
+    "resolucao_identidade": "F1 language_variants.file_name -> variant_of",
+    "ordem_amostra": 27,
+    "divergencias_amostra": [
+      {
+        "arquivo": "S-G-TG-4013-de.pdf",
+        "campo": "idioma",
+        "amostra": "en",
+        "cadastro_ou_arquivo": "de"
+      }
+    ]
+  },
+  {
+    "arquivo": "../normas_v2/S-L-DN-5073-en.pdf",
+    "document_no": "DSGN-457",
+    "nomes_anteriores": [
+      "S-L-DN-5073-en"
+    ],
+    "titulo": "Special Characteristics and Inspection Characteristic Diesel Fuel Filter",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-457",
+    "titulo_cadastro": "Special Characteristics and Inspection Characteristic Diesel Fuel Filter",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 6,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-L-DN-5074-en.pdf",
+    "document_no": "DSGN-390",
+    "nomes_anteriores": [
+      "S-L-DN-5074-en"
+    ],
+    "titulo": "Special Characteristics and Inspection Characteristics Fuel Filter Benzene",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-390",
+    "titulo_cadastro": "Special Characteristics and Inspection Characteristics Fuel Filter Benzene",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 1,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-L-ML-1019-en.pdf",
+    "document_no": "MATL-581",
+    "nomes_anteriores": [
+      "S-L-ML-1019-en"
+    ],
+    "titulo": "Material specification for AEM and ACM rubber parts in pressure valve for oil filter application (Not allowed for new design!)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-581",
+    "titulo_cadastro": "Material specification for AEM and ACM rubber parts in pressure valve for oil filter application (Not allowed for new design!)",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 19,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-L-PT-0501-de.pdf",
+    "document_no": "DSGN-435",
+    "nomes_anteriores": [
+      "S-L-PT-0501-de",
+      "S-L-PT-0501-en"
+    ],
+    "titulo": "Gewinde im Dichtbereich Kunststoffdeckel / GD-Al-Gehaeuse oder Kunststoffdeckel / Kunststoffgehaeuse fuer Fluessigkeitsfilter",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-435-de",
+    "titulo_cadastro": "Thread in sealing area plastic cover / GD-Al-housing or plastic cover / plastic housing for liquid filters",
+    "idioma": "de",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": true,
+    "resolucao_identidade": "F1 language_variants.file_name -> variant_of",
+    "ordem_amostra": 7,
+    "divergencias_amostra": [
+      {
+        "arquivo": "S-L-PT-0501-de.pdf",
+        "campo": "document_no",
+        "amostra": "DSGN-435-de",
+        "cadastro_ou_arquivo": "DSGN-435"
+      },
+      {
+        "arquivo": "S-L-PT-0501-de.pdf",
+        "campo": "titulo",
+        "amostra": "Gewinde im Dichtbereich Kunststoffdeckel / GD-Al-Gehaeuse oder Kunststoffdeckel / Kunststoffgehaeuse fuer Fluessigkeitsfilter",
+        "cadastro_ou_arquivo": "Thread in sealing area plastic cover / GD-Al-housing or plastic cover / plastic housing for liquid filters"
+      }
+    ]
+  },
+  {
+    "arquivo": "../normas_v2/S-L-PT-0503-de.pdf",
+    "document_no": "DSGN-490",
+    "nomes_anteriores": [
+      "S-L-PT-0503-de"
+    ],
+    "titulo": "Gewindeausläufe für metrisches ISO-Regelgewinde Richtwerte für Gewindegrundlöcher an GD-Al-Bauteilen (Nicht gültig für Neukonstruktionen!)",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-490",
+    "titulo_cadastro": "Gewindeausläufe für metrisches ISO-Regelgewinde Richtwerte für Gewindegrundlöcher an GD-Al-Bauteilen (Nicht gültig für Neukonstruktionen!)",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 2,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-L-PT-2141-de.pdf",
+    "document_no": "TEST-202",
+    "nomes_anteriores": [
+      "S-L-PT-2141-de"
+    ],
+    "titulo": "Prüfvorschrift für Ölnebenabscheider (Nicht gültig für Neukonstruktionen!)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-202",
+    "titulo_cadastro": "Prüfvorschrift für Ölnebenabscheider (Nicht gültig für Neukonstruktionen!)",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 39,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-L-PT-5115-en.pdf",
+    "document_no": "PROD-329",
+    "nomes_anteriores": [
+      "S-L-PT-5115-en"
+    ],
+    "titulo": "Suppliers identification at aluminium extruded components for intank filter",
+    "categoria": "product",
+    "codigo_piloto_antigo": "PROD-329",
+    "titulo_cadastro": "Suppliers identification at aluminium extruded components for intank filter",
+    "idioma": "en",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 37,
+    "divergencias_amostra": []
+  },
+  {
+    "arquivo": "../normas_v2/S-L-PT-8120-P04-de_V01.pdf",
+    "document_no": "TEST-257",
+    "nomes_anteriores": [
+      "S-L-PT-8120-P04-en",
+      "S-L-PT-8120-P04-de"
+    ],
+    "titulo": "Valve assemblies for liquid filters – Test specifications",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-257",
+    "titulo_cadastro": "Valve assemblies for liquid filters – Test specifications",
+    "idioma": "de",
+    "idioma_cadastro": "en",
+    "variante_idioma_nao_operacional": true,
+    "resolucao_identidade": "F1 language_variants.file_name -> variant_of",
+    "ordem_amostra": 38,
+    "divergencias_amostra": [
+      {
+        "arquivo": "S-L-PT-8120-P04-de_V01.pdf",
+        "campo": "idioma",
+        "amostra": "en",
+        "cadastro_ou_arquivo": "de"
+      }
+    ]
+  },
+  {
+    "arquivo": "../normas_v2/S-L-TG-2185-de.pdf",
+    "document_no": "MEAS-550",
+    "nomes_anteriores": [
+      "S-L-TG-2185-de"
+    ],
+    "titulo": "Prüfvorschrift für Ölfilter-Einsatz im Versuchsgehäuse (Für Einsatz PER 393) (Nicht gültig für Neukonstruktionen!)",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "MEAS-550",
+    "titulo_cadastro": "Prüfvorschrift für Ölfilter-Einsatz im Versuchsgehäuse (Für Einsatz PER 393) (Nicht gültig für Neukonstruktionen!)",
+    "idioma": "de",
+    "idioma_cadastro": "de",
+    "variante_idioma_nao_operacional": false,
+    "resolucao_identidade": "F1 arquivo",
+    "ordem_amostra": 30,
+    "divergencias_amostra": []
+  }
+]
