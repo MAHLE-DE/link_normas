@@ -127,7 +127,10 @@ def normalizar_publica(raw):
         body = re.sub(r"-\d{2,4}$", "", body)
     if prefix == "ASTM":
         body = re.sub(r"^([A-Z])\s*-?\s*(\d+).*$", r"\1\2", body)
-    elif prefix in {"SAE", "JIS", "KS", "ANSI", "CSA"}:
+    elif prefix in {"JIS", "KS"}:
+        series = re.match(r"([A-Z])\s*(\d+(?:-\d+)*)", body)
+        body = f"{series[1]} {series[2]}" if series else body
+    elif prefix in {"SAE", "ANSI", "CSA"}:
         body = re.sub(r"^([A-Z])\s*-?\s*(\d+)", r"\1\2", body)
         body = re.split(r"\s", body)[0]
     else:

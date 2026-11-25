@@ -37,12 +37,23 @@ import extrator_normas as extractor
     ("IPC-TM-650", ["IPC-TM-650"]), ("IPC-7351-B", ["IPC-7351"]),
     ("VDA Band 19", ["VDA 19"]), ("VDA Band 19-2", ["VDA 19-2"]),
     ("DIN 228", ["EN 228"]), ("MIL-I-46058C", ["MIL-I-46058"]),
-    ("CSA Z142-10", ["CSA Z142"]), ("JIS D 1612", ["JIS D1612"]),
-    ("KS D 7033", ["KS D7033"]), ("ISO 8573-1 (2010)", ["ISO 8573-1"]),
+    ("CSA Z142-10", ["CSA Z142"]), ("JIS D 1612", ["JIS D 1612"]),
+    ("JIS G3507-2", ["JIS G 3507-2"]), ("JIS H3250", ["JIS H 3250"]),
+    ("KS D5101", ["KS D 5101"]), ("KS D 7033", ["KS D 7033"]),
+    ("ISO 8573-1 (2010)", ["ISO 8573-1"]),
     ("ISO 4548", ["ISO 4548"]), ("DIN 51604", ["DIN 51604"]),
 ])
 def test_normalizacao_publica(raw, expected):
     assert extractor.normalizar_publica(raw) == expected
+
+
+def test_chaves_publicas_do_gabarito_ja_sao_canonicas():
+    gold = json.loads((extractor.ROOT / "03_PILOTO_40/corpus/gabarito_40_v1.json").read_text(encoding="utf-8"))
+    for document in gold["documentos"].values():
+        for key in document["incluir"]:
+            if extractor.INTERNAL.fullmatch(key) or extractor.PROCESS.fullmatch(key) or extractor.REGULATORY.fullmatch(key):
+                continue
+            assert extractor.normalizar_publica(key) == [key], key
 
 
 @pytest.fixture
