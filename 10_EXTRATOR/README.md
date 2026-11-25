@@ -30,12 +30,16 @@ de executar `03` sobre o banco completo.
 | `02_validar_40_normas.bat` | Imprime precisão/recall/F1 e gera `saida/resultado_40.xlsx` e `.json`. A referência atual é 100%/100%, com 551 pares após as decisões F9. |
 | `03_extrair_05_DOCUMENTS.bat` | Percorre `05_DOCUMENTS/` e todas as subpastas; gera `saida/resultado_05_DOCUMENTS.xlsx` e `.json`. Se a pasta faltar, mostra uma orientação e encerra. |
 | `04_rodar_testes.bat` | Executa pytest em `02_BANCO_ATUAL/` e `10_EXTRATOR/`. |
+| `05_validar_segunda_amostra.bat` | Valida a segunda amostra contra o gabarito v2.1; gera `saida/resultado_v2.xlsx` e `.json`. |
 
 Todas as saídas de extração ficam em `10_EXTRATOR/saida/`, ignorada pelo Git.
 Confira `Ignorados`: variantes de idioma não operacionais, arquivos sem
 identidade segura e erros de leitura ficam registrados com motivo e caminho
 relativo à entrada. O lote continua com os demais arquivos. Com `--manifesto`,
 erros de identidade ou leitura interrompem a execução para proteger a validação.
+Com manifesto, todos os arquivos explicitamente listados são processados,
+inclusive variantes de idioma. O filtro de variantes não operacionais vale
+somente para lotes sem manifesto.
 
 Quando sair um **Valid-Documents novo**, use a ferramenta antiga em
 `99_CODIGOS_PY/cadastro_v3/`, seguindo as instruções dela, para regenerar o

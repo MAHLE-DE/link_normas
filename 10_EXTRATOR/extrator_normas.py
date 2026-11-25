@@ -31,7 +31,7 @@ spec.loader.exec_module(module)
 normalizar_interna = module.normalizar
 
 INTERNAL = re.compile(
-    r"\b(?:[SG]\s*[-_]\s*[A-Z]\s*[-_]\s*[A-Z]{2}\s*[-_]\s*\d{2,6}(?:\s*-\s*P\d+)?"
+    r"\b(?:[SG]\s*[-_]\s*[A-Z]\s*[-_]\s*[A-Z]{2}\s*(?:[-_]\s*\d{2,6}|\.\s*\d{4})(?:\s*-\s*P\d+)?"
     r"|(?:DSGN|MATL|MEAS|MNFG|TEST|PROD|SOP)[ -]?\d+"
     r"|WN[A-Z][ _-]*\d+(?:[-/]\d+)*)"
     r"(?:\s*[-_]\s*(?:EN|DE|FR|ES|PT|IT|ZH))?\b", re.I
@@ -52,7 +52,8 @@ PUBLIC_PATTERNS = [
     r"\bMIL\s*[- ]\s*[A-Z]{1,3}\s*[- ]\s*\d+[A-Z]?",
     r"\bANSI\s*[A-Z]\d+(?:\.\d+)*(?:-\d{4})?",
     r"\bCSA\s*[A-Z]\s*\d+(?:[.-]\d+)*",
-    r"\b(?:FMVSS|MVSS|GB(?:/T)?|UL|CISPR|VDI(?:/VDE)?|FEFCO|BS|AS|NEN)\s*\d+(?:\s*[-/]\s*\d+)*",
+    r"\bFEFCO\s*(?:(?:Norm|design|code|style|Bauart)\s*)?\d{4}(?:/\d+)?",
+    r"\b(?:FMVSS|MVSS|GB(?:/T)?|UL|CISPR|VDI(?:/VDE)?|BS|NEN)\s*\d+(?:\s*[-/]\s*\d+)*",
 ]
 PUBLIC_RX = [re.compile(pattern, re.I) for pattern in PUBLIC_PATTERNS]
 REGULATORY = re.compile(r"\b(?:REACH|GADSL|ROHS|ELV|IMDS)\b", re.I)
@@ -65,15 +66,15 @@ SUPPLIER = re.compile(r"\b(?:MWV\s+SOP\s*[- ]?\d+|(?:INTERNER\s+)?CH\d{3,})\b", 
 PROCESS = re.compile(r"\b(?:[PW]-(?:BE|B|G)-\d+(?:-\w+)*|WI-[\w-]+|W-2270-[\w-]+|E21001M)\b", re.I)
 WILDCARD = re.compile(r"\b(?:WN[A-Z][ _-]*\d*[X?*]{2,}|[SG]-[_A-Z-]+\d*[X?*]{2,})", re.I)
 HISTORY_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:revision history|change history|änderungshistorie|changes|latest revision|letzte\s*änderung)\s*[:.]?\s*$", re.I)
-REFERENCES_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:referenced? documents?|normative references?|related documents?|applicable documents?)\s*[:.]?$", re.I)
-TERMS_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:terms?(?:\s*[/&]\s*definitions?)?|terms? and definitions?|definitions?|abbreviations?)\s*[:.]?$", re.I)
-KEYWORDS_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?keywords?\s*[:.]?$", re.I)
+REFERENCES_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:Referenzierte Dokumente|Mitgeltende Unterlagen|referenced? documents?|normative references?|related documents?|applicable documents?)\s*[:.]?$", re.I)
+TERMS_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:Begriffe|terms?(?:\s*[/&]\s*definitions?)?|terms? and definitions?|definitions?|abbreviations?)\s*[:.]?$", re.I)
+KEYWORDS_HEAD = re.compile(r"^(?:\d+[.\d]*\s*)?(?:Schlüsselwörter|keywords?)\s*[:.]?$", re.I)
 REQ = re.compile(r"\b(?:must|shall|comply|compliance|conform|requirement|prohibited|banned|declar(?:ation|e|ed)\b|according|acc\.|material restrictions?|restricted substances?)", re.I)
-HIST_BEFORE = re.compile(r"\b(?:former|formerly|old|statt|instead of|vormals|ehemals)\s*[:( -]*$", re.I)
+HIST_BEFORE = re.compile(r"\b(?:old standard|previous standard|former standard|alte Norm|frühere Norm|Vorgängernorm|former|formerly|old|statt|instead of|vormals|ehemals)\s*[:( -]*$", re.I)
 HIST_AFTER = re.compile(r"^\s*(?:is\s+substituted\s+by|was\s+replaced\s+by|wird\s+ersetzt\s+durch|abgelöst\s+durch|changed\s+to)\b", re.I)
 ABBREVIATION = re.compile(r"international material data system|registration.{0,20}evaluation|global automotive declarable substance|restriction of hazardous substances|end.of.life vehicles", re.I)
 EXPLICIT_PROCESS_EXCEPTIONS = {"W-B-0718"}
-TYPO_CORRECTIONS = {"DIN 228": "EN 228"}
+TYPO_CORRECTIONS = {"DIN 228": "EN 228", "ISO 1115": "ISO 11155"}
 
 
 def clean(text):
@@ -83,6 +84,8 @@ def clean(text):
 def normalizar_publica(raw):
     """Identidades públicas; uma notação compacta pode gerar várias partes."""
     text = clean(raw).upper()
+    if text.startswith("FEFCO"):
+        return ["FEFCO " + re.search(r"\d{4}", text)[0]]
     text = re.sub(r"\([^)]*\)", "", text).strip()
     text = re.sub(r":\s*\d{4}.*$", "", text)
     text = re.sub(r"(?<=\d)\s+(?:\d{4}|[A-Z]{3}\d{4})\b.*$", "", text)
@@ -242,7 +245,8 @@ def secoes(lines, previous="Corpo"):
 
 
 def lookup(raw, mapa):
-    key = normalizar_interna(re.sub(r"\s*-\s*", "-", clean(raw)))
+    raw = re.sub(r"([SG]-[A-Z]-[A-Z]{2})\.(?=\d{4})", r"\1-", clean(raw), flags=re.I)
+    key = normalizar_interna(re.sub(r"\s*-\s*", "-", raw))
     entry = mapa.get(key, {"status": "DESCONHECIDO", "atual": ""})
     output = entry["atual"] if entry["status"] in {"VIGENTE", "RESOLVIDO"} else key
     return output, entry["status"], key
@@ -316,6 +320,10 @@ def motivo(candidate, canonical, status, key, parent, own, joined, lines, starts
         if re.match(r"^(?:DSGN|MATL|MEAS|MNFG|TEST|PROD|SOP)-", key) and status not in {"VIGENTE", "RESOLVIDO"}:
             return "falso_positivo", section, context
     if candidate.kind == "publica":
+        if canonical.startswith("UL ") and (not re.fullmatch(r"[1-9]\d+", canonical[3:]) or before.endswith("-")):
+            return "falso_positivo", section, context
+        if re.match(r"GB(?:/T)? ", canonical) and len(re.search(r"\d+", canonical)[0]) < 4:
+            return "falso_positivo", section, context
         if re.search(r"supplier\s+(?:method|standard)|interner\s+CH|MWV\s+SOP", line, re.I) or re.match(r"^\s*\(?supplier\s+(?:method|standard)", after, re.I):
             return "fornecedor", section, context
         if re.match(r"SAE\s*\d+", candidate.raw, re.I) or re.fullmatch(r"(?:AS|BS) \d{1,2}", canonical) or re.match(r"(?:as|bs)\s", candidate.raw):
@@ -464,7 +472,7 @@ def executar(entrada, manifesto=None, mapa_path=None, gabarito=None, recursivo=F
     for path in files:
         relative = path.relative_to(source).as_posix() if source.is_dir() else path.name
         variant = variants.get(path.stem.casefold())
-        if variant:
+        if variant and manifesto is None:
             ignored.append({"arquivo": path.name, "caminho": relative, "motivo": "variante_idioma_nao_operacional",
                             "detalhe": variant.get("reason", "Variante não operacional do cadastro"),
                             "variante_de": variant["variant_of"]})

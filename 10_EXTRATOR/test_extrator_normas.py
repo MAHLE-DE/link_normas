@@ -51,6 +51,32 @@ def test_normalizacao_publica(raw, expected):
     assert extractor.normalizar_publica(raw) == expected
 
 
+@pytest.mark.parametrize("raw", ["FEFCO Norm 0717/1", "FEFCO design 0717/3", "FEFCO code 0717", "FEFCO style 0717", "FEFCO Bauart 0717"])
+def test_fefco_identidade(raw):
+    assert extractor.normalizar_publica(raw) == ["FEFCO 0717"]
+
+
+@pytest.mark.parametrize("text,reason", [("UL06", "falso_positivo"), ("UL4", "falso_positivo"), ("G013F-UL06", "falso_positivo"), ("PA66 GB 30", "falso_positivo"), ("Old standard- WNA2120", "historica"), ("frühere Norm: WNA2120", "historica")])
+def test_novos_filtros_gerais(extract, text, reason):
+    accepted, discarded, _ = extract(text)
+    assert not accepted
+    assert any(r["motivo"] == reason for r in discarded)
+
+
+def test_ponto_interno_e_typo_generico():
+    assert extractor.lookup("S-G-ML.1010-en", {})[2] == "S-G-ML-1010"
+    assert extractor.normalizar_publica("ISO 1115") == ["ISO 11155"]
+    assert not extractor.candidatos("K38 AS 4209 Technomelt")
+
+
+def test_regressao_segunda_amostra():
+    result = extractor.executar("04_NOVO_TESTE_40/normas_v2", "04_NOVO_TESTE_40/corpus/corpus_40_v2.json", gabarito="04_NOVO_TESTE_40/corpus/gabarito_40_v2.json")
+    assert result["documentos_processados"] == 40
+    assert not result["ignorados"]
+    assert result["avaliacao"]["geral"]["precisao"] == 1
+    assert result["avaliacao"]["geral"]["recall"] == 1
+
+
 def test_chaves_publicas_do_gabarito_ja_sao_canonicas():
     gold = json.loads((extractor.ROOT / "03_PILOTO_40/corpus/gabarito_40_v1.json").read_text(encoding="utf-8"))
     for document in gold["documentos"].values():
@@ -346,7 +372,7 @@ def test_sintaxe_python_310_e_lancadores_portateis():
         for path in directory.glob("*.py"):
             ast.parse(path.read_text(encoding="utf-8"), feature_version=(3, 10))
     launchers = sorted(extractor.BASE.glob("*.bat"))
-    assert len(launchers) == 5
+    assert len(launchers) == 6
     for path in launchers:
         text = path.read_text(encoding="utf-8").lower()
         for required in ['cd /d "%~dp0"', "chcp 65001 >nul", "py -3", "if errorlevel 1", "pause", "exit /b 1"]:
