@@ -45,6 +45,33 @@ def test_cadeia_aprovada():
     assert "F4" in entry["elos"][0]["fontes"]
 
 
+@pytest.mark.parametrize("raw,current", [
+    ("S-G-TG-4013", "MEAS-588"), ("WNF 102740", "MATL-656"),
+    ("TEST-37", "MEAS-587"), ("WNF 102041", "MATL-686"),
+    ("WNF 102170", "MATL-678"), ("WNF 102323", "MATL-855"),
+    ("WNF 102793", "MATL-667"), ("WNF 102922", "MATL-661"),
+    ("WNF 102924", "MATL-682"), ("WNF 102925", "MATL-693"),
+    ("WNE 101016", "MATL-566"), ("TEST-278", "MEAS-579"),
+])
+def test_identidade_t2b(raw, current):
+    entry = resolver(raw)
+    assert entry["status"] == "RESOLVIDO"
+    assert entry["atual"] == current
+
+
+def test_f9_e_declaracao_propria_tem_autoridade():
+    assert any("F9" in edge["fontes"] for edge in resolver("TEST-278")["elos"])
+    assert resolver("TEST-37")["cadeia"] == ["TEST-37", "S-G-TG-4050", "MEAS-587"]
+    assert resolver("TEST-37")["elos"][0]["autoridade"] == 3
+    assert resolver("WNF 102740")["elos"][0]["autoridade"] == 3
+
+
+def test_citacao_de_terceiro_nao_e_identidade():
+    entry = resolver("WNV 109020")
+    assert entry["status"] != "RESOLVIDO"
+    assert not any(edge["confirmado"] for edge in entry.get("indicios", []))
+
+
 def test_decisoes_explicitas():
     assert resolver("WNA 280")["status"] == "EXCLUIDO_DECISAO"
     assert resolver("WNA 687")["status"] == "LEGADO_SEM_SUCESSOR"
@@ -125,6 +152,33 @@ def test_prefixos_wnx_ambiguos_nao_contam_como_corroboração():
     assert b.classificar()["WNA 1"]["status"] == "NAO_CONFIRMADO"
 
 
+@pytest.mark.parametrize("other_prefix,expected", [(False, "RESOLVIDO"), (True, "NAO_CONFIRMADO")])
+def test_old_number_com_prefixo_no_proprio_documento(other_prefix, expected):
+    b = mini()
+    b.edge("S-F-ML-2041", "MATL-1", "F1", "oficial", authority=3)
+    b.bu2_old_numbers = [("S-F-ML-2041", "102041", "", 10)]
+    b.owner_codes["MATL-1"].add("S-F-ML-2041")
+    b.own_legacy["MATL-1"]["WNF 102041"] = ("WNF 102041", "capa", "Título WNF 102041")
+    if other_prefix:
+        b.wnx_prefixes["102041"].add("WNC")
+    b.corroborar_old_number()
+    assert b.classificar()["WNF 102041"]["status"] == expected
+
+
+@pytest.mark.parametrize("action,expected", [
+    ("sem_sucessor", "LEGADO_SEM_SUCESSOR"),
+    ("nao_considerar", "EXCLUIDO_DECISAO"), ("retirado", "RETIRADO"),
+])
+def test_acoes_f9(monkeypatch, action, expected):
+    import gerar_mapa_normas as module
+    monkeypatch.setattr(module, "ler_json", lambda source: {
+        "decisoes": [{"codigo": "WNA 999", "acao": action, "evidencia": "decisão de teste"}]
+    })
+    b = mini()
+    b.decisoes_usuario()
+    assert b.classificar()["WNA 999"]["status"] == expected
+
+
 def test_qualificadores_bu_e_data_excel():
     b = mini()
     assert b.numero_bu2("70 (BU2)", 1, "Old number") == ("70", "BU2")
@@ -198,4 +252,6 @@ def test_planilha_cobre_corpus_e_abas():
     sheet = book["Citados_no_corpus"]
     actual = {row[0]: row[1] for row in sheet.iter_rows(min_row=5, values_only=True)}
     assert actual == {key: entry["status"] for key, entry in data["codigos"].items() if entry["citado_no_corpus"]}
+    headers = next(sheet.iter_rows(min_row=4, max_row=4, values_only=True))
+    assert "candidatos_propostos" in headers and "indicios_resumo" in headers
     book.close()

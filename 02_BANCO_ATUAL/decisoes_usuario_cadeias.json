@@ -1,0 +1,11 @@
+{
+  "decisoes": [
+    {
+      "codigo": "TEST-278",
+      "acao": "ligar",
+      "para": "MEAS-579",
+      "evidencia": "README_PILOTO_V3 + MATL-633/635 'TEST-278 (former S-F-ML-2810)' + F1 S-F-ML-2810->MEAS-579",
+      "origem": "usuario (README piloto v3)"
+    }
+  ]
+}

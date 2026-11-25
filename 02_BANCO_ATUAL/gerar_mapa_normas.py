@@ -31,6 +31,7 @@ FONTES = {
     "F6": "01_FONTES/NORMAS_LINK.xlsx",
     "F7": "02_BANCO_ATUAL/grafo_cadeias_v7_5_completo.json",
     "F8": "03_PILOTO_40/corpus/dump",
+    "F9": "02_BANCO_ATUAL/decisoes_usuario_cadeias.json",
 }
 STATUSES = (
     "VIGENTE", "RESOLVIDO", "RETIRADO", "EXCLUIDO_DECISAO",
@@ -39,10 +40,12 @@ STATUSES = (
 REGRAS = [
     "Chaves sem idioma/revisão, caixa alta; WNx sem zeros iniciais; S/G com ao menos quatro dígitos.",
     "Document No em F1 e original_current_codes em F2 são vigentes.",
-    "F1/F2 oficiais prevalecem sobre decisões e indícios; F4/F5 aprovadas prevalecem sobre inferência.",
+    "F1 e identidade declarada pelo próprio documento prevalecem; F4/F5/F9 aprovadas prevalecem sobre inferência.",
+    "F2 approved_file_mappings associa arquivos físicos: nunca cria equivalência entre códigos.",
     "F3/F6/F7 não automática/F8 explícita exigem pelo menos duas fontes distintas por elo.",
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
     "F3 exige Old number e linha WNX correspondente; número com múltiplos prefixos é ambíguo.",
+    "Sem linha WNX, Old number exato pode ser corroborado pelo prefixo no próprio documento ou frase explícita F8.",
     "Por orientação do usuário, BU é apenas rastreabilidade: código e cadeia independem do qualificador BU.",
     "Exclusões e legados finais aprovados impedem promoção por inferência; conflitos ficam em avisos.",
     "Sem similaridade numérica, sem herdar automaticamente sucessor da base para subpartes WNx.",
@@ -58,7 +61,7 @@ CODE_RE = re.compile(
     r"(?:[ _-]*\(?V\d+(?:[._]\d+)*\)?|\s*\(\d{3}\))?", re.I
 )
 IDENTITY_RE = re.compile(
-    r"replaces|formerly|former\b|previously|instead of|ersetzt|Ersatz für|ehemals|\balt:", re.I
+    r"replaces|formerly|former\b|previously|instead of|statt|vormals|ersetzt|Ersatz für|ehemals|\balt:", re.I
 )
 
 
@@ -106,7 +109,12 @@ class Consolidacao:
         self.official = {}
         self.excluded = set()
         self.finals = set()
+        self.retired = set()
         self.decisions = defaultdict(list)
+        self.owner_codes = defaultdict(set)
+        self.own_legacy = defaultdict(dict)
+        self.bu2_old_numbers = []
+        self.wnx_prefixes = defaultdict(set)
         self.warnings = []
         self.corpus = defaultdict(set)
 
@@ -154,6 +162,10 @@ class Consolidacao:
         for record in register["records"]:
             key = self.node(record["document_no"], "F1", "records.document_no")
             self.official[key] = record
+            self.owner_codes[key].add(key)
+            for field in ("previous_document_no", "local_file_name", "sharepoint_file_name"):
+                if record.get(field):
+                    self.owner_codes[key].add(normalizar(record[field]))
             if record.get("previous_document_no"):
                 self.edge(record["previous_document_no"], key, "F1", "previous_document_no", authority=3)
         for variant in register.get("language_variants", []):
@@ -162,8 +174,21 @@ class Consolidacao:
         for raw in exceptions["original_current_codes"]:
             key = self.node(raw, "F2", "original_current_codes")
             self.official.setdefault(key, {"document_no": raw, "title": ""})
-        for alias, filename in exceptions["approved_file_mappings"].items():
-            self.edge(filename, alias, "F2", f"approved_file_mappings: {filename} -> {alias}", authority=3)
+        # approved_file_mappings identifica o ARQUIVO, não o código nele contido.
+
+    def decisoes_usuario(self):
+        for i, decision in enumerate(ler_json("F9")["decisoes"], 1):
+            action = decision["acao"]
+            key = self.node(decision["codigo"], "F9", f"decisoes[{i}]")
+            evidence = f"{decision.get('origem', 'usuario')}: {decision['evidencia']}"
+            if action == "ligar":
+                self.edge(key, decision["para"], "F9", evidence, f"decisoes[{i}]", authority=2)
+            elif action in {"sem_sucessor", "nao_considerar", "retirado"}:
+                group = {"sem_sucessor": self.finals, "nao_considerar": self.excluded, "retirado": self.retired}[action]
+                group.add(key)
+            else:
+                raise ValueError(f"F9: ação desconhecida {action!r} em decisões[{i}]")
+            self.decisions[key].append(f"F9 {action}: {evidence}")
 
     def manuais(self):
         text = (ROOT / FONTES["F4"]).read_text(encoding="utf-8")
@@ -217,6 +242,7 @@ class Consolidacao:
             if re.fullmatch("WN[A-Z]", prefix):
                 raw = f"{prefix} {n}"
                 legacy_rows[n].append((raw, line, qualifier))
+                self.wnx_prefixes[n].add(prefix)
             elif all(parts) and re.fullmatch(r"\d+", n):
                 raw = "-".join(parts + [f"{int(n):04d}"])
                 if old:
@@ -234,6 +260,7 @@ class Consolidacao:
             if status:
                 self.nodes[key]["status_bu2"].add(status)
         book.close()
+        self.bu2_old_numbers = new_rows
         for target, old_number, qualifier, line in new_rows:
             matches = legacy_rows.get(old_number, [])
             prefixes = {normalizar(raw).split()[0] for raw, _, _ in matches}
@@ -311,6 +338,7 @@ class Consolidacao:
             parent = entry["document_no"]
             filename = f"{parent}.txt"
             lines = (dump_dir / filename).read_text(encoding="utf-8").splitlines()
+            owned = self.owner_codes[normalizar(parent)]
             page = 0
             text_lines = []
             for line in lines:
@@ -320,12 +348,27 @@ class Consolidacao:
                 elif re.match(r"L\d+: ", line):
                     text = re.sub(r"^L\d+: ", "", line)
                     self.scan(text, "F8", f"{filename}: página {page}, {line.split(':')[0]}", parent, corpus=True)
+                    for raw, key in codigos(text):
+                        if re.fullmatch(r"WN[A-Z] \d+(?:[-/]\d+)*", key):
+                            self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", text))
                     text_lines.append((page, text))
             for i, (page, line) in enumerate(text_lines):
                 following = [t for p, t in text_lines[i + 1:i + 3] if p == page]
                 # Um código pode ser quebrado pelo PDF entre prefixo e número.
                 if following and re.search(r"\bWN[A-Z]\s*$", line, re.I) and re.match(r"\s*\d", following[0]):
-                    self.scan(line + " " + following[0], "F8", f"{filename}: página {page}, código quebrado", parent, corpus=True)
+                    joined = line + " " + following[0]
+                    self.scan(joined, "F8", f"{filename}: página {page}, código quebrado", parent, corpus=True)
+                    for raw, key in codigos(joined):
+                        if key.startswith("WN"):
+                            self.own_legacy[normalizar(parent)].setdefault(key, (raw, f"{filename}: página {page}", joined))
+                if re.search(r"Document\s*-?\s*No\.", line, re.I) and not re.search("Previous", line, re.I):
+                    header_codes = codigos(" ".join([line] + following[:1]))
+                    known = [key for _, key in header_codes if key in owned]
+                    if known:
+                        target = known[0]
+                        for raw, key in header_codes:
+                            if key not in owned:
+                                self.edge(raw, target, "F8", "Cabeçalho de identidade do próprio documento: " + " ".join([line] + following[:1]), f"{filename}: página {page}", authority=3)
                 if not IDENTITY_RE.search(line) and not re.search("Previous Document No", line, re.I):
                     continue
                 context = " ".join([line] + following)
@@ -336,10 +379,10 @@ class Consolidacao:
                     if not values and following:
                         values = codigos(following[0]) if CODE_RE.fullmatch(following[0].strip()) else []
                     for raw, _ in values:
-                        self.edge(raw, parent, "F8", context, location)
+                        self.edge(raw, parent, "F8", "Capa do próprio documento: " + context, location, authority=3)
                     continue
                 # X (former Y), ou X formerly Y: destino é X, jamais a norma-pai.
-                former = re.search(r"(?:\b(?:formerly|former|previously|ehemals)\b|\balt:)", context, re.I)
+                former = re.search(r"(?:\b(?:formerly|former|previously|ehemals|statt|vormals)\b|\balt:)", context, re.I)
                 replaced = re.search(r"\b(?:replaces|ersetzt|Ersatz für|instead of)\b", context, re.I)
                 pairs = []
                 if re.search(r"\b(?:wird\s+ersetzt\s+durch|replaced\s+by)\b", context, re.I):
@@ -357,9 +400,35 @@ class Consolidacao:
                     if target:
                         pairs.extend((raw, target) for raw, _ in after)
                 for before, after in pairs:
-                    self.edge(before, after, "F8", context, location)
+                    self.edge(before, after, "F8", context, location,
+                              authority=3 if normalizar(after) in owned else 0)
                 if not pairs and codigos(context):
                     self.aviso("F8", location, "Frase de identidade sem direção segura; sem elo: " + context)
+
+    def corroborar_old_number(self):
+        for target, number, qualifier, line in self.bu2_old_numbers:
+            target = normalizar(target)
+            occurrences = {}
+            for owner, known_codes in self.owner_codes.items():
+                if target in known_codes:
+                    occurrences.update(self.own_legacy.get(owner, {}))
+            # Uma frase explícita de terceiro também comprova o prefixo, mas
+            # uma simples citação por terceiro nunca entra neste cruzamento.
+            for (before, after), edge in list(self.edges.items()):
+                if after == target and before.startswith("WN"):
+                    for evidence in edge["evidencias_detalhadas"]:
+                        if evidence["fonte"] == "F8":
+                            occurrences.setdefault(before, (before, evidence["local"], evidence["texto"]))
+            for key, (raw, location, context) in sorted(occurrences.items()):
+                match = re.fullmatch(r"(WN[A-Z]) (\d+(?:[-/]\d+)*)", key)
+                if not match or match[2] != number:
+                    continue
+                prefixes = self.wnx_prefixes.get(number, set())
+                ambiguous = bool(prefixes - {match[1]})
+                self.edge(raw, target, "F3", f"Old number exato={number}; código novo={target}; qualificador={qualifier or 'sem BU'}", f"linha {line}", eligible=not ambiguous)
+                self.edge(raw, target, "F8", "Prefixo/número exato no próprio documento ou identidade explícita: " + context, location, eligible=not ambiguous)
+                if ambiguous:
+                    self.aviso("F3", f"linha {line}", f"Prefixo ambíguo para Old number {number}: visto {match[1]}, WNX={sorted(prefixes)}")
 
     def avaliar_elos(self):
         outgoing = defaultdict(list)
@@ -400,7 +469,7 @@ class Consolidacao:
                     if old is None or (len(chain), chain) < (len(old[0]), old[0]):
                         destinations[code] = (chain, edges)
                     continue
-                if code in self.excluded or code in self.finals:
+                if code in self.excluded or code in self.finals or code in self.retired:
                     dead.add(code)
                     continue
                 choices = selected[code] if confirmed else outgoing[code]
@@ -433,6 +502,9 @@ class Consolidacao:
                     self.aviso("CONFLITO", code, notes[-1] + ": " + ", ".join(e["para"] for e in outgoing[code]))
             elif code in self.excluded:
                 status = "EXCLUIDO_DECISAO"
+                notes.extend(self.decisions[code])
+            elif code in self.retired:
+                status = "RETIRADO"
                 notes.extend(self.decisions[code])
             elif code in self.finals:
                 status = "LEGADO_SEM_SUCESSOR"
@@ -499,10 +571,12 @@ def gerar():
     builder = Consolidacao()
     builder.oficiais()
     builder.manuais()
+    builder.decisoes_usuario()
     builder.corporativa()
     builder.preenchimento()
     builder.historico()
     builder.corpus_fonte()
+    builder.corroborar_old_number()
     entries = builder.classificar()
     counts = Counter(entry["status"] for entry in entries.values())
     return {
@@ -600,7 +674,16 @@ def salvar_planilha(data):
                          ", ".join(entry["fontes"]), indicios_legiveis(entry["indicios"]),
                          "\n".join(entry["onde_aparece"]), "\n".join(entry["normas_pai"]),
                          "\n".join(entry["ocorrencias_corpus"]), entry["observacao"], entry["qualificadores_bu"]])
-        sheet(name, headers, rows)
+        sheet_headers = headers
+        if name == "Citados_no_corpus":
+            sheet_headers = headers + ["candidatos_propostos", "indicios_resumo"]
+            for row in rows:
+                entry = entries[row[0]]
+                evidence = [e for edge in entry["indicios"] for e in edge["evidencias_detalhadas"]]
+                evidence.sort(key=lambda e: (-e["autoridade"], not e["elegivel_corroboração"], e["fonte"], e["local"]))
+                principal = list(dict.fromkeys(f"{e['fonte']}: {e['texto']}" for e in evidence))[:3]
+                row.extend([" | ".join(entry["candidatos_propostos"]), "\n".join(principal)])
+        sheet(name, sheet_headers, rows)
     sheet("Avisos", ["Fonte", "Local", "Aviso"], [[a["fonte"], a["local"], a["aviso"]] for a in data["avisos"]])
     book.save(BASE / "mapa_normas_v1_revisao.xlsx")
 
