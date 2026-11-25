@@ -7,10 +7,14 @@ Esta ferramenta não resolve nem valida referências normativas.
 import csv
 import json
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 
-import pymupdf
+try:
+    import pymupdf
+except ImportError:
+    import fitz as pymupdf
 
 
 BASE = Path(__file__).resolve().parent
@@ -105,6 +109,8 @@ def resolve_corpus(corpus, records):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     manifest = BASE / "corpus_40.json"
     corpus = json.loads(manifest.read_text(encoding="utf-8"))
     register = BASE.parent.parent / "02_BANCO_ATUAL" / "cadastro_canonico_v3_SEM_URL_SHAREPOINT.json"

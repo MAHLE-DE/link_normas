@@ -5,12 +5,16 @@ import bisect
 import importlib.util
 import json
 import re
+import sys
 import time
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
-import pymupdf
+try:
+    import pymupdf
+except ImportError:
+    import fitz as pymupdf
 from docx import Document
 from docx.table import Table
 from docx.text.paragraph import Paragraph
@@ -244,6 +248,10 @@ def lookup(raw, mapa):
     return output, entry["status"], key
 
 
+class IdentidadeNaoEncontrada(ValueError):
+    """Documento sem identidade segura no manifesto, cadastro ou capa."""
+
+
 def identidade(path, manifesto, cadastro, mapa, excecoes):
     entry = next((e for e in manifesto if Path(e["arquivo"]).name.casefold() == path.name.casefold()), None)
     if entry:
@@ -269,7 +277,7 @@ def identidade(path, manifesto, cadastro, mapa, excecoes):
             current, status, key = lookup(candidate.raw, mapa)
             if status in {"VIGENTE", "RESOLVIDO"}:
                 return current, [key]
-    raise ValueError(f"Identidade da norma-pai não encontrada: {path.name}")
+    raise IdentidadeNaoEncontrada(f"Identidade da norma-pai não encontrada: {path.name}")
 
 
 def motivo(candidate, canonical, status, key, parent, own, joined, lines, starts, sections):
@@ -439,25 +447,46 @@ def caminho(value, output=False):
     return path.resolve() if path.exists() else ROOT / path
 
 
-def executar(entrada, manifesto=None, mapa_path=None, gabarito=None):
+def executar(entrada, manifesto=None, mapa_path=None, gabarito=None, recursivo=False):
     started = time.perf_counter()
     mapa = json.loads(caminho(mapa_path or "02_BANCO_ATUAL/mapa_normas_v1.json").read_text(encoding="utf-8"))["codigos"]
     cadastro = json.loads((ROOT / "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json").read_text(encoding="utf-8"))
     excecoes = json.loads((ROOT / "02_BANCO_ATUAL/excecoes_aprovadas.json").read_text(encoding="utf-8"))
     manifest = json.loads(caminho(manifesto).read_text(encoding="utf-8")) if manifesto else []
     source = caminho(entrada)
-    files = sorted(source.iterdir()) if source.is_dir() else [source]
-    files = [p for p in files if p.suffix.lower() in {".pdf", ".docx"}]
+    files = sorted(source.rglob("*") if recursivo else source.iterdir()) if source.is_dir() else [source]
+    files = [p for p in files if p.is_file() and p.suffix.lower() in {".pdf", ".docx"}]
     if not files:
         raise ValueError(f"Nenhum PDF/DOCX encontrado: {entrada}")
-    accepted, discarded, corrections = [], [], {}
+    variants = {Path(v["file_name"]).stem.casefold(): v for v in cadastro.get("language_variants", [])}
+    accepted, discarded, corrections, ignored = [], [], {}, []
+    processed = 0
     for path in files:
-        parent, old = identidade(path, manifest, cadastro, mapa, excecoes)
-        included, rejected, fixes = extrair_arquivo(path, parent, old, mapa)
+        relative = path.relative_to(source).as_posix() if source.is_dir() else path.name
+        variant = variants.get(path.stem.casefold())
+        if variant:
+            ignored.append({"arquivo": path.name, "caminho": relative, "motivo": "variante_idioma_nao_operacional",
+                            "detalhe": variant.get("reason", "Variante não operacional do cadastro"),
+                            "variante_de": variant["variant_of"]})
+            continue
+        try:
+            parent, old = identidade(path, manifest, cadastro, mapa, excecoes)
+            included, rejected, fixes = extrair_arquivo(path, parent, old, mapa)
+        except Exception as error:
+            if manifesto is not None:
+                raise
+            ignored.append({"arquivo": path.name, "caminho": relative,
+                            "motivo": "sem_identidade" if isinstance(error, IdentidadeNaoEncontrada) else "erro_processamento",
+                            "detalhe": f"{type(error).__name__}: {error}", "variante_de": ""})
+            continue
+        for row in included + rejected:
+            row["arquivo"] = relative
         accepted.extend(included)
         discarded.extend(rejected)
         corrections[parent] = fixes
-    result = {"correlacoes": agregar(accepted), "descartes": discarded, "documentos_processados": len(files)}
+        processed += 1
+    result = {"correlacoes": agregar(accepted), "descartes": discarded, "ignorados": ignored,
+              "documentos_processados": processed, "arquivos_encontrados": len(files)}
     if gabarito:
         result["avaliacao"] = avaliar(result, json.loads(caminho(gabarito).read_text(encoding="utf-8")), mapa, corrections)
     result["tempo_segundos"] = time.perf_counter() - started
@@ -501,6 +530,9 @@ def salvar(result, output):
     fields = ["pai", "pai_nome_antigo", "citada", "tipo", "status_mapa", "codigo_bruto", "paginas", "secao", "evidencia", "arquivo"]
     sheet("Correlacoes", headers, [[r[f] for f in fields] for r in result["correlacoes"]])
     sheet("Descartes", headers + ["Motivo"], [[r[f] for f in fields] + [r["motivo"]] for r in result["descartes"]])
+    sheet("Ignorados", ["Arquivo", "Caminho", "Motivo", "Detalhe", "Variante de"],
+          [[r.get(f, "") for f in ("arquivo", "caminho", "motivo", "detalhe", "variante_de")]
+           for r in result.get("ignorados", [])])
     if "avaliacao" in result:
         evaluation = result["avaliacao"]
         rows = [["Metrica", r["pai"], "", r["TP"], r["FP"], r["FN"], r["precisao"], r["recall"], r["F1"], ""] for r in [evaluation["geral"]] + evaluation["documentos"]]
@@ -513,20 +545,23 @@ def salvar(result, output):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--entrada", required=True)
     parser.add_argument("--manifesto")
     parser.add_argument("--mapa")
     parser.add_argument("--saida", required=True)
     parser.add_argument("--gabarito")
+    parser.add_argument("--recursivo", action="store_true", help="Percorre subpastas da entrada")
     args = parser.parse_args()
     started = time.perf_counter()
-    result = executar(args.entrada, args.manifesto, args.mapa, args.gabarito)
+    result = executar(args.entrada, args.manifesto, args.mapa, args.gabarito, args.recursivo)
     output = caminho(args.saida, output=True)
     salvar(result, output)
     result["tempo_total_segundos"] = time.perf_counter() - started
     output.with_suffix(".json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Documentos: {result['documentos_processados']}; pares: {len(result['correlacoes'])}; extração/avaliação: {result['tempo_segundos']:.3f}s; total com exportação: {result['tempo_total_segundos']:.3f}s")
+    print(f"Documentos: {result['documentos_processados']}; ignorados: {len(result['ignorados'])}; pares: {len(result['correlacoes'])}; extração/avaliação: {result['tempo_segundos']:.3f}s; total com exportação: {result['tempo_total_segundos']:.3f}s")
     if "avaliacao" in result:
         metrics = result["avaliacao"]["geral"]
         print(f"Precisão: {metrics['precisao']:.4%}; Recall: {metrics['recall']:.4%}; F1: {metrics['F1']:.4%}; TP: {metrics['TP']}; FP: {metrics['FP']}; FN: {metrics['FN']}")

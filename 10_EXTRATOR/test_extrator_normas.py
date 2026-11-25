@@ -1,9 +1,13 @@
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
 
-import pymupdf
+try:
+    import pymupdf
+except ImportError:
+    import fitz as pymupdf
 import pytest
 from docx import Document
 from openpyxl import load_workbook
@@ -241,8 +245,13 @@ def test_citacao_na_capa_sem_document_no_nao_define_o_pai(tmp_path):
     doc = Document()
     doc.add_paragraph("Testing according to MEAS-579")
     doc.save(path)
+    result = extractor.executar(path)
+    assert result["documentos_processados"] == 0
+    assert result["ignorados"][0]["motivo"] == "sem_identidade"
+    strict = tmp_path / "manifesto.json"
+    strict.write_text("[]", encoding="utf-8")
     with pytest.raises(ValueError, match="Identidade da norma-pai"):
-        extractor.executar(path)
+        extractor.executar(path, manifesto=strict)
 
 
 def test_cli_dentro_do_diretorio_e_exportacao(tmp_path):
@@ -252,12 +261,14 @@ def test_cli_dentro_do_diretorio_e_exportacao(tmp_path):
         pdf.save(path)
     output = tmp_path / "resultado.xlsx"
     completed = subprocess.run([sys.executable, "extrator_normas.py", "--entrada", str(path), "--saida", str(output)],
-                               cwd=extractor.BASE, capture_output=True, text=True)
+                               cwd=extractor.BASE, capture_output=True,
+                               env=dict(os.environ, PYTHONIOENCODING="cp1252"))
     assert completed.returncode == 0, completed.stderr
+    assert "extração/avaliação" in completed.stdout.decode("utf-8")
     result = json.loads(output.with_suffix(".json").read_text(encoding="utf-8"))
     assert result["correlacoes"][0]["citada"] == "ISO 9001"
     book = load_workbook(output, read_only=True)
-    assert book.sheetnames == ["Correlacoes", "Descartes"]
+    assert book.sheetnames == ["Correlacoes", "Descartes", "Ignorados"]
     book.close()
 
 
@@ -271,3 +282,72 @@ def test_regressao_corpus_40():
     assert metrics["recall"] >= 1.0
     assert metrics["FP"] == metrics["FN"] == 0
     assert result["documentos_processados"] == 40
+
+
+def test_recursivo_ignora_variantes_desconhecidos_e_corrompidos(tmp_path):
+    source = tmp_path / "documentos"
+    nested = source / "subpasta"
+    nested.mkdir(parents=True)
+    for path, code in [(source / "known.docx", "MATL-553"), (nested / "known.docx", "MATL-632")]:
+        doc = Document()
+        doc.add_paragraph("Document-No. " + code)
+        doc.add_paragraph("ISO 9001")
+        doc.save(path)
+    cadastro = json.loads((extractor.ROOT / "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json").read_text(encoding="utf-8"))
+    variant = cadastro["language_variants"][0]
+    (nested / variant["file_name"]).write_bytes(b"Ignored before reading PDF")
+    doc = Document()
+    doc.add_paragraph("Unidentified document")
+    doc.save(nested / "unknown.docx")
+    (nested / "broken.pdf").write_bytes(b"Not a PDF")
+    flat = extractor.executar(source)
+    assert flat["documentos_processados"] == flat["arquivos_encontrados"] == 1
+    recursive = extractor.executar(source, recursivo=True)
+    assert recursive["documentos_processados"] == 2
+    assert recursive["arquivos_encontrados"] == 5
+    assert {r["motivo"] for r in recursive["ignorados"]} == {
+        "variante_idioma_nao_operacional", "sem_identidade", "erro_processamento"
+    }
+    assert {r["arquivo"][0] for r in recursive["correlacoes"]} == {"known.docx", "subpasta/known.docx"}
+    assert all(r["caminho"].startswith("subpasta/") for r in recursive["ignorados"])
+    output = tmp_path / "resultado.xlsx"
+    extractor.salvar(recursive, output)
+    book = load_workbook(output, read_only=True)
+    assert book["Ignorados"].max_row == 4
+    book.close()
+
+
+@pytest.mark.parametrize("relative", ["10_EXTRATOR/extrator_normas.py", "03_PILOTO_40/corpus/dump_corpus.py"])
+def test_fallback_fitz_em_instalacao_antiga(monkeypatch, relative):
+    import builtins
+    import runpy
+    from types import SimpleNamespace
+
+    original_import = builtins.__import__
+    legacy = SimpleNamespace()
+
+    def old_installation(name, *args, **kwargs):
+        if name == "pymupdf":
+            raise ImportError("Namespace moderno indisponível")
+        if name == "fitz":
+            return legacy
+        return original_import(name, *args, **kwargs)
+
+    with monkeypatch.context() as context:
+        context.setattr(builtins, "__import__", old_installation)
+        namespace = runpy.run_path(str(extractor.ROOT / relative))
+    assert namespace["pymupdf"] is legacy
+
+
+def test_sintaxe_python_310_e_lancadores_portateis():
+    import ast
+
+    for directory in [extractor.ROOT / "02_BANCO_ATUAL", extractor.ROOT / "03_PILOTO_40/corpus", extractor.BASE]:
+        for path in directory.glob("*.py"):
+            ast.parse(path.read_text(encoding="utf-8"), feature_version=(3, 10))
+    launchers = sorted(extractor.BASE.glob("*.bat"))
+    assert len(launchers) == 5
+    for path in launchers:
+        text = path.read_text(encoding="utf-8").lower()
+        for required in ['cd /d "%~dp0"', "chcp 65001 >nul", "py -3", "if errorlevel 1", "pause", "exit /b 1"]:
+            assert required in text, (path.name, required)

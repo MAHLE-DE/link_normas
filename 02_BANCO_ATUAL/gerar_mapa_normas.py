@@ -826,6 +826,8 @@ def resolver(codigo_bruto):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     data = gerar()
     (BASE / "mapa_normas_v1.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     salvar_planilha(data)
