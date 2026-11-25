@@ -501,7 +501,7 @@ def test_sintaxe_python_310_e_lancadores_portateis():
         for path in directory.glob("*.py"):
             ast.parse(path.read_text(encoding="utf-8"), feature_version=(3, 10))
     launchers = sorted(extractor.BASE.glob("*.bat"))
-    assert len(launchers) == 7
+    assert len(launchers) == 9
     for path in launchers:
         text = path.read_text(encoding="utf-8").lower()
         for required in ['cd /d "%~dp0"', "chcp 65001 >nul", "py -3", "if errorlevel 1", "pause", "exit /b 1"]:

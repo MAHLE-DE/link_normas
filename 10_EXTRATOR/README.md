@@ -58,10 +58,36 @@ de executar `03` sobre o banco completo.
 | `04_rodar_testes.bat` | Executa pytest em `02_BANCO_ATUAL/` e `10_EXTRATOR/`. |
 | `05_validar_segunda_amostra.bat` | Valida a segunda amostra contra o gabarito v2.1; gera `saida/resultado_v2.xlsx` e `.json`. |
 | `06_validar_terceira_amostra.bat` | Valida a terceira amostra contra o gabarito v3.1; gera `saida/resultado_v3.xlsx` e `.json`. |
+| `07_gerar_pendencias.bat` | Cria `02_BANCO_ATUAL/pendencias_codigos_sem_cadeia.xlsx` a partir do resultado da base completa. |
+| `08_aplicar_pendencias.bat` | Aplica as decisões preenchidas na planilha padrão, acrescentando entradas F9 e preservando decisões já existentes. |
 
 As avaliações cegas, antes de corrigir regras gerais, mediram precisão
 90,80% / recall 76,70% na segunda amostra e precisão 96,23% / recall 98,55%
 na terceira. As três amostras têm testes de regressão exigindo 100%/100%.
+
+## Revisar códigos sem cadeia
+
+Depois de extrair a base completa, execute `07_gerar_pendencias.bat`.
+A aba `Pendências` ordena os códigos por número de relações e mostra
+normas-pai/títulos, até três contextos, dados BU2 e candidatos com indícios
+e similaridade. Preencha somente `Decisão`, `Código destino` e `Observação`.
+As ações são `ligar`, `sem_sucessor`, `nao_considerar` e `retirado`.
+Para `ligar`, o destino precisa existir no mapa ou ser cadastrado também
+como decisão na planilha; as outras ações deixam o destino vazio.
+
+Guarde uma cópia preenchida antes de gerar novamente: a geração recria as
+colunas de decisão vazias. Execute `08_aplicar_pendencias.bat` para a planilha
+padrão, ou `py -3 ..\02_BANCO_ATUAL\aplicar_pendencias.py --planilha <copia.xlsx>`.
+O aplicador valida tudo antes de gravar, ignora decisões repetidas e avisa
+quando uma decisão existente diferente foi preservada. Campos vazios adiam
+a decisão. Em seguida, rode `01_gerar_mapa.bat` e `03_extrair_05_DOCUMENTS.bat`.
+Valid-Documents/F1 sempre prevalece.
+
+O gerador aceita `--resultado`, `--mapa` e `--saida`; por padrão usa o resultado
+da base completa e `mapa_base/`, com fallback ao mapa versionado. Decisões F9
+mais recentes são conferidas no mapa versionado atualizado para retirar da
+fila casos já decididos, como W-B-0718. O aplicador aceita `--planilha`,
+`--mapa` e `--decisoes` para usar cópias em testes ou revisão.
 
 O dump usa por padrão texto PDF sem `find_tables`, que pode encerrar o
 processo nativamente. O texto das tabelas permanece no texto extraído;
