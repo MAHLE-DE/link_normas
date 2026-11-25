@@ -1,0 +1,436 @@
+[
+  {
+    "arquivo": "normas/250730-S-F-ML-4014_R821-EC01_VA65 blue (002).pdf",
+    "document_no": "MATL-553",
+    "nomes_anteriores": [
+      "S-F-ML-4014-en"
+    ],
+    "titulo": "Material specification for carrier layer R821",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-553",
+    "titulo_cadastro": "Material specification for carrier layer R821"
+  },
+  {
+    "arquivo": "normas/DSGN-410.pdf",
+    "document_no": "DSGN-410",
+    "nomes_anteriores": [
+      "S-G-DN-5052-en"
+    ],
+    "titulo": "Design handbook Filtration and Engine Peripherals",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-410",
+    "titulo_cadastro": "Design handbook Filtration and Engine Peripherals"
+  },
+  {
+    "arquivo": "normas/G-A-DN-5045-en.pdf",
+    "document_no": "DSGN-411",
+    "nomes_anteriores": [
+      "G-A-DN-5045-en"
+    ],
+    "titulo": "Design Compendium for Air Filter Modules",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-411",
+    "titulo_cadastro": "Design Compendium for Air Filter Modules"
+  },
+  {
+    "arquivo": "normas/G-A-PT-5049-en.pdf",
+    "document_no": "DSGN-451",
+    "nomes_anteriores": [
+      "G-A-PT-5049-en"
+    ],
+    "titulo": "Vibration welding line execution for clean air ducts and charge air pipes",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-451",
+    "titulo_cadastro": "Vibration welding line execution for clean air ducts and charge air pipes"
+  },
+  {
+    "arquivo": "normas/G-G-PT-4012-en_v04.pdf",
+    "document_no": "DSGN-431",
+    "nomes_anteriores": [
+      "G-G-PT-4012-en"
+    ],
+    "titulo": "Work instruction for examination of the joining path at a plastic welding line",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-431",
+    "titulo_cadastro": "Work instruction for examination of the joining path at a plastic welding line"
+  },
+  {
+    "arquivo": "normas/G-L-DN-5019-en.pdf",
+    "document_no": "DSGN-409",
+    "nomes_anteriores": [
+      "G-L-DN-5019-en"
+    ],
+    "titulo": "Design Compendium for Fuel Filters",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-409",
+    "titulo_cadastro": "Design Compendium for Fuel Filters"
+  },
+  {
+    "arquivo": "normas/G-L-DN-5021-en.pdf",
+    "document_no": "DSGN-429",
+    "nomes_anteriores": [
+      "G-L-DN-5021-en"
+    ],
+    "titulo": "Design Compendium for Spin-on Oil Filters",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-429",
+    "titulo_cadastro": "Design Compendium for Spin-on Oil Filters"
+  },
+  {
+    "arquivo": "normas/G-L-DN-5047-en.pdf",
+    "document_no": "DSGN-468",
+    "nomes_anteriores": [
+      "G-L-DN-5047-en"
+    ],
+    "titulo": "Design Compendium for Liquid Filtration",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-468",
+    "titulo_cadastro": "Design Compendium for Liquid Filtration"
+  },
+  {
+    "arquivo": "normas/MATL-626.pdf",
+    "document_no": "MATL-626",
+    "nomes_anteriores": [
+      "S-G-ML-1005-en"
+    ],
+    "titulo": "Material specification for rubber parts in oil- and fuel filters in MAHLE Aftermarket GmbH",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-626",
+    "titulo_cadastro": "Material specification for rubber parts in oil- and fuel filters in MAHLE Aftermarket GmbH"
+  },
+  {
+    "arquivo": "normas/MATL-632.pdf",
+    "document_no": "MATL-632",
+    "nomes_anteriores": [
+      "S-F-ML-102992-en"
+    ],
+    "titulo": "Test specification for filter materials L753-EF01 (sealing foam)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-632",
+    "titulo_cadastro": "Test specification for filter materials L753-EF01 (sealing foam)"
+  },
+  {
+    "arquivo": "normas/MATL-633.pdf",
+    "document_no": "MATL-633",
+    "nomes_anteriores": [],
+    "titulo": "Material specification for filter materials C 618 (w/ activated carbon) Testing acc. to TEST-278 (former S-F-ML-2810)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-633",
+    "titulo_cadastro": "Material specification for filter materials C 618 (w/ activated carbon) Testing acc. to TEST-278 (former S-F-ML-2810)"
+  },
+  {
+    "arquivo": "normas/MATL-635.pdf",
+    "document_no": "MATL-635",
+    "nomes_anteriores": [],
+    "titulo": "Material specification for filter materials C 835 (w/ activated carbon) Testing acc. to TEST-278 (former S-F-ML-2810)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-635",
+    "titulo_cadastro": "Material specification for filter materials C 835 (w/ activated carbon) Testing acc. to TEST-278 (former S-F-ML-2810)"
+  },
+  {
+    "arquivo": "normas/MATL-644.pdf",
+    "document_no": "MATL-644",
+    "nomes_anteriores": [
+      "S-F-Ml-2801-en V10"
+    ],
+    "titulo": "Test specification for filter materials C615 (activated carbon and IX)",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-644",
+    "titulo_cadastro": "Test specification for filter materials C615 (activated carbon and IX)"
+  },
+  {
+    "arquivo": "normas/S-C-ML-1800-en.pdf",
+    "document_no": "MATL-550",
+    "nomes_anteriores": [
+      "S-C-ML-1800-en"
+    ],
+    "titulo": "Characteristics for activated carbon Ingevity: BAX 1500",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-550",
+    "titulo_cadastro": "Characteristics for activated carbon Ingevity: BAX 1500"
+  },
+  {
+    "arquivo": "normas/S-C-TG-0002-en.pdf",
+    "document_no": "MEAS-549",
+    "nomes_anteriores": [
+      "S-C-TG-0002-en"
+    ],
+    "titulo": "Test specification for activated carbon",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-114",
+    "titulo_cadastro": "Test specification for activated carbon"
+  },
+  {
+    "arquivo": "normas/S-F-MA-0595-en.pdf",
+    "document_no": "MNFG-470",
+    "nomes_anteriores": [
+      "S-F-MA-0595-en"
+    ],
+    "titulo": "Embossing of pleat blocks – overview",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-470",
+    "titulo_cadastro": "Embossing of pleat blocks – overview"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2041-en.pdf",
+    "document_no": "MATL-686",
+    "nomes_anteriores": [
+      "S-F-ML-2041-en"
+    ],
+    "titulo": "Test specification for filter materials F041-EP01(old A41) (filter paper)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-142",
+    "titulo_cadastro": "Test specification for filter materials F041-EP01(old A41) (filter paper)"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2170_en.pdf",
+    "document_no": "MATL-678",
+    "nomes_anteriores": [
+      "S-F-ML-2170-en"
+    ],
+    "titulo": "Test specification for filter materials F096R-EP02 (old A96R) (filter paper)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-130",
+    "titulo_cadastro": "Test specification for filter materials F096R-EP02 (old A96R) (filter paper)"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2188-en.pdf",
+    "document_no": "MATL-840",
+    "nomes_anteriores": [
+      "S-F-ML-2188-en"
+    ],
+    "titulo": "Test specification for filter material O092 (filter paper)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-61",
+    "titulo_cadastro": "Test specification for filter material O092 (filter paper)"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2323-en.pdf",
+    "document_no": "MATL-855",
+    "nomes_anteriores": [
+      "S-F-ML-2323-en"
+    ],
+    "titulo": "Test specification for sandwich band O003-EW01 - formerly (SB3)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-77",
+    "titulo_cadastro": "Test specification for sandwich band O003-EW01 - formerly (SB3)"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2740-en _V05.pdf",
+    "document_no": "MATL-656",
+    "nomes_anteriores": [
+      "S-F-ML-2740-en"
+    ],
+    "titulo": "Test specification for filter materials S140 (T40) (filter fleece, single-layer)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-102",
+    "titulo_cadastro": "Test specification for filter materials S140 (T40) (filter fleece, single-layer)"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2784-en.pdf",
+    "document_no": "MATL-604",
+    "nomes_anteriores": [
+      "S-F-ML-2784-en"
+    ],
+    "titulo": "Material specification for filter media C618 EA26",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-604",
+    "titulo_cadastro": "Material specification for filter media C618 EA26"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2793-en.pdf",
+    "document_no": "MATL-667",
+    "nomes_anteriores": [
+      "S-F-ML-2793-en"
+    ],
+    "titulo": "Test specification for filter materials M688 (impactor nonwoven, single-layer + grid)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-118",
+    "titulo_cadastro": "Test specification for filter materials M688 (impactor nonwoven, single-layer + grid)"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2922-en.pdf",
+    "document_no": "MATL-661",
+    "nomes_anteriores": [
+      "S-F-ML-2922-en"
+    ],
+    "titulo": "Test specification for filter materials (cellular material / cellular rubber FS 12",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-109",
+    "titulo_cadastro": "Test specification for filter materials (cellular material / cellular rubber FS 12"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2924-en.pdf",
+    "document_no": "MATL-682",
+    "nomes_anteriores": [
+      "S-F-ML-2924-en"
+    ],
+    "titulo": "Test specification for filter materials (cellular material / cellular rubber FS 14",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-138",
+    "titulo_cadastro": "Test specification for filter materials (cellular material / cellular rubber FS 14"
+  },
+  {
+    "arquivo": "normas/S-F-ML-2925-en.pdf",
+    "document_no": "MATL-693",
+    "nomes_anteriores": [
+      "S-F-ML-2925-en"
+    ],
+    "titulo": "Test specification for filter materials S 758 (HC-trap)",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-151",
+    "titulo_cadastro": "Test specification for filter materials S 758 (HC-trap)"
+  },
+  {
+    "arquivo": "normas/S-F-PT-0684-en.pdf",
+    "document_no": "DSGN-427",
+    "nomes_anteriores": [
+      "S-F-PT-0684-en"
+    ],
+    "titulo": "Pleat depth and -tolerances for filter elements – overview",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-427",
+    "titulo_cadastro": "Pleat depth and -tolerances for filter elements – overview"
+  },
+  {
+    "arquivo": "normas/S-F-PT-6575-en.pdf",
+    "document_no": "DSGN-352",
+    "nomes_anteriores": [
+      "S-F-PT-6575-en"
+    ],
+    "titulo": "Sealing geometry for cylindrical elements shape E6",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-352",
+    "titulo_cadastro": "Sealing geometry for cylindrical elements shape E6"
+  },
+  {
+    "arquivo": "normas/S-G-DN-5001-en.pdf",
+    "document_no": "DSGN-348",
+    "nomes_anteriores": [
+      "S-G-DN-5001-en"
+    ],
+    "titulo": "Standard texts for drawings",
+    "categoria": "design",
+    "codigo_piloto_antigo": "DSGN-348",
+    "titulo_cadastro": "Standard texts for drawings"
+  },
+  {
+    "arquivo": "normas/S-G-MA-3817-en.pdf",
+    "document_no": "MNFG-480",
+    "nomes_anteriores": [
+      "S-G-MA-3817-en"
+    ],
+    "titulo": "Folding box useable for automatically packaging for replacement filter and filter element.",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-480",
+    "titulo_cadastro": "Folding box useable for automatically packaging for replacement filter and filter element."
+  },
+  {
+    "arquivo": "normas/S-G-MA-6009-en.pdf",
+    "document_no": "MNFG-506",
+    "nomes_anteriores": [
+      "S-G-MA-6009-en"
+    ],
+    "titulo": "Setup Process for Vibration Weld Tooling",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-506",
+    "titulo_cadastro": "Setup Process for Vibration Weld Tooling"
+  },
+  {
+    "arquivo": "normas/S-G-MA-6011-en.pdf",
+    "document_no": "MNFG-472",
+    "nomes_anteriores": [
+      "S-G-MA-6011-en"
+    ],
+    "titulo": "Heated Insert Manufacturing Process Overview",
+    "categoria": "manufacturing",
+    "codigo_piloto_antigo": "MNFG-472",
+    "titulo_cadastro": "Heated Insert Manufacturing Process Overview"
+  },
+  {
+    "arquivo": "normas/S-G-ML-1004-en.pdf",
+    "document_no": "TEST-131",
+    "nomes_anteriores": [
+      "S-G-ML-1004-en"
+    ],
+    "titulo": "Test method: Rubber materials; Resistance against synthetically test-blow-by",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-131",
+    "titulo_cadastro": "Test method: Rubber materials; Resistance against synthetically test-blow-by"
+  },
+  {
+    "arquivo": "normas/S-G-ML-2130-en (002).pdf",
+    "document_no": "MATL-587",
+    "nomes_anteriores": [
+      "S-G-ML-2130-en"
+    ],
+    "titulo": "Coatings for corrosion protection of face surfaces",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-587",
+    "titulo_cadastro": "Coatings for corrosion protection of face surfaces"
+  },
+  {
+    "arquivo": "normas/S-G-ML-9025-en.pdf",
+    "document_no": "MATL-677",
+    "nomes_anteriores": [
+      "S-G-ML-9025-en"
+    ],
+    "titulo": "Test specification for casting compounds",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-129",
+    "titulo_cadastro": "Test specification for casting compounds"
+  },
+  {
+    "arquivo": "normas/S-G-TG-4008-en.pdf",
+    "document_no": "MEAS-592",
+    "nomes_anteriores": [
+      "S-G-TG-4008-en"
+    ],
+    "titulo": "Vibration test using electro-dynamic shaker test bench Test instruction",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-57",
+    "titulo_cadastro": "Vibration test using electro-dynamic shaker test bench Test instruction"
+  },
+  {
+    "arquivo": "normas/S-G-TG-4050-en_V09.pdf",
+    "document_no": "MEAS-587",
+    "nomes_anteriores": [
+      "S-G-TG-4050-en"
+    ],
+    "titulo": "Component test specifications BU2 PL5",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-37",
+    "titulo_cadastro": "Component test specifications BU2 PL5"
+  },
+  {
+    "arquivo": "normas/S-G-TG-688-en.pdf",
+    "document_no": "MEAS-546",
+    "nomes_anteriores": [
+      "S-G-TG-0688-en"
+    ],
+    "titulo": "Determination of Hydrophobic Properties with Water-Ethanol-Mixtures",
+    "categoria": "test",
+    "codigo_piloto_antigo": "TEST-107",
+    "titulo_cadastro": "Determination of Hydrophobic Properties with Water-Ethanol-Mixtures"
+  },
+  {
+    "arquivo": "normas/S-H-ML-1016-en.pdf",
+    "document_no": "MATL-566",
+    "nomes_anteriores": [
+      "S-H-ML-1016-en"
+    ],
+    "titulo": "WNE 101016 Material specification for rubber parts in membranes",
+    "categoria": "material",
+    "codigo_piloto_antigo": "MATL-566",
+    "titulo_cadastro": "WNE 101016 Material specification for rubber parts in membranes"
+  },
+  {
+    "arquivo": "normas/W-BE-0885-en_Release_and_MSA_of_Leakage_Test_Devices_(V3_0).pdf",
+    "document_no": "W-BE-0885-en",
+    "nomes_anteriores": [],
+    "titulo": "Acceptance Testing and MSA of Leakage Test Devices",
+    "categoria": "measurement",
+    "codigo_piloto_antigo": "W-BE-0885-en",
+    "titulo_cadastro": "Acceptance Testing and MSA of Leakage Test Devices"
+  }
+]
