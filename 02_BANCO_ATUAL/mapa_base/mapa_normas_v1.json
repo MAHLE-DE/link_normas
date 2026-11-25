@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "gerado_em": "2026-11-25T17:48:35.560679+00:00",
+  "gerado_em": "2026-11-25T18:51:15.944379+00:00",
   "fontes": {
     "F1": "02_BANCO_ATUAL/cadastro_canonico_v3_SEM_URL_SHAREPOINT.json",
     "F2": "02_BANCO_ATUAL/excecoes_aprovadas.json",
@@ -21,6 +21,7 @@
     "F7 automática e F5 possível/pendente são apenas indícios, mesmo quando repetidos.",
     "F3 exige Old number e linha WNX correspondente; número com múltiplos prefixos é ambíguo.",
     "Sem linha WNX, Old number exato pode ser corroborado pelo prefixo no próprio documento ou frase explícita F8.",
+    "F8: declaração de substituição exige um único documento declarante; múltiplos declarantes geram aviso sem elo de identidade.",
     "Por orientação do usuário, BU é apenas rastreabilidade: código e cadeia independem do qualificador BU.",
     "Exclusões e legados finais aprovados impedem promoção por inferência; conflitos ficam em avisos.",
     "Sem similaridade numérica, sem herdar automaticamente sucessor da base para subpartes WNx.",
@@ -31,13 +32,13 @@
   ],
   "resumo": {
     "VIGENTE": 595,
-    "RESOLVIDO": 843,
+    "RESOLVIDO": 848,
     "RETIRADO": 171,
     "EXCLUIDO_DECISAO": 7,
-    "LEGADO_SEM_SUCESSOR": 139,
-    "CONFLITO": 8,
+    "LEGADO_SEM_SUCESSOR": 141,
+    "CONFLITO": 4,
     "NAO_CONFIRMADO": 211,
-    "DESCONHECIDO": 178
+    "DESCONHECIDO": 177
   },
   "codigos": {
     "------4005": {
@@ -2003,8 +2004,7 @@
         "F6: Sheet1!linha 249",
         "F7: edges[781]",
         "F7: edges[782]",
-        "F8: F8-base/S-F-MA-0617-en.pdf: página 2",
-        "F8: F8-base/S-F-PT-6541-en.pdf: página 2"
+        "F8: F8-base/S-F-MA-0617-en.pdf: página 2"
       ],
       "normas_pai": [],
       "base_legado": "",
@@ -4828,8 +4828,7 @@
         "F7: edges[27]",
         "F7: edges[28]",
         "F7: edges[29]",
-        "F8: DSGN-411.txt: página 36",
-        "F8: F8-base/G-A-PT-5049-de.pdf: página 2"
+        "F8: DSGN-411.txt: página 36"
       ],
       "normas_pai": [],
       "base_legado": "",
@@ -6023,14 +6022,16 @@
       "observacao": "",
       "fontes": [
         "F1",
-        "F7"
+        "F7",
+        "F8"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F1: records.document_no",
         "F7: edges[755]",
-        "F7: edges[756]"
+        "F7: edges[756]",
+        "F8: F8-base/S-F-PT-0664-de.pdf: página 2"
       ],
       "normas_pai": [],
       "base_legado": "",
@@ -6076,7 +6077,8 @@
         "F7: edges[747]",
         "F7: edges[748]",
         "F8: DSGN-409.txt: página 136",
-        "F8: F8-base/S-F-DN-5090-en.pdf: página 14"
+        "F8: F8-base/S-F-DN-5090-en.pdf: página 14",
+        "F8: F8-base/S-F-PT-0654-en.pdf: página 2"
       ],
       "normas_pai": [],
       "base_legado": "",
@@ -6747,8 +6749,7 @@
         "F6: Sheet1!linha 864",
         "F7: edges[783]",
         "F7: edges[784]",
-        "F8: F8-base/S-F-MA-0617-en.pdf: página 2",
-        "F8: F8-base/S-F-PT-6542-en.pdf: página 2"
+        "F8: F8-base/S-F-MA-0617-en.pdf: página 2"
       ],
       "normas_pai": [],
       "base_legado": "",
@@ -15751,8 +15752,7 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-391",
-        "DSGN-451"
+        "DSGN-391"
       ],
       "indicios": [
         {
@@ -15924,28 +15924,6 @@
           "confirmado": true,
           "autoridade": 6,
           "similaridade_titulo": 1.0
-        },
-        {
-          "de": "G-G-PT-5025",
-          "para": "DSGN-451",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "Dieser Standard soll hauptsächlich den Konstrukteuren als Hilfe dienen, ist jedoch kein Ersatz für den  Engineering Standard G-G-PT-5025 oder einen vollständigen Zeichnungseintrag.  2 ",
-              "local": "F8-base/G-A-PT-5049-de.pdf: página 2",
-              "autoridade": 3,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/G-A-PT-5049-de.pdf: página 2: Dieser Standard soll hauptsächlich den Konstrukteuren als Hilfe dienen, ist jedoch kein Ersatz für den  Engineering Standard G-G-PT-5025 oder einen vollständigen Zeichnungseintrag.  2 "
-          ],
-          "confianca": 1.0,
-          "confirmado": true,
-          "autoridade": 3
         }
       ],
       "citado_no_corpus": true,
@@ -40644,6 +40622,84 @@
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
+    "S- F-PT-6542": {
+      "status": "RESOLVIDO",
+      "atual": "DSGN-481",
+      "cadeia": [
+        "S- F-PT-6542",
+        "DSGN-481"
+      ],
+      "formas_vistas": [
+        "S- F-PT-6542"
+      ],
+      "elos": [
+        {
+          "de": "S- F-PT-6542",
+          "para": "DSGN-481",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": " \nPanel filters, cylindrical filters, special geometries.  \nReplaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S-\nF-PT-6542-en",
+              "local": "F8-base/S-F-PT-0654-en.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0654-en.pdf: página 2:  \nPanel filters, cylindrical filters, special geometries.  \nReplaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S-\nF-PT-6542-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
+        }
+      ],
+      "titulo": "Pleat pitches filter elements",
+      "status_bu2": "",
+      "observacao": "",
+      "fontes": [
+        "F8"
+      ],
+      "decisoes": [],
+      "comparacoes_titulo": [],
+      "onde_aparece": [
+        "F8: F8-base/S-F-PT-0654-en.pdf: página 2"
+      ],
+      "normas_pai": [],
+      "base_legado": "",
+      "qualificadores_bu": [],
+      "candidatos_propostos": [
+        "DSGN-481"
+      ],
+      "indicios": [
+        {
+          "de": "S- F-PT-6542",
+          "para": "DSGN-481",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": " \nPanel filters, cylindrical filters, special geometries.  \nReplaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S-\nF-PT-6542-en",
+              "local": "F8-base/S-F-PT-0654-en.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0654-en.pdf: página 2:  \nPanel filters, cylindrical filters, special geometries.  \nReplaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S-\nF-PT-6542-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
+        }
+      ],
+      "citado_no_corpus": false,
+      "ocorrencias_corpus": []
+    },
     "S-A-DN-5020": {
       "status": "RESOLVIDO",
       "atual": "DSGN-404",
@@ -50338,9 +50394,7 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-387",
-        "DSGN-388",
-        "DSGN-497"
+        "DSGN-387"
       ],
       "indicios": [
         {
@@ -50373,50 +50427,6 @@
           "confianca": 1.0,
           "confirmado": true,
           "autoridade": 5
-        },
-        {
-          "de": "S-F-DN-0616",
-          "para": "DSGN-388",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6541-en.pdf: página 2",
-              "autoridade": 3,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-6541-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
-          ],
-          "confianca": 1.0,
-          "confirmado": true,
-          "autoridade": 3
-        },
-        {
-          "de": "S-F-DN-0616",
-          "para": "DSGN-497",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6542-en.pdf: página 2",
-              "autoridade": 3,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-6542-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
-          ],
-          "confianca": 1.0,
-          "confirmado": true,
-          "autoridade": 3
         }
       ],
       "citado_no_corpus": true,
@@ -50933,22 +50943,52 @@
       ]
     },
     "S-F-DN-0658": {
-      "status": "CONFLITO",
-      "atual": "",
-      "cadeia": [],
+      "status": "LEGADO_SEM_SUCESSOR",
+      "atual": "S-F-PT-0658",
+      "cadeia": [
+        "S-F-DN-0658",
+        "S-F-PT-0658"
+      ],
       "formas_vistas": [
+        "S-F-DN-0658",
         "S-F-DN-0658-de",
         "S-F-DN-0658-en"
       ],
-      "elos": [],
+      "elos": [
+        {
+          "de": "S-F-DN-0658",
+          "para": "S-F-PT-0658",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents",
+              "local": "decisoes[32]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[32]: usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        }
+      ],
       "titulo": "",
       "status_bu2": "",
-      "observacao": "",
+      "observacao": "Estado final herdado da cadeia confirmada até S-F-PT-0658",
       "fontes": [
         "F6",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 223, Child Standard",
@@ -50960,7 +51000,8 @@
         "F8: F8-base/S-F-PT-0668-en.pdf: página 2",
         "F8: F8-base/S-F-PT-6541-en.pdf: página 2",
         "F8: F8-base/S-F-PT-6542-en.pdf: página 2",
-        "F8: F8-base/S-F-PT-6542-en.pdf: página 4"
+        "F8: F8-base/S-F-PT-6542-en.pdf: página 4",
+        "F9: decisoes[32]"
       ],
       "normas_pai": [
         "DSGN-382",
@@ -50971,75 +51012,179 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-388",
-        "DSGN-497"
+        "S-F-PT-0658"
       ],
       "indicios": [
         {
           "de": "S-F-DN-0658",
-          "para": "DSGN-388",
+          "para": "S-F-PT-0658",
           "evidencias_detalhadas": [
             {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6541-en.pdf: página 2",
-              "autoridade": 3,
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents",
+              "local": "decisoes[32]",
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
           "fontes": [
-            "F8"
+            "F9"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-6541-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
+            "F9 decisoes[32]: usuario: Variante DN/PT; S-F-PT-0658 nao existe no Valid-Documents"
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 3
-        },
-        {
-          "de": "S-F-DN-0658",
-          "para": "DSGN-497",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6542-en.pdf: página 2",
-              "autoridade": 3,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-6542-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
-          ],
-          "confianca": 1.0,
-          "confirmado": true,
-          "autoridade": 3
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
     "S-F-DN-0660": {
-      "status": "CONFLITO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-470",
+      "cadeia": [
+        "S-F-DN-0660",
+        "S-F-PT-0660",
+        "DSGN-470"
+      ],
       "formas_vistas": [
+        "S-F-DN-0660",
         "S-F-DN-0660-de",
         "S-F-DN-0660-en"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "S-F-DN-0660",
+          "para": "S-F-PT-0660",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387",
+              "local": "decisoes[30]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[30]: usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-F-PT-0660",
+          "para": "DSGN-470",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 753",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 754",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 755",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 756",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 757",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 758",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+              "local": "Sheet1!linha 759",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[753]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-F-PT-0660-en",
+              "local": "edges[754]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 753: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 754: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 755: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 756: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 757: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 758: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F6 Sheet1!linha 759: Parent Old name=S-F-PT-0660-en; Parent Standard=DSGN-470",
+            "F7 edges[753]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[754]: Cadastro Canônico V3: Previous Document No.: S-F-PT-0660-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Pleat pitch for cylindrical air filter elements",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
         "F6",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387"
+      ],
       "comparacoes_titulo": [
         {
           "regra": "B",
@@ -51062,7 +51207,8 @@
         "F8: F8-base/S-F-PT-0654-en.pdf: página 5",
         "F8: F8-base/S-F-PT-6541-en.pdf: página 2",
         "F8: F8-base/S-F-PT-6542-en.pdf: página 2",
-        "F8: F8-base/S-F-PT-6542-en.pdf: página 4"
+        "F8: F8-base/S-F-PT-6542-en.pdf: página 4",
+        "F9: decisoes[30]"
       ],
       "normas_pai": [
         "DSGN-388",
@@ -51074,75 +51220,123 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-388",
-        "DSGN-497"
+        "DSGN-470",
+        "S-F-PT-0660"
       ],
       "indicios": [
         {
           "de": "S-F-DN-0660",
-          "para": "DSGN-388",
+          "para": "S-F-PT-0660",
           "evidencias_detalhadas": [
             {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6541-en.pdf: página 2",
-              "autoridade": 3,
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387",
+              "local": "decisoes[30]",
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
           "fontes": [
-            "F8"
+            "F9"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-6541-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
+            "F9 decisoes[30]: usuario: Variante DN/PT do mesmo documento: MNFG-498 cita S-F-PT-0660-de e S-F-DN-0660-de no mesmo calculo; S-F-PT-0660 = DSGN-470 (F1); precedente S-F-DN-0616 -> DSGN-387"
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 3
-        },
-        {
-          "de": "S-F-DN-0660",
-          "para": "DSGN-497",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6542-en.pdf: página 2",
-              "autoridade": 3,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-6542-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
-          ],
-          "confianca": 1.0,
-          "confirmado": true,
-          "autoridade": 3
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
     "S-F-DN-0664": {
-      "status": "CONFLITO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-480",
+      "cadeia": [
+        "S-F-DN-0664",
+        "S-F-PT-0664",
+        "DSGN-480"
+      ],
       "formas_vistas": [
+        "S-F-DN-0664",
         "S-F-DN-0664-de",
         "S-F-DN-0664-en"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "S-F-DN-0664",
+          "para": "S-F-PT-0664",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)",
+              "local": "decisoes[31]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F9"
+          ],
+          "evidencias": [
+            "F9 decisoes[31]: usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-F-PT-0664",
+          "para": "DSGN-480",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[755]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-F-PT-0664-de",
+              "local": "edges[756]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F7 edges[755]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[756]: Cadastro Canônico V3: Previous Document No.: S-F-PT-0664-de"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Faltenteilungen für Luftfilter (Nicht gültig für Neukonstruktionen!)",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
         "F6",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 248, Child Standard",
@@ -51153,7 +51347,8 @@
         "F8: F8-base/S-F-PT-0654-en.pdf: página 5",
         "F8: F8-base/S-F-PT-6541-en.pdf: página 2",
         "F8: F8-base/S-F-PT-6542-en.pdf: página 2",
-        "F8: F8-base/S-F-PT-6542-en.pdf: página 4"
+        "F8: F8-base/S-F-PT-6542-en.pdf: página 4",
+        "F9: decisoes[31]"
       ],
       "normas_pai": [
         "DSGN-387",
@@ -51164,53 +51359,31 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-388",
-        "DSGN-497"
+        "DSGN-480",
+        "S-F-PT-0664"
       ],
       "indicios": [
         {
           "de": "S-F-DN-0664",
-          "para": "DSGN-388",
+          "para": "S-F-PT-0664",
           "evidencias_detalhadas": [
             {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6541-en.pdf: página 2",
-              "autoridade": 3,
+              "fonte": "F9",
+              "texto": "usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)",
+              "local": "decisoes[31]",
+              "autoridade": 5,
               "elegivel_corroboração": true
             }
           ],
           "fontes": [
-            "F8"
+            "F9"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-6541-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
+            "F9 decisoes[31]: usuario: Variante DN/PT; DSGN-387 Faltenzahl nach S-F-DN-0664-de; S-F-PT-0664 = DSGN-480 (F1)"
           ],
           "confianca": 1.0,
           "confirmado": true,
-          "autoridade": 3
-        },
-        {
-          "de": "S-F-DN-0664",
-          "para": "DSGN-497",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 ",
-              "local": "F8-base/S-F-PT-6542-en.pdf: página 2",
-              "autoridade": 3,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-6542-en.pdf: página 2: This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.  2 "
-          ],
-          "confianca": 1.0,
-          "confirmado": true,
-          "autoridade": 3
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": false,
@@ -53323,9 +53496,32 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
+        "DSGN-480",
         "MNFG-475"
       ],
       "indicios": [
+        {
+          "de": "S-F-MA-0605",
+          "para": "DSGN-480",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": "kw (Motorzuluft) aus Faltenbälgen: \n- nach S-F-PT-0612-en \n(Ersatz für S-F-MA-0605-de",
+              "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0664-de.pdf: página 2: kw (Motorzuluft) aus Faltenbälgen: \n- nach S-F-PT-0612-en \n(Ersatz für S-F-MA-0605-de"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
+        },
         {
           "de": "S-F-MA-0605",
           "para": "MNFG-475",
@@ -53483,10 +53679,32 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MNFG-477",
-        "S-F-MA-0605"
+        "DSGN-480",
+        "MNFG-477"
       ],
       "indicios": [
+        {
+          "de": "S-F-MA-0606",
+          "para": "DSGN-480",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": "2-en \n(Ersatz für S-F-MA-0605-de) \n- nach S-F-MA-0615-de  \n(Ersatz für S-F-MA-0606-de",
+              "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0664-de.pdf: página 2: 2-en \n(Ersatz für S-F-MA-0605-de) \n- nach S-F-MA-0615-de  \n(Ersatz für S-F-MA-0606-de"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
+        },
         {
           "de": "S-F-MA-0606",
           "para": "MNFG-477",
@@ -53525,28 +53743,6 @@
           "confianca": 1.0,
           "confirmado": true,
           "autoridade": 6
-        },
-        {
-          "de": "S-F-MA-0606",
-          "para": "S-F-MA-0605",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "- nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en)  - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am ",
-              "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
-              "autoridade": 0,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-0664-de.pdf: página 2: - nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en)  - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am "
-          ],
-          "confianca": 0.0,
-          "confirmado": false,
-          "autoridade": 0
         }
       ],
       "citado_no_corpus": true,
@@ -54066,8 +54262,7 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MNFG-505",
-        "S-F-MA-0605"
+        "MNFG-505"
       ],
       "indicios": [
         {
@@ -54133,28 +54328,6 @@
           "confianca": 1.0,
           "confirmado": true,
           "autoridade": 6
-        },
-        {
-          "de": "S-F-MA-0612",
-          "para": "S-F-MA-0605",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "- nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en)  - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am ",
-              "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
-              "autoridade": 0,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-0664-de.pdf: página 2: - nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en)  - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am "
-          ],
-          "confianca": 0.0,
-          "confirmado": false,
-          "autoridade": 0
         }
       ],
       "citado_no_corpus": true,
@@ -54713,9 +54886,7 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "MNFG-495",
-        "S-F-MA-0605",
-        "S-F-MA-0606"
+        "MNFG-495"
       ],
       "indicios": [
         {
@@ -54756,50 +54927,6 @@
           "confianca": 1.0,
           "confirmado": true,
           "autoridade": 6
-        },
-        {
-          "de": "S-F-MA-0615",
-          "para": "S-F-MA-0605",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "- nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en)  - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am ",
-              "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
-              "autoridade": 0,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-0664-de.pdf: página 2: - nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en)  - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am "
-          ],
-          "confianca": 0.0,
-          "confirmado": false,
-          "autoridade": 0
-        },
-        {
-          "de": "S-F-MA-0615",
-          "para": "S-F-MA-0606",
-          "evidencias_detalhadas": [
-            {
-              "fonte": "F8",
-              "texto": "- nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am  Innendurchmesser bzw. an der Basis ermittelt. ",
-              "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
-              "autoridade": 0,
-              "elegivel_corroboração": true
-            }
-          ],
-          "fontes": [
-            "F8"
-          ],
-          "evidencias": [
-            "F8 F8-base/S-F-PT-0664-de.pdf: página 2: - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)  Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am  Innendurchmesser bzw. an der Basis ermittelt. "
-          ],
-          "confianca": 0.0,
-          "confirmado": false,
-          "autoridade": 0
         }
       ],
       "citado_no_corpus": true,
@@ -92168,6 +92295,84 @@
       "citado_no_corpus": false,
       "ocorrencias_corpus": []
     },
+    "S-F-PT- 0644": {
+      "status": "RESOLVIDO",
+      "atual": "DSGN-372",
+      "cadeia": [
+        "S-F-PT- 0644",
+        "DSGN-372"
+      ],
+      "formas_vistas": [
+        "S-F-PT- 0644"
+      ],
+      "elos": [
+        {
+          "de": "S-F-PT- 0644",
+          "para": "DSGN-372",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en",
+              "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
+        }
+      ],
+      "titulo": "Filter area calculation of filter elements – number of pleats, paper area and effective filtration area",
+      "status_bu2": "",
+      "observacao": "",
+      "fontes": [
+        "F8"
+      ],
+      "decisoes": [],
+      "comparacoes_titulo": [],
+      "onde_aparece": [
+        "F8: F8-base/S-F-PT-0653-en.pdf: página 2"
+      ],
+      "normas_pai": [],
+      "base_legado": "",
+      "qualificadores_bu": [],
+      "candidatos_propostos": [
+        "DSGN-372"
+      ],
+      "indicios": [
+        {
+          "de": "S-F-PT- 0644",
+          "para": "DSGN-372",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en",
+              "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
+        }
+      ],
+      "citado_no_corpus": false,
+      "ocorrencias_corpus": []
+    },
     "S-F-PT-0230": {
       "status": "RESOLVIDO",
       "atual": "DSGN-492",
@@ -94018,7 +94223,7 @@
           "evidencias_detalhadas": [
             {
               "fonte": "F8",
-              "texto": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. ",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en",
               "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
               "autoridade": 3,
               "elegivel_corroboração": true
@@ -94028,7 +94233,7 @@
             "F8"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. "
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en"
           ],
           "confianca": 1.0,
           "confirmado": true,
@@ -94285,7 +94490,7 @@
           "evidencias_detalhadas": [
             {
               "fonte": "F8",
-              "texto": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. ",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en",
               "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
               "autoridade": 3,
               "elegivel_corroboração": true
@@ -94295,7 +94500,7 @@
             "F8"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. "
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en"
           ],
           "confianca": 1.0,
           "confirmado": true,
@@ -94501,7 +94706,7 @@
           "evidencias_detalhadas": [
             {
               "fonte": "F8",
-              "texto": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. ",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en",
               "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
               "autoridade": 3,
               "elegivel_corroboração": true
@@ -94511,7 +94716,7 @@
             "F8"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. "
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en"
           ],
           "confianca": 1.0,
           "confirmado": true,
@@ -94751,7 +94956,7 @@
           "evidencias_detalhadas": [
             {
               "fonte": "F8",
-              "texto": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. ",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en",
               "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
               "autoridade": 3,
               "elegivel_corroboração": true
@@ -94761,7 +94966,7 @@
             "F8"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. "
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en"
           ],
           "confianca": 1.0,
           "confirmado": true,
@@ -95068,7 +95273,7 @@
           "evidencias_detalhadas": [
             {
               "fonte": "F8",
-              "texto": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. ",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en, S-F-PT-0646-en",
               "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
               "autoridade": 3,
               "elegivel_corroboração": true
@@ -95078,7 +95283,7 @@
             "F8"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. "
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en, S-F-PT-0646-en"
           ],
           "confianca": 1.0,
           "confirmado": true,
@@ -95227,7 +95432,7 @@
           "evidencias_detalhadas": [
             {
               "fonte": "F8",
-              "texto": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. ",
+              "texto": "ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en, S-F-PT-0646-en and S-F-PT-0652-en",
               "local": "F8-base/S-F-PT-0653-en.pdf: página 2",
               "autoridade": 3,
               "elegivel_corroboração": true
@@ -95237,7 +95442,7 @@
             "F8"
           ],
           "evidencias": [
-            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.  This standard must be used for all filter elements with pleated filter media. "
+            "F8 F8-base/S-F-PT-0653-en.pdf: página 2: ective filtration area \n(incl. paper area).  \nThis standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT-\n0644-en, S-F-PT-0646-en and S-F-PT-0652-en"
           ],
           "confianca": 1.0,
           "confirmado": true,
@@ -96608,22 +96813,26 @@
       "ocorrencias_corpus": []
     },
     "S-F-PT-0658": {
-      "status": "DESCONHECIDO",
+      "status": "LEGADO_SEM_SUCESSOR",
       "atual": "",
       "cadeia": [],
       "formas_vistas": [
+        "S-F-PT-0658",
         "S-F-PT-0658-de",
         "S-F-PT-0658-en"
       ],
       "elos": [],
       "titulo": "",
       "status_bu2": "",
-      "observacao": "",
+      "observacao": "F9 sem_sucessor: usuario: Sem documento vigente no Valid-Documents; usuario: sai como legado",
       "fontes": [
         "F6",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 sem_sucessor: usuario: Sem documento vigente no Valid-Documents; usuario: sai como legado"
+      ],
       "comparacoes_titulo": [],
       "onde_aparece": [
         "F6: Sheet1!linha 229, Child Standard",
@@ -96637,7 +96846,9 @@
         "F8: F8-base/S-F-PT-0664-de.pdf: página 3",
         "F8: F8-base/S-F-PT-0668-en.pdf: página 5",
         "F8: F8-base/S-F-PT-0672-de.pdf: página 3",
-        "F8: F8-base/S-F-PT-6541-en.pdf: página 3"
+        "F8: F8-base/S-F-PT-6541-en.pdf: página 3",
+        "F9: decisoes[32]",
+        "F9: decisoes[33]"
       ],
       "normas_pai": [
         "DSGN-375",
@@ -96771,7 +96982,8 @@
         "F1",
         "F6",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [
@@ -96810,7 +97022,8 @@
         "F8: F8-base/S-F-PT-0660-en.pdf: página 4",
         "F8: F8-base/S-F-PT-0660-en.pdf: página 5",
         "F8: F8-base/S-F-PT-0664-de.pdf: página 3",
-        "F8: F8-base/S-F-PT-6541-en.pdf: página 3"
+        "F8: F8-base/S-F-PT-6541-en.pdf: página 3",
+        "F9: decisoes[30]"
       ],
       "normas_pai": [
         "DSGN-388",
@@ -96986,7 +97199,8 @@
         "F1",
         "F6",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -97007,7 +97221,8 @@
         "F8: F8-base/S-F-PT-0664-de.pdf: página 2",
         "F8: F8-base/S-F-PT-0664-de.pdf: página 3",
         "F8: F8-base/S-F-PT-0664-de.pdf: página 4",
-        "F8: F8-base/S-F-PT-6541-en.pdf: página 3"
+        "F8: F8-base/S-F-PT-6541-en.pdf: página 3",
+        "F9: decisoes[31]"
       ],
       "normas_pai": [
         "DSGN-387",
@@ -97692,7 +97907,8 @@
         "F5",
         "F6",
         "F7",
-        "F8"
+        "F8",
+        "F9"
       ],
       "decisoes": [],
       "comparacoes_titulo": [],
@@ -97740,7 +97956,8 @@
         "F8: candidatos.tsv: página 3, linha 7, texto",
         "F8: candidatos.tsv: página 4, linha 7, texto",
         "F8: candidatos.tsv: página 5, linha 7, texto",
-        "F8: candidatos.tsv: página 6, linha 7, texto"
+        "F8: candidatos.tsv: página 6, linha 7, texto",
+        "F9: decisoes[29]"
       ],
       "normas_pai": [
         "DSGN-400",
@@ -99786,7 +100003,8 @@
       "base_legado": "",
       "qualificadores_bu": [],
       "candidatos_propostos": [
-        "DSGN-388"
+        "DSGN-388",
+        "DSGN-481"
       ],
       "indicios": [
         {
@@ -99926,6 +100144,28 @@
           "confirmado": true,
           "autoridade": 6,
           "similaridade_titulo": 0.9428571428571428
+        },
+        {
+          "de": "S-F-PT-6541",
+          "para": "DSGN-481",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F8",
+              "texto": " \nPanel filters, cylindrical filters, special geometries.  \nReplaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en",
+              "local": "F8-base/S-F-PT-0654-en.pdf: página 2",
+              "autoridade": 3,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F8"
+          ],
+          "evidencias": [
+            "F8 F8-base/S-F-PT-0654-en.pdf: página 2:  \nPanel filters, cylindrical filters, special geometries.  \nReplaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 3
         }
       ],
       "citado_no_corpus": false,
@@ -184848,22 +185088,237 @@
       ]
     },
     "WNA 684": {
-      "status": "CONFLITO",
-      "atual": "",
-      "cadeia": [],
+      "status": "RESOLVIDO",
+      "atual": "DSGN-427",
+      "cadeia": [
+        "WNA 684",
+        "S-F-PT-0684",
+        "DSGN-427"
+      ],
       "formas_vistas": [
         "WNA  684",
         "WNA 684"
       ],
-      "elos": [],
-      "titulo": "",
+      "elos": [
+        {
+          "de": "WNA 684",
+          "para": "S-F-PT-0684",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F5",
+              "texto": "POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: ",
+              "local": "linha 21",
+              "autoridade": 0,
+              "elegivel_corroboração": false
+            },
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario",
+              "local": "decisoes[29]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F5",
+            "F9"
+          ],
+          "evidencias": [
+            "F5 linha 21: POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: ",
+            "F9 decisoes[29]: usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
+        },
+        {
+          "de": "S-F-PT-0684",
+          "para": "DSGN-427",
+          "evidencias_detalhadas": [
+            {
+              "fonte": "F1",
+              "texto": "previous_document_no",
+              "local": "",
+              "autoridade": 6,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 558",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 559",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 560",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 561",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 562",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 563",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 564",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 565",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 566",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 567",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 568",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 569",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 570",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 571",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 572",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 573",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F6",
+              "texto": "Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+              "local": "Sheet1!linha 574",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+              "local": "edges[761]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            },
+            {
+              "fonte": "F7",
+              "texto": "Cadastro Canônico V3: Previous Document No.: S-F-PT-0684-en",
+              "local": "edges[762]",
+              "autoridade": 0,
+              "elegivel_corroboração": true
+            }
+          ],
+          "fontes": [
+            "F1",
+            "F6",
+            "F7"
+          ],
+          "evidencias": [
+            "F1 : previous_document_no",
+            "F6 Sheet1!linha 558: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 559: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 560: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 561: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 562: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 563: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 564: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 565: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 566: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 567: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 568: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 569: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 570: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 571: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 572: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 573: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F6 Sheet1!linha 574: Parent Old name=S-F-PT-0684-en; Parent Standard=DSGN-427",
+            "F7 edges[761]: grafo_cadeias_v7_5.json: Alias aprovado/consolidado",
+            "F7 edges[762]: Cadastro Canônico V3: Previous Document No.: S-F-PT-0684-en"
+          ],
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 6
+        }
+      ],
+      "titulo": "Pleat depth and -tolerances for filter elements – overview",
       "status_bu2": "",
       "observacao": "",
       "fontes": [
         "F5",
-        "F8"
+        "F8",
+        "F9"
       ],
-      "decisoes": [],
+      "decisoes": [
+        "F9 ligar: usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario"
+      ],
       "comparacoes_titulo": [
         {
           "regra": "B",
@@ -184912,7 +185367,8 @@
         "F8: F8-base/S-F-ME-6561-en.pdf: página 16",
         "F8: F8-base/S-F-ME-6561-en.pdf: página 3",
         "F8: F8-base/S-F-PT-0684-en.pdf: página 6",
-        "F8: candidatos.tsv: página 6, linha 43, texto"
+        "F8: candidatos.tsv: página 6, linha 43, texto",
+        "F9: decisoes[29]"
       ],
       "normas_pai": [
         "DSGN-354",
@@ -184984,17 +185440,26 @@
               "local": "linha 21",
               "autoridade": 0,
               "elegivel_corroboração": false
+            },
+            {
+              "fonte": "F9",
+              "texto": "usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario",
+              "local": "decisoes[29]",
+              "autoridade": 5,
+              "elegivel_corroboração": true
             }
           ],
           "fontes": [
-            "F5"
+            "F5",
+            "F9"
           ],
           "evidencias": [
-            "F5 linha 21: POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: "
+            "F5 linha 21: POSSIVEL_CORRESPONDENCIA; tipo=nome anterior; método=evidência_do_usuário; Título legado: ; sucessor corporativo: ",
+            "F9 decisoes[29]: usuario: DSGN-427 (S-F-PT-0684-en) declara WNA 684 nas proprias Keywords; concorrente MNFG-486 (S-F-MA-0684) descartado pelo usuario"
           ],
-          "confianca": 0.0,
-          "confirmado": false,
-          "autoridade": 0
+          "confianca": 1.0,
+          "confirmado": true,
+          "autoridade": 5
         }
       ],
       "citado_no_corpus": true,
@@ -227174,11 +227639,6 @@
   "avisos": [
     {
       "fonte": "CONFLITO",
-      "local": "G-G-PT-5025",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-451 (F8)"
-    },
-    {
-      "fonte": "CONFLITO",
       "local": "G-G-TG-4001",
       "aviso": "Prevalece elo oficial/aprovado; indício divergente: TEST-35 (F6)"
     },
@@ -227199,33 +227659,13 @@
     },
     {
       "fonte": "CONFLITO",
-      "local": "S-F-DN-0616",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-388 (F8)"
-    },
-    {
-      "fonte": "CONFLITO",
-      "local": "S-F-DN-0616",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-497 (F8)"
+      "local": "S-F-MA-0605",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-480 (F8)"
     },
     {
       "fonte": "CONFLITO",
       "local": "S-F-MA-0606",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-F-MA-0605 (F8)"
-    },
-    {
-      "fonte": "CONFLITO",
-      "local": "S-F-MA-0612",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-F-MA-0605 (F8)"
-    },
-    {
-      "fonte": "CONFLITO",
-      "local": "S-F-MA-0615",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-F-MA-0605 (F8)"
-    },
-    {
-      "fonte": "CONFLITO",
-      "local": "S-F-MA-0615",
-      "aviso": "Prevalece elo oficial/aprovado; indício divergente: S-F-MA-0606 (F8)"
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-480 (F8)"
     },
     {
       "fonte": "CONFLITO",
@@ -227626,6 +228066,11 @@
       "fonte": "CONFLITO",
       "local": "S-F-PT-0652",
       "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-372 (F8)"
+    },
+    {
+      "fonte": "CONFLITO",
+      "local": "S-F-PT-6541",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-481 (F8)"
     },
     {
       "fonte": "CONFLITO",
@@ -228051,6 +228496,16 @@
       "fonte": "CONFLITO",
       "local": "WNA 680",
       "aviso": "Prevalece elo oficial/aprovado; indício divergente: MNFG-476 (F8)"
+    },
+    {
+      "fonte": "CONFLITO",
+      "local": "WNA 684",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: DSGN-427 (F8)"
+    },
+    {
+      "fonte": "CONFLITO",
+      "local": "WNA 684",
+      "aviso": "Prevalece elo oficial/aprovado; indício divergente: MNFG-486 (F8)"
     },
     {
       "fonte": "CONFLITO",
@@ -230209,23 +230664,8 @@
     },
     {
       "fonte": "F8",
-      "local": "F8-base/S-F-PT-0654-en.pdf: página 2",
-      "aviso": "Frase de identidade sem direção segura; sem elo: Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.  2 "
-    },
-    {
-      "fonte": "F8",
       "local": "F8-base/S-F-PT-0655-en_V02.pdf: página 30",
       "aviso": "Frase de identidade sem direção segura; sem elo: Test specification for filter materials (filter fleece, single-layered) S140 (formerly T 40)  S-F-ML-2715   "
-    },
-    {
-      "fonte": "F8",
-      "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
-      "aviso": "Frase de identidade sem direção segura; sem elo: (Ersatz für S-F-MA-0605-de)  - nach S-F-MA-0615-de   (Ersatz für S-F-MA-0606-de) "
-    },
-    {
-      "fonte": "F8",
-      "local": "F8-base/S-F-PT-0664-de.pdf: página 2",
-      "aviso": "Frase de identidade sem direção segura; sem elo: (Ersatz für S-F-MA-0606-de)  - nach S-F-PT-0616-de  (Teilungssteg) "
     },
     {
       "fonte": "F8",
@@ -230244,6 +230684,31 @@
     },
     {
       "fonte": "F8",
+      "local": "S-F- PT-0668",
+      "aviso": "Substituição múltipla; sem elo de identidade: DSGN-388, DSGN-497"
+    },
+    {
+      "fonte": "F8",
+      "local": "S-F-DN-0616",
+      "aviso": "Substituição múltipla; sem elo de identidade: DSGN-388, DSGN-481, DSGN-497"
+    },
+    {
+      "fonte": "F8",
+      "local": "S-F-DN-0658",
+      "aviso": "Substituição múltipla; sem elo de identidade: DSGN-388, DSGN-481, DSGN-497"
+    },
+    {
+      "fonte": "F8",
+      "local": "S-F-DN-0660",
+      "aviso": "Substituição múltipla; sem elo de identidade: DSGN-388, DSGN-481, DSGN-497"
+    },
+    {
+      "fonte": "F8",
+      "local": "S-F-DN-0664",
+      "aviso": "Substituição múltipla; sem elo de identidade: DSGN-388, DSGN-481, DSGN-497"
+    },
+    {
+      "fonte": "F8",
       "local": "WNA 684",
       "aviso": "Título ambíguo, sem confirmação: Regra B; similaridade=0.800000; título observado='Pleat depth and pleat depth tolerances of filter inserts – overview'; título F1='Pleat depth and -tolerances for filter elements – overview'"
     },
@@ -230254,21 +230719,6 @@
     },
     {
       "fonte": "MULTIPLOS_DESTINOS",
-      "local": "S-F-DN-0658",
-      "aviso": "DSGN-388, DSGN-497"
-    },
-    {
-      "fonte": "MULTIPLOS_DESTINOS",
-      "local": "S-F-DN-0660",
-      "aviso": "DSGN-388, DSGN-497"
-    },
-    {
-      "fonte": "MULTIPLOS_DESTINOS",
-      "local": "S-F-DN-0664",
-      "aviso": "DSGN-388, DSGN-497"
-    },
-    {
-      "fonte": "MULTIPLOS_DESTINOS",
       "local": "S-F-ML-2777",
       "aviso": "MATL-638, MATL-752"
     },
@@ -230276,11 +230726,6 @@
       "fonte": "MULTIPLOS_DESTINOS",
       "local": "S-F-ML-4013-01",
       "aviso": "MATL-546, MATL-619"
-    },
-    {
-      "fonte": "MULTIPLOS_DESTINOS",
-      "local": "WNA 684",
-      "aviso": "DSGN-427, MNFG-486"
     },
     {
       "fonte": "MULTIPLOS_DESTINOS",

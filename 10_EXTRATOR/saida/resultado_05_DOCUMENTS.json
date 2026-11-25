@@ -4747,6 +4747,33 @@
     {
       "pai": "DSGN-354",
       "pai_nome_antigo": "S-F-DN-0657-en",
+      "citada": "DSGN-427",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 684"
+      ],
+      "paginas": [
+        1,
+        3,
+        8
+      ],
+      "secao": [
+        "Corpo",
+        "Lessons Learned"
+      ],
+      "evidencia": [
+        "4.1.2.2 Pleat depth with tolerances (WNA 684) 3",
+        "parameters. The optimization has to be done in the respective tests. 4.1.2.2 Pleat depth with tolerances (WNA 684) This engineering standard defines a standard pleat depth. Is required for the pleated block drawing",
+        "Pleated star and pleated block end connection WNA 684"
+      ],
+      "arquivo": [
+        "S-F-DN-0657-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-354",
+      "pai_nome_antigo": "S-F-DN-0657-en",
       "citada": "DSGN-461",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -4901,33 +4928,6 @@
         "4.1.2.1 Pleat pitch (WNA 654-1) 3",
         "4.1.2.1 Pleat pitch (WNA 654-1) This engineering standard defines a standard pleat pitch for panel elements depending on filter media",
         "effective filter area WNA 654-1 Pleat pitches filter elements (general)"
-      ],
-      "arquivo": [
-        "S-F-DN-0657-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-354",
-      "pai_nome_antigo": "S-F-DN-0657-en",
-      "citada": "WNA 684",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "WNA 684"
-      ],
-      "paginas": [
-        1,
-        3,
-        8
-      ],
-      "secao": [
-        "Corpo",
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "4.1.2.2 Pleat depth with tolerances (WNA 684) 3",
-        "parameters. The optimization has to be done in the respective tests. 4.1.2.2 Pleat depth with tolerances (WNA 684) This engineering standard defines a standard pleat depth. Is required for the pleated block drawing",
-        "Pleated star and pleated block end connection WNA 684"
       ],
       "arquivo": [
         "S-F-DN-0657-en.pdf"
@@ -7128,15 +7128,12 @@
         "S-F-PT-0642-en"
       ],
       "paginas": [
-        2,
         8
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
         "S-F-PT-0640-en S-F-PT-0642-en S-F-PT-0644-en"
       ],
       "arquivo": [
@@ -7153,15 +7150,12 @@
         "S-F-PT-0638-en"
       ],
       "paginas": [
-        2,
         8
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
         "Referenced document S-F-PT-0638-en S-F-PT-0639-en"
       ],
       "arquivo": [
@@ -7178,15 +7172,12 @@
         "S-F-PT-0639-en"
       ],
       "paginas": [
-        2,
         8
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
         "S-F-PT-0638-en S-F-PT-0639-en S-F-PT-0640-en"
       ],
       "arquivo": [
@@ -7203,15 +7194,12 @@
         "S-F-PT-0640-en"
       ],
       "paginas": [
-        2,
         8
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
         "S-F-PT-0639-en S-F-PT-0640-en S-F-PT-0642-en"
       ],
       "arquivo": [
@@ -7228,15 +7216,12 @@
         "S-F-PT-0646-en"
       ],
       "paginas": [
-        2,
         8
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en. This standard must be used for all filter elements with pleated filter media.",
         "S-F-PT-0644-en S-F-PT-0646-en"
       ],
       "arquivo": [
@@ -7250,42 +7235,16 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
-        "S-F-PT-\n0644-en",
         "S-F-PT-0644-en"
       ],
       "paginas": [
-        2,
         8
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en. This standard must be used for all filter elements with pleated filter media.",
         "S-F-PT-0642-en S-F-PT-0644-en S-F-PT-0646-en"
-      ],
-      "arquivo": [
-        "S-F-PT-0653-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-372",
-      "pai_nome_antigo": "S-F-PT-0653-en",
-      "citada": "DSGN-501",
-      "tipo": "interna",
-      "status_mapa": "RESOLVIDO",
-      "codigo_bruto": [
-        "S-F-PT-0652-en"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en. This standard must be used for all filter elements with pleated filter media."
       ],
       "arquivo": [
         "S-F-PT-0653-en.pdf"
@@ -7453,7 +7412,7 @@
       "pai_nome_antigo": "S-F-PT-0672-de",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-PT-0658-de"
       ],
@@ -8879,41 +8838,23 @@
     {
       "pai": "DSGN-382",
       "pai_nome_antigo": "S-F-PT-0668-en",
-      "citada": "S-F-DN-0658",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0658-de"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Termos/Abreviaturas"
-      ],
-      "evidencia": [
-        "y = free space between the pleats (  0,3 mm) acc. to S-F-DN-0658-de: t = c + y"
-      ],
-      "arquivo": [
-        "S-F-PT-0668-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-382",
-      "pai_nome_antigo": "S-F-PT-0668-en",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
+        "S-F-DN-0658-de",
         "S-F-PT-0658-de"
       ],
       "paginas": [
+        2,
         5
       ],
       "secao": [
+        "Termos/Abreviaturas",
         "Referencias"
       ],
       "evidencia": [
+        "y = free space between the pleats (  0,3 mm) acc. to S-F-DN-0658-de: t = c + y",
         "S-F-MA-0617-de S-F-PT-0658-de 7"
       ],
       "arquivo": [
@@ -9258,15 +9199,18 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
+        "S-F-DN-0664-de",
         "S-F-PT-0664-de"
       ],
       "paginas": [
+        2,
         4
       ],
       "secao": [
         "Lessons Learned"
       ],
       "evidencia": [
+        "Faltenzahl : …±… nach S-F-DN-0664-de / S-F-DN-0616-de gestr. Länge : …mm",
         "Mitgeltende Dokumente S-F-PT-0664-de S-F-PT-0255-en"
       ],
       "arquivo": [
@@ -9313,28 +9257,6 @@
       ],
       "evidencia": [
         "Bezüglich der Toleranzen für Bandbreiten von Filterpapier siehe S-F-DN-0255-en."
-      ],
-      "arquivo": [
-        "S-F-PT-0616-de.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-387",
-      "pai_nome_antigo": "S-F-PT-0616-de",
-      "citada": "S-F-DN-0664",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0664-de"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "Faltenzahl : …±… nach S-F-DN-0664-de / S-F-DN-0616-de gestr. Länge : …mm"
       ],
       "arquivo": [
         "S-F-PT-0616-de.pdf"
@@ -9392,19 +9314,15 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
-        "S-F-\nPT-0668-de",
         "S-F-PT-0668-de"
       ],
       "paginas": [
-        2,
         3
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de. 2",
         "S-F-PT-0664-de S-F-PT-0668-de S-F-PT-0654-en"
       ],
       "arquivo": [
@@ -9418,19 +9336,15 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
-        "S-F-DN-0616-de",
         "S-F-PT-0616-de"
       ],
       "paginas": [
-        2,
         3
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
         "Referenced documents S-F-PT-0616-de S-F-PT-0658-de"
       ],
       "arquivo": [
@@ -9509,75 +9423,9 @@
     {
       "pai": "DSGN-388",
       "pai_nome_antigo": "S-F-PT-6541-en",
-      "citada": "S-F-DN-0658",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0658-de"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de."
-      ],
-      "arquivo": [
-        "S-F-PT-6541-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-388",
-      "pai_nome_antigo": "S-F-PT-6541-en",
-      "citada": "S-F-DN-0660",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0660-en"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de."
-      ],
-      "arquivo": [
-        "S-F-PT-6541-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-388",
-      "pai_nome_antigo": "S-F-PT-6541-en",
-      "citada": "S-F-DN-0664",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0664-de"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Corpo"
-      ],
-      "evidencia": [
-        "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de."
-      ],
-      "arquivo": [
-        "S-F-PT-6541-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-388",
-      "pai_nome_antigo": "S-F-PT-6541-en",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-PT-0658-de"
       ],
@@ -10116,7 +9964,7 @@
     {
       "pai": "DSGN-391",
       "pai_nome_antigo": "G-G-PT-5025-en",
-      "citada": "WNA 6008",
+      "citada": "S-G-MA-6008",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
@@ -11087,6 +10935,34 @@
     {
       "pai": "DSGN-400",
       "pai_nome_antigo": "S-F-DN-5090-en",
+      "citada": "DSGN-427",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 684",
+        "WNA \n684"
+      ],
+      "paginas": [
+        12,
+        13,
+        14
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "tol. acc. to WNA 684",
+        "pleats height: __ mm ((tol. acc. to WNA 684)",
+        "Pleated star and pleated block end connection WNA 684 Pleat depth and pleat depth tolerances of filter inserts - overview"
+      ],
+      "arquivo": [
+        "S-F-DN-5090-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-400",
+      "pai_nome_antigo": "S-F-DN-5090-en",
       "citada": "DSGN-461",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -11839,34 +11715,6 @@
       "evidencia": [
         "acc. to WNA 654-2)",
         "WNA 654-2 Pleat pitches for liquid filter elements"
-      ],
-      "arquivo": [
-        "S-F-DN-5090-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-400",
-      "pai_nome_antigo": "S-F-DN-5090-en",
-      "citada": "WNA 684",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "WNA 684",
-        "WNA \n684"
-      ],
-      "paginas": [
-        12,
-        13,
-        14
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "tol. acc. to WNA 684",
-        "pleats height: __ mm ((tol. acc. to WNA 684)",
-        "Pleated star and pleated block end connection WNA 684 Pleat depth and pleat depth tolerances of filter inserts - overview"
       ],
       "arquivo": [
         "S-F-DN-5090-en.pdf"
@@ -15498,7 +15346,7 @@
       "pai_nome_antigo": "S-F-PT-6583-en",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-PT-0658-de"
       ],
@@ -20217,7 +20065,7 @@
       "pai_nome_antigo": "S-F-PT-0660-en",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-PT-0658-de"
       ],
@@ -20897,7 +20745,6 @@
         "Lessons Learned"
       ],
       "evidencia": [
-        "- nach S-F-PT-0612-en (Ersatz für S-F-MA-0605-de) - nach S-F-MA-0615-de",
         "(Teilungssteg) - nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en) - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de)",
         "Stegbereich (c) und des freien Spaltes zwischen den Falten (y), sondern aus dem Fertigungsverfahren. S-F-MA-0605-de bzw. S-F-MA-0606-de:",
         "S-F-PT-0612-en S-F-MA-0605-de S-F-MA-0615-de"
@@ -20924,7 +20771,6 @@
         "Lessons Learned"
       ],
       "evidencia": [
-        "- nach S-F-MA-0615-de (Ersatz für S-F-MA-0606-de) - nach S-F-PT-0616-de",
         "- nach S-F-MA-0605-de (auslaufend , ersetzt durch S-F-MA-0612-en) - nach S-F-MA-0606-de (auslaufend, ersetzt durch S-F-MA-0615-de) Die Faltenteilung t eines kantenverklebten Ring-, Platten- oder Ringplatteneinsatzes wird am",
         "Stegbereich (c) und des freien Spaltes zwischen den Falten (y), sondern aus dem Fertigungsverfahren. S-F-MA-0605-de bzw. S-F-MA-0606-de:",
         "S-F-MA-0615-de S-F-MA-0606-de S-F-PT-0616-de"
@@ -21015,7 +20861,7 @@
       "pai_nome_antigo": "S-F-PT-0664-de",
       "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "DESCONHECIDO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-PT-0658-de"
       ],
@@ -21042,15 +20888,12 @@
         "S-F-DN-0616-de"
       ],
       "paginas": [
-        2,
         5
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
         "Referenced documents S-F-DN-0616-de S-F-DN-0658-de"
       ],
       "arquivo": [
@@ -21067,16 +20910,57 @@
         "S-F-PT-6541-en"
       ],
       "paginas": [
-        2,
         5
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
         "S-F-DN-0664-de S-F-PT-6541-en S-F-PT-6542-en"
+      ],
+      "arquivo": [
+        "S-F-PT-0654-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-470",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-DN-0660-en"
+      ],
+      "paginas": [
+        5
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "S-F-DN-0658-de S-F-DN-0660-en S-F-DN-0664-de"
+      ],
+      "arquivo": [
+        "S-F-PT-0654-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-480",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-DN-0664-de"
+      ],
+      "paginas": [
+        5
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "S-F-DN-0660-en S-F-DN-0664-de S-F-PT-6541-en"
       ],
       "arquivo": [
         "S-F-PT-0654-en.pdf"
@@ -21089,19 +20973,15 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
-        "S-\nF-PT-6542-en",
         "S-F-PT-6542-en"
       ],
       "paginas": [
-        2,
         5
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en. 2",
         "S-F-PT-6541-en S-F-PT-6542-en"
       ],
       "arquivo": [
@@ -21111,73 +20991,20 @@
     {
       "pai": "DSGN-481",
       "pai_nome_antigo": "S-F-PT-0654-en",
-      "citada": "S-F-DN-0658",
+      "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "CONFLITO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-DN-0658-de"
       ],
       "paginas": [
-        2,
         5
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
         "S-F-DN-0616-de S-F-DN-0658-de S-F-DN-0660-en"
-      ],
-      "arquivo": [
-        "S-F-PT-0654-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-481",
-      "pai_nome_antigo": "S-F-PT-0654-en",
-      "citada": "S-F-DN-0660",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0660-en"
-      ],
-      "paginas": [
-        2,
-        5
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
-        "S-F-DN-0658-de S-F-DN-0660-en S-F-DN-0664-de"
-      ],
-      "arquivo": [
-        "S-F-PT-0654-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-481",
-      "pai_nome_antigo": "S-F-PT-0654-en",
-      "citada": "S-F-DN-0664",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0664-de"
-      ],
-      "paginas": [
-        2,
-        5
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
-        "S-F-DN-0660-en S-F-DN-0664-de S-F-PT-6541-en"
       ],
       "arquivo": [
         "S-F-PT-0654-en.pdf"
@@ -23100,19 +22927,15 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
-        "S-F-\nPT-0668-de",
         "S-F-PT-0668-de"
       ],
       "paginas": [
-        2,
         4
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de. 2",
         "S-F-DN-0664-de S-F-PT-0668-de S-F-PT-0654-en"
       ],
       "arquivo": [
@@ -23129,16 +22952,57 @@
         "S-F-DN-0616-de"
       ],
       "paginas": [
-        2,
         4
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
         "Referenced documents S-F-DN-0616-de S-F-DN-0658-de"
+      ],
+      "arquivo": [
+        "S-F-PT-6542-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "DSGN-470",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-DN-0660-en"
+      ],
+      "paginas": [
+        4
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "S-F-DN-0658-de S-F-DN-0660-en S-F-DN-0664-de"
+      ],
+      "arquivo": [
+        "S-F-PT-6542-en.pdf"
+      ]
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "DSGN-480",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "S-F-DN-0664-de"
+      ],
+      "paginas": [
+        4
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "S-F-DN-0660-en S-F-DN-0664-de S-F-PT-0668-de"
       ],
       "arquivo": [
         "S-F-PT-6542-en.pdf"
@@ -23172,73 +23036,20 @@
     {
       "pai": "DSGN-497",
       "pai_nome_antigo": "S-F-PT-6542-en",
-      "citada": "S-F-DN-0658",
+      "citada": "S-F-PT-0658",
       "tipo": "interna",
-      "status_mapa": "CONFLITO",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
         "S-F-DN-0658-de"
       ],
       "paginas": [
-        2,
         4
       ],
       "secao": [
-        "Corpo",
         "Referencias"
       ],
       "evidencia": [
-        "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
         "S-F-DN-0616-de S-F-DN-0658-de S-F-DN-0660-en"
-      ],
-      "arquivo": [
-        "S-F-PT-6542-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-497",
-      "pai_nome_antigo": "S-F-PT-6542-en",
-      "citada": "S-F-DN-0660",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0660-en"
-      ],
-      "paginas": [
-        2,
-        4
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
-        "S-F-DN-0658-de S-F-DN-0660-en S-F-DN-0664-de"
-      ],
-      "arquivo": [
-        "S-F-PT-6542-en.pdf"
-      ]
-    },
-    {
-      "pai": "DSGN-497",
-      "pai_nome_antigo": "S-F-PT-6542-en",
-      "citada": "S-F-DN-0664",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0664-de"
-      ],
-      "paginas": [
-        2,
-        4
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
-        "S-F-DN-0660-en S-F-DN-0664-de S-F-PT-0668-de"
       ],
       "arquivo": [
         "S-F-PT-6542-en.pdf"
@@ -57742,6 +57553,31 @@
     {
       "pai": "MEAS-568",
       "pai_nome_antigo": "S-F-ME-6561-en",
+      "citada": "DSGN-427",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": [
+        "WNA 684"
+      ],
+      "paginas": [
+        3,
+        16
+      ],
+      "secao": [
+        "Corpo",
+        "Referencias"
+      ],
+      "evidencia": [
+        "• WNA 684 (folding depths 4.1.2 Faultless conjunction of pleat star and endplate",
+        "WNA 654 or WNA 654/1 WNA 684 ISO 2942"
+      ],
+      "arquivo": [
+        "S-F-ME-6561-en.pdf"
+      ]
+    },
+    {
+      "pai": "MEAS-568",
+      "pai_nome_antigo": "S-F-ME-6561-en",
       "citada": "DSGN-481",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -57886,31 +57722,6 @@
       "evidencia": [
         "• WNA 654 or WNA 654/1 (computation fold division) •",
         "WNA 653 WNA 654 or WNA 654/1 WNA 684"
-      ],
-      "arquivo": [
-        "S-F-ME-6561-en.pdf"
-      ]
-    },
-    {
-      "pai": "MEAS-568",
-      "pai_nome_antigo": "S-F-ME-6561-en",
-      "citada": "WNA 684",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "WNA 684"
-      ],
-      "paginas": [
-        3,
-        16
-      ],
-      "secao": [
-        "Corpo",
-        "Referencias"
-      ],
-      "evidencia": [
-        "• WNA 684 (folding depths 4.1.2 Faultless conjunction of pleat star and endplate",
-        "WNA 654 or WNA 654/1 WNA 684 ISO 2942"
       ],
       "arquivo": [
         "S-F-ME-6561-en.pdf"
@@ -63274,28 +63085,6 @@
     {
       "pai": "MNFG-484",
       "pai_nome_antigo": "S-G-MA-6010-en",
-      "citada": "G-G-MA-6008",
-      "tipo": "interna",
-      "status_mapa": "LEGADO_SEM_SUCESSOR",
-      "codigo_bruto": [
-        "G-G-MA-6008-en"
-      ],
-      "paginas": [
-        10
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Tooling G-G-MA-6008-en Linear Vibration Weld Tooling Specification"
-      ],
-      "arquivo": [
-        "S-G-MA-6010-en.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-484",
-      "pai_nome_antigo": "S-G-MA-6010-en",
       "citada": "MNFG-506",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -63332,6 +63121,28 @@
       ],
       "evidencia": [
         "Referenced documents G-G-MA-6007-en Establishing Parameters for Vibration Welding Machine and Vibration Weld"
+      ],
+      "arquivo": [
+        "S-G-MA-6010-en.pdf"
+      ]
+    },
+    {
+      "pai": "MNFG-484",
+      "pai_nome_antigo": "S-G-MA-6010-en",
+      "citada": "S-G-MA-6008",
+      "tipo": "interna",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
+      "codigo_bruto": [
+        "G-G-MA-6008-en"
+      ],
+      "paginas": [
+        10
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Tooling G-G-MA-6008-en Linear Vibration Weld Tooling Specification"
       ],
       "arquivo": [
         "S-G-MA-6010-en.pdf"
@@ -63991,16 +63802,19 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
-        "S-F-PT-0660-de"
+        "S-F-PT-0660-de",
+        "S-F-DN-0660-de"
       ],
       "paginas": [
-        3
+        3,
+        4
       ],
       "secao": [
         "Termos/Abreviaturas"
       ],
       "evidencia": [
-        "All dimensions in this standard are for bellows in a cured condition. The calculation of the number of pleats is done acc. to S-F-MA-0613-en and S-F-PT-0660-de."
+        "All dimensions in this standard are for bellows in a cured condition. The calculation of the number of pleats is done acc. to S-F-MA-0613-en and S-F-PT-0660-de.",
+        "S-F-MA-0613-en and S-F-DN-0660-de Inside / outside"
       ],
       "arquivo": [
         "S-F-MA-0613-en.pdf"
@@ -64027,28 +63841,6 @@
         "bar width in the roller (Widening depends of the ring diameter and pleat depth) RtP = corrugation height in the paper = see G013R acc. to S-F-ML-2033-en",
         "*) Widening measured at the bellow Type of paper: G013R acc. to S-F-ML-2033-en Supplier: Ahlstrom",
         "Referenced documents S-F-ML-2033-en S-G-ML-2008-en"
-      ],
-      "arquivo": [
-        "S-F-MA-0613-en.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-498",
-      "pai_nome_antigo": "S-F-MA-0613-en",
-      "citada": "S-F-DN-0660",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0660-de"
-      ],
-      "paginas": [
-        4
-      ],
-      "secao": [
-        "Termos/Abreviaturas"
-      ],
-      "evidencia": [
-        "S-F-MA-0613-en and S-F-DN-0660-de Inside / outside"
       ],
       "arquivo": [
         "S-F-MA-0613-en.pdf"
@@ -64249,15 +64041,18 @@
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
       "codigo_bruto": [
+        "S-F-DN-0660-en",
         "S-F-PT-0660-en"
       ],
       "paginas": [
+        2,
         3
       ],
       "secao": [
         "Lessons Learned"
       ],
       "evidencia": [
+        "t = Faltenteilung nach S-F-DN-0660-en und S-F-PT-0668-en b = Faltentiefe",
         "S-F-PT-0255-en S-F-PT-0660-en S-F-PT-0668-en"
       ],
       "arquivo": [
@@ -64281,28 +64076,6 @@
       ],
       "evidencia": [
         "Bezüglich der Toleranzen für Bandbreiten von Filterpapier siehe S-F-DN-0255-en."
-      ],
-      "arquivo": [
-        "S-F-MA-0614-de.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-503",
-      "pai_nome_antigo": "S-F-MA-0614-de",
-      "citada": "S-F-DN-0660",
-      "tipo": "interna",
-      "status_mapa": "CONFLITO",
-      "codigo_bruto": [
-        "S-F-DN-0660-en"
-      ],
-      "paginas": [
-        2
-      ],
-      "secao": [
-        "Lessons Learned"
-      ],
-      "evidencia": [
-        "t = Faltenteilung nach S-F-DN-0660-en und S-F-PT-0668-en b = Faltentiefe"
       ],
       "arquivo": [
         "S-F-MA-0614-de.pdf"
@@ -64405,28 +64178,6 @@
     {
       "pai": "MNFG-506",
       "pai_nome_antigo": "S-G-MA-6009-en",
-      "citada": "G-G-MA-6008",
-      "tipo": "interna",
-      "status_mapa": "LEGADO_SEM_SUCESSOR",
-      "codigo_bruto": [
-        "G-G-MA-6008-en"
-      ],
-      "paginas": [
-        55
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Tooling G-G-MA-6008-en Linear Vibration Weld Tooling Specification G-G-MA-6010-en"
-      ],
-      "arquivo": [
-        "S-G-MA-6009-en.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-506",
-      "pai_nome_antigo": "S-G-MA-6009-en",
       "citada": "MEAS-545",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -64503,22 +64254,26 @@
     {
       "pai": "MNFG-506",
       "pai_nome_antigo": "S-G-MA-6009-en",
-      "citada": "WNA 6008",
+      "citada": "S-G-MA-6008",
       "tipo": "interna",
       "status_mapa": "LEGADO_SEM_SUCESSOR",
       "codigo_bruto": [
-        "WNA 6008"
+        "WNA 6008",
+        "G-G-MA-6008-en"
       ],
       "paginas": [
         11,
-        14
+        14,
+        55
       ],
       "secao": [
-        "Termos/Abreviaturas"
+        "Termos/Abreviaturas",
+        "Referencias"
       ],
       "evidencia": [
         "The design of the weld tool should be consistent with the requirements listed in the Company Standard - Linear Vibration Weld Tooling Specification (WNA 6008) •",
-        "plate per the weld tooling standard (company standard - Linear weld tooling specification (WNA 6008))."
+        "plate per the weld tooling standard (company standard - Linear weld tooling specification (WNA 6008)).",
+        "Tooling G-G-MA-6008-en Linear Vibration Weld Tooling Specification G-G-MA-6010-en"
       ],
       "arquivo": [
         "S-G-MA-6009-en.pdf"
@@ -64550,28 +64305,6 @@
       ],
       "arquivo": [
         "S-G-PT-3815-en.pdf"
-      ]
-    },
-    {
-      "pai": "MNFG-508",
-      "pai_nome_antigo": "S-G-MA-6007-en",
-      "citada": "G-G-MA-6008",
-      "tipo": "interna",
-      "status_mapa": "LEGADO_SEM_SUCESSOR",
-      "codigo_bruto": [
-        "G-G-MA-6008-en"
-      ],
-      "paginas": [
-        20
-      ],
-      "secao": [
-        "Referencias"
-      ],
-      "evidencia": [
-        "Referenced documents G-G-MA-6008-en Linear Vibration Weld Tooling Specification"
-      ],
-      "arquivo": [
-        "S-G-MA-6007-en.pdf"
       ]
     },
     {
@@ -64613,6 +64346,28 @@
       ],
       "evidencia": [
         "Linear Vibration Weld Tooling Specification G-G-MA-6009-en Setup Process for Vibration Weld Tooling"
+      ],
+      "arquivo": [
+        "S-G-MA-6007-en.pdf"
+      ]
+    },
+    {
+      "pai": "MNFG-508",
+      "pai_nome_antigo": "S-G-MA-6007-en",
+      "citada": "S-G-MA-6008",
+      "tipo": "interna",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
+      "codigo_bruto": [
+        "G-G-MA-6008-en"
+      ],
+      "paginas": [
+        20
+      ],
+      "secao": [
+        "Referencias"
+      ],
+      "evidencia": [
+        "Referenced documents G-G-MA-6008-en Linear Vibration Weld Tooling Specification"
       ],
       "arquivo": [
         "S-G-MA-6007-en.pdf"
@@ -123361,6 +123116,111 @@
     {
       "pai": "DSGN-372",
       "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-403",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-0638-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-420",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-0639-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-433",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-0640-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-344",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-0642-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-455",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-\n0644-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "(incl. paper area). This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en. This standard must be used for all filter elements with pleated filter media.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-453",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-0646-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en. This standard must be used for all filter elements with pleated filter media.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
+      "citada": "DSGN-501",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-0652-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "This standard replaces S-F-PT-0638-en, S-F-PT-0639-en, S-F-PT-0640-en, S-F-PT-0642-en, S-F-PT- 0644-en, S-F-PT-0646-en and S-F-PT-0652-en. This standard must be used for all filter elements with pleated filter media.",
+      "arquivo": "S-F-PT-0653-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-372",
+      "pai_nome_antigo": "S-F-PT-0653-en",
       "citada": "DSGN-372",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -123492,6 +123352,96 @@
       "evidencia": "Document-No. S-F-PT-0654-en Version",
       "arquivo": "S-F-PT-0654-en.pdf",
       "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-387",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0616-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
+      "arquivo": "S-F-PT-0654-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "S-F-PT-0658",
+      "tipo": "interna",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
+      "codigo_bruto": "S-F-DN-0658-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
+      "arquivo": "S-F-PT-0654-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-470",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0660-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
+      "arquivo": "S-F-PT-0654-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-480",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0664-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
+      "arquivo": "S-F-PT-0654-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-388",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-PT-6541-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en.",
+      "arquivo": "S-F-PT-0654-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-481",
+      "pai_nome_antigo": "S-F-PT-0654-en",
+      "citada": "DSGN-497",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-\nF-PT-6542-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Panel filters, cylindrical filters, special geometries. Replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F-PT-6541-en, S- F-PT-6542-en. 2",
+      "arquivo": "S-F-PT-0654-en.pdf",
+      "motivo": "historica"
     },
     {
       "pai": "DSGN-481",
@@ -124216,6 +124166,36 @@
     {
       "pai": "DSGN-480",
       "pai_nome_antigo": "S-F-PT-0664-de",
+      "citada": "MNFG-475",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-MA-0605-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Lessons Learned",
+      "evidencia": "- nach S-F-PT-0612-en (Ersatz für S-F-MA-0605-de) - nach S-F-MA-0615-de",
+      "arquivo": "S-F-PT-0664-de.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-480",
+      "pai_nome_antigo": "S-F-PT-0664-de",
+      "citada": "MNFG-477",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-MA-0606-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Lessons Learned",
+      "evidencia": "- nach S-F-MA-0615-de (Ersatz für S-F-MA-0606-de) - nach S-F-PT-0616-de",
+      "arquivo": "S-F-PT-0664-de.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-480",
+      "pai_nome_antigo": "S-F-PT-0664-de",
       "citada": "DSGN-480",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -124516,9 +124496,9 @@
     {
       "pai": "DSGN-427",
       "pai_nome_antigo": "S-F-PT-0684-en",
-      "citada": "WNA 684",
+      "citada": "DSGN-427",
       "tipo": "interna",
-      "status_mapa": "CONFLITO",
+      "status_mapa": "RESOLVIDO",
       "codigo_bruto": "WNA 684",
       "paginas": [
         6
@@ -126556,6 +126536,81 @@
     {
       "pai": "DSGN-388",
       "pai_nome_antigo": "S-F-PT-6541-en",
+      "citada": "DSGN-387",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0616-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6541-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-388",
+      "pai_nome_antigo": "S-F-PT-6541-en",
+      "citada": "S-F-PT-0658",
+      "tipo": "interna",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
+      "codigo_bruto": "S-F-DN-0658-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6541-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-388",
+      "pai_nome_antigo": "S-F-PT-6541-en",
+      "citada": "DSGN-470",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0660-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6541-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-388",
+      "pai_nome_antigo": "S-F-PT-6541-en",
+      "citada": "DSGN-480",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0664-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6541-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-388",
+      "pai_nome_antigo": "S-F-PT-6541-en",
+      "citada": "DSGN-382",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-\nPT-0668-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Air filter elements (panel, cylindrical, specialities). This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de. 2",
+      "arquivo": "S-F-PT-6541-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-388",
+      "pai_nome_antigo": "S-F-PT-6541-en",
       "citada": "DSGN-388",
       "tipo": "interna",
       "status_mapa": "RESOLVIDO",
@@ -126612,6 +126667,81 @@
       "evidencia": "Document-No. S-F-PT-6542-en Version",
       "arquivo": "S-F-PT-6542-en.pdf",
       "motivo": "autorreferencia"
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "DSGN-387",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0616-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6542-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "S-F-PT-0658",
+      "tipo": "interna",
+      "status_mapa": "LEGADO_SEM_SUCESSOR",
+      "codigo_bruto": "S-F-DN-0658-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6542-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "DSGN-470",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0660-en",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6542-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "DSGN-480",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-DN-0664-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de.",
+      "arquivo": "S-F-PT-6542-en.pdf",
+      "motivo": "historica"
+    },
+    {
+      "pai": "DSGN-497",
+      "pai_nome_antigo": "S-F-PT-6542-en",
+      "citada": "DSGN-382",
+      "tipo": "interna",
+      "status_mapa": "RESOLVIDO",
+      "codigo_bruto": "S-F-\nPT-0668-de",
+      "paginas": [
+        2
+      ],
+      "secao": "Corpo",
+      "evidencia": "Definition of pleat pitches for liquid filter elements. This standard replaces S-F-DN-0616-de, S-F-DN-0658-de, S-F-DN-0660-en, S-F-DN-0664-de, S-F- PT-0668-de. 2",
+      "arquivo": "S-F-PT-6542-en.pdf",
+      "motivo": "historica"
     },
     {
       "pai": "DSGN-497",
@@ -167596,6 +167726,6 @@
   "mapa_usado": "02_BANCO_ATUAL/mapa_base/mapa_normas_v1.json",
   "documentos_processados": 597,
   "arquivos_encontrados": 674,
-  "tempo_segundos": 21.462251399992965,
-  "tempo_total_segundos": 25.371679400006542
+  "tempo_segundos": 25.824631199997384,
+  "tempo_total_segundos": 30.386000900005456
 }
