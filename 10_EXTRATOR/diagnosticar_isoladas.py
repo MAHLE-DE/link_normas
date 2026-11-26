@@ -7,7 +7,7 @@ So le arquivos; nao altera mapa, resultado nem extrator. Para cada norma isolada
   - o que o extrator encontrou e descartou (e por que)?
 
 Uso (na raiz do repo):  10_EXTRATOR\\09_diagnosticar_isoladas.bat
-Saida: 10_EXTRATOR\\saida\\diagnostico_isoladas.xlsx
+Saida: 02_BANCO_ATUAL\\diagnostico_isoladas.xlsx (vai no push)
 """
 import argparse
 import importlib.util
